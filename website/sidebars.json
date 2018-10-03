@@ -1,0 +1,40 @@
+{
+  "System": {
+    "Bramka": [
+      "ais_bramka_index",
+      "ais_bramka_first_run",
+      "ais_bramka_role",
+      "ais_bramka_system"
+    ],
+    "Dostęp": [
+      "ais_bramka_remote_index"
+    ],
+    "Aktualizacja": [
+      "ais_bramka_update_index"
+    ]
+  },
+  "Aplikacja": {
+    "Aplikacja": [
+      "ais_app_index"
+    ],
+    "Asystent": [
+      "ais_app_assistent",
+      "ais_app_assistent_commands",
+      "ais_app_assistent_add_command"
+    ]
+  },
+  "Pilot radiowy": {
+    "Pilot radiowy": [
+      "ais_remote_index",
+      "ais_remote_modes",
+      "ais_remote_mode_on_tv",
+      "ais_remote_mode_off_tv",
+      "ais_remote_mode_gesture"
+    ]
+  },
+  "Urządzenia": {
+    "Urządzenia": [
+      "ais_iot_index"
+    ]
+  }
+}
