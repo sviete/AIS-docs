@@ -29,9 +29,25 @@
         "title": "Bramka",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_bramka_remote_ftp": {
+        "title": "Dostęp do bramki po FTP",
+        "sidebar_label": "FTP"
+      },
+      "ais_bramka_remote_https": {
+        "title": "Dostęp do bramki po HTTPS",
+        "sidebar_label": "HTTPS"
+      },
       "ais_bramka_remote_index": {
         "title": "Dostęp do bramki",
         "sidebar_label": "Wprowadzenie"
+      },
+      "ais_bramka_remote_ssh": {
+        "title": "Dostęp do bramki po SSH",
+        "sidebar_label": "SSH"
+      },
+      "ais_bramka_remote_tor": {
+        "title": "Dostęp do bramki w sieci TOR",
+        "sidebar_label": "TOR"
       },
       "ais_bramka_role": {
         "title": "Rola bramki",
@@ -98,11 +114,11 @@
         "sidebar_label": "Wprowadzenie"
       },
       "version-0.77.0-ais_bramka_role": {
-        "title": "Bramka",
+        "title": "Rola bramki",
         "sidebar_label": "Rola bramki"
       },
       "version-0.77.0-ais_bramka_system": {
-        "title": "Bramka",
+        "title": "Oprogramowanie bramki",
         "sidebar_label": "Oprogramowanie bramki"
       },
       "version-0.77.0-ais_bramka_update_index": {
@@ -133,349 +149,25 @@
         "title": "Tryby działania",
         "sidebar_label": "Tryby działania"
       },
-      "version-0.77.0-architecture_components": {
-        "title": "Components Architecture",
-        "sidebar_label": "Components"
-      },
-      "version-0.77.0-architecture_entities": {
-        "title": "Entity Architecture",
-        "sidebar_label": "Entity"
-      },
-      "version-0.77.0-architecture_hassio": {
-        "title": "Hass.io Architecture",
-        "sidebar_label": "Hass.io"
-      },
-      "version-0.77.0-architecture_index": {
-        "title": "Architecture",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-asyncio_categorizing_functions": {
-        "title": "Categorizing Functions"
-      },
-      "version-0.77.0-asyncio_index": {
-        "title": "Asynchronous Programming",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-asyncio_working_with_async": {
-        "title": "Working with Async"
-      },
-      "version-0.77.0-auth_api": {
-        "title": "Authentication API",
-        "sidebar_label": "API"
-      },
-      "version-0.77.0-auth_auth_provider": {
-        "title": "Authentication Providers"
-      },
-      "version-0.77.0-auth_index": {
-        "title": "Authentication",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-config_entries_config_flow_handler": {
-        "title": "Config Flow Handlers"
-      },
-      "version-0.77.0-config_entries_index": {
-        "title": "Config Entries",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-configuration_yaml_index": {
-        "title": "Configuration.yaml",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-creating_component_code_review": {
-        "title": "Checklist for creating a component"
-      },
-      "version-0.77.0-creating_component_deps_and_reqs": {
-        "title": "Requirements & Dependencies"
-      },
-      "version-0.77.0-creating_component_discovery": {
-        "title": "Component Discovery"
-      },
-      "version-0.77.0-creating_component_events": {
-        "title": "Handling events"
-      },
-      "version-0.77.0-creating_component_generic_discovery": {
-        "title": "Generic Platform Discovery"
-      },
-      "version-0.77.0-creating_component_index": {
-        "title": "Creating components",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-creating_component_loading": {
-        "title": "Loading your components"
-      },
-      "version-0.77.0-creating_component_states": {
-        "title": "Handling states"
-      },
-      "version-0.77.0-creating_platform_code_review": {
-        "title": "Checklist for creating a platform"
-      },
-      "version-0.77.0-creating_platform_example_light": {
-        "title": "Example light platform"
-      },
-      "version-0.77.0-creating_platform_example_sensor": {
-        "title": "Example sensor platform"
-      },
-      "version-0.77.0-creating_platform_index": {
-        "title": "Adding support for a new platform",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-data_entry_flow_index": {
-        "title": "Data Entry Flow",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-dev_101_config": {
-        "title": "Using Config"
-      },
-      "version-0.77.0-dev_101_events": {
-        "title": "Using Events"
-      },
-      "version-0.77.0-dev_101_hass": {
-        "title": "Hass object"
-      },
-      "version-0.77.0-dev_101_index": {
-        "title": "Development 101",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-dev_101_services": {
-        "title": "Using Services"
-      },
-      "version-0.77.0-dev_101_states": {
-        "title": "Using States"
-      },
-      "version-0.77.0-development_catching_up": {
-        "title": "Catching up with Reality"
-      },
-      "version-0.77.0-development_checklist": {
-        "title": "Development Checklist"
-      },
-      "version-0.77.0-development_environment": {
-        "title": "Set up Development Environment"
-      },
-      "version-0.77.0-development_guidelines": {
-        "title": "Style guidelines"
-      },
-      "version-0.77.0-development_index": {
-        "title": "Starting with Development",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-development_submitting": {
-        "title": "Submit your work"
-      },
-      "version-0.77.0-development_testing": {
-        "title": "Testing your code"
-      },
-      "version-0.77.0-development_typing": {
-        "title": "Adding type hints to your code"
-      },
-      "version-0.77.0-development_validation": {
-        "title": "Validate the input"
-      },
-      "version-0.77.0-device_registry_index": {
-        "title": "Device Registry",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-documentation_create_page": {
-        "title": "Create a new page"
-      },
-      "version-0.77.0-documentation_index": {
-        "title": "Documentation"
-      },
-      "version-0.77.0-documentation_standards": {
-        "title": "Standards"
-      },
-      "version-0.77.0-entity_alarm_control_panel": {
-        "title": "Alarm Control Panel Entity",
-        "sidebar_label": "Alarm Control Panel"
-      },
-      "version-0.77.0-entity_binary_sensor": {
-        "title": "Binary Sensor Entity",
-        "sidebar_label": "Binary Sensor"
-      },
-      "version-0.77.0-entity_climate": {
-        "title": "Climate Entity",
-        "sidebar_label": "Climate"
-      },
-      "version-0.77.0-entity_cover": {
-        "title": "Cover Entity",
-        "sidebar_label": "Cover"
-      },
-      "version-0.77.0-entity_fan": {
-        "title": "Fan Entity",
-        "sidebar_label": "Fan"
-      },
-      "version-0.77.0-entity_index": {
-        "title": "Entity",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-entity_light": {
-        "title": "Light Entity",
-        "sidebar_label": "Light"
-      },
-      "version-0.77.0-entity_lock": {
-        "title": "Lock Entity",
-        "sidebar_label": "Lock"
-      },
-      "version-0.77.0-entity_media_player": {
-        "title": "Media Player Entity",
-        "sidebar_label": "Media Player"
-      },
-      "version-0.77.0-entity_registry_index": {
-        "title": "Entity Registry",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-entity_remote": {
-        "title": "Remote Entity",
-        "sidebar_label": "Remote"
-      },
-      "version-0.77.0-entity_sensor": {
-        "title": "Sensor Entity",
-        "sidebar_label": "Sensor"
-      },
-      "version-0.77.0-entity_switch": {
-        "title": "Switch Entity",
-        "sidebar_label": "Switch"
-      },
-      "version-0.77.0-entity_vacuum": {
-        "title": "Vacuum Entity",
-        "sidebar_label": "Vacuum"
-      },
-      "version-0.77.0-entity_weather": {
-        "title": "Weather Entity",
-        "sidebar_label": "Weather"
-      },
-      "version-0.77.0-external_api_rest": {
-        "title": "REST API"
-      },
-      "version-0.77.0-external_api_server_sent_events": {
-        "title": "Server-sent events"
-      },
-      "version-0.77.0-external_api_websocket": {
-        "title": "WebSocket API"
-      },
-      "version-0.77.0-frontend_add_card": {
-        "title": "Adding state card"
-      },
-      "version-0.77.0-frontend_add_more_info": {
-        "title": "Adding more info dialogs"
-      },
-      "version-0.77.0-frontend_add_websocket_api": {
-        "title": "Extending the WebSocket API"
-      },
-      "version-0.77.0-frontend_architecture": {
-        "title": "Home Assistant Frontend Architecture",
-        "sidebar_label": "Architecture"
-      },
-      "version-0.77.0-frontend_creating_custom_panels": {
-        "title": "Creating custom panels"
-      },
-      "version-0.77.0-frontend_creating_custom_ui": {
-        "title": "Creating custom UI"
-      },
-      "version-0.77.0-frontend_data": {
-        "title": "Frontend data",
-        "sidebar_label": "Data"
-      },
-      "version-0.77.0-frontend_development": {
-        "title": "Frontend development",
-        "sidebar_label": "Development"
-      },
-      "version-0.77.0-frontend_external_auth": {
-        "title": "External Authentication"
-      },
-      "version-0.77.0-frontend_index": {
-        "title": "Home Assistant Frontend",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-hassio_addon_communication": {
-        "title": "Add-On Communication"
-      },
-      "version-0.77.0-hassio_addon_config": {
-        "title": "Add-On Configuration"
-      },
-      "version-0.77.0-hassio_addon_index": {
-        "title": "Developing an add-on",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-hassio_addon_presentation": {
-        "title": "Presenting your add-on"
-      },
-      "version-0.77.0-hassio_addon_publishing": {
-        "title": "Publishing your add-on"
-      },
-      "version-0.77.0-hassio_addon_repository": {
-        "title": "Create an add-on repository"
-      },
-      "version-0.77.0-hassio_addon_security": {
-        "title": "Add-on security"
-      },
-      "version-0.77.0-hassio_addon_testing": {
-        "title": "Local add-on testing"
-      },
-      "version-0.77.0-hassio_addon_tutorial": {
-        "title": "Tutorial: Making your first add-on"
-      },
-      "version-0.77.0-hassio_debugging": {
-        "title": "Debugging Hass.io"
-      },
-      "version-0.77.0-hassio_hass": {
-        "title": "Hass.io <> Home Assistant integration development",
-        "sidebar_label": "HASS Integration development"
-      },
-      "version-0.77.0-integration_quality_scale_index": {
-        "title": "Integration Quality Scale",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-intent_builtin": {
-        "title": "Built-in intents"
-      },
-      "version-0.77.0-intent_conversation": {
-        "title": "Registering sentences"
-      },
-      "version-0.77.0-intent_firing": {
-        "title": "Firing intents"
-      },
-      "version-0.77.0-intent_handling": {
-        "title": "Handling intents"
-      },
-      "version-0.77.0-intent_index": {
-        "title": "Intents",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-internationalization_backend_localization": {
-        "title": "Backend Localization"
-      },
-      "version-0.77.0-internationalization_custom_component_localization": {
-        "title": "Custom Component Localization"
-      },
-      "version-0.77.0-internationalization_index": {
-        "title": "Internationalization"
-      },
-      "version-0.77.0-internationalization_translation": {
-        "title": "Translation"
-      },
-      "version-0.77.0-lovelace_custom_card": {
-        "title": "Lovelace: Custom Cards"
-      },
-      "version-0.77.0-lovelace_index": {
-        "title": "Lovelace UI",
-        "sidebar_label": "Introduction"
-      },
-      "version-0.77.0-maintenance": {
-        "title": "Maintenance"
-      },
-      "version-0.77.0-misc": {
-        "title": "Miscellaneous"
-      },
-      "version-0.77.0-releasing": {
-        "title": "Releasing"
-      },
-      "version-0.77.1-ais_bramka_remote_index": {
-        "title": "Dostęp do bramki",
+      "version-0.78.8-ais_bramka_remote_ftp": {
+        "title": "Dostęp do bramki po FTP",
+        "sidebar_label": "FTP"
+      },
+      "version-0.78.8-ais_bramka_remote_https": {
+        "title": "Dostęp do bramki po HTTPS",
+        "sidebar_label": "HTTPS"
+      },
+      "version-0.78.8-ais_bramka_remote_ssh": {
+        "title": "Dostęp do bramki po SSH",
+        "sidebar_label": "SSH"
+      },
+      "version-0.78.8-ais_bramka_remote_tor": {
+        "title": "Dostęp do bramki w sieci TOR",
+        "sidebar_label": "TOR"
+      },
+      "version-0.78.8-ais_iot_index": {
+        "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
-      },
-      "version-0.77.1-ais_bramka_role": {
-        "title": "Rola bramki",
-        "sidebar_label": "Rola bramki"
       }
     },
     "links": {

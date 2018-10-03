@@ -3,7 +3,7 @@ title: "Tryby działania"
 sidebar_label: Tryby działania
 ---
 
-Pilot może działać w 3 trybach w zależności od tego w jaki sposób podłączysz swoją bramkę i w jaki sposób chcesz ją urzytkować:
+Pilot może działać w 3 trybach w zależności od tego, w jaki sposób podłączysz swoją bramkę i w jaki sposób chcesz ją użytkować:
 
 - sterowanie na monitorze
 - sterowanie bez monitora

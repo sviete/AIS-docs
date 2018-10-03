@@ -8,7 +8,7 @@ Bramka umożliwia zarządzanie urządzeniami i sensorami oraz pełni rolę mostu
 
  * Bramka jest odpowiedzialna za zbieranie informacji i kontrolowanie urządzeń.
  * Bramka wykonuje zadania - wyzwala polecenia na podstawie konfiguracji użytkownika.
- * Bramka dostarcza i prezentuje treści(wiadomości, pogoda, audio) na rządanie użytkownika.
+ * Bramka dostarcza i prezentuje treści (wiadomości, pogoda, audio) na żądanie użytkownika.
 
 <img
   src='/img/en/bramka/bramka1.png'

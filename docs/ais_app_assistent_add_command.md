@@ -7,7 +7,7 @@ Możesz skonfigurować własne zdania/sentencje do przetworzenia na akcje w syst
 
 > Obecnie żeby dodać nową komendę należy dodać ją do plików konfiguracji. Dodawanie komend z interfejsu aplikacji będzie rozwijane w przyszłości.
 **UWAGA - dodając własne intencje nadpisujesz domyślną konfigurację Asystenta domowego.**
- Naspisanie konfiguracji ma wpływ na działanie systemu.
+ Nadpisanie konfiguracji ma wpływ na działanie systemu.
 W przypadku problemów z działaniem systemu zalecamy usunięcie własnych wpisów z konfiguracji i sprawdzenie działania z domyślną konfiguracją.
 
 

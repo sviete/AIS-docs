@@ -1,0 +1,44 @@
+{
+  "version-0.78.8-System": {
+    "Bramka": [
+      "version-0.78.8-ais_bramka_index",
+      "version-0.78.8-ais_bramka_first_run",
+      "version-0.78.8-ais_bramka_role",
+      "version-0.78.8-ais_bramka_system"
+    ],
+    "Dostęp": [
+      "version-0.78.8-ais_bramka_remote_index",
+      "version-0.78.8-ais_bramka_remote_https",
+      "version-0.78.8-ais_bramka_remote_ftp",
+      "version-0.78.8-ais_bramka_remote_ssh",
+      "version-0.78.8-ais_bramka_remote_tor"
+    ],
+    "Aktualizacja": [
+      "version-0.78.8-ais_bramka_update_index"
+    ]
+  },
+  "version-0.78.8-Aplikacja": {
+    "Aplikacja": [
+      "version-0.78.8-ais_app_index"
+    ],
+    "Asystent": [
+      "version-0.78.8-ais_app_assistent",
+      "version-0.78.8-ais_app_assistent_commands",
+      "version-0.78.8-ais_app_assistent_add_command"
+    ]
+  },
+  "version-0.78.8-Pilot radiowy": {
+    "Pilot radiowy": [
+      "version-0.78.8-ais_remote_index",
+      "version-0.78.8-ais_remote_modes",
+      "version-0.78.8-ais_remote_mode_on_tv",
+      "version-0.78.8-ais_remote_mode_off_tv",
+      "version-0.78.8-ais_remote_mode_gesture"
+    ]
+  },
+  "version-0.78.8-Urządzenia": {
+    "Urządzenia": [
+      "version-0.78.8-ais_iot_index"
+    ]
+  }
+}

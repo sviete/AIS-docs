@@ -7,7 +7,12 @@
       "ais_bramka_system"
     ],
     "Dostęp": [
-      "ais_bramka_remote_index"
+      "ais_bramka_remote_index",
+      "ais_bramka_remote_https",
+      "ais_bramka_remote_ftp",
+      "ais_bramka_remote_ssh",
+      "ais_bramka_remote_tor"
+
     ],
     "Aktualizacja": [
       "ais_bramka_update_index"

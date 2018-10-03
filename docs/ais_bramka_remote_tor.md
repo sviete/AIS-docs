@@ -1,8 +1,6 @@
 ---
-title: Dostęp do bramki
-sidebar_label: Wprowadzenie
-id: version-0.77.0-ais_bramka_remote_index
-original_id: ais_bramka_remote_index
+title: "Dostęp do bramki w sieci TOR"
+sidebar_label: TOR
 ---
 
 Możesz uzyskać dostęp do swojej bramki za pomocą niektórych popularnych narzędzi:

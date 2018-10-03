@@ -64,7 +64,7 @@ const PopularTopicsSection = ({ language }) => (
               Jak działa pilot
             </a></li>
             <li><a href={docUrl("ais_app_assistent_commands", language)}>
-                Komendy które rozumie Asystent
+                Komendy, które rozumie Asystent
               </a></li>
           </ul>
           <h2>Przydatne linki</h2>

@@ -19,9 +19,9 @@ W pudełku znajdziesz bramkę oraz niezbęde akcesoria:
 />
 
 
-## Złącza dostępne w tylnym panelu urządzenia
+## Gniazda dostępne na tylnym panelu urządzenia
 
-Na tylnym panelu licząc od lewej znajdują się:
+Na tylnym panelu licząc od lewej strony znajdują się kolejno:
 
 * USB
 * SPDIF
@@ -38,8 +38,8 @@ Na tylnym panelu licząc od lewej znajdują się:
 
 ## Podłączenie
 
-Podłącz do telewizora lub monitora za pomocą dołączonego kabla HDMI, następnie połącz do zasilania.
-Możesz też podłączyć urządzenie do sieci LAN za pomocą kabla ethernet lub po uruchomieniu do sieci WiFi.
+Bramkę podłącz do telewizora lub monitora za pomocą kabla HDMI, następnie podłącz do zasilania.
+Żeby połączyć bramkę z Internetem możesz użyć kabla ethernet lub sieci WiFi.
 
 <img
   src='/img/en/bramka/first_run_3.png'

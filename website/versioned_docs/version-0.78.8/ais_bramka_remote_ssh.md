@@ -1,8 +1,8 @@
 ---
-title: Dostęp do bramki
-sidebar_label: Wprowadzenie
-id: version-0.77.0-ais_bramka_remote_index
-original_id: ais_bramka_remote_index
+title: Dostęp do bramki po SSH
+sidebar_label: SSH
+id: version-0.78.8-ais_bramka_remote_ssh
+original_id: ais_bramka_remote_ssh
 ---
 
 Możesz uzyskać dostęp do swojej bramki za pomocą niektórych popularnych narzędzi:
