@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Wbudowane komendy · Asystent domowy, dokumentacja</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="Domyślnie asystent obsługuje:"/><meta name="docsearch:version" content="0.78.8"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Wbudowane komendy · Asystent domowy, dokumentacja"/><meta property="og:type" content="website"/><meta property="og:url" content="https://ai-speaker.comhttps://sviete.github.ioindex.html"/><meta property="og:description" content="Domyślnie asystent obsługuje:"/><meta property="og:image" content="https://ai-speaker.comhttps://sviete.github.io/img/default-social.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://ai-speaker.comhttps://sviete.github.io/img/default-social.png"/><link rel="shortcut icon" href="https://sviete.github.ioimg/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-126115790-1', 'auto');
+              ga('send', 'pageview');
+            </script><link rel="stylesheet" href="https://sviete.github.iocss/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="https://sviete.github.ioen"><img class="logo" src="https://sviete.github.ioimg/logo-white.svg" alt="Asystent domowy, dokumentacja"/><h2 class="headerTitleWithLogo">Asystent domowy, dokumentacja</h2></a><a href="https://sviete.github.ioen/versions.html"><h3>0.78.8</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="https://sviete.github.iodocs/en/ais_bramka_index.html" target="_self">Bramka</a></li><li class="siteNavGroupActive"><a href="https://sviete.github.iodocs/en/ais_app_index.html" target="_self">Aplikacja</a></li><li class=""><a href="https://sviete.github.iodocs/en/ais_remote_index.html" target="_self">Pilot</a></li><li class=""><a href="https://sviete.github.iodocs/en/ais_iot_index.html" target="_self">Inne urządzenia</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Asystent</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Aplikacja</h3><ul><li class="navListItem"><a class="navItem" href="https://sviete.github.iodocs/en/ais_app_index.html">Wprowadzenie</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Asystent</h3><ul><li class="navListItem"><a class="navItem" href="https://sviete.github.iodocs/en/ais_app_assistent.html">Asystent</a></li><li class="navListItem navListItemActive"><a class="navItem" href="https://sviete.github.iodocs/en/ais_app_assistent_commands.html">Wbudowane komendy</a></li><li class="navListItem"><a class="navItem" href="https://sviete.github.iodocs/en/ais_app_assistent_add_command.html">Dodawanie komendy</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docMainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_app_assistent_commands.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Wbudowane komendy</h1></header><article><div><span><p>Domyślnie asystent obsługuje:</p>
+<h2><a class="anchor" aria-hidden="true" id="sterowanie-urządzeniami"></a><a href="#sterowanie-urządzeniami" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Sterowanie urządzeniami</h2>
+<ul>
+<li><p><strong>Włączanie i wyłączanie urządzeń</strong>:
+Możesz powiedzieć &quot;włącz oświetlenie w kuchni&quot; lub &quot;wyłącz światło w salonie&quot; lub &quot;włącz lampy zewnętrzne&quot; lub &quot;wyłącz podlewanie trawnika&quot; lub &quot;włącz wentylator poziom dwa&quot; W ten sposób możesz sterować oświetleniem i przełącznikami.</p></li>
+<li><p><strong>Otwieranie i zamykanie</strong>
+Możesz powiedzieć &quot;otwórz bramę w garażu&quot; lub &quot;odsłoń rolety w salonie&quot; lub &quot;zasłoń wszystkie rolety&quot;. W ten sposób możesz sterować roletami i bramami.</p></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="odtwarzanie-audio"></a><a href="#odtwarzanie-audio" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Odtwarzanie audio</h2>
+<ul>
+<li><p><strong>Włączanie stacji radiowych</strong>
+Wystarczy, że powiesz &quot;Włącz RMF&quot; lub &quot;Graj radio Zet&quot; lub po prostu &quot;Radio trójka&quot;</p></li>
+<li><p><strong>Słuchanie podcastów</strong>
+Żeby pobrać najnowsze odcinki podcasta i włączyć ostatni z nich wystarczy, że powiesz &quot;Podcast Niebezpiecznik&quot; lub &quot;Włącz podcast jak oszczędzać pieniądze&quot;</p></li>
+<li><p><strong>Słuchanie muzyki z YouTube</strong>
+Żeby wyszukać na YouTube interesującą Cię muzykę i ją odtwarzać wystarczy, że powiesz &quot;Muzyka Maria Peszek&quot; lub &quot;YouTube Brodka&quot;</p></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="status-czujnikow"></a><a href="#status-czujnikow" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Status czujników</h2>
+<p>O status każdego elementu systemu możesz zapytać Asystenta</p>
+<ul>
+<li><p><strong>Sprawdzanie wartości czujników</strong>
+Wystarczy, że zapytasz &quot;Jaka jest temperatura w salonie&quot; lub &quot;Jaka jest wilgotność w łazience&quot;, możesz też pytać o czujniki zewnętrzne raportujące dane z serwisów, np. &quot;jaki jest poziom UV&quot; czy &quot;jaka jest pozycja słońca&quot;</p></li>
+<li><p><strong>Sprawdzanie wartości innych dowolnych elementów systemu</strong>
+Zapytaj &quot;jaki jest adres IP&quot; by otrzymać informację o IP urządzenia, lub &quot;jaki jest status światła w kuchni&quot; by dowiedzieć się czy światło jest włączone lub &quot;jaki jest głos&quot; by otrzymać informację o ustawionym głosie asystenta</p></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="informacja-o-pogodzie"></a><a href="#informacja-o-pogodzie" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Informacja o pogodzie</h2>
+<ul>
+<li><p><strong>Sprawdzanie aktualnej pogody</strong>
+Wystarczy, że powiesz &quot;jaka jest pogoda&quot; by otrzymać informację o aktualnej pogodzie w Twojej lokalizacji</p></li>
+<li><p><strong>Sprawdzanie prognozy pogody</strong>
+Wystarczy, że zapytasz &quot;jaka będzie pogoda&quot; by otrzymać informację o prognozie pogody dla Twojej lokalizacji</p></li>
+</ul>
+<h2><a class="anchor" aria-hidden="true" id="wyszukiwanie-informacji"></a><a href="#wyszukiwanie-informacji" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wyszukiwanie informacji</h2>
+<p>Zapytaj &quot;Co to jest ONZ&quot; lub &quot;Kto to jest Andrzej Wajda&quot; by otrzymać zwięzłą informację z bazy wiedzy</p>
+<h2><a class="anchor" aria-hidden="true" id="godzina-i-data"></a><a href="#godzina-i-data" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Godzina i data</h2>
+<p>Tu oczywiście działają komendy typu &quot;Która godzina&quot; i &quot;Jaki jest dzisiaj dzień&quot;</p>
+<h2><a class="anchor" aria-hidden="true" id="aktywowanie-sceny"></a><a href="#aktywowanie-sceny" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Aktywowanie sceny</h2>
+<p>Zdefiniowaną scenę można aktywować komendą &quot;Scena romantyczna&quot; lub &quot;Aktywuj scenę oglądanie filmu&quot;</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="https://sviete.github.iodocs/en/ais_app_assistent.html"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="https://sviete.github.iodocs/en/ais_app_assistent_add_command.html"><span>Next</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav docOnPageNav"><ul class="toc-headings"><li><a href="#sterowanie-urządzeniami">Sterowanie urządzeniami</a></li><li><a href="#odtwarzanie-audio">Odtwarzanie audio</a></li><li><a href="#status-czujnikow">Status czujników</a></li><li><a href="#informacja-o-pogodzie">Informacja o pogodzie</a></li><li><a href="#wyszukiwanie-informacji">Wyszukiwanie informacji</a></li><li><a href="#godzina-i-data">Godzina i data</a></li><li><a href="#aktywowanie-sceny">Aktywowanie sceny</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="https://sviete.github.io" class="nav-home"><img src="https://sviete.github.ioimg/logo-white.svg" alt="Asystent domowy, dokumentacja" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2018 AI-Speaker</section></footer></div></body></html>
