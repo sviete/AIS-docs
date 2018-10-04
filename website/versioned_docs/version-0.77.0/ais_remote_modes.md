@@ -13,7 +13,7 @@ Pilot może działać w 3 trybach w zależności od tego, w jaki sposób podłą
 
 Przełączanie pomiędzy trybami odbywa się za pomocą przycisku w lewym górnym rogu pilota.
 
-![Pilot do asystenta](/img/en/remote/remote_change_mode.png)
+![Pilot do asystenta](/AIS-docs/img/en/remote/remote_change_mode.png)
 
 
 

@@ -22,8 +22,8 @@ const siteConfig = {
   title: 'Asystent domowy, dokumentacja' /* title for your website */,
   tagline: 'Wszystko co potrzebujesz aby korzystać z Asystenta domowego',
   editUrl: 'https://github.com/sviete/AIS-docs/edit/master/docs/',
-  url: 'https://ai-speaker.com/docs' /* your website url */,
-  baseUrl: '/' /* base url for your project */,
+  url: 'https://sviete.github.io' /* your website url */,
+  baseUrl: '/AIS-docs/' /* base url for your project */,
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -31,8 +31,8 @@ const siteConfig = {
   gaTrackingId: 'UA-126115790-1',
 
   // Used for publishing and more
-  projectName: 'manual',
-  organizationName: 'Sviete',
+  projectName: 'AIS-docs',
+  organizationName: 'sviete',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'

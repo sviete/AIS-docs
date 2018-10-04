@@ -11,6 +11,6 @@ Bramka umożliwia zarządzanie urządzeniami i sensorami oraz pełni rolę mostu
  * Bramka dostarcza i prezentuje treści (wiadomości, pogoda, audio) na żądanie użytkownika.
 
 <img
-  src='/img/en/bramka/bramka1.png'
+  src='/AIS-docs/img/en/bramka/bramka1.png'
   alt='Bramka AIS dom'
 />

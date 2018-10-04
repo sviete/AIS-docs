@@ -12,7 +12,7 @@ W pudełku znajdziesz bramkę oraz niezbęde akcesoria:
  * Kabel HDMI
 
 <img
-  src='/img/en/bramka/first_run_1.png'
+  src='/AIS-docs/img/en/bramka/first_run_1.png'
   alt='Bramka AIS dom'
 />
 
@@ -29,7 +29,7 @@ Na tylnym panelu licząc od lewej strony znajdują się kolejno:
 * Zasilanie
 
 <img
-  src='/img/en/bramka/first_run_2.png'
+  src='/AIS-docs/img/en/bramka/first_run_2.png'
   alt='Bramka AIS dom'
 />
 
@@ -40,6 +40,6 @@ Bramkę podłącz do telewizora lub monitora za pomocą kabla HDMI, następnie p
 Żeby połączyć bramkę z Internetem możesz użyć kabla ethernet lub sieci WiFi.
 
 <img
-  src='/img/en/bramka/first_run_3.png'
+  src='/AIS-docs/img/en/bramka/first_run_3.png'
   alt='Bramka AIS dom'
 />

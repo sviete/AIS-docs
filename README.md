@@ -32,3 +32,18 @@ It will start a server at [localhost:3000](http://localhost:3000).
  - Add new doc to `website/sidebars.json`
 
 You will need to restart the server when creating a new file or make changes to `sidebars.json`. If you're updating a document, you will only need to refresh your browser to get the latest changes.
+
+
+### Adding a version
+
+```bash
+$ cd website
+$ yarn run version 1.0.0
+```
+
+### Publish the page
+
+```bash
+$ yarn run build
+$ GIT_USER=<user>   CURRENT_BRANCH=master   USE_SSH=false   yarn run publish-gh-pages
+```

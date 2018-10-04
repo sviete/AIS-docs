@@ -5,4 +5,4 @@ sidebar_label: Wprowadzenie
 
 > Dokumentacja w przygotowaniu
 
-![Aplikacja asystent domowy](/img/en/iot/iot_index.png)
+![Aplikacja asystent domowy](/AIS-docs/img/en/iot/iot_index.png)

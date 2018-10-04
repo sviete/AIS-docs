@@ -12,4 +12,4 @@ Można też przesyłać komendy tekstowe do asystenta wpisując je w pole teksto
 
 
 
-![Komendy asystenta](/img/en/frontend/frontend-assistant.png)
+![Komendy asystenta](/AIS-docs/img/en/frontend/frontend-assistant.png)

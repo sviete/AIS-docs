@@ -7,4 +7,4 @@ Pilot radiowy ma wbudowany 3-osiowy żyroskop. Dzięki temu w trybie sterowania 
 
 > ta funkcjonalność jest w trakcie rozwoju
 
-![Pilot do asystenta](/img/en/remote/remote_gesture_mode.png)
+![Pilot do asystenta](/AIS-docs/img/en/remote/remote_gesture_mode.png)

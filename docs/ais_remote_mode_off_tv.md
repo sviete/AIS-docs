@@ -5,7 +5,7 @@ sidebar_label: Sterowanie bez monitora
 
 W tym trybie można sterować całym systemem za pomocą dedykowanego menu zorganizowanego w sposób umożliwiający szybką nawigację pilotem do każdego elementu systemu. Informacja zwrotna o wybranej pozycji oraz aktualnym statusie elementów systemu przekazywana jest głosowo.
 
-![Pilot do asystenta](/img/en/remote/remote_off_tv_mode.png)
+![Pilot do asystenta](/AIS-docs/img/en/remote/remote_off_tv_mode.png)
 
 
 Nawigowanie po systemie w tym trybie jest intuicyjne, najpierw wybierz jedną z czterech głównych grup:
@@ -28,4 +28,4 @@ Pamiętaj, że radia, wiadomości i podcasty są pogrupowane po ich typie, na pr
 
 > W trybie sterowania bez monitora niektóre przyciski pełnią role skrótów do funkcjonalności w celu umożliwienia szybkiego nawigowania.
 
-![Pilot do asystenta](/img/en/remote/remote_special_keys.png)
+![Pilot do asystenta](/AIS-docs/img/en/remote/remote_special_keys.png)
