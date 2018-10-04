@@ -65,6 +65,10 @@
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_remote_faq_index": {
+        "title": "Pilot FAQ",
+        "sidebar_label": "Pilot FAQ"
+      },
       "ais_remote_index": {
         "title": "Pilot radiowy",
         "sidebar_label": "Wprowadzenie"
@@ -168,6 +172,10 @@
       "version-0.78.8-ais_iot_index": {
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.78.8-ais_remote_faq_index": {
+        "title": "Pilot FAQ",
+        "sidebar_label": "Pilot FAQ"
       }
     },
     "links": {
@@ -183,6 +191,7 @@
       "Aplikacja": "Aplikacja",
       "Asystent": "Asystent",
       "Pilot radiowy": "Pilot radiowy",
+      "Najczęstrze pytania": "Najczęstrze pytania",
       "Urządzenia": "Urządzenia"
     }
   },

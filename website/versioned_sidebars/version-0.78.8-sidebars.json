@@ -34,6 +34,9 @@
       "version-0.78.8-ais_remote_mode_on_tv",
       "version-0.78.8-ais_remote_mode_off_tv",
       "version-0.78.8-ais_remote_mode_gesture"
+    ],
+    "Najczęstrze pytania": [
+      "version-0.78.8-ais_remote_faq_index"
     ]
   },
   "version-0.78.8-Urządzenia": {

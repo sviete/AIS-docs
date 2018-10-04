@@ -35,6 +35,9 @@
       "ais_remote_mode_on_tv",
       "ais_remote_mode_off_tv",
       "ais_remote_mode_gesture"
+    ],
+    "Najczęstrze pytania": [
+      "ais_remote_faq_index"
     ]
   },
   "Urządzenia": {

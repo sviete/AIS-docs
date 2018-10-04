@@ -44,6 +44,7 @@ $ yarn run version 1.0.0
 ### Publish the page
 
 ```bash
+$ cd website
 $ yarn run build
 $ GIT_USER=<user>   CURRENT_BRANCH=master   USE_SSH=false   yarn run publish-gh-pages
 ```
