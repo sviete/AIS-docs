@@ -10,7 +10,7 @@ Ta opcja dostępna jest tylko w przeglądarkach mających funkcję głosowego we
 
 # instalacja certyfikatu
 
-Zainstaluj poniższy certyfikat w swoim systemie/przeglądarce aby dodać do zaufanych lokalne hosty: **localhost** i **ais-dom**.
+Zainstaluj poniższy certyfikat w swoim systemie/przeglądarce, aby dodać do zaufanych lokalne hosty: **localhost** i **ais-dom**.
 
 > Certyfikat dostępny jest tu: [Certyfikat](/AIS-docs/cert/rootCA.pem)
 
@@ -23,6 +23,6 @@ Aplikacja dostępna jest w twojej sieci lokalnej pod adresem:
 
 # uruchomienie komendy głosowej
 
-Naciśnij mikrofon na górze strony aby uruchomić konwersacje z Asystentem domowym.
+Naciśnij mikrofon na górze strony, aby uruchomić konwersację z Asystentem domowym.
 
 ![Uruchomienie konwersacji w przeglądarce](/AIS-docs/img/en/bramka/conversation_in_browser.png)
