@@ -1,6 +1,8 @@
 ---
-title: "Dostęp do bramki w sieci TOR"
+title: Dostęp do bramki w sieci TOR
 sidebar_label: TOR
+id: version-0.79.0-ais_bramka_remote_tor
+original_id: ais_bramka_remote_tor
 ---
 
 Możliwe jest uzyskanie dostępu do bramki przez Internet, nawet jeśli znajdujesz się za urządzeniem NAT (np. Router Wi-Fi lub sieć komórkowa).

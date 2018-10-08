@@ -4,7 +4,9 @@
       "ais_bramka_index",
       "ais_bramka_first_run",
       "ais_bramka_role",
-      "ais_bramka_system"
+      "ais_bramka_system",
+      "ais_bramka_services",
+      "ais_bramka_processes"
     ],
     "Dostęp": [
       "ais_bramka_remote_index",
@@ -13,9 +15,6 @@
       "ais_bramka_remote_ssh",
       "ais_bramka_remote_tor"
 
-    ],
-    "Aktualizacja": [
-      "ais_bramka_update_index"
     ]
   },
   "Aplikacja": {
@@ -26,6 +25,12 @@
       "ais_app_assistent",
       "ais_app_assistent_commands",
       "ais_app_assistent_add_command"
+    ],
+    "Aktualizacja": [
+      "ais_bramka_update_index",
+      "ais_bramka_update_auto",
+      "ais_bramka_update_logs",
+      "ais_bramka_update_manual"
     ]
   },
   "Pilot radiowy": {

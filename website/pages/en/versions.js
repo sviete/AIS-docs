@@ -37,6 +37,9 @@ class Versions extends React.Component {
                   <td>
                     <a href={`${siteConfig.baseUrl}${this.props.language}/`}>Dokumentacja</a>
                   </td>
+                  <td>
+                    <a href="/AIS-docs/blog/">Informacje o wydaniu</a>
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -51,6 +54,9 @@ class Versions extends React.Component {
                         <th>{version}</th>
                         <td>
                           <a href={versionUrl(this.props.language, version)}>Dokumentacja</a>
+                        </td>
+                        <td>
+                          <a href="/AIS-docs/blog/">Informacje o wydaniu</a>
                         </td>
                       </tr>
                     )

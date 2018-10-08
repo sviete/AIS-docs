@@ -29,9 +29,17 @@
         "title": "Bramka",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_bramka_processes": {
+        "title": "Zarządzanie procesami na bramce",
+        "sidebar_label": "Zarządzanie procesami"
+      },
       "ais_bramka_remote_ftp": {
         "title": "Dostęp do bramki po FTP",
         "sidebar_label": "FTP"
+      },
+      "ais_bramka_remote_http": {
+        "title": "Dostęp do bramki po HTTP",
+        "sidebar_label": "HTTP"
       },
       "ais_bramka_remote_https": {
         "title": "Dostęp do bramki po HTTPS",
@@ -53,13 +61,29 @@
         "title": "Rola bramki",
         "sidebar_label": "Rola bramki"
       },
+      "ais_bramka_services": {
+        "title": "Usługi działające na bramce",
+        "sidebar_label": "Usługi bramki"
+      },
       "ais_bramka_system": {
         "title": "Oprogramowanie bramki",
         "sidebar_label": "Oprogramowanie bramki"
       },
+      "ais_bramka_update_auto": {
+        "title": "Aktualizacja automatyczna",
+        "sidebar_label": "Aktualizacja automatyczna"
+      },
       "ais_bramka_update_index": {
         "title": "Aktualizacja oprogramowania",
         "sidebar_label": "Wprowadzenie"
+      },
+      "ais_bramka_update_logs": {
+        "title": "Logi aktualizacji",
+        "sidebar_label": "Logi aktualizacji"
+      },
+      "ais_bramka_update_manual": {
+        "title": "Aktualizacja ręczna",
+        "sidebar_label": "Aktualizacja ręczna"
       },
       "ais_iot_index": {
         "title": "Urządzenia",
@@ -176,20 +200,69 @@
       "version-0.78.8-ais_remote_faq_index": {
         "title": "Pilot FAQ",
         "sidebar_label": "Pilot FAQ"
+      },
+      "version-0.79.0-ais_bramka_processes": {
+        "title": "Zarządzanie procesami na bramce",
+        "sidebar_label": "Zarządzanie procesami"
+      },
+      "version-0.79.0-ais_bramka_remote_ftp": {
+        "title": "Dostęp do bramki po FTP",
+        "sidebar_label": "FTP"
+      },
+      "version-0.79.0-ais_bramka_remote_http": {
+        "title": "Dostęp do bramki po HTTP",
+        "sidebar_label": "HTTP"
+      },
+      "version-0.79.0-ais_bramka_remote_https": {
+        "title": "Dostęp do bramki po HTTPS",
+        "sidebar_label": "HTTPS"
+      },
+      "version-0.79.0-ais_bramka_remote_index": {
+        "title": "Dostęp do bramki",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.79.0-ais_bramka_remote_ssh": {
+        "title": "Dostęp do bramki po SSH",
+        "sidebar_label": "SSH"
+      },
+      "version-0.79.0-ais_bramka_remote_tor": {
+        "title": "Dostęp do bramki w sieci TOR",
+        "sidebar_label": "TOR"
+      },
+      "version-0.79.0-ais_bramka_services": {
+        "title": "Usługi działające na bramce",
+        "sidebar_label": "Usługi bramki"
+      },
+      "version-0.79.0-ais_bramka_update_auto": {
+        "title": "Aktualizacja automatyczna",
+        "sidebar_label": "Aktualizacja automatyczna"
+      },
+      "version-0.79.0-ais_bramka_update_index": {
+        "title": "Aktualizacja oprogramowania",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.79.0-ais_bramka_update_logs": {
+        "title": "Logi aktualizacji",
+        "sidebar_label": "Logi aktualizacji"
+      },
+      "version-0.79.0-ais_bramka_update_manual": {
+        "title": "Aktualizacja ręczna",
+        "sidebar_label": "Aktualizacja ręczna"
       }
     },
     "links": {
       "Bramka": "Bramka",
       "Aplikacja": "Aplikacja",
       "Pilot": "Pilot",
-      "Inne urządzenia": "Inne urządzenia"
+      "Inne urządzenia": "Inne urządzenia",
+      "Aktualizacje": "Aktualizacje"
     },
     "categories": {
       "Bramka": "Bramka",
       "Dostęp": "Dostęp",
-      "Aktualizacja": "Aktualizacja",
       "Aplikacja": "Aplikacja",
       "Asystent": "Asystent",
+      "Aktualizacja": "Aktualizacja",
       "Pilot radiowy": "Pilot radiowy",
       "Najczęstrze pytania": "Najczęstrze pytania",
       "Urządzenia": "Urządzenia"

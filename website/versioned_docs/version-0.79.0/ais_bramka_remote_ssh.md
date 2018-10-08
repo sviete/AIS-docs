@@ -1,6 +1,8 @@
 ---
-title: "Dostęp do bramki po SSH"
+title: Dostęp do bramki po SSH
 sidebar_label: SSH
+id: version-0.79.0-ais_bramka_remote_ssh
+original_id: ais_bramka_remote_ssh
 ---
 
 SSH zapewnia bezpieczny sposób uzyskiwania dostępu do zdalnych hostów.

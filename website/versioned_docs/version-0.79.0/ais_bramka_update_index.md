@@ -1,6 +1,8 @@
 ---
-title: "Aktualizacja oprogramowania"
+title: Aktualizacja oprogramowania
 sidebar_label: Wprowadzenie
+id: version-0.79.0-ais_bramka_update_index
+original_id: ais_bramka_update_index
 ---
 
 Codziennie, dokładnie godzinę po ostatnim uruchomieniu, system “Asystent domowy” sprawdza dostępność aktualizacji.

@@ -1,6 +1,8 @@
 ---
-title: "Dostęp do bramki po FTP"
+title: Dostęp do bramki po FTP
 sidebar_label: FTP
+id: version-0.79.0-ais_bramka_remote_ftp
+original_id: ais_bramka_remote_ftp
 ---
 
 Asystent domowy ma domyślnie uruchomiony serwer FTP dzięki czemu możesz zdalnie zarządzać plikami na bramce.
