@@ -12,7 +12,7 @@ Możesz uzyskać zdalny dostęp do swojej bramki na kilka sposobów z pomocą po
 
 ## sprawdzenie adresu IP w aplikacji
 
-w aplikacji "Asystent domowy" przejdź do zakładki "Ustawienia" a następnie do w grupie "Ustawienia sieci" możesz zobaczyć swój adres IP
+w aplikacji "Asystent domowy" przejdź do zakładki "Ustawienia" a następnie w grupie "Ustawienia sieci" możesz zobaczyć swój adres IP
 ![Ustawienia sieci](/AIS-docs/img/en/bramka/net_settings.png)
 
 ## zapytanie asystenta o adres IP
