@@ -10,7 +10,7 @@ W przypadku problemów z działaniem pilota proszę zapoznać się instrukcją p
 ## Sprawdź baterie
 
 
-Pilot do działania potrzebuje 2 baterii AAA. Upewnij się, że baterie są poprawnie zamontowane oraz sprawdź, czy po naciśnięciu przycisku w pilocie świeci się czerwona dioda (w lewej, górnej części pilota)- czy jest poprawne zasilanie z baterii.
+Pilot do działania potrzebuje 2 baterii AAA. Upewnij się, że baterie są poprawnie zamontowane oraz sprawdź, czy po naciśnięciu przycisku w pilocie świeci się czerwona dioda (w górnej części pilota)- czy jest poprawne zasilanie z baterii.
 
 >Pilot podczas używania pobiera mniej niż 10mA prądu z baterii. Gdy nie jest używany, żużywa mikroamper (czyli prawie nie pobiera żadnego prądu). Jest to zgodne z Europejskim standardem "Energy Star".  
 
