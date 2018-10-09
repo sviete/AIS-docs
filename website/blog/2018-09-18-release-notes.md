@@ -22,7 +22,7 @@ w tej wersji dodano:
 - poprawione wykrywanie czujników i dodawanie do grupy "Wszystkie czujniki"
 - poprawione pobieranie unikalnych tytułów artykułów/wiadomości z serwisów
 - poprawiono kodowanie nazw piosenek z youtube (na przykładzie: rozowyje vino)
-- Dyski zdalne, czytanie dokumentów z Google Drive (te typy dokumentów które da się skonwertować do txt)
-- najnowszy home assistant wymagający logowania do aplikacji (na lokalnej sieci wykonujemy autologowanie do api dlatego nie jest - - konieczne logowanie w przypadku komend głosowych oraz sterowania z pilota)
-- pakiety w repozytorium ais-dom, zbudowane na 4 architektury (aarch64, arm, i686, x86_64)
+- dyski zdalne, czytanie dokumentów z Google Drive (te typy dokumentów, które da się skonwertować do txt)
+- najnowszy Home Assistant wymagający logowania do aplikacji (na lokalnej sieci wykonujemy autologowanie do api, dlatego nie jest - - konieczne logowanie w przypadku komend głosowych oraz sterowania z pilota)
+- pakiety w repozytorium ais-dom, zbudowane na 4 architekturach (aarch64, arm, i686, x86_64)
 - aktualizacja 46 pakietów do najnowszych wersji (w tym python, nodejs, mosquitto)
