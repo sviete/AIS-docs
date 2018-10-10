@@ -19,7 +19,9 @@
   },
   "Aplikacja": {
     "Aplikacja": [
-      "ais_app_index"
+      "ais_app_index",
+      "ais_app_views",
+      "ais_app_groups"
     ],
     "Asystent": [
       "ais_app_assistent",
@@ -47,7 +49,8 @@
   },
   "Urządzenia": {
     "Urządzenia": [
-      "ais_iot_index"
+      "ais_iot_index",
+      "ais_iot_works_with"
     ]
   }
 }

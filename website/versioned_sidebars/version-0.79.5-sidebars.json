@@ -1,0 +1,55 @@
+{
+  "version-0.79.5-System": {
+    "Bramka": [
+      "version-0.79.5-ais_bramka_index",
+      "version-0.79.5-ais_bramka_first_run",
+      "version-0.79.5-ais_bramka_role",
+      "version-0.79.5-ais_bramka_system",
+      "version-0.79.5-ais_bramka_services",
+      "version-0.79.5-ais_bramka_processes"
+    ],
+    "Dostęp": [
+      "version-0.79.5-ais_bramka_remote_index",
+      "version-0.79.5-ais_bramka_remote_https",
+      "version-0.79.5-ais_bramka_remote_ftp",
+      "version-0.79.5-ais_bramka_remote_ssh",
+      "version-0.79.5-ais_bramka_remote_tor"
+    ]
+  },
+  "version-0.79.5-Aplikacja": {
+    "Aplikacja": [
+      "version-0.79.5-ais_app_index",
+      "version-0.79.5-ais_app_views",
+      "version-0.79.5-ais_app_groups"
+    ],
+    "Asystent": [
+      "version-0.79.5-ais_app_assistent",
+      "version-0.79.5-ais_app_assistent_commands",
+      "version-0.79.5-ais_app_assistent_add_command"
+    ],
+    "Aktualizacja": [
+      "version-0.79.5-ais_bramka_update_index",
+      "version-0.79.5-ais_bramka_update_auto",
+      "version-0.79.5-ais_bramka_update_logs",
+      "version-0.79.5-ais_bramka_update_manual"
+    ]
+  },
+  "version-0.79.5-Pilot radiowy": {
+    "Pilot radiowy": [
+      "version-0.79.5-ais_remote_index",
+      "version-0.79.5-ais_remote_modes",
+      "version-0.79.5-ais_remote_mode_on_tv",
+      "version-0.79.5-ais_remote_mode_off_tv",
+      "version-0.79.5-ais_remote_mode_gesture"
+    ],
+    "Najczęstrze pytania": [
+      "version-0.79.5-ais_remote_faq_index"
+    ]
+  },
+  "version-0.79.5-Urządzenia": {
+    "Urządzenia": [
+      "version-0.79.5-ais_iot_index",
+      "version-0.79.5-ais_iot_works_with"
+    ]
+  }
+}

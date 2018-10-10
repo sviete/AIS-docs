@@ -1,7 +1,7 @@
 ---
 title: Usługi działające na bramce
 sidebar_label: Usługi bramki
-id: version-0.79.0-ais_bramka_services
+id: version-0.79.5-ais_bramka_services
 original_id: ais_bramka_services
 ---
 

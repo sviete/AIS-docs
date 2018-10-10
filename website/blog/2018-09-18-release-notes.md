@@ -2,7 +2,7 @@
 author: Andrzej Raczkowski
 authorURL: https://github.com/sviete
 authorFBID: 1546384510
-title: Wersja systemu 0.77.x  
+title: Wersja systemu 0.77.8  
 ---
 
 ## Wersja systemu 0.77.8 z dnia 18 września 2018 roku,

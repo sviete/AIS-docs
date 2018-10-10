@@ -1,7 +1,7 @@
 ---
 title: Dostęp do bramki po HTTPS
 sidebar_label: HTTPS
-id: version-0.79.0-ais_bramka_remote_https
+id: version-0.79.5-ais_bramka_remote_https
 original_id: ais_bramka_remote_https
 ---
 

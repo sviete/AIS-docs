@@ -1,7 +1,7 @@
 ---
 title: Dostęp do bramki
 sidebar_label: Wprowadzenie
-id: version-0.79.0-ais_bramka_remote_index
+id: version-0.79.5-ais_bramka_remote_index
 original_id: ais_bramka_remote_index
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Dostęp do bramki w sieci TOR
 sidebar_label: TOR
-id: version-0.79.0-ais_bramka_remote_tor
+id: version-0.79.5-ais_bramka_remote_tor
 original_id: ais_bramka_remote_tor
 ---
 

@@ -1,6 +1,8 @@
 ---
-title: "Sterowanie bez monitora"
+title: Sterowanie bez monitora
 sidebar_label: Sterowanie bez monitora
+id: version-0.79.5-ais_remote_mode_off_tv
+original_id: ais_remote_mode_off_tv
 ---
 
 ## dedykowne menu

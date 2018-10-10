@@ -1,7 +1,7 @@
 ---
 title: Aktualizacja automatyczna
 sidebar_label: Aktualizacja automatyczna
-id: version-0.79.0-ais_bramka_update_auto
+id: version-0.79.5-ais_bramka_update_auto
 original_id: ais_bramka_update_auto
 ---
 
@@ -14,7 +14,8 @@ Gdy jest dostępna aktualizacja wystarczy nacisnąć "WYKONAJ" by ją zainstalow
 Instalacja aktualizacji jest maksymalnie 3 etapowa (nie zawsze wszystkie etapy są wykonywane):
 - aktualizacja środowiska Linux-a
 - aktualizacja platformy automatyzacji
-- aktualizacja aplikacji
+- aktualizacja aplikacji 
+
 Wszystkie te etapy przebiegają automatycznie, po aktualizacji system uruchamia się ponownie i informuje nas, że  jest gotowy do pracy.
 
 <img
@@ -24,7 +25,7 @@ Wszystkie te etapy przebiegają automatycznie, po aktualizacji system uruchamia 
 
 ## Logi aktualizacji
 
-W aplikacji “Asystent domowy” w zakładce “Pomoc” w grupie “Wersja systemu” dostępne jest link “Logi Aktualizacji”, po wybraniu tego linku możemy przeglądać logi aktualizacji, w przypadku problemów z aktualizacją logi możemy załączyć do zgłoszenia problemu dla programistów.
+W aplikacji “Asystent domowy” w zakładce “Pomoc” w grupie “Wersja systemu” dostępny jest link “Logi Aktualizacji”, po wybraniu tego linku możemy przeglądać logi aktualizacji. W przypadku problemów z aktualizacją, logi możemy załączyć do zgłoszenia problemu dla programistów.
 
 <img
   src='/AIS-docs/img/en/bramka/new_version_logs.png'
@@ -33,7 +34,7 @@ W aplikacji “Asystent domowy” w zakładce “Pomoc” w grupie “Wersja sys
 
 ## Aktualizacja ręczna
 
-System jest otwarty i obsługuje ponad 1000 komponentów. Wiele z tych komponentów jest automatycznie rozpoznawanych i instaluje automatycznie dodatkowe zależne pakiety. Może się też zdarzyć tak, że w trakcie instalacji wystąpi problem z internetem czy zasilaniem.
+System jest otwarty i obsługuje ponad 1000 komponentów. Wiele z tych komponentów jest automatycznie rozpoznawanych i instaluje automatycznie dodatkowe zależne pakiety. Może się też zdarzyć tak, że w trakcie instalacji wystąpi problem z Internetem czy zasilaniem.
 
 W razie niepowodzenia procedury instalacji automatycznie przywracamy poprzednią działającą wersję systemu, niemniej jednak w skrajnych przypadkach poniższa procedura ręczna “krok po kroku” może okazać się przydatna.
 
@@ -62,7 +63,7 @@ pip install ais-dom -U
 
 ### aktualizacja aplikacji
 w przeglądarce internetowej przechodzimy na adres aplikacji w  Google Play: https://play.google.com/store/apps/details?id=pl.sviete.dom&rdid=pl.sviete.dom
-logujemy się na konto które mamy na bramce i jeżeli jest dostępna nowa wersja to zlecamy aktualizację aplikacji:
+logujemy się na konto, które mamy na bramce i jeżeli jest dostępna nowa wersja to zlecamy aktualizację aplikacji:
 
 
 <img

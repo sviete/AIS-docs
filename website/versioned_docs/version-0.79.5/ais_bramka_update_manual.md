@@ -1,7 +1,7 @@
 ---
 title: Aktualizacja ręczna
 sidebar_label: Aktualizacja ręczna
-id: version-0.79.0-ais_bramka_update_manual
+id: version-0.79.5-ais_bramka_update_manual
 original_id: ais_bramka_update_manual
 ---
 

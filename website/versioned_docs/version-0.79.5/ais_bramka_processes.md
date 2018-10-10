@@ -1,7 +1,7 @@
 ---
 title: Zarządzanie procesami na bramce
 sidebar_label: Zarządzanie procesami
-id: version-0.79.0-ais_bramka_processes
+id: version-0.79.5-ais_bramka_processes
 original_id: ais_bramka_processes
 ---
 

@@ -17,9 +17,17 @@
         "title": "Asystent",
         "sidebar_label": "Asystent"
       },
+      "ais_app_groups": {
+        "title": "Grupy",
+        "sidebar_label": "Grupy"
+      },
       "ais_app_index": {
         "title": "Aplikacja",
         "sidebar_label": "Wprowadzenie"
+      },
+      "ais_app_views": {
+        "title": "Widoki",
+        "sidebar_label": "Widoki"
       },
       "ais_bramka_first_run": {
         "title": "Bramka",
@@ -88,6 +96,10 @@
       "ais_iot_index": {
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
+      },
+      "ais_iot_works_with": {
+        "title": "Działa z Asystentem domowym",
+        "sidebar_label": "Działa z Asystentem domowym"
       },
       "ais_remote_faq_index": {
         "title": "Pilot FAQ",
@@ -201,53 +213,81 @@
         "title": "Pilot FAQ",
         "sidebar_label": "Pilot FAQ"
       },
-      "version-0.79.0-ais_bramka_processes": {
+      "version-0.79.5-ais_app_groups": {
+        "title": "Grupy",
+        "sidebar_label": "Grupy"
+      },
+      "version-0.79.5-ais_app_views": {
+        "title": "Widoki",
+        "sidebar_label": "Widoki"
+      },
+      "version-0.79.5-ais_bramka_processes": {
         "title": "Zarządzanie procesami na bramce",
         "sidebar_label": "Zarządzanie procesami"
       },
-      "version-0.79.0-ais_bramka_remote_ftp": {
+      "version-0.79.5-ais_bramka_remote_ftp": {
         "title": "Dostęp do bramki po FTP",
         "sidebar_label": "FTP"
       },
-      "version-0.79.0-ais_bramka_remote_http": {
+      "version-0.79.5-ais_bramka_remote_http": {
         "title": "Dostęp do bramki po HTTP",
         "sidebar_label": "HTTP"
       },
-      "version-0.79.0-ais_bramka_remote_https": {
+      "version-0.79.5-ais_bramka_remote_https": {
         "title": "Dostęp do bramki po HTTPS",
         "sidebar_label": "HTTPS"
       },
-      "version-0.79.0-ais_bramka_remote_index": {
+      "version-0.79.5-ais_bramka_remote_index": {
         "title": "Dostęp do bramki",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.79.0-ais_bramka_remote_ssh": {
+      "version-0.79.5-ais_bramka_remote_ssh": {
         "title": "Dostęp do bramki po SSH",
         "sidebar_label": "SSH"
       },
-      "version-0.79.0-ais_bramka_remote_tor": {
+      "version-0.79.5-ais_bramka_remote_tor": {
         "title": "Dostęp do bramki w sieci TOR",
         "sidebar_label": "TOR"
       },
-      "version-0.79.0-ais_bramka_services": {
+      "version-0.79.5-ais_bramka_services": {
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
       },
-      "version-0.79.0-ais_bramka_update_auto": {
+      "version-0.79.5-ais_bramka_update_auto": {
         "title": "Aktualizacja automatyczna",
         "sidebar_label": "Aktualizacja automatyczna"
       },
-      "version-0.79.0-ais_bramka_update_index": {
+      "version-0.79.5-ais_bramka_update_index": {
         "title": "Aktualizacja oprogramowania",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.79.0-ais_bramka_update_logs": {
+      "version-0.79.5-ais_bramka_update_logs": {
         "title": "Logi aktualizacji",
         "sidebar_label": "Logi aktualizacji"
       },
-      "version-0.79.0-ais_bramka_update_manual": {
+      "version-0.79.5-ais_bramka_update_manual": {
         "title": "Aktualizacja ręczna",
         "sidebar_label": "Aktualizacja ręczna"
+      },
+      "version-0.79.5-ais_iot_index": {
+        "title": "Urządzenia",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.79.5-ais_iot_works_with": {
+        "title": "Działa z Asystentem domowym",
+        "sidebar_label": "Działa z Asystentem domowym"
+      },
+      "version-0.79.5-ais_remote_faq_index": {
+        "title": "Pilot FAQ",
+        "sidebar_label": "Pilot FAQ"
+      },
+      "version-0.79.5-ais_remote_mode_gesture": {
+        "title": "Sterowanie gestami",
+        "sidebar_label": "Sterowanie gestami"
+      },
+      "version-0.79.5-ais_remote_mode_off_tv": {
+        "title": "Sterowanie bez monitora",
+        "sidebar_label": "Sterowanie bez monitora"
       }
     },
     "links": {
