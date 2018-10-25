@@ -288,6 +288,22 @@
       "version-0.79.5-ais_remote_mode_off_tv": {
         "title": "Sterowanie bez monitora",
         "sidebar_label": "Sterowanie bez monitora"
+      },
+      "version-0.8.4-ais_app_assistent_add_command": {
+        "title": "Dodawanie komendy",
+        "sidebar_label": "Dodawanie komendy"
+      },
+      "version-0.8.4-ais_bramka_remote_http": {
+        "title": "Dostęp do bramki po HTTP",
+        "sidebar_label": "HTTP"
+      },
+      "version-0.8.4-ais_bramka_remote_index": {
+        "title": "Dostęp do bramki",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.8.4-ais_bramka_services": {
+        "title": "Usługi działające na bramce",
+        "sidebar_label": "Usługi bramki"
       }
     },
     "links": {

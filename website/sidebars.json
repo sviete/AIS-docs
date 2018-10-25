@@ -10,6 +10,7 @@
     ],
     "Dostęp": [
       "ais_bramka_remote_index",
+      "ais_bramka_remote_http",
       "ais_bramka_remote_https",
       "ais_bramka_remote_ftp",
       "ais_bramka_remote_ssh",

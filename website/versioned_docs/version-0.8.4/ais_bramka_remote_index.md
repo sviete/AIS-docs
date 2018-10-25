@@ -1,6 +1,8 @@
 ---
-title: "Dostęp do bramki"
+title: Dostęp do bramki
 sidebar_label: Wprowadzenie
+id: version-0.8.4-ais_bramka_remote_index
+original_id: ais_bramka_remote_index
 ---
 
 Możesz uzyskać zdalny dostęp do swojej bramki na kilka sposobów z pomocą popularnych narzędzi (http, https, ftp, ssh, tor). Dzięki temu możliwe jest używanie aplikacji bramki w przeglądarce internetowej oraz kontrolowanie bramki jak zdalnego serwera.
