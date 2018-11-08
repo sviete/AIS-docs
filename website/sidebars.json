@@ -16,6 +16,10 @@
       "ais_bramka_remote_ssh",
       "ais_bramka_remote_tor"
 
+    ],
+    "API": [
+      "ais_bramka_api_index",
+      "ais_bramka_api_led"
     ]
   },
   "Aplikacja": {

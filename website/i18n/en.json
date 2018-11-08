@@ -29,6 +29,14 @@
         "title": "Widoki",
         "sidebar_label": "Widoki"
       },
+      "ais_bramka_api_index": {
+        "title": "API do usług bramki",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "ais_bramka_api_led": {
+        "title": "Sterowanie diodą LED",
+        "sidebar_label": "Sterowanie diodą LED"
+      },
       "ais_bramka_first_run": {
         "title": "Bramka",
         "sidebar_label": "Uruchomienie"
@@ -304,6 +312,34 @@
       "version-0.8.4-ais_bramka_services": {
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
+      },
+      "version-0.80.4-ais_app_assistent_add_command": {
+        "title": "Dodawanie komendy",
+        "sidebar_label": "Dodawanie komendy"
+      },
+      "version-0.80.4-ais_bramka_remote_http": {
+        "title": "Dostęp do bramki po HTTP",
+        "sidebar_label": "HTTP"
+      },
+      "version-0.80.4-ais_bramka_remote_index": {
+        "title": "Dostęp do bramki",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.80.4-ais_bramka_services": {
+        "title": "Usługi działające na bramce",
+        "sidebar_label": "Usługi bramki"
+      },
+      "version-0.81.11-ais_bramka_api_index": {
+        "title": "API do usług bramki",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.81.11-ais_bramka_api_led": {
+        "title": "Sterowanie diodą LED",
+        "sidebar_label": "Sterowanie diodą LED"
+      },
+      "version-0.81.11-ais_remote_mode_gesture": {
+        "title": "Sterowanie gestami",
+        "sidebar_label": "Sterowanie gestami"
       }
     },
     "links": {
@@ -316,6 +352,7 @@
     "categories": {
       "Bramka": "Bramka",
       "Dostęp": "Dostęp",
+      "API": "API",
       "Aplikacja": "Aplikacja",
       "Asystent": "Asystent",
       "Aktualizacja": "Aktualizacja",

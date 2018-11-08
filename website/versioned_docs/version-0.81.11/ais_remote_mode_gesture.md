@@ -1,6 +1,8 @@
 ---
-title: "Sterowanie gestami"
+title: Sterowanie gestami
 sidebar_label: Sterowanie gestami
+id: version-0.81.11-ais_remote_mode_gesture
+original_id: ais_remote_mode_gesture
 ---
 
 Pilot radiowy ma wbudowany 3-osiowy żyroskop. Dzięki temu w trybie sterowania gestami system rozpoznaje ruchy wykonane pilotem i dopasowuje je do zdefiniowanych gestów oraz przypisanych im funkcji. Dla przykładu, po wciśnięciu przycisku wyboru, czyli środkowego przycisku OK, ruch pilotem w prawo włącza kolejny utwór a w lewo poprzedni utwór.
