@@ -1,7 +1,7 @@
 ---
 title: API do usług bramki
 sidebar_label: Wprowadzenie
-id: version-0.81.11-ais_bramka_api_index
+id: version-0.81.12-ais_bramka_api_index
 original_id: ais_bramka_api_index
 ---
 

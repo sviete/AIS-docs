@@ -1,7 +1,7 @@
 ---
 title: Sterowanie diodą LED
 sidebar_label: Sterowanie diodą LED
-id: version-0.81.11-ais_bramka_api_led
+id: version-0.81.12-ais_bramka_api_led
 original_id: ais_bramka_api_led
 ---
 

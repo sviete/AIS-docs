@@ -329,15 +329,15 @@
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
       },
-      "version-0.81.11-ais_bramka_api_index": {
+      "version-0.81.12-ais_bramka_api_index": {
         "title": "API do usług bramki",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.81.11-ais_bramka_api_led": {
+      "version-0.81.12-ais_bramka_api_led": {
         "title": "Sterowanie diodą LED",
         "sidebar_label": "Sterowanie diodą LED"
       },
-      "version-0.81.11-ais_remote_mode_gesture": {
+      "version-0.81.12-ais_remote_mode_gesture": {
         "title": "Sterowanie gestami",
         "sidebar_label": "Sterowanie gestami"
       }

@@ -1,7 +1,7 @@
 ---
 title: Sterowanie gestami
 sidebar_label: Sterowanie gestami
-id: version-0.81.11-ais_remote_mode_gesture
+id: version-0.81.12-ais_remote_mode_gesture
 original_id: ais_remote_mode_gesture
 ---
 
