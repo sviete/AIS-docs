@@ -29,8 +29,12 @@
         "title": "Widoki",
         "sidebar_label": "Widoki"
       },
+      "ais_bramka_api_command": {
+        "title": "Wykonywanie komendy",
+        "sidebar_label": "Wykonywanie komendy"
+      },
       "ais_bramka_api_index": {
-        "title": "API do usług bramki",
+        "title": "API systemu",
         "sidebar_label": "Wprowadzenie"
       },
       "ais_bramka_api_led": {
@@ -329,8 +333,12 @@
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
       },
+      "version-0.81.12-ais_bramka_api_command": {
+        "title": "Wykonywanie komendy",
+        "sidebar_label": "Wykonywanie komendy"
+      },
       "version-0.81.12-ais_bramka_api_index": {
-        "title": "API do usług bramki",
+        "title": "API systemu",
         "sidebar_label": "Wprowadzenie"
       },
       "version-0.81.12-ais_bramka_api_led": {

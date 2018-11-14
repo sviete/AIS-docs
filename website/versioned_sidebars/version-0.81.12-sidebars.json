@@ -18,6 +18,7 @@
     ],
     "API": [
       "version-0.81.12-ais_bramka_api_index",
+      "version-0.81.12-ais_bramka_api_command",
       "version-0.81.12-ais_bramka_api_led"
     ]
   },

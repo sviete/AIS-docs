@@ -19,6 +19,7 @@
     ],
     "API": [
       "ais_bramka_api_index",
+      "ais_bramka_api_command",
       "ais_bramka_api_led"
     ]
   },
