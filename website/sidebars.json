@@ -14,7 +14,8 @@
       "ais_bramka_remote_https",
       "ais_bramka_remote_ftp",
       "ais_bramka_remote_ssh",
-      "ais_bramka_remote_tor"
+      "ais_bramka_remote_tor",
+      "ais_bramka_remote_serveo"
 
     ],
     "API": [

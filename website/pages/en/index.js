@@ -66,6 +66,9 @@ const PopularTopicsSection = ({ language }) => (
             <li><a href={docUrl("ais_app_assistent_commands", language)}>
                 Komendy, które rozumie Asystent
               </a></li>
+              <li><a href={docUrl("ais_bramka_remote_serveo", language)}>
+                Dostęp do bramki z Internetu
+                </a></li>
           </ul>
           <h2>Przydatne linki</h2>
           <ul>

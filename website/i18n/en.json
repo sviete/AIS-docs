@@ -69,6 +69,10 @@
         "title": "Dostęp do bramki",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_bramka_remote_serveo": {
+        "title": "Dostęp do bramki z Internetu",
+        "sidebar_label": "Serveo"
+      },
       "ais_bramka_remote_ssh": {
         "title": "Dostęp do bramki po SSH",
         "sidebar_label": "SSH"
@@ -348,6 +352,14 @@
       "version-0.81.12-ais_remote_mode_gesture": {
         "title": "Sterowanie gestami",
         "sidebar_label": "Sterowanie gestami"
+      },
+      "version-0.82.x-ais_bramka_remote_serveo": {
+        "title": "Dostęp do bramki z Internetu",
+        "sidebar_label": "Serveo"
+      },
+      "version-0.82.x-ais_bramka_remote_tor": {
+        "title": "Dostęp do bramki w sieci TOR",
+        "sidebar_label": "TOR"
       }
     },
     "links": {

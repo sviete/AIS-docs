@@ -40,19 +40,19 @@ const PopularTopicsSection = ({ language }) => (
         <div style={{ display: "flex", flexDirection: "column", maxWidth: 420 }}>
           <h2>Struktura dokumentacji</h2>
           <p>
-            <b><a href={docUrl('architecture_index', language)}>Bramka</a>.</b>
+            <b><a href={docUrl('ais_bramka_index', language)}>Bramka</a>.</b>
             {' '}Opis głównej składowej systemu - bramki do domowego Internetu Rzeczy z zainstalowanym Asystentem domowym.
           </p>
           <p>
-            <b><a href={docUrl('frontend_index', language)}>Aplikacja</a>.</b>
-            {' '}Opis dotyczący interfejsu użytkownika systemu Asystent domowy.
+            <b><a href={docUrl('ais_app_index', language)}>Aplikacja</a>.</b>
+            {' '}Opis dotyczący interfejsów użytkownika systemu Asystent domowy.
           </p>
           <p>
-            <b><a href={docUrl('development_index', language)}>Pilot</a>.</b>
+            <b><a href={docUrl('ais_remote_index', language)}>Pilot</a>.</b>
             {' '}Opis możliwości i wyjaśnienie trybów działania dedykowanego pilota radiowego do systemu Asystent domowy.
           </p>
           <p>
-            <b><a href={docUrl('misc', language)}>Urządzenia</a>.</b>
+            <b><a href={docUrl('ais_iot_index', language)}>Urządzenia</a>.</b>
             {' '}Opis jak podłączyć i używać dodatkowe komponenty systemu (czujniki, przełączniki, odtwarzacze, kamery i inne).
           </p>
         </div>
@@ -60,9 +60,15 @@ const PopularTopicsSection = ({ language }) => (
         <div style={{ display: "flex", flexDirection: "column" }}>
           <h2>Popularne tematy</h2>
           <ul style={{ flex: "1" }}>
-          <li><a href={docUrl("development_index", language)}>
+          <li><a href={docUrl("ais_remote_index", language)}>
               Jak działa pilot
             </a></li>
+            <li><a href={docUrl("ais_app_assistent_commands", language)}>
+                Komendy, które rozumie Asystent
+              </a></li>
+              <li><a href={docUrl("ais_bramka_remote_serveo", language)}>
+                Dostęp do bramki z Internetu
+                </a></li>
           </ul>
           <h2>Przydatne linki</h2>
           <ul>
