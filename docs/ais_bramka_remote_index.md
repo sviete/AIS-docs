@@ -3,10 +3,10 @@ title: "Dostęp do bramki"
 sidebar_label: Wprowadzenie
 ---
 
-Możesz uzyskać zdalny dostęp do swojej bramki na kilka sposobów z pomocą popularnych narzędzi (http, https, ftp, ssh, tor). Dzięki temu możliwe jest używanie aplikacji bramki w przeglądarce internetowej oraz kontrolowanie bramki jak zdalnego serwera.
+Będąc w sieci lokalnej możesz połączyć się z bramką za pomocą popularnych narzędzi: http(s), ftp, ssh. Dzięki temu możliwe jest używanie aplikacji bramki w przeglądarce internetowej oraz kontrolowanie bramki jak zdalnego serwera.
 
 
-> Żeby dostać się do bramki z zewnątrz kluczowe jest ustalenie **czy bramka jest widoczna w Twojej sieci po lokalnej nazwie hosta czy tylko po adresie IP?** Lokalna nazwa hosta bramki ustawiona jest fabrycznie jako **ais-dom**. Z taką nazwą  hosta (**ais-dom**) bramka zgłasza się w lokalnej sieci. Reszta zależy od lokalnej sieci (od tego co potrafi router). Jeżeli sieć przy przyznawaniu dzierżawy DHCP poprawnie nadaje nazwy hosta (hostname) dla urządzeń w sieci, to bramka w sieci będzie widoczna pod nazwą hosta ais-dom. W przeciwnym razie w  komunikacji z bramką trzeba posługiwać się adresem IP.
+> Żeby połączyć się z bramką kluczowe jest ustalenie **czy bramka jest widoczna w Twojej sieci po lokalnej nazwie hosta czy tylko po adresie IP?** Lokalna nazwa hosta bramki ustawiona jest fabrycznie jako **ais-dom**. Z taką nazwą  hosta (**ais-dom**) bramka zgłasza się w lokalnej sieci. Reszta zależy od lokalnej sieci (od tego co potrafi router). Jeżeli sieć przy przyznawaniu dzierżawy DHCP poprawnie nadaje nazwy hosta (hostname) dla urządzeń w sieci, to bramka w sieci będzie widoczna pod nazwą hosta ais-dom. W przeciwnym razie w  komunikacji z bramką trzeba posługiwać się adresem IP.
 
 >**We wszystkich przykładach w dokumentacji zakładamy, że bramka jest dostępna pod nazwą hosta ais-dom, jeżeli w twojej lokalnej sieci jest inaczej to łącząc się z bramka za pomocą przykładów z dokumentacji zmień nazwę hosta ais-dom na lokalny adres IP**.
 

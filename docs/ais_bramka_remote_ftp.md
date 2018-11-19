@@ -30,6 +30,7 @@ w lokalizacji [ftp://ais-dom:1024/sdcard/dom](ftp://ais-dom:1024/sdcard/dom) moÅ
 ![Uruchomienie klienta ftp](/AIS-docs/img/en/bramka/ftp_connection_4.png)
 
 
+## konfiguracja systemu Asystent domowy
 w lokalizacji [ftp://ais-dom:1024/data/data/pl.sviete.dom/files/home/AIS](ftp://ais-dom:1024/data/data/pl.sviete.dom/files/home/AIS) znajduje siÄ™ konfiguracja systemu Asystent domowy
 
 ![Uruchomienie klienta ftp](/AIS-docs/img/en/bramka/ftp_connection_3.png)

@@ -3,7 +3,6 @@ title: "Dostęp do bramki po SSH"
 sidebar_label: SSH
 ---
 
-SSH zapewnia bezpieczny sposób uzyskiwania dostępu do zdalnych hostów.
 Asystent domowy dostarcza połączenie SSH za pośrednictwem bardzo popularnego pakietu openssh.
 
 Środowisko linux dostępne na bramce jest systemem dla pojedynczego użytkownika, dlatego niezależnie od podanej nazwy użytkownika zalogujesz się jako jedyny dostępny użytkownik systemu Asystent domowy.
