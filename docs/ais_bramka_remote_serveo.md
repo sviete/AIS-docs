@@ -3,7 +3,7 @@ title: "Dostęp do bramki z Internetu"
 sidebar_label: Serveo
 ---
 
-Jeśli chcesz możesz zezwolić na dostęp do Twojej lokalnej bramki przez Internet. Dzięki temu będziesz mógł sterować automatyką w swoim domu (także głosowo) nie tylko w swojej lokalnej sieci ale też z dowolnego miejsca z dostępem do Internetu.
+Jeśli chcesz możesz skonfigurować dostęp do Twojej lokalnej bramki przez Internet. Dzięki temu będziesz mógł sterować automatyką w swoim domu (także głosowo) nie tylko w swojej lokalnej sieci ale też z dowolnego miejsca z dostępem do Internetu.
 
 Jedną z metod by to osiągnąć jest przekierowanie portów na routerze, w przypadku aplikacji sprowadza się do przekierowania portu 8123 z bramki na wolny port na routerze. Router jest dostępny z internetu więc wywołując jego adres na udostępnionym porcie można uzyskać dostęp do aplikacji Asystent domowy. To jak wykonać takie przekierowanie zależy do modelu routera, szczegółowy opis należy sprawdzić instrukcję routera.
 
