@@ -69,14 +69,24 @@ Press g to start a GUI session and ctrl-c to quit.
 </blockquote>
 <p>W celu zabezpieczenia dostępu:</p>
 <ol>
-<li>Wyłączenie logowania z zaufanych sieci</li>
+<li>Wyłączenie łatwego logowania</li>
 </ol>
-<p>Logowanie z zaufanych sieci jest bardzo pomocne w przypadku gdy bramka działa tylko w sieci lokalnej. W takim przypadku wystarczy wybrać użytkownika z listy żeby się zalogować bez podawania hasła. Taka metoda nie jest odpowiednia w przypadku dostępu z Internetu, dlatego należy ją wyłączyć. W tym celu należy nadpisać konfigurację Asystenta dostępną na bramce w lokalizacji <strong>/data/data/pl.sviete.dom/files/home/AIS/configuration.yaml</strong>
-usunąć typ autentykacji <strong>trusted_networks</strong> z auth_providers</p>
+<p>Gdy bramka działa tylko w sieci lokalnej umożliwiamy kilka sposobów autentykacji, w tym:</p>
+<ul>
+<li>łatwe logowanie w zaufanej sieci (wystarczy wybrać użytkownika z listy żeby się zalogować bez podawania hasła)</li>
+<li>logowanie za pomocą hasla API</li>
+</ul>
+<p>Nasza orginalna konfiguracja autentykacji wygląda tak:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-attr">homeassistant:</span>
 <span class="hljs-attr">  auth_providers:</span>
 <span class="hljs-attr">    - type:</span> <span class="hljs-string">homeassistant</span>
+<span class="hljs-attr">    - type:</span> <span class="hljs-string">trusted_networks</span>
 <span class="hljs-attr">    - type:</span> <span class="hljs-string">legacy_api_password</span>
+</code></pre>
+<p>Tak łatwe metody autentykacji nie są odpowiednie w przypadku dostępu z Internetu, dlatego należy je wyłączyć. W tym celu wystarczy nadpisać domyślną konfigurację Asystenta dostępną na bramce w lokalizacji <strong>/data/data/pl.sviete.dom/files/home/AIS/configuration.yaml</strong> podając tylko jeden typ autentykacji <strong>homeassistant</strong> w auth_providers:</p>
+<pre><code class="hljs css language-yaml"><span class="hljs-attr">homeassistant:</span>
+<span class="hljs-attr">  auth_providers:</span>
+<span class="hljs-attr">    - type:</span> <span class="hljs-string">homeassistant</span>
 </code></pre>
 <ol start="2">
 <li>Zalecamy włączenie modułu uwierzytelniania wieloskładnikowego</li>
@@ -100,14 +110,14 @@ W celu włączenia tego zabezpieczenia należy przejść do ustawienia użytkown
 <ul>
 <li>zdefiniowanie procesu dostępu do aplikacji w PM2</li>
 </ul>
-<pre><code class="hljs css language-bash">$ pm2 start autossh --name externalhttp
--- -M 0 -o ServerAliveInterval=60 -R bramka:80:localhost:8180 serveo.net
+<pre><code class="hljs css language-bash">$ pm2 start autossh --name ext-http \
+    -- -M 0 -o ServerAliveInterval=60 -R bramka:80:localhost:8180 serveo.net
 </code></pre>
 <ul>
 <li>zdefiniowanie procesu dostep do konsoli w PM2</li>
 </ul>
-<pre><code class="hljs css language-bash">$ pm2 start autossh --name externalssh
--- -M 0 -o ServerAliveInterval=60 -R bramka:22:localhost:8022 serveo.net
+<pre><code class="hljs css language-bash">$ pm2 start autossh --name ext-ssh \
+    -- -M 0 -o ServerAliveInterval=60 -R bramka:22:localhost:8022 serveo.net
 </code></pre>
 <ul>
 <li>zapisanie zdefiniowanych procesów</li>
