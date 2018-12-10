@@ -1,7 +1,7 @@
 ---
 title: Dostęp do bramki po FTP
 sidebar_label: FTP
-id: version-0.82.1-ais_bramka_remote_ftp
+id: version-0.82.3-ais_bramka_remote_ftp
 original_id: ais_bramka_remote_ftp
 ---
 

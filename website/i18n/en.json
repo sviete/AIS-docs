@@ -353,25 +353,33 @@
         "title": "Sterowanie gestami",
         "sidebar_label": "Sterowanie gestami"
       },
-      "version-0.82.1-ais_bramka_remote_ftp": {
+      "version-0.82.3-ais_bramka_remote_ftp": {
         "title": "Dostęp do bramki po FTP",
         "sidebar_label": "FTP"
       },
-      "version-0.82.1-ais_bramka_remote_index": {
+      "version-0.82.3-ais_bramka_remote_index": {
         "title": "Dostęp do bramki",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.82.1-ais_bramka_remote_serveo": {
+      "version-0.82.3-ais_bramka_remote_serveo": {
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Serveo"
       },
-      "version-0.82.1-ais_bramka_remote_ssh": {
+      "version-0.82.3-ais_bramka_remote_ssh": {
         "title": "Dostęp do bramki po SSH",
         "sidebar_label": "SSH"
       },
-      "version-0.82.1-ais_bramka_remote_tor": {
+      "version-0.82.3-ais_bramka_remote_tor": {
         "title": "Dostęp do bramki w sieci TOR",
         "sidebar_label": "TOR"
+      },
+      "version-0.83.7-ais_app_assistent_commands": {
+        "title": "Wbudowane komendy",
+        "sidebar_label": "Wbudowane komendy"
+      },
+      "version-0.83.7-ais_bramka_remote_serveo": {
+        "title": "Dostęp do bramki z Internetu",
+        "sidebar_label": "Serveo"
       }
     },
     "links": {

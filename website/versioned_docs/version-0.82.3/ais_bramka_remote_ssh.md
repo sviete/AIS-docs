@@ -1,7 +1,7 @@
 ---
 title: Dostęp do bramki po SSH
 sidebar_label: SSH
-id: version-0.82.1-ais_bramka_remote_ssh
+id: version-0.82.3-ais_bramka_remote_ssh
 original_id: ais_bramka_remote_ssh
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Dostęp do bramki z Internetu
 sidebar_label: Serveo
-id: version-0.82.1-ais_bramka_remote_serveo
+id: version-0.83.7-ais_bramka_remote_serveo
 original_id: ais_bramka_remote_serveo
 ---
 
@@ -29,7 +29,7 @@ Forwarding HTTP traffic from https://alias.serveo.net
 Press g to start a GUI session and ctrl-c to quit.
 ```
 
-teraz możesz w przeglądarce wpisać w celu połączenia się ze swoją bramką z internetu
+teraz w celu połączenia się ze swoją bramką z internetu, wpisz w przeglądarce:
 
 https://**alias**.serveo.net
 
@@ -59,6 +59,11 @@ Forwarding SSH traffic from alias "bramka"
 Press g to start a GUI session and ctrl-c to quit.
 ```
 
+teraz w celu połączenia się ze swoją bramką po ssh będąc poza lokalną siecią wystearczy, że wpiszesz w konsoli:
+
+```bash
+$ ssh -o ProxyCommand="ssh -W bramka:22 serveo.net" bramka -i id_rsa_ais
+```
 
 ## Automatyczne stałe udostępnianie bramki
 
@@ -67,16 +72,29 @@ Press g to start a GUI session and ctrl-c to quit.
 
 W celu zabezpieczenia dostępu:
 
-1. Wyłączenie logowania z zaufanych sieci
+1. Wyłączenie łatwego logowania
 
-Logowanie z zaufanych sieci jest bardzo pomocne w przypadku gdy bramka działa tylko w sieci lokalnej. W takim przypadku wystarczy wybrać użytkownika z listy żeby się zalogować bez podawania hasła. Taka metoda nie jest odpowiednia w przypadku dostępu z Internetu, dlatego należy ją wyłączyć. W tym celu należy nadpisać konfigurację Asystenta dostępną na bramce w lokalizacji **/data/data/pl.sviete.dom/files/home/AIS/configuration.yaml**
-usunąć typ autentykacji **trusted_networks** z auth_providers
+Gdy bramka działa tylko w sieci lokalnej umożliwiamy kilka sposobów autentykacji, w tym:
+- łatwe logowanie w zaufanej sieci (wystarczy wybrać użytkownika z listy żeby się zalogować bez podawania hasła)
+- logowanie za pomocą hasla API
+
+Nasza orginalna konfiguracja autentykacji wygląda tak:
 
 ```yaml
 homeassistant:
   auth_providers:
     - type: homeassistant
+    - type: trusted_networks
     - type: legacy_api_password
+```
+
+
+Tak łatwe metody autentykacji nie są odpowiednie w przypadku dostępu z Internetu, dlatego należy je wyłączyć. W tym celu wystarczy nadpisać domyślną konfigurację Asystenta dostępną na bramce w lokalizacji **/data/data/pl.sviete.dom/files/home/AIS/configuration.yaml** podając tylko jeden typ autentykacji **homeassistant** w auth_providers:
+
+```yaml
+homeassistant:
+  auth_providers:
+    - type: homeassistant
 ```
 
 2. Zalecamy włączenie modułu uwierzytelniania wieloskładnikowego
@@ -103,15 +121,15 @@ W celu uruhamiania dostępu po każdym restarcie bramki, możemy posłużyć si�
 - zdefiniowanie procesu dostępu do aplikacji w PM2
 
 ```bash
-$ pm2 start autossh --name externalhttp
--- -M 0 -o ServerAliveInterval=60 -R bramka:80:localhost:8180 serveo.net
+$ pm2 start autossh --name ext-http \
+    -- -M 0 -o ServerAliveInterval=60 -R bramka:80:localhost:8180 serveo.net
 ```
 
 - zdefiniowanie procesu dostep do konsoli w PM2
 
 ```bash
-$ pm2 start autossh --name externalssh
--- -M 0 -o ServerAliveInterval=60 -R bramka:22:localhost:8022 serveo.net
+$ pm2 start autossh --name ext-ssh \
+    -- -M 0 -o ServerAliveInterval=60 -R bramka:22:localhost:8022 serveo.net
 ```
 
 - zapisanie zdefiniowanych procesów

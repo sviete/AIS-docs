@@ -1,6 +1,8 @@
 ---
-title: "Dostęp do bramki z Internetu"
+title: Dostęp do bramki z Internetu
 sidebar_label: Serveo
+id: version-0.82.3-ais_bramka_remote_serveo
+original_id: ais_bramka_remote_serveo
 ---
 
 Jeśli chcesz możesz skonfigurować dostęp do Twojej lokalnej bramki przez Internet. Dzięki temu będziesz mógł sterować automatyką w swoim domu (także głosowo) nie tylko w swojej lokalnej sieci ale też z dowolnego miejsca z dostępem do Internetu.
@@ -27,7 +29,7 @@ Forwarding HTTP traffic from https://alias.serveo.net
 Press g to start a GUI session and ctrl-c to quit.
 ```
 
-teraz w celu połączenia się ze swoją bramką z internetu, wpisz w przeglądarce:
+teraz możesz w przeglądarce wpisać w celu połączenia się ze swoją bramką z internetu
 
 https://**alias**.serveo.net
 
@@ -57,11 +59,6 @@ Forwarding SSH traffic from alias "bramka"
 Press g to start a GUI session and ctrl-c to quit.
 ```
 
-teraz w celu połączenia się ze swoją bramką po ssh będąc poza lokalną siecią wystearczy, że wpiszesz w konsoli:
-
-```bash
-$ ssh -o ProxyCommand="ssh -W bramka:22 serveo.net" bramka -i id_rsa_ais
-```
 
 ## Automatyczne stałe udostępnianie bramki
 
