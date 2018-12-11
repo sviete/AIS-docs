@@ -46,4 +46,13 @@
 <li>Fibaro switches <a href="https://www.home-assistant.io/components/switch.fibaro/">https://www.home-assistant.io/components/switch.fibaro/</a></li>
 </ul></li>
 </ul>
+<blockquote>
+<p><strong>Uwaga w tej wersji wyłączono serwis Node-RED</strong>, jest to spowodowane zmianami <a href="https://developers.home-assistant.io/docs/en/auth_api.html#long-lived-access-token" target="_blank"> w dostępie do API Home Assistant</a> , konieczność podpisywania wywołań API tokenem.</p>
+</blockquote>
+<p>Żeby ponownie włączyć Node-RED jako proces wystarczy w konsoli wpisać:</p>
+<pre><code class="hljs css language-bash">$ pm2 start node-red --name nred --node-args=<span class="hljs-string">"--max-old-space-size=128"</span>
+</code></pre>
+<p>i jeśli chcemy żeby Node-RED był uruchamiany autmatycznie po starcie bramki:</p>
+<pre><code class="hljs css language-bash">$ pm2 save
+</code></pre>
 </span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/AIS-docs/blog">Recent Posts</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#wersja-systemu-0837-z-dnia-10-grudnia-2018-roku">Wersja systemu 0.83.7 z dnia 10 grudnia 2018 roku,</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy, dokumentacja" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2018 AI-Speaker</section></footer></div></body></html>
