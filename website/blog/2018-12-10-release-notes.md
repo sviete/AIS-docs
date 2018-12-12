@@ -15,3 +15,19 @@ w tej wersji dodano:
   * Fibaro Lights https://www.home-assistant.io/components/light.fibaro/
   * Fibaro sensors https://www.home-assistant.io/components/sensor.fibaro/
   * Fibaro switches https://www.home-assistant.io/components/switch.fibaro/
+
+
+> **Uwaga w tej wersji wyłączono serwis Node-RED**, jest to spowodowane zmianami <a href="https://developers.home-assistant.io/docs/en/auth_api.html#long-lived-access-token" target="_blank"> w dostępie do API Home Assistant</a> , konieczność podpisywania wywołań API tokenem.
+
+
+ Żeby ponownie włączyć Node-RED jako proces wystarczy w konsoli wpisać:
+
+
+```bash
+$ pm2 start node-red --name nred --node-args="--max-old-space-size=128"
+```
+i jeśli chcemy żeby Node-RED był uruchamiany autmatycznie po starcie bramki:
+
+```bash
+$ pm2 save
+```
