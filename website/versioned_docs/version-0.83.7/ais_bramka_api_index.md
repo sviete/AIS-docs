@@ -1,6 +1,8 @@
 ---
-title: "API systemu"
+title: API systemu
 sidebar_label: Wprowadzenie
+id: version-0.83.7-ais_bramka_api_index
+original_id: ais_bramka_api_index
 ---
 
 

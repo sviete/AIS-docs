@@ -1,6 +1,8 @@
 ---
-title: "Dostęp do bramki"
+title: Dostęp do bramki
 sidebar_label: Wprowadzenie
+id: version-0.83.7-ais_bramka_remote_index
+original_id: ais_bramka_remote_index
 ---
 
 Będąc w sieci lokalnej możesz połączyć się z bramką za pomocą popularnych narzędzi: http(s), ftp, ssh. Dzięki temu możliwe jest używanie aplikacji bramki w przeglądarce internetowej oraz kontrolowanie bramki jak zdalnego serwera.

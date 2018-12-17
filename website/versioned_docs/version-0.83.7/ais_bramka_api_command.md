@@ -1,6 +1,8 @@
 ---
-title: "Wykonywanie komendy"
+title: Wykonywanie komendy
 sidebar_label: Wykonywanie komendy
+id: version-0.83.7-ais_bramka_api_command
+original_id: ais_bramka_api_command
 ---
 
 Usługa **ais_ai_service.process** pozwala na wykonanie komendy tekstowej na bramce.
