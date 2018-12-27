@@ -1,0 +1,62 @@
+{
+  "version-1.0.0-System": {
+    "Bramka": [
+      "version-1.0.0-ais_bramka_index",
+      "version-1.0.0-ais_bramka_first_run",
+      "version-1.0.0-ais_bramka_role",
+      "version-1.0.0-ais_bramka_system",
+      "version-1.0.0-ais_bramka_services",
+      "version-1.0.0-ais_bramka_settings"
+    ],
+    "Dostęp": [
+      "version-1.0.0-ais_bramka_remote_index",
+      "version-1.0.0-ais_bramka_remote_http",
+      "version-1.0.0-ais_bramka_remote_https",
+      "version-1.0.0-ais_bramka_remote_ftp",
+      "version-1.0.0-ais_bramka_remote_ssh",
+      "version-1.0.0-ais_bramka_remote_tor",
+      "version-1.0.0-ais_bramka_remote_serveo"
+    ],
+    "API": [
+      "version-1.0.0-ais_bramka_api_index",
+      "version-1.0.0-ais_bramka_api_command",
+      "version-1.0.0-ais_bramka_api_led"
+    ]
+  },
+  "version-1.0.0-Aplikacja": {
+    "Aplikacja": [
+      "version-1.0.0-ais_app_index",
+      "version-1.0.0-ais_app_views",
+      "version-1.0.0-ais_app_groups"
+    ],
+    "Asystent": [
+      "version-1.0.0-ais_app_assistent",
+      "version-1.0.0-ais_app_assistent_commands",
+      "version-1.0.0-ais_app_assistent_add_command"
+    ],
+    "Aktualizacja": [
+      "version-1.0.0-ais_bramka_update_index",
+      "version-1.0.0-ais_bramka_update_auto",
+      "version-1.0.0-ais_bramka_update_logs",
+      "version-1.0.0-ais_bramka_update_manual"
+    ]
+  },
+  "version-1.0.0-Pilot radiowy": {
+    "Pilot radiowy": [
+      "version-1.0.0-ais_remote_index",
+      "version-1.0.0-ais_remote_modes",
+      "version-1.0.0-ais_remote_mode_on_tv",
+      "version-1.0.0-ais_remote_mode_off_tv",
+      "version-1.0.0-ais_remote_mode_gesture"
+    ],
+    "Najczęstrze pytania": [
+      "version-1.0.0-ais_remote_faq_index"
+    ]
+  },
+  "version-1.0.0-Urządzenia": {
+    "Urządzenia": [
+      "version-1.0.0-ais_iot_index",
+      "version-1.0.0-ais_iot_works_with"
+    ]
+  }
+}

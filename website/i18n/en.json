@@ -49,10 +49,6 @@
         "title": "Bramka",
         "sidebar_label": "Wprowadzenie"
       },
-      "ais_bramka_processes": {
-        "title": "Zarządzanie procesami na bramce",
-        "sidebar_label": "Zarządzanie procesami"
-      },
       "ais_bramka_remote_ftp": {
         "title": "Dostęp do bramki po FTP",
         "sidebar_label": "FTP"
@@ -88,6 +84,10 @@
       "ais_bramka_services": {
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
+      },
+      "ais_bramka_settings": {
+        "title": "Ustawienia zaawansowane",
+        "sidebar_label": "Ustawienia zaawansowane"
       },
       "ais_bramka_system": {
         "title": "Oprogramowanie bramki",
@@ -305,22 +305,6 @@
         "title": "Sterowanie bez monitora",
         "sidebar_label": "Sterowanie bez monitora"
       },
-      "version-0.8.4-ais_app_assistent_add_command": {
-        "title": "Dodawanie komendy",
-        "sidebar_label": "Dodawanie komendy"
-      },
-      "version-0.8.4-ais_bramka_remote_http": {
-        "title": "Dostęp do bramki po HTTP",
-        "sidebar_label": "HTTP"
-      },
-      "version-0.8.4-ais_bramka_remote_index": {
-        "title": "Dostęp do bramki",
-        "sidebar_label": "Wprowadzenie"
-      },
-      "version-0.8.4-ais_bramka_services": {
-        "title": "Usługi działające na bramce",
-        "sidebar_label": "Usługi bramki"
-      },
       "version-0.80.4-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
         "sidebar_label": "Dodawanie komendy"
@@ -416,6 +400,10 @@
       "version-0.83.7-ais_bramka_services": {
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
+      },
+      "version-0.83.7-ais_bramka_settings": {
+        "title": "Ustawienia zaawansowane",
+        "sidebar_label": "Ustawienia zaawansowane"
       }
     },
     "links": {
