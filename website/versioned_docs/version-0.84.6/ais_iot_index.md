@@ -1,6 +1,8 @@
 ---
 title: Urządzenia
 sidebar_label: Wprowadzenie
+id: version-0.84.6-ais_iot_index
+original_id: ais_iot_index
 ---
 
 

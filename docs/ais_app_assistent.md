@@ -1,6 +1,6 @@
 ---
 title: "Asystent"
-sidebar_label: Asystent
+sidebar_label: Wprowadzenie
 ---
 
 System posiada komponent umożliwiający wydawanie komend i przesyłanie zapytań do wbudowanego asystenta. Z asystentem możesz rozmawiać:

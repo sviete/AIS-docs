@@ -15,7 +15,15 @@
       },
       "ais_app_assistent": {
         "title": "Asystent",
-        "sidebar_label": "Asystent"
+        "sidebar_label": "Wprowadzenie"
+      },
+      "ais_app_components_index": {
+        "title": "Komponenty",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "ais_app_components_weather": {
+        "title": "Pogoda",
+        "sidebar_label": "Pogoda"
       },
       "ais_app_groups": {
         "title": "Grupy",
@@ -108,6 +116,14 @@
       "ais_bramka_update_manual": {
         "title": "Aktualizacja ręczna",
         "sidebar_label": "Aktualizacja ręczna"
+      },
+      "ais_iot_firmware_index": {
+        "title": "Oprogramowanie dla urządzeń automatyki domowej",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "ais_iot_firmware_upgrade": {
+        "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
+        "sidebar_label": "Aktualizacja oprogramowania"
       },
       "ais_iot_index": {
         "title": "Urządzenia",
@@ -404,6 +420,34 @@
       "version-0.83.7-ais_bramka_settings": {
         "title": "Ustawienia zaawansowane",
         "sidebar_label": "Ustawienia zaawansowane"
+      },
+      "version-0.84.6-ais_app_components_index": {
+        "title": "Komponenty",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.84.6-ais_app_components_weather": {
+        "title": "Pogoda",
+        "sidebar_label": "Pogoda"
+      },
+      "version-0.84.6-ais_bramka_update_auto": {
+        "title": "Aktualizacja automatyczna",
+        "sidebar_label": "Aktualizacja automatyczna"
+      },
+      "version-0.84.6-ais_iot_firmware_index": {
+        "title": "Oprogramowanie dla urządzeń automatyki domowej",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.84.6-ais_iot_firmware_upgrade": {
+        "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
+        "sidebar_label": "Aktualizacja oprogramowania"
+      },
+      "version-0.84.6-ais_iot_index": {
+        "title": "Urządzenia",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.84.6-ais_iot_works_with": {
+        "title": "Działa z Asystentem domowym",
+        "sidebar_label": "Działa z Asystentem domowym"
       }
     },
     "links": {
@@ -418,11 +462,13 @@
       "Dostęp": "Dostęp",
       "API": "API",
       "Aplikacja": "Aplikacja",
+      "Komponenty": "Komponenty",
       "Asystent": "Asystent",
       "Aktualizacja": "Aktualizacja",
       "Pilot radiowy": "Pilot radiowy",
       "Najczęstrze pytania": "Najczęstrze pytania",
-      "Urządzenia": "Urządzenia"
+      "Urządzenia": "Urządzenia",
+      "Oprogramowanie dla urządzeń": "Oprogramowanie dla urządzeń"
     }
   },
   "pages-strings": {

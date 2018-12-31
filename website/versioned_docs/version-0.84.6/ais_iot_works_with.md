@@ -1,6 +1,8 @@
 ---
 title: Działa z Asystentem domowym
 sidebar_label: Działa z Asystentem domowym
+id: version-0.84.6-ais_iot_works_with
+original_id: ais_iot_works_with
 ---
 
 > Dostarczymy komponenty, które będą automatycznie rozpoznawane przez bramkę oraz będą w pełni przez nas wspierane.

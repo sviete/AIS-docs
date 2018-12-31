@@ -1,0 +1,70 @@
+{
+  "version-0.84.6-System": {
+    "Bramka": [
+      "version-0.84.6-ais_bramka_index",
+      "version-0.84.6-ais_bramka_first_run",
+      "version-0.84.6-ais_bramka_role",
+      "version-0.84.6-ais_bramka_system",
+      "version-0.84.6-ais_bramka_services",
+      "version-0.84.6-ais_bramka_settings"
+    ],
+    "Dostęp": [
+      "version-0.84.6-ais_bramka_remote_index",
+      "version-0.84.6-ais_bramka_remote_http",
+      "version-0.84.6-ais_bramka_remote_https",
+      "version-0.84.6-ais_bramka_remote_ftp",
+      "version-0.84.6-ais_bramka_remote_ssh",
+      "version-0.84.6-ais_bramka_remote_tor",
+      "version-0.84.6-ais_bramka_remote_serveo"
+    ],
+    "API": [
+      "version-0.84.6-ais_bramka_api_index",
+      "version-0.84.6-ais_bramka_api_command",
+      "version-0.84.6-ais_bramka_api_led"
+    ]
+  },
+  "version-0.84.6-Aplikacja": {
+    "Aplikacja": [
+      "version-0.84.6-ais_app_index",
+      "version-0.84.6-ais_app_views",
+      "version-0.84.6-ais_app_groups"
+    ],
+    "Komponenty": [
+      "version-0.84.6-ais_app_components_index",
+      "version-0.84.6-ais_app_components_weather"
+    ],
+    "Asystent": [
+      "version-0.84.6-ais_app_assistent",
+      "version-0.84.6-ais_app_assistent_commands",
+      "version-0.84.6-ais_app_assistent_add_command"
+    ],
+    "Aktualizacja": [
+      "version-0.84.6-ais_bramka_update_index",
+      "version-0.84.6-ais_bramka_update_auto",
+      "version-0.84.6-ais_bramka_update_logs",
+      "version-0.84.6-ais_bramka_update_manual"
+    ]
+  },
+  "version-0.84.6-Pilot radiowy": {
+    "Pilot radiowy": [
+      "version-0.84.6-ais_remote_index",
+      "version-0.84.6-ais_remote_modes",
+      "version-0.84.6-ais_remote_mode_on_tv",
+      "version-0.84.6-ais_remote_mode_off_tv",
+      "version-0.84.6-ais_remote_mode_gesture"
+    ],
+    "Najczęstrze pytania": [
+      "version-0.84.6-ais_remote_faq_index"
+    ]
+  },
+  "version-0.84.6-Urządzenia": {
+    "Urządzenia": [
+      "version-0.84.6-ais_iot_index",
+      "version-0.84.6-ais_iot_works_with"
+    ],
+    "Oprogramowanie dla urządzeń": [
+      "version-0.84.6-ais_iot_firmware_index",
+      "version-0.84.6-ais_iot_firmware_upgrade"
+    ]
+  }
+}

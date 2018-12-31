@@ -30,6 +30,10 @@
       "ais_app_views",
       "ais_app_groups"
     ],
+    "Komponenty": [
+      "ais_app_components_index",
+      "ais_app_components_weather"
+    ],
     "Asystent": [
       "ais_app_assistent",
       "ais_app_assistent_commands",
@@ -58,6 +62,10 @@
     "Urządzenia": [
       "ais_iot_index",
       "ais_iot_works_with"
+    ],
+    "Oprogramowanie dla urządzeń": [
+      "ais_iot_firmware_index",
+      "ais_iot_firmware_upgrade"
     ]
   }
 }
