@@ -42,8 +42,8 @@ const siteConfig = {
     {doc: 'ais_bramka_index', label: 'Bramka'},
     {doc: 'ais_app_index', label: 'Aplikacja'},
     {doc: 'ais_remote_index', label: 'Pilot'},
-    {doc: 'ais_iot_index', label: 'Inne urządzenia'},
-    { blog: true, label: 'Aktualizacje'},
+    {doc: 'ais_iot_index', label: 'Urządzenia'},
+    { blog: true, label: 'Aktualności'},
   ],
 
   // If you have users set above, you add it here:
