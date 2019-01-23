@@ -5,6 +5,7 @@
 <url> <loc>https://sviete.github.io/AIS-docs/index.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sviete.github.io/AIS-docs/en/index.html" /> </url>
 <url> <loc>https://sviete.github.io/AIS-docs/users.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sviete.github.io/AIS-docs/en/users.html" /> </url>
 <url> <loc>https://sviete.github.io/AIS-docs/versions.html</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://sviete.github.io/AIS-docs/en/versions.html" /> </url>
+<url> <loc>https://sviete.github.io/AIS-docs/blog/2019/01/23/sensors-pv.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://sviete.github.io/AIS-docs/blog/2019/01/21/release-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://sviete.github.io/AIS-docs/blog/2018/12/31/release-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://sviete.github.io/AIS-docs/blog/2018/12/10/release-notes.html</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>

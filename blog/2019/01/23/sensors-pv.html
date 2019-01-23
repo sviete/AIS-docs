@@ -1,0 +1,79 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Monitorowanie instalacji fotowoltaicznej - Znaj swoją moc! · Asystent domowy, dokumentacja</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Instalacja fotowoltaiczna z optymalizatorami"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Monitorowanie instalacji fotowoltaicznej - Znaj swoją moc! · Asystent domowy, dokumentacja"/><meta property="og:type" content="website"/><meta property="og:url" content="https://sviete.github.io/AIS-docs/blog/2019/01/23/sensors-pv.html"/><meta property="og:description" content="## Instalacja fotowoltaiczna z optymalizatorami"/><meta property="og:image" content="https://sviete.github.io/AIS-docs/img/default-social.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://sviete.github.io/AIS-docs/img/default-social.png"/><link rel="shortcut icon" href="/AIS-docs/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://sviete.github.io/AIS-docs/blog/atom.xml" title="Asystent domowy, dokumentacja Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://sviete.github.io/AIS-docs/blog/feed.xml" title="Asystent domowy, dokumentacja Blog RSS Feed"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-126115790-1', 'auto');
+              ga('send', 'pageview');
+            </script><link rel="stylesheet" href="/AIS-docs/css/main.css"/></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/AIS-docs/en"><img class="logo" src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy, dokumentacja"/><h2 class="headerTitleWithLogo">Asystent domowy, dokumentacja</h2></a><a href="/AIS-docs/en/versions.html"><h3>0.85.1</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/AIS-docs/docs/en/ais_bramka_index.html" target="_self">Bramka</a></li><li class=""><a href="/AIS-docs/docs/en/ais_app_index.html" target="_self">Aplikacja</a></li><li class=""><a href="/AIS-docs/docs/en/ais_remote_index.html" target="_self">Pilot</a></li><li class=""><a href="/AIS-docs/docs/en/ais_iot_index.html" target="_self">Urządzenia</a></li><li class="siteNavGroupActive"><a href="/AIS-docs/blog/" target="_self">Aktualności</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><i></i></div><h2><i>›</i><span>Recent Posts</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Recent Posts</h3><ul><li class="navListItem navListItemActive"><a class="navItem" href="/AIS-docs/blog/2019/01/23/sensors-pv.html">Monitorowanie instalacji fotowoltaicznej - Znaj swoją moc!</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/blog/2019/01/21/release-notes.html">Wersja systemu 0.85.1</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/blog/2018/12/31/release-notes.html">Wersja systemu 0.84.6</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/blog/2018/12/10/release-notes.html">Wersja systemu 0.83.7</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/blog/2018/11/29/release-notes.html">Wersja systemu 0.82.3</a></li></ul></div></div></section></div><script>
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              const headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                if (event.target.tagName === 'A') {
+                  document.body.classList.remove('tocActive');
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer postContainer blogContainer"><div class="wrapper"><div class="lonePost"><div class="post"><header class="postHeader"><h1 class="postHeaderTitle"><a href="/AIS-docs/blog/2019/01/23/sensors-pv.html">Monitorowanie instalacji fotowoltaicznej - Znaj swoją moc!</a></h1><p class="post-meta">January 23, 2019</p><div class="authorBlock"><p class="post-authorName"><a href="https://github.com/sviete" target="_blank" rel="noreferrer noopener">Andrzej Raczkowski</a></p><div class="authorPhoto"><a href="https://github.com/sviete" target="_blank" rel="noreferrer noopener"><img src="https://graph.facebook.com/1546384510/picture/?height=200&amp;width=200" alt="Andrzej Raczkowski"/></a></div></div></header><div><span><h2><a class="anchor" aria-hidden="true" id="instalacja-fotowoltaiczna-z-optymalizatorami"></a><a href="#instalacja-fotowoltaiczna-z-optymalizatorami" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalacja fotowoltaiczna z optymalizatorami</h2>
+<p>Przeszło 2 lata temu, pod koniec roku 2016 zdecydowaliśmy się na montarz instalacji fotowoltaicznej. Wcześniej czytałem o tym jak działa instalacja PV i dowiedziałem się, że w klasycznej instalacji moduły są połączone w szeregu z innymi modułami dlatego spadek prądu na jednym (np na skutek zacienienia) module przekłada się na spadek prądu na całym szeregu modułów. Ze wgledu na skomplikowaną połać dachową uznałem, że może to mieć znaczenie i w ramach obejścia tego problemu zastosowaliśmy panele fotowoltaiczne z optymalizatorami mocy.</p>
+<blockquote>
+<p>Optymalizator mocy ma za zadanie obciążyć moduł w sposób optymalny, czyli taki, w który w danych warunkach oświetlenia zapewni na wyjściu największą możliwą moc niezależnie do tego, jaki prąd i napięcie generują pozostałe moduły w szeregu.</p>
+</blockquote>
+<p>Tak wyglądał dach w trakcie montarzu, jak widać nie jest to prosta powierzchnia.</p>
+<p><img src="/AIS-docs/img/en/blog/201901/pv2.jpg" alt="Aplikacja asystent domowy ogrzewanie"></p>
+<p>Panele z optymaizatorami są droższe od tych bez optymalizatorów, koszt optymalizatora w moim przypadku wyniusł około 180zł na panel. 180 x 28 = 5040 zł więcej. Od początku zadawałem sobie pytnie czy taki wydatek się kiedykolwiek zwróci? Producent zapewnia, że to ma sens... ale ja postanowiłem monitorować pracę instalacji oraz produkję prądu z każdego panela żeby to sprawdzić :)</p>
+<h2><a class="anchor" aria-hidden="true" id="komponent-pvoutput-i-czujniki-w-systemie-asystent-domowy"></a><a href="#komponent-pvoutput-i-czujniki-w-systemie-asystent-domowy" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Komponent PVOutput i czujniki w systemie Asystent domowy</h2>
+<p>Z pomocą przyszło mi API producenta oraz <strong>Asystent domowy</strong>. Podłączyłem się do API za pomocą własnego komponentu, w tej chwili można to już zrobić za pomocą oficjanlej integracji, szczegóły dla zainteresowanych pod tym adresem: <a href="https://www.home-assistant.io/components/sensor.pvoutput/" target="_blank">PVOutput Sensor</a>  <br>
+Integracja pozwala uzyskać szczegółowe informacje z instalacji fotowoltaicznej w systemie Asystent domowy. Monitorowane parametry instalacji dostępne są w systeie w formie czujników, w ten sposób możemy mieć łatwy wgląd w bieżącą produkcję, produkcję z ostatniego dnia, tygodnia, miesiąca, roku oraz całkowitą produkcję od początku działania instalacji.</p>
+<p><img src="/AIS-docs/img/en/blog/201901/pv_icons.png" alt="Asystent domowy PV Ikony"></p>
+<h2><a class="anchor" aria-hidden="true" id="pytanie-o-status-czujnikow-znaj-swoją-moc"></a><a href="#pytanie-o-status-czujnikow-znaj-swoją-moc" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Pytanie o status czujników - Znaj swoją moc!</h2>
+<p>Oczywiście w naszym systemie <strong>Asystent domowy</strong> o status każdego czujnika możemy też zapytać i asystentka odpowie nam jaka jest jego wartość. Czyli tak samo jak o temperaturę w pokoju możemy zapytać o to jaka jest produkcja prądu, szczegółowo jest to opisane w dokumentacji <a href="/AIS-docs/docs/en/ais_app_assistent_commands.html#status-czujnikow">Komendy - status czujników</a>. Przykładowo możemy zapytać:</p>
+<pre><code class="hljs css language-text"> "Jaka jest aktualna produkcja prądu?"
+</code></pre>
+<p><img src="/AIS-docs/img/en/blog/201901/pv6.png" alt="Asystent domowy PV 6"></p>
+<p>Informacje o statusie każdego czujnika są też logowane w bazie danych na urządzeniu, dzięki czemu łatwo możemy sprawdzić na wykresie jak kształtowała się produkcja w czasie. Wystarczy nacisnąć w aplikacji na czujnik żeby zobaczyć wykres jego wartości w czasie:</p>
+<p><img src="/AIS-docs/img/en/blog/201901/pv8.png" alt="Aplikacja asystent domowy PV"></p>
+<h2><a class="anchor" aria-hidden="true" id="czas-na-matematykę"></a><a href="#czas-na-matematykę" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Czas na matematykę</h2>
+<p>Na koniec czas na matematykę i sprawdzenie czy wydane 5040zł na optymalizatory ma szanse się zwrócić?</p>
+<p><img src="/AIS-docs/img/en/blog/201901/pv4.png" alt="Aplikacja asystent domowy PV"></p>
+<p>Z rysunku rozkładu paneli na dachu widać, że <strong>cała instalacja wyprodukowała dotychczas 14.86 MWh</strong>, najmocniejszy panel wyprodukował 601 KWh a najsłabszy 456 KWh.
+Dla uproszczenia założę, że gdyby nie optymalizatory każdy panel wyprodukował by tyle samo co najsłabszy, czyli 456 KWh.</p>
+<pre><code class="hljs css language-text">456 KWh * 28 paneli = 12.77 MWh
+12.77 MWh - tyle  wyprodukowała by instalacja bez optymalizacji
+
+14.86 MWh - 12.77 MWh = 2.09 MWh
+2.09 MWh - tyle mamy więcej prądu dzięki optymalizacji
+
+2.09 MWh = 2090 KWh * 0.55zł = 1149.5 zł
+1149.5 zł - tyle zaoszczędziliśmy pieniędzy dzięki optymalizacji w ciągu 2 lat
+
+5040 / 1149.5 * 2 = 8.7 lat
+8.7 lat - czas zwrotu inwestycji w optymalizatory
+</code></pre>
+<h2><a class="anchor" aria-hidden="true" id="czy-to-się-opłaca"></a><a href="#czy-to-się-opłaca" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Czy to się opłaca?</h2>
+<p>Każdy z nas ma swoją ekonomię i nie da się jednoznacznie odpowiedzieć na to pytanie. Słyszałem, że są firmy które nie robią inwestycji jeżeli nie zwrócą się one po 2 latach. Inwestycja w fotowoltaikę to na pewno inwestycja z myślą o dużo dalszej przyszłości :)</p>
+<p>Z pewnością opłaca się monitorować i kontrolować pracę urządzeń w naszym domu, szczególnie gdy kupi się panele od niemieckiego producenta z 25 letnią gwarancją mocy ;)
+Zadanie monitorowaia i kontorlowania chętnie ułatwi system Asystent domowy.
+Samych słonecznych dni w 2019 roku :)</p>
+<p><img src="/AIS-docs/img/en/blog/201901/pv1.jpg" alt="Aplikacja asystent domowy ogrzewanie"></p>
+<p><img src="/AIS-docs/img/en/blog/201901/pv7.png" alt="Asystent domowy PV 7"></p>
+</span></div></div><div class="blogSocialSection"></div></div><div class="blog-recent"><a class="button" href="/AIS-docs/blog">Recent Posts</a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#instalacja-fotowoltaiczna-z-optymalizatorami">Instalacja fotowoltaiczna z optymalizatorami</a></li><li><a href="#komponent-pvoutput-i-czujniki-w-systemie-asystent-domowy">Komponent PVOutput i czujniki w systemie Asystent domowy</a></li><li><a href="#pytanie-o-status-czujnikow-znaj-swoją-moc">Pytanie o status czujników - Znaj swoją moc!</a></li><li><a href="#czas-na-matematykę">Czas na matematykę</a></li><li><a href="#czy-to-się-opłaca">Czy to się opłaca?</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy, dokumentacja" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2019 AI-Speaker</section></footer></div></body></html>
