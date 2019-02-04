@@ -8,15 +8,25 @@
       "ais_bramka_services",
       "ais_bramka_settings"
     ],
-    "Dostęp": [
+    "Dostęp w sieci lokalnej": [
       "ais_bramka_remote_index",
       "ais_bramka_remote_http",
       "ais_bramka_remote_https",
       "ais_bramka_remote_ftp",
-      "ais_bramka_remote_ssh",
+      "ais_bramka_remote_ssh"
+    ],
+    "Dostęp z Internetu": [
+      "ais_bramka_remote_www_index",
       "ais_bramka_remote_tor",
       "ais_bramka_remote_serveo"
 
+    ],
+    "Portal Integratora": [
+      "ais_dom_cloud_index",
+      "ais_dom_cloud_login",
+      "ais_dom_cloud_gates",
+      "ais_dom_cloud_content",
+      "ais_dom_cloud_services"
     ],
     "API": [
       "ais_bramka_api_index",
@@ -28,7 +38,7 @@
     "Aplikacja": [
       "ais_app_index",
       "ais_app_views",
-      "ais_app_groups"
+      "ais_app_cards"
     ],
     "Komponenty": [
       "ais_app_components_index",
@@ -61,7 +71,8 @@
   "Urządzenia": {
     "Urządzenia": [
       "ais_iot_index",
-      "ais_iot_works_with"
+      "ais_iot_works_with",
+      "ais_iot_s26"
     ],
     "Oprogramowanie dla urządzeń": [
       "ais_iot_firmware_index",

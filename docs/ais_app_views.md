@@ -3,67 +3,33 @@ title: "Widoki"
 sidebar_label: Widoki
 ---
 
-Aby ułatwić nawigowanie po aplikacji karty(grupy elementów) w interfejsie użytkownika pogrupowane są w widokach.
+Aby ułatwić nawigowanie po aplikacji, karty(grupy elementów) w interfejsie użytkownika pogrupowane są w widokach.
 
 ## Domyślne widoki
 
-Domyślnie w interfejsie użytkownika dostępnym z aplikacji mamy 7 widoków:
+Domyślnie w interfejsie użytkownika dostępnym z aplikacji mamy 11 widoków:
 
-- Twój Dom
-- Pogoda
-- Wiadomości
-- Audio
-- Ustawienia
-- Pomoc
-- System (w tym widoku są dostępne zaawansowane ustawienia i informacje, docelowo widok ten nie będzie potrzebny/wyświetlany)
 
 ![Aplikacja asystent domowy](/AIS-docs/img/en/frontend/frontend-views.png)
+
+|Twój Dom|Pogoda|Radio|Wiadomości|Podcasty|Muzyka|Książki|Dyski|Ustawienia|Pomoc|
+|--------|------|-----|----------|--------|------|-------|-----|----------|-----|
+i widok System (w tym widoku są dostępne zaawansowane ustawienia i informacje, docelowo widok ten nie będzie potrzebny/wyświetlany)
 
 
 ## Tworzenie własnych widoków
 
->**Jeśli chcesz możesz sam tworzyć i zmieniać widoki** (zakładki w aplikacji), które mogą np. mieć nazwy "Pokój dzienny", "Łazienka", "Sypialnia" i zawierać pogrupowane urządzenia w poszczególnych pomieszczeniach znajdujących się w domu.
+>**Jeśli chcesz możesz sam tworzyć i zmieniać widoki** (zakładki w aplikacji), które mogą np. mieć nazwy **"Salon"**, **"Łazienka"**, **"Sypialnia"** i zawierać pogrupowane urządzenia w poszczególnych pomieszczeniach znajdujących się w domu.
 
 
 
-Widoki definiuje się w pliku konfiguracyjnym systemu.
-
-Więcej technicznych informacji dostępnych jest na stronie projektu platformy Home Assistant, w zakładce [Komponenty -> Grupy: ](https://www.home-assistant.io/components/group/) https://www.home-assistant.io/components/group/
+Widoki definiuje się w aplikacji po wybraniu opcji **Konfiguracja interfejsu użytkownika** dostępnej w prawym górnym rogu aplikacji.
 
 
+![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/lovelace-ui-conf1.png)
 
-Przykład domyślnej konfiguracji Asystenta domowego:
 
-`main_ais_groups.yaml`:
+![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/lovelace-ui-conf2.png)
 
-```yaml
-group:
-  default_view:
-    name: Dom
-    view: yes
-    icon: mdi:home-outline
-  pogoda:
-    name: Pogoda
-    view: yes
-    icon: mdi:weather-partlycloudy
-  news:
-    name: Wiadomości
-    view: yes
-    icon: mdi:newspaper
-  audio:
-    name: Audio
-    view: yes
-    icon:  mdi:music
-  settings:
-    name: Ustawienia
-    view: yes
-    icon:  mdi:settings
-  pomoc:
-      name: Pomoc
-      view: yes
-      icon: mdi:help
-  system:
-      name: System
-      view: yes
-      icon: mdi:console
-```
+
+Więcej informacji oraz demo interfejsu dostępne są na stronie projektu platformy Home Assistant [Lovelace UI](https://www.home-assistant.io/lovelace/) https://www.home-assistant.io/lovelace/

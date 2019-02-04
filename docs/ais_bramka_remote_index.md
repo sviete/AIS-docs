@@ -1,5 +1,5 @@
 ---
-title: "Dostęp do bramki"
+title: "Dostęp do bramki w lokalnej sieci"
 sidebar_label: Wprowadzenie
 ---
 

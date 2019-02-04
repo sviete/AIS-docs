@@ -17,6 +17,10 @@
         "title": "Asystent",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_app_cards": {
+        "title": "Karty",
+        "sidebar_label": "Karty"
+      },
       "ais_app_components_index": {
         "title": "Komponenty",
         "sidebar_label": "Wprowadzenie"
@@ -70,11 +74,11 @@
         "sidebar_label": "HTTPS"
       },
       "ais_bramka_remote_index": {
-        "title": "Dostęp do bramki",
+        "title": "Dostęp do bramki w lokalnej sieci",
         "sidebar_label": "Wprowadzenie"
       },
       "ais_bramka_remote_serveo": {
-        "title": "Dostęp do bramki z Internetu",
+        "title": "Zdalne przekazywania portów SSH",
         "sidebar_label": "Serveo"
       },
       "ais_bramka_remote_ssh": {
@@ -84,6 +88,10 @@
       "ais_bramka_remote_tor": {
         "title": "Dostęp do bramki w sieci TOR",
         "sidebar_label": "TOR"
+      },
+      "ais_bramka_remote_www_index": {
+        "title": "Dostęp do bramki z Internetu",
+        "sidebar_label": "Wprowadzenie"
       },
       "ais_bramka_role": {
         "title": "Rola bramki",
@@ -117,6 +125,26 @@
         "title": "Aktualizacja ręczna",
         "sidebar_label": "Aktualizacja ręczna"
       },
+      "ais_dom_cloud_content": {
+        "title": "Konfiguracja treści",
+        "sidebar_label": "Konfiguracja treści"
+      },
+      "ais_dom_cloud_gates": {
+        "title": "Moje bramki",
+        "sidebar_label": "Moje bramki"
+      },
+      "ais_dom_cloud_index": {
+        "title": "Portal integratora",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "ais_dom_cloud_login": {
+        "title": "Logowanie",
+        "sidebar_label": "Logowanie"
+      },
+      "ais_dom_cloud_services": {
+        "title": "Usługi",
+        "sidebar_label": "Usługi"
+      },
       "ais_iot_firmware_index": {
         "title": "Oprogramowanie dla urządzeń automatyki domowej",
         "sidebar_label": "Wprowadzenie"
@@ -128,6 +156,10 @@
       "ais_iot_index": {
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
+      },
+      "ais_iot_s26": {
+        "title": "S26, inteligentne gniazdo WiFi",
+        "sidebar_label": "Inteligentne gniazdo WiFi"
       },
       "ais_iot_works_with": {
         "title": "Działa z Asystentem domowym",
@@ -463,7 +495,9 @@
     },
     "categories": {
       "Bramka": "Bramka",
-      "Dostęp": "Dostęp",
+      "Dostęp w sieci lokalnej": "Dostęp w sieci lokalnej",
+      "Dostęp z Internetu": "Dostęp z Internetu",
+      "Portal Integratora": "Portal Integratora",
       "API": "API",
       "Aplikacja": "Aplikacja",
       "Komponenty": "Komponenty",
@@ -472,7 +506,8 @@
       "Pilot radiowy": "Pilot radiowy",
       "Najczęstrze pytania": "Najczęstrze pytania",
       "Urządzenia": "Urządzenia",
-      "Oprogramowanie dla urządzeń": "Oprogramowanie dla urządzeń"
+      "Oprogramowanie dla urządzeń": "Oprogramowanie dla urządzeń",
+      "Dostęp": "Dostęp"
     }
   },
   "pages-strings": {
