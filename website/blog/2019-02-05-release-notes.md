@@ -14,4 +14,4 @@ w tej wersji dodano:
 - nanjnowszy Home Assistant <a href="https://www.home-assistant.io/blog/2019/01/23/release-86/" target="_blank">0.86</a>
 
 
-![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/lovelace-ui-conf2.png)
+![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/frontend-card-edit.png)

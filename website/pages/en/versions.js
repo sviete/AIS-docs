@@ -43,7 +43,17 @@ class Versions extends React.Component {
                 </tr>
               </tbody>
             </table>
-
+            <h3 id="rc">Wersja przedpremierowa (aktualnie rozwijana)</h3>
+            <table className="versions">
+              <tbody>
+                <tr>
+                  <th>next</th>
+                  <td>
+                    <a href={versionUrl(this.props.language, 'next')}>Dokumentacja</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
             <h3 id="archive">Wcześniejsze wersje</h3>
             <table className="versions">
               <tbody>

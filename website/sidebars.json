@@ -17,6 +17,7 @@
     ],
     "Dostęp z Internetu": [
       "ais_bramka_remote_www_index",
+      "ais_bramka_remote_dom_tunnel",
       "ais_bramka_remote_tor",
       "ais_bramka_remote_serveo"
 
@@ -38,7 +39,8 @@
     "Aplikacja": [
       "ais_app_index",
       "ais_app_views",
-      "ais_app_cards"
+      "ais_app_cards",
+      "ais_app_ui_config"
     ],
     "Komponenty": [
       "ais_app_components_index",
@@ -53,7 +55,12 @@
       "ais_bramka_update_index",
       "ais_bramka_update_auto",
       "ais_bramka_update_logs",
-      "ais_bramka_update_manual"
+      "ais_bramka_update_manual",
+      "ais_bramka_update_force"
+    ],
+    "Reset do ustawień fabrycznych": [
+      "ais_bramka_reset_index",
+      "ais_bramka_reset_step_by_step"
     ]
   },
   "Pilot radiowy": {

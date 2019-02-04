@@ -5,13 +5,13 @@ sidebar_label: Wprowadzenie
 
 Jeśli chcesz możesz skonfigurować dostęp do Twojej lokalnej bramki przez Internet. Dzięki temu będziesz mógł sterować automatyką w swoim domu (także głosowo) nie tylko w swojej lokalnej sieci ale też z dowolnego miejsca z dostępem do Internetu.
 
-Jedną z metod by to osiągnąć jest przekierowanie portów na routerze, w przypadku aplikacji sprowadza się do przekierowania portu 8123 z bramki na wolny port na routerze. Router jest dostępny z internetu więc wywołując jego adres na udostępnionym porcie można uzyskać dostęp do aplikacji Asystent domowy. To jak wykonać takie przekierowanie zależy do modelu routera, szczegółowy opis należy sprawdzić instrukcję routera.
+> Gdy dodajesz dostęp z Internetu do swojej bramki to **pamiętaj o  bezpieczeństwie**. Należy odpowiednio skonfigurować logowanie do Asystenta domowego w celu zabezpieczenia dostępu, patrz opis: [**Zabezpieczenie dostępu do aplikacji**](#zabezpieczenie-dostępu-do-aplikacji).
 
+## Przekierowanie portów na routerze
 
-## Udostępnianie bramki w Internecie
+Jedną z metod na udostępnienie bramki z Internetu jest przekierowanie portów na routerze. W przypadku aplikacji sprowadza się do przekierowania portu 8123 z bramki na wolny port na routerze. Router jest dostępny z internetu więc wywołując jego adres na udostępnionym porcie można uzyskać dostęp do aplikacji Asystent domowy. To jak wykonać takie przekierowanie zależy do modelu routera, szczegółowy opis należy sprawdzić instrukcję routera.
 
-> Gdy dodajesz dostęp z Internetu do swojej bramki to **pamiętaj o  bezpieczeństwie**. Należy odpowiednio skonfigurować logowanie do Asystenta domowego w celu zabezpieczenia dostępu, **patrz opis poniżej**.
-
+## Zabezpieczenie dostępu do aplikacji
 
 W celu zabezpieczenia dostępu:
 
@@ -46,3 +46,5 @@ Moduł uwierzytelniania wieloskładnikowego po podaniu hasła (coś co wiemy)  w
 W celu włączenia tego zabezpieczenia należy przejść do ustawienia użytkownika a następnie postępować zgodnie z instrukcją zamieszczoną w regionie **Moduły uwierzytelniania wieloskładnikowego**
 
 ![Hasło jednorazowe](/AIS-docs/img/en/bramka/totp_settings.png)
+
+

@@ -37,6 +37,10 @@
         "title": "Aplikacja",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_app_ui_config": {
+        "title": "Konfiguracja interfejsu użytkownika",
+        "sidebar_label": "Konfiguracja"
+      },
       "ais_app_views": {
         "title": "Widoki",
         "sidebar_label": "Widoki"
@@ -60,6 +64,10 @@
       "ais_bramka_index": {
         "title": "Bramka",
         "sidebar_label": "Wprowadzenie"
+      },
+      "ais_bramka_remote_dom_tunnel": {
+        "title": "Tunelowanie połączenia TCP",
+        "sidebar_label": "Tunel"
       },
       "ais_bramka_remote_ftp": {
         "title": "Dostęp do bramki po FTP",
@@ -93,6 +101,14 @@
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_bramka_reset_index": {
+        "title": "Przywracanie ustawień fabrycznych urządzenia",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "ais_bramka_reset_step_by_step": {
+        "title": "Przywracanie ustawień fabrycznych urządzenia",
+        "sidebar_label": "Procedura"
+      },
       "ais_bramka_role": {
         "title": "Rola bramki",
         "sidebar_label": "Rola bramki"
@@ -113,6 +129,10 @@
         "title": "Aktualizacja automatyczna",
         "sidebar_label": "Aktualizacja automatyczna"
       },
+      "ais_bramka_update_force": {
+        "title": "Wymuszenie aktualizacji",
+        "sidebar_label": "Wymuszenie aktualizacji"
+      },
       "ais_bramka_update_index": {
         "title": "Aktualizacja oprogramowania",
         "sidebar_label": "Wprowadzenie"
@@ -122,7 +142,7 @@
         "sidebar_label": "Logi aktualizacji"
       },
       "ais_bramka_update_manual": {
-        "title": "Aktualizacja ręczna",
+        "title": "Aktualizacja ręczna krok po kroku",
         "sidebar_label": "Aktualizacja ręczna"
       },
       "ais_dom_cloud_content": {
@@ -503,6 +523,7 @@
       "Komponenty": "Komponenty",
       "Asystent": "Asystent",
       "Aktualizacja": "Aktualizacja",
+      "Reset do ustawień fabrycznych": "Reset do ustawień fabrycznych",
       "Pilot radiowy": "Pilot radiowy",
       "Najczęstrze pytania": "Najczęstrze pytania",
       "Urządzenia": "Urządzenia",

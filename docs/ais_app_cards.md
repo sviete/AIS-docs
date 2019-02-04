@@ -6,56 +6,19 @@ sidebar_label: Karty
 Widoki zawierają pogrupowane element systemu wyświetlane na kartach.
 
 
-## Karty
-Grupy w aplikacji mogą być wyświetlane jako karty, na przykład grupa pogoda:
+## Typy kart
 
-![Aplikacja asystent domowy](/AIS-docs/img/en/frontend/frontend-group.png)
+W obecnej wersji mamy [24 typy kart](https://www.home-assistant.io/lovelace/alarm-panel/) które możemy konfigurować i na których możemy umieszczać nasze elementy systemu.
+Dodatkowo istnieje wiele dodatkowych typów kart tworzonych przez społeczność [repozytorium dodatkowych typów kart](https://github.com/custom-cards). Oczywiście zaawansowani użytkownicy mogą definiować własne typy kart.
 
+![Przykład karty](/AIS-docs/img/en/frontend/frontend-card-plant.png)
 
-## Specjalne grupy
+## Dodawanie karty
 
-Nasze komponenty automatycznie tworzą specjalne grupy, zawierające elementy składowe. W naszym systemie takie grupy to na przykład:
+Możesz sam dodawać własne karty lub edytować istniejące, w celu dopasowania interfejsu systemu do własnych potrzeb. Konfituracja dostępna jest bezpośrednio z aplikacji (działającej w przeglądarce)
 
-### Wszystkie przełączniki
+![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/frontend-card-edit.png)
 
-![Aplikacja asystent domowy](/AIS-docs/img/en/frontend/frontend-group-all-switches.png)
+## Włączenie konfiguracji
 
-
-### Wszystkie światła
-
-![Aplikacja asystent domowy](/AIS-docs/img/en/frontend/frontend-group-all-lights.png)
-
-
-### Wszystkie czujniki
-
-![Aplikacja asystent domowy](/AIS-docs/img/en/frontend/frontend-group-all-sensors.png)
-
-
-## Tworzenie własnych grup
-
->**Jeśli chcesz możesz sam tworzyć własne grupy** w celu dopasowania interfejsu systemu do własnych potrzeb.
-
-
-
-Grupy definiuje się w pliku konfiguracyjnym systemu.
-
-Więcej technicznych informacji dostępnych jest na stronie projektu platformy Home Assistant, w zakładce [Komponenty -> Grupy: ](https://www.home-assistant.io/components/group/) https://www.home-assistant.io/components/group/
-
-
-Przykład konfiguracji grupy "Radia Internetowe" w systemie Asystent domowy:
-
-`ais_radio_player.yaml`:
-
-```yaml
-group:
-  Radio Player:
-    control: hidden
-    name: Radia Internetowe
-    entities:
-      - input_select.radio_type
-      - input_select.radio_station_name
-      - input_select.radio_player
-```
-
-
-![Aplikacja asystent domowy](/AIS-docs/img/en/frontend/frontend-group-radio.png)
+Włączenie konfiguracji opisane jest tu [Konfiguracja interfejsu użytkownika](/AIS-docs/docs/en/ais_app_ui_config.html)

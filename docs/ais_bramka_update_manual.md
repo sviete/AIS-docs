@@ -1,5 +1,5 @@
 ---
-title: "Aktualizacja ręczna"
+title: "Aktualizacja ręczna krok po kroku"
 sidebar_label: Aktualizacja ręczna
 ---
 
@@ -9,33 +9,41 @@ W razie niepowodzenia procedury instalacji automatycznie przywracamy poprzednią
 
 Aktualizacja “krok po kroku” nie jest trudna i sprowadza się oczywiście do tych samych 3 kroków co w przypadku aktualizacji automatycznej:
 
-### aktualizacja środowiska Linux-a
+## Aktualizacja środowiska Linux-a
 w konsoli (na urządzeniu lub po ssh) wpisujemy komendę:
 
 ```bash
-$ apt update
+apt update
 ```
 
 a następnie komendę:
 
 ```bash
-$ apt upgrade
+apt upgrade
 ```
 
 
-### aktualizacja platformy automatyzacji
+## Aktualizacja platformy automatyzacji
 w konsoli (na urządzeniu lub po ssh) wpisujemy komendę:
 
 ```bash
 pip install ais-dom -U
 ```
 
-### aktualizacja aplikacji
-w przeglądarce internetowej przechodzimy na adres aplikacji w  Google Play: https://play.google.com/store/apps/details?id=pl.sviete.dom&rdid=pl.sviete.dom
-logujemy się na konto które mamy na bramce i jeżeli jest dostępna nowa wersja to zlecamy aktualizację aplikacji:
+## Aktualizacja aplikacji
 
+żeby pobrać najnowszą wersję aplikacji w konsoli (na urządzeniu lub po ssh) wpisujemy komendę:
 
-<img
-  src='/AIS-docs/img/en/bramka/new_version_from_google_play.png'
-  alt='Bramka AIS dom'
-/>
+```bash
+curl -o "/data/data/pl.sviete.dom/files/usr/tmp/AisPanelApp.apk" -L https://powiedz.co/ota/android/AisPanelApp.apk
+```
+
+a następnie żeby ją zainstalować wykonujemy komendę 
+
+```bash
+su -c "pm install -r /data/data/pl.sviete.dom/files/usr/tmp/AisPanelApp.apk"
+```
+
+## Czy nie można prościej?
+
+Oczywiście można - wystarczy uruchomić wszystkie komendy jednym skryptem - patrz [Wymuszenie aktualizacji](/AIS-docs/docs/en/ais_bramka_update_force.html) 
