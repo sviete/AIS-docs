@@ -1,7 +1,7 @@
 ---
 title: Asystent
 sidebar_label: Wprowadzenie
-id: version-0.86.4-ais_app_assistent
+id: version-0.86.7-ais_app_assistent
 original_id: ais_app_assistent
 ---
 

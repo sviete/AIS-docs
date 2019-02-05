@@ -2,10 +2,10 @@
 author: Andrzej Raczkowski
 authorURL: https://github.com/sviete
 authorFBID: 1546384510
-title: Wersja systemu 0.86.6  
+title: Wersja systemu 0.86.7  
 ---
 
-## Wersja systemu 0.86.6 z dnia 05 lutego 2019 roku,
+## Wersja systemu 0.86.7 z dnia 05 lutego 2019 roku,
 
 w tej wersji dodano:
 - nowy interfejs użytkownika umożliwiający łatwą konfigurację aplikacji z przeglądarki [Karty](/AIS-docs/docs/en/ais_app_cards.html)

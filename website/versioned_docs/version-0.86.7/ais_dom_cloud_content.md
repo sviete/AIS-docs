@@ -1,7 +1,7 @@
 ---
 title: Konfiguracja treści
 sidebar_label: Konfiguracja treści
-id: version-0.86.4-ais_dom_cloud_content
+id: version-0.86.7-ais_dom_cloud_content
 original_id: ais_dom_cloud_content
 ---
 

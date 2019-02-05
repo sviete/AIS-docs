@@ -1,7 +1,7 @@
 ---
 title: Logi aktualizacji
 sidebar_label: Logi aktualizacji
-id: version-0.86.4-ais_bramka_update_logs
+id: version-0.86.7-ais_bramka_update_logs
 original_id: ais_bramka_update_logs
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Karty
 sidebar_label: Karty
-id: version-0.86.4-ais_app_cards
+id: version-0.86.7-ais_app_cards
 original_id: ais_app_cards
 ---
 

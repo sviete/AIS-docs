@@ -1,7 +1,7 @@
 ---
 title: Wymuszenie aktualizacji
 sidebar_label: Wymuszenie aktualizacji
-id: version-0.86.4-ais_bramka_update_force
+id: version-0.86.7-ais_bramka_update_force
 original_id: ais_bramka_update_force
 ---
 

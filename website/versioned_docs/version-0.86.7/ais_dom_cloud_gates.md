@@ -1,7 +1,7 @@
 ---
 title: Moje bramki
 sidebar_label: Moje bramki
-id: version-0.86.4-ais_dom_cloud_gates
+id: version-0.86.7-ais_dom_cloud_gates
 original_id: ais_dom_cloud_gates
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Aktualizacja ręczna krok po kroku
 sidebar_label: Aktualizacja ręczna
-id: version-0.86.4-ais_bramka_update_manual
+id: version-0.86.7-ais_bramka_update_manual
 original_id: ais_bramka_update_manual
 ---
 

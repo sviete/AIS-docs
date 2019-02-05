@@ -1,7 +1,7 @@
 ---
 title: Logowanie
 sidebar_label: Logowanie do Portalu integratora
-id: version-0.86.4-ais_dom_cloud_login
+id: version-0.86.7-ais_dom_cloud_login
 original_id: ais_dom_cloud_login
 ---
 

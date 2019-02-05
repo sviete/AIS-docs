@@ -1,7 +1,7 @@
 ---
 title: Zdalne przekazywania portów SSH
 sidebar_label: Serveo
-id: version-0.86.4-ais_bramka_remote_serveo
+id: version-0.86.7-ais_bramka_remote_serveo
 original_id: ais_bramka_remote_serveo
 ---
 

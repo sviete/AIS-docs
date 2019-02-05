@@ -1,11 +1,11 @@
 ---
 title: Przywracanie ustawień fabrycznych urządzenia
 sidebar_label: Procedura
-id: version-0.86.4-ais_bramka_reset_step_by_step
+id: version-0.86.7-ais_bramka_reset_step_by_step
 original_id: ais_bramka_reset_step_by_step
 ---
 
-> Przywrócenie urządzenia do pierwotnych ustawień producenta wykonuje się zwykle, aby się zwykle aby rozwiązać poważny problem z urządzeniem, którego nie daje się rozwiązać w inny sposób.
+> Przywrócenie urządzenia do pierwotnych ustawień producenta wykonuje się zwykle, aby rozwiązać poważny problem z urządzeniem, którego nie daje się rozwiązać w inny sposób.
 
 
 1. Odłącz bramkę od zasilania. Możesz zostawić zasilacz w gnieździe zasilania i odłączyć zasilanie od tylnej części obudowy.

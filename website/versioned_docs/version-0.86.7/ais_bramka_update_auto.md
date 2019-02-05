@@ -1,7 +1,7 @@
 ---
 title: Aktualizacja automatyczna
 sidebar_label: Aktualizacja automatyczna
-id: version-0.86.4-ais_bramka_update_auto
+id: version-0.86.7-ais_bramka_update_auto
 original_id: ais_bramka_update_auto
 ---
 

@@ -1,13 +1,13 @@
 ---
 title: Portal integratora
 sidebar_label: Wprowadzenie
-id: version-0.86.4-ais_dom_cloud_index
+id: version-0.86.7-ais_dom_cloud_index
 original_id: ais_dom_cloud_index
 ---
 
 Portal integratora to aplikacja pozwalająca na zdalną konfigurację treści oraz usług dostępnych na urządzeniach.
 
-Ta funkcjonalność powstała jako odpowiedz na zgłaszane nam potrzeby przez użytkoników:
+Ta funkcjonalność powstała jako odpowiedź na zgłaszane nam potrzeby przez użytkowników:
 
 
 1. Integrator naszego systemu chce sam zarządzać treścią dostępną na bramce dla swoich użytkowników

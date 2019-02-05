@@ -1,7 +1,7 @@
 ---
 title: Widoki
 sidebar_label: Widoki
-id: version-0.86.4-ais_app_views
+id: version-0.86.7-ais_app_views
 original_id: ais_app_views
 ---
 
