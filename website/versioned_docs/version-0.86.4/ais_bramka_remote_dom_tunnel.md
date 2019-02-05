@@ -9,7 +9,7 @@ original_id: ais_bramka_remote_dom_tunnel
 Jednym ze sposobów na dostęp do bramki z Internetu jest tunelowanie połączenia TCP.
 
 
->**Uwaga ta usługa działa w wersji testowej**. Jest to dość nowatorskie podejście i wymaga sprawdzenia jak poradzi sobie wydajnościowo nasz serwer na większej ilości klietów. Usługa jest darmowa, będziemy starali się ją rozwijać i wspierać tak żeby dostęp z Internetu do bramki był bezpieczny i tak wygodny jak to tylko możliwe. **Na tym etapie nie gwaratujemy poprawnego działania tej usługi. W razie problemów z dostępem do bramki z Internetu prosimy o informację** i proponujemy sprawdzić alternatywne rozwiązania: [TOR](/AIS-docs/docs/en/ais_bramka_remote_tor.html) i [Serveo](/AIS-docs/docs/en/ais_bramka_remote_serveo.html)   
+>**Uwaga! Ta usługa działa w wersji testowej**. Jest to dość nowatorskie podejście i wymaga sprawdzenia, jak poradzi sobie wydajnościowo nasz serwer na większej ilości klietów. Usługa jest darmowa, będziemy starali się ją rozwijać i wspierać tak żeby, dostęp z Internetu do bramki był bezpieczny i tak wygodny, jak to tylko możliwe. **Na tym etapie nie gwaratujemy poprawnego działania tej usługi. W razie problemów z dostępem do bramki z Internetu prosimy o informację** i proponujemy sprawdzić alternatywne rozwiązania: [TOR](/AIS-docs/docs/en/ais_bramka_remote_tor.html) i [Serveo](/AIS-docs/docs/en/ais_bramka_remote_serveo.html)   
 
 
 ## Zalety
@@ -28,13 +28,13 @@ Wraz z aktualizacją do wersji 0.86.4 dodaliśmy do pramki nowy komponent, kody
 ## Jak to działa
 
 Każde urządzenie posiasa swój unikalny identyfikator, jest on losowo generowany przy pierwszym uruchomieniu i pozostaje stały przez cały okres użytkowania urządzenia.
-Gdy włączysz dostęp z Internetu otwieramy połączenie TCP pomiędzy Twoim urządzeniem a naszym serwerem i tworzymy na serwerze unikalny(na bazie identyfikatora urządzenia) publicznie dostępny adres URL.
-Adres ten pełni funkcję proxy wszystkie wywołania do naszego serwera adresowane identyfikatorem bramki przekazujemy do lokalnie działającego serwera na bramce.
+Gdy włączysz dostęp z Internetu, otwieramy połączenie TCP pomiędzy Twoim urządzeniem a naszym serwerem i tworzymy na serwerze unikalny (na bazie identyfikatora urządzenia), publicznie dostępny adres URL.
+Adres ten pełni funkcję proxy - wszystkie wywołania do naszego serwera adresowane identyfikatorem bramki przekazujemy do lokalnie działającego serwera na bramce.
 
 
 ## Włączenie
 
-Przejdz w aplikacji lub pilotem do karty System a następnie włącz opcję **"Dostęp z Intenertu"**
+Przejdz w aplikacji lub pilotem do karty System a następnie włącz opcję **"Dostęp z Internetu"**
 
 
 > W celu zachowania większego bezpieczeństwa, po każdym restarcie bramki dostęp do bramki z Internetu jest automatycznie wyłączany

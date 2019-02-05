@@ -6,7 +6,7 @@ original_id: ais_app_ui_config
 ---
 
 
-> Aktualnie intensywnie rozwijamy platformę, konfiguracja domyślna będzie się jeszcze zmieniać i aktualizacje platformy będą ją nadpisywać. **Jeżeli wykonasz własną konfigurację to przed aktualizacją do nowej wersji [zrób jej kopie](#kopia-konfiguracji), tak żebyś mógł ją sobie przywrócić po aktualizacji**. 
+> Aktualnie intensywnie rozwijamy platformę, konfiguracja domyślna będzie się jeszcze zmieniać i aktualizacje platformy będą ją nadpisywać. **Jeżeli wykonasz własną konfigurację to przed aktualizacją do nowej wersji [zrób jej kopię](#kopia-konfiguracji), tak żebyś mógł ją sobie przywrócić po aktualizacji**. 
 
 ## Włączenie trybu konfiguracji
 Włączenie konfiguracji interfejsu użytkownika następuje poprzez wybranie w aplikacji opcji **"Konfiguracja interfejsu użytkownika"** dostępnej w prawym górnym rogu każdej strony w aplikacji.
@@ -34,7 +34,7 @@ To spowoduje wyświetlenie tekstowej surowej wersji konfiguracji interfejsu
 
 ![Konfiguracja interfejsu użytkownika kopia](/AIS-docs/img/en/frontend/lovelace-ui-conf-raw-save.png)
 
-Tą tekstową wersję możesz sobie zapisać do pliku jako kopie zapasową, następnie możesz eksperymentować z własnymi ustwieniami. Gdyb coś poszło nie tak to zawsze możesz wrócić do wersji pierwotnej poprzez wklejenie tekstowej wersji konfiguracji w tym miejscu.
+Wersję tekstową możesz zapisać do pliku jako kopię zapasową, następnie można eksperymentować z własnymi ustwieniami. Gdyby coś poszło nie tak, to zawsze można wrócić do wersji pierwotnej poprzez wklejenie tekstowej wersji konfiguracji w tym miejscu.
 
 Moźesz też pobrać naszą domyślną konfigurację.
 Aktualna domyślna konfiguracja dostępna jest tu [Domyślna konfiguracja interfejsu użytkownika](https://raw.githubusercontent.com/sviete/AIS-utils/master/patches/scripts/lovelace) 

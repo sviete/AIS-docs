@@ -7,6 +7,6 @@ sidebar_label: Usługi
 
 ## Moje usługi
 
-W pozycji **Moje Usługi** można dodawać dostęp do danych i usług z zewnętrznych serwisów do których mamy dostęp.
+W pozycji **Moje Usługi** można dodawać dostęp do danych i usług z zewnętrznych serwisów, do których mamy dostęp.
 
 ![Aplikacja asystent domowy](/AIS-docs/img/en/frontend/dom_cloud_my_services.png)

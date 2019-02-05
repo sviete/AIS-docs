@@ -3,19 +3,19 @@ title: "Karty"
 sidebar_label: Karty
 ---
 
-Widoki zawierają pogrupowane element systemu wyświetlane na kartach.
+Widoki zawierają pogrupowane elementy systemu wyświetlane na kartach.
 
 
 ## Typy kart
 
-W obecnej wersji mamy [24 typy kart](https://www.home-assistant.io/lovelace/alarm-panel/) które możemy konfigurować i na których możemy umieszczać nasze elementy systemu.
+W obecnej wersji mamy <a href="https://www.home-assistant.io/lovelace/" target="_blank">24 typy kart</a>, które możemy konfigurować i na których możemy umieszczać nasze elementy systemu.
 Dodatkowo istnieje wiele dodatkowych typów kart tworzonych przez społeczność [repozytorium dodatkowych typów kart](https://github.com/custom-cards). Oczywiście zaawansowani użytkownicy mogą definiować własne typy kart.
 
 ![Przykład karty](/AIS-docs/img/en/frontend/frontend-card-plant.png)
 
 ## Dodawanie karty
 
-Możesz sam dodawać własne karty lub edytować istniejące, w celu dopasowania interfejsu systemu do własnych potrzeb. Konfituracja dostępna jest bezpośrednio z aplikacji (działającej w przeglądarce)
+ W celu dopasowania interfejsu systemu do własnych potrzeb możesz sam dodawać własne karty lub edytować już istniejące. Konfiguracja dostępna jest bezpośrednio z aplikacji (działającej w przeglądarce).
 
 ![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/frontend-card-edit.png)
 

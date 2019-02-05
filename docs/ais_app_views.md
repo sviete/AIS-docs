@@ -3,11 +3,11 @@ title: "Widoki"
 sidebar_label: Widoki
 ---
 
-Aby ułatwić nawigowanie po aplikacji, karty(grupy elementów) w interfejsie użytkownika pogrupowane są w widokach.
+Aby ułatwić nawigowanie po aplikacji, karty (grupy elementów) w interfejsie użytkownika pogrupowane są w widokach.
 
 ## Domyślne widoki
 
-Domyślnie w interfejsie użytkownika dostępnym z aplikacji mamy 10 widoków:
+W dostępnym z aplikacji interfejsie użytkownika mamy domyślnie 10 widoków:
 
 
 ![Aplikacja asystent domowy](/AIS-docs/img/en/frontend/frontend-views.png)
@@ -19,7 +19,7 @@ i widok **System** (w tym widoku są dostępne zaawansowane ustawienia i informa
 
 ## Tworzenie własnych widoków
 
-Możesz sam tworzyć i zmieniać widoki (zakładki w aplikacji), np. możesz dodać widoki **"Salon"**, **"Łazienka"**, **"Sypialnia"** i umieścić w nich na [kartach](/AIS-docs/docs/en/ais_app_cards.html) urządzenia znajdujące się w tych poieszczeniach.
+Możesz sam tworzyć i zmieniać widoki (zakładki w aplikacji), np. możesz dodać widoki **"Salon"**, **"Łazienka"**, **"Sypialnia"** i umieścić w nich na [kartach](/AIS-docs/docs/en/ais_app_cards.html) urządzenia znajdujące się w tych pomieszczeniach.
 
 
 ![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/lovelace-ui-conf2.png)

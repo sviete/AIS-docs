@@ -9,7 +9,7 @@ Ta funkcjonalność powstała jako odpowiedz na zgłaszane nam potrzeby przez u�
 
 
 1. Integrator naszego systemu chce sam zarządzać treścią dostępną na bramce dla swoich użytkowników
-2. Osoba która kupiła kilka urządzeń dla rodziny chce tymi urządzeniami administrować
+2. Osoba, która kupiła kilka urządzeń dla rodziny, chce tymi urządzeniami administrować
 3. Użytkownik chce dodać własne stacje radiowe, podcasty oraz konfigurować dostęp do innych usług 
 
 

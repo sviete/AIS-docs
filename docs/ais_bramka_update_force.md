@@ -3,7 +3,7 @@ title: "Wymuszenie aktualizacji"
 sidebar_label: Wymuszenie aktualizacji
 ---
 
-Możemy wymusić zainstalowanie wszystkich składowych systemu do najnowszej wersji w tym celu wystarczy uruchomić w konsoli [skrypt aktualizacji](https://raw.githubusercontent.com/sviete/AIS-utils/master/upgrades/force_reinstall.sh) 
+Możemy wymusić zainstalowanie wszystkich składowych systemu do najnowszej wersji. W tym celu wystarczy uruchomić w konsoli [skrypt aktualizacji](https://raw.githubusercontent.com/sviete/AIS-utils/master/upgrades/force_reinstall.sh) 
 
 
 
