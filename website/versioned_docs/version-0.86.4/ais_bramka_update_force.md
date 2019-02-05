@@ -1,6 +1,8 @@
 ---
-title: "Wymuszenie aktualizacji"
+title: Wymuszenie aktualizacji
 sidebar_label: Wymuszenie aktualizacji
+id: version-0.86.4-ais_bramka_update_force
+original_id: ais_bramka_update_force
 ---
 
 Możemy wymusić zainstalowanie wszystkich składowych systemu do najnowszej wersji w tym celu wystarczy uruchomić w konsoli [skrypt aktualizacji](https://raw.githubusercontent.com/sviete/AIS-utils/master/upgrades/force_reinstall.sh) 

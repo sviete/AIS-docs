@@ -1,6 +1,8 @@
 ---
-title: "Tunelowanie połączenia TCP"
+title: Tunelowanie połączenia TCP
 sidebar_label: Tunel
+id: version-0.86.4-ais_bramka_remote_dom_tunnel
+original_id: ais_bramka_remote_dom_tunnel
 ---
 
 

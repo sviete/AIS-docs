@@ -1,6 +1,8 @@
 ---
-title: "Przywracanie ustawień fabrycznych urządzenia"
+title: Przywracanie ustawień fabrycznych urządzenia
 sidebar_label: Wprowadzenie
+id: version-0.86.4-ais_bramka_reset_index
+original_id: ais_bramka_reset_index
 ---
 
 Urządzenie działa na specjalnie zmodyfikowanej wersji systemu Android (custom build). Ta wersja androida posiada preinstalowany system **“Asystent domowy”** oraz wszystkie aplikacje pomocnicze systemu.
