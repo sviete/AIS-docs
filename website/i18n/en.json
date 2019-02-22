@@ -90,7 +90,7 @@
         "sidebar_label": "Serveo"
       },
       "ais_bramka_remote_ssh": {
-        "title": "Dostęp do bramki po SSH",
+        "title": "Dostęp do konsoli bramki po SSH",
         "sidebar_label": "SSH"
       },
       "ais_bramka_remote_tor": {
@@ -580,6 +580,18 @@
       "version-0.86.7-ais_iot_s26": {
         "title": "S26, inteligentne gniazdo WiFi",
         "sidebar_label": "Inteligentne gniazdo WiFi"
+      },
+      "version-0.87.3-ais_bramka_remote_dom_tunnel": {
+        "title": "Tunelowanie połączenia TCP",
+        "sidebar_label": "Tunel"
+      },
+      "version-0.87.3-ais_bramka_remote_ssh": {
+        "title": "Dostęp do konsoli bramki po SSH",
+        "sidebar_label": "SSH"
+      },
+      "version-0.87.3-ais_bramka_remote_www_index": {
+        "title": "Dostęp do bramki z Internetu",
+        "sidebar_label": "Wprowadzenie"
       }
     },
     "links": {

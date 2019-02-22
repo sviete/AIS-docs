@@ -1,6 +1,8 @@
 ---
-title: "Dostęp do bramki z Internetu"
+title: Dostęp do bramki z Internetu
 sidebar_label: Wprowadzenie
+id: version-0.87.3-ais_bramka_remote_www_index
+original_id: ais_bramka_remote_www_index
 ---
 
 Możesz skonfigurować dostęp do Twojej lokalnej bramki przez Internet. Dzięki temu będziesz mógł sterować automatyką w swoim domu (także głosowo) nie tylko w swojej lokalnej sieci, ale też z dowolnego miejsca z dostępem do Internetu.

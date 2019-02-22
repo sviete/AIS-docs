@@ -1,6 +1,8 @@
 ---
-title: "Dostęp do konsoli bramki po SSH"
+title: Dostęp do konsoli bramki po SSH
 sidebar_label: SSH
+id: version-0.87.3-ais_bramka_remote_ssh
+original_id: ais_bramka_remote_ssh
 ---
 
 Asystent domowy dostarcza połączenie SSH za pośrednictwem bardzo popularnego pakietu openssh.

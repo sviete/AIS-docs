@@ -1,6 +1,8 @@
 ---
-title: "Tunelowanie połączenia TCP"
+title: Tunelowanie połączenia TCP
 sidebar_label: Tunel
+id: version-0.87.3-ais_bramka_remote_dom_tunnel
+original_id: ais_bramka_remote_dom_tunnel
 ---
 
 Najprostszym ze sposobów na dostęp do bramki z Internetu jest tunelowanie połączenia TCP.

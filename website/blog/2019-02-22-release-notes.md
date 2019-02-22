@@ -1,7 +1,7 @@
 ---
-author: Andrzej Raczkowski
+author: Jola AI-Speaker
 authorURL: https://github.com/sviete
-authorFBID: 1546384510
+authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu 0.87.3  
 ---
 
@@ -9,11 +9,13 @@ title: Wersja systemu 0.87.3
 
 ### W tej wersji skupiliśmy się na poprawie dostępności.
 
-Podzas dostępu z Internetu dodaliśmy szyfrowanie komunikacji - HTTPS. Gdy dostęp z Internetu jest aktywny to dla zwiększenia bezpieczeństwa automatycznie wyłączamy możliwość łatwego logowania do aplikacji. Pamiętamy też o preferencjach i jeśli dostęp był włączony to po restarcie bramki automatycznie go odnawiamy. Więcej w dokumentacji [Dostęp do bramki z Internetu](/AIS-docs/docs/en/ais_bramka_remote_dom_tunnel.html)
+Podczas dostępu z Internetu dodaliśmy szyfrowanie komunikacji - HTTPS. Gdy dostęp z Internetu jest aktywny to dla zwiększenia bezpieczeństwa automatycznie wyłączamy możliwość łatwego logowania do aplikacji. Pamiętamy też o preferencjach i jeżeli przed restartem urządzenia dostęp był włączony to po restarcie automatycznie go odnawiamy. Więcej w dokumentacji [Dostęp do bramki z Internetu](/AIS-docs/docs/en/ais_bramka_remote_dom_tunnel.html)
 
-Dodaliśmy też dostęp z naszej aplikacji (działającej w dowolnej przeglądarce) do konsoli systemu "Asystent domowy" działającej na urządzeniu, wystarczy kliknąć... połącz :) i mamy połącznie SSH do Linux-a na urządzeniu! Bez potrzeby pobierania prywatnych kluczy czy programów typu PuTTY.  
+Dodaliśmy też dostęp z naszej aplikacji (działającej w dowolnej przeglądarce) do konsoli systemowej "Asystenta domowego" działającej na urządzeniu, wystarczy... kliknąć połącz :) i mamy połączenie SSH do Linux-a na urządzeniu! Już bez potrzeby pobierania prywatnych kluczy czy programów typu PuTTY. [Dostęp do konsoli bezpośrediono z aplikacji](/AIS-docs/docs/en/ais_bramka_remote_ssh.html#dostęp-do-konsoli-z-aplikacji)
 
-Dodatkowo mamy kilka ulepszeń w interfejsie aplikacji, portalu integratora oraz oczywiście najnowszy Home Assistant z wieloma fajnymi nowymi funkcjonalnościami.<a href="https://www.home-assistant.io/blog/2019/02/06/release-87/" target="_blank">0.87</a>
+Dodatkowo w tej wersji dostarczamy kilka ulepszeń w interfejsie aplikacji, portalu integratora oraz oczywiście najnowszego Home Assistanta z wieloma fajnymi nowymi funkcjonalnościami.<a href="https://www.home-assistant.io/blog/2019/02/06/release-87/" target="_blank">0.87</a>
+
+>***Ta aktualizacja wyjątkowo trwa długo*** - około 30 minut, w związku z czym dodaliśmy komunikaty głosowe o postępie instalacji :). Prosimy o uzbrojenie się w cierpliwość i zachęcamy do aktualizacji do najnowszej wersji.
 
 
 ![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/frontend-console.png)
