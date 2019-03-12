@@ -37,6 +37,10 @@
         "title": "Aplikacja",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_app_spotify": {
+        "title": "Spotify",
+        "sidebar_label": "Spotify"
+      },
       "ais_app_ui_config": {
         "title": "Konfiguracja interfejsu użytkownika",
         "sidebar_label": "Konfiguracja"
@@ -592,6 +596,14 @@
       "version-0.87.3-ais_bramka_remote_www_index": {
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.89.4-ais_app_assistent_commands": {
+        "title": "Wbudowane komendy",
+        "sidebar_label": "Wbudowane komendy"
+      },
+      "version-0.89.4-ais_app_spotify": {
+        "title": "Spotify",
+        "sidebar_label": "Spotify"
       }
     },
     "links": {

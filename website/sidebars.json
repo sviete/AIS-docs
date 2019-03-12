@@ -44,7 +44,8 @@
     ],
     "Komponenty": [
       "ais_app_components_index",
-      "ais_app_components_weather"
+      "ais_app_components_weather",
+      "ais_app_spotify"
     ],
     "Asystent": [
       "ais_app_assistent",
