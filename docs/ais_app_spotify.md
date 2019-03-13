@@ -64,7 +64,7 @@ Integracja ze Spotify pozwala systemowi Asystent domowy na odtwarzanie teści au
 ![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s4.png)
 
 
-* Potwierdz, że dodawanie dostępu dla AI-Speaker zakończyło się sukcesem
+* Potwierdź, że dodawanie dostępu dla AI-Speaker zakończyło się sukcesem
 
 ![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s5.png)
 
