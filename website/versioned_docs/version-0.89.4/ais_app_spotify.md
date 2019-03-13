@@ -5,16 +5,82 @@ id: version-0.89.4-ais_app_spotify
 original_id: ais_app_spotify
 ---
 
+Integracja ze Spotify pozwala systemowi Asystent domowy na odtwarzanie teści audio z serwisu Spotify. Nasze rozwiązanie pozwala na uwierzytelnianie i pobieranie metadanych dla aktualnie odtwarzanego utworu i kontekstu, wydawanie poleceń odtwarzania i inicjowanie odtwarzania utworów wykonawców, albumów lub list odtwarzania.
+
+***Integracja działa zarówno dla użytkowników Spotify Free, jak i Spotify Premium.***
+
+> Interfejs do Spotify będziemy rozwijać o kolejne funkcjonalności wraz z dążeniem do celu, jakim jest dostarczenie najlepszego i najbardziej wszechstronnego urządzenia do domowego Audio i Internetu Rzeczy z wbudowanym głosowym Asystentem domowym.
+***Ubiegamy się o certyfikację w Spotify.*** Integracja ze Spotify jest obecnie wersją beta; ta funkcjonalność może się znacznie zmienić lub przestać działać, bez ostrzeżenia. Dokładamy wszelkich starań żeby spełnić wymogi Spotify i otrzymać certifikację, jednak dopóki nie podpiszemy umowy ze Spotify nie możemy gwarantować działania tego serwisu na naszych urządzeniach.
 
 ## Konfiguracja w 3 krokach
 
 ### 1. Wymagania wstępne
 
-1. posiadanie konta w Spotify, konto można założyć za darmo (bez konieczności podawania karty kredytowej) pod tym adresem: https://www.spotify.com/pl/
-2. urządzenie z systemem Asystent domowy, zaktualizowane do wersji >= 0.89.1,
+* Posiadanie konta w Spotify, konto można założyć za darmo (bez konieczności podawania karty kredytowej) pod tym adresem: https://www.spotify.com/pl/
+
+* Urządzenie z systemem Asystent domowy, zaktualizowane do wersji >= 0.89.1, [Procedura Aktualizacji](/AIS-docs/docs/en/ais_bramka_update_index.html)
 
 
-### 2. Zaloguj się do aplikacji na urządzeniu z systemem "Asystent domowy"
+### 2. Zaloguj się do aplikacji Spotify na urządzeniu z systemem "Asystent domowy"
+
+* Podłącz urządzenie do telewizora lub monitora po HDMI
+
+* Włącz pilotem tryb "Sterowanie na monitorze" [Tryby działania pilota](/AIS-docs/docs/en/ais_remote_modes.html)
+
+* Przejdz do ustawień aplikacji klikając na ikonkę w lewym dolnym rogu ekranu aplikacji [Ustawienia aplikacji](/AIS-docs/docs/en/ais_bramka_settings.html#ustawienia-aplikacji-asystent-domowy)
+
+* Wybierz opcję "Integracje" -> "Spotify"
+
+![Przejście do Spotify](/AIS-docs/img/en/bramka/spotify_settings.png)
+
+* Zaloguj się do serwisu Spotify
 
 
 ### 3. Pozwól "Asystentowi domowemu" na pobieranie danych ze Spotify oraz na sterowanie odtwarzaczem
+
+* Przejdz do aplikacji "Asystent domowy" z przeglądarki internetowej w Twojej lokalnej sieci [Dostęp do bramki po HTTP](/AIS-docs/docs/en/ais_bramka_remote_http)
+
+* Otwórz panel powiadomień klikając ikonę "dzwoneczka" w prawym górnym rogu
+
+![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/go_to_notifications.png)
+
+
+* Uruchom konfigurator Spotify
+
+![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s1.png)
+
+
+* Kliknij na link "Połącz konto Spotify"
+
+![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s2.png)
+
+* Zaloguj się do Spotify na swoje konto (to samo na które logowaleś się w punkcie 2.)
+
+
+* Zezwól aplikacji AI-Speaker na dostęp
+
+![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s3.png)
+
+* Zamknij okno by wrócić do aplikacji "Asystent domowy"
+
+![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s4.png)
+
+
+* Potwierdz, że dodawanie dostępu dla AI-Speaker zakończyło się sukcesem
+
+![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s5.png)
+
+
+* Możesz już głosowo wyszukiwać i uruchamiać muzykę ze Spotify.
+
+![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s7.png)
+
+
+### Przypominamy, że z asystentem możesz rozmawiać:
+- przez naciśnięcie mikrofonu w aplikacji webowej (tylko w przeglądarkach obsługujących wprowadzanie głosowe)
+- przez mikrofon w telefonie z systemem Android i z zainstalowaną naszą darmową aplikacją dostępną w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)
+
+- przez wywołanie usługi rozmowy z naszego dedykowanego [pilota radiowego](ais_remote_index) z wbudowanym mikrofonem.
+
+
+![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s6.png)

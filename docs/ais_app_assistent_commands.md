@@ -189,8 +189,8 @@ Powiedz {item}'; 'Mów {item}'; 'Echo {item}
 
 ## Spotify
 
-Żeby asystentka wyszukała na Spotify i odtworzyła najlepsze utwory Dawida Podsiadło wystarczy powiedzieć: "Spotify Dawid Podsiadło"
-
+Żeby asystentka wyszukała na Spotify i odtworzyła utwory Dawida Podsiadło wystarczy powiedzieć: "Spotify Dawid Podsiadło"
+W podobny sposób możemy szukać albumu lub listy utworów.
 ```text
-Spotify {item}
+Spotify {wykonawca/album/playlista}
 ```
