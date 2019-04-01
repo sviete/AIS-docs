@@ -5,15 +5,15 @@ sidebar_label: Dyski
 
 ## Typy dysków
 
-W systemie "Aysystent domowy" mamy trzy typy dysków z których możemy odtwarzać treści audio:
+W systemie "Aysystent domowy" mamy trzy typy dysków, z których możemy odtwarzać treści audio:
 
 1. ***Dysk wewnętrzny*** urządzenia, jest on dostępny w twojej lokalnej sieci (protokół ftp) pod adresem ftp://ais-dom.local:1024/sdcard/dom możesz tu dodać muzykę lub pliki tekstowe a następnie je odtwarzać w aplikacji.
 
 
-2. ***Dyski-zewnętrzne*** są to dołączone do urządzenia karty SD lub pamięci USB
+2. ***Dyski zewnętrzne*** są to dołączone do urządzenia karty SD lub pamięci USB
 
 
-3. ***Dyski-zdalne*** są to dyski/usługi przechowywania danych w churach.
+3. ***Dyski zdalne*** są to dyski/usługi przechowywania danych w chmurach.
 
 ![Dyski](/AIS-docs/img/en/frontend/drives_all.png)
 
