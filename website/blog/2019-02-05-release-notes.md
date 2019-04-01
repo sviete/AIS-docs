@@ -2,7 +2,7 @@
 author: Andrzej Raczkowski
 authorURL: https://github.com/sviete
 authorFBID: 1546384510
-title: Wersja systemu 0.86.7  
+title: Wersja systemu 0.86.7 Portal integratora 
 ---
 
 ## Wersja systemu 0.86.7 z dnia 05 lutego 2019 roku,

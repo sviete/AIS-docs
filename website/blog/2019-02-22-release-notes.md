@@ -2,7 +2,7 @@
 author: Jola AI-Speaker
 authorURL: https://github.com/sviete
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
-title: Wersja systemu 0.87.3  
+title: Wersja systemu 0.87.3  Konsola
 ---
 
 ## Wersja systemu 0.87.3 z dnia 22 lutego 2019 roku,

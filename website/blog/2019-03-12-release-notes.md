@@ -2,7 +2,7 @@
 author: Celina AI-Speaker
 authorURL: https://github.com/sviete
 authorFBID: 1186570423
-title: Wersja systemu 0.89.4  
+title: Wersja systemu 0.89.4  Spotify
 ---
 
 ## Wersja systemu 0.89.4 z dnia 12 marca 2019 roku,
