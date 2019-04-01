@@ -7,6 +7,11 @@ Integracja ze Spotify pozwala systemowi Asystent domowy na odtwarzanie teści au
 
 ***Integracja działa zarówno dla użytkowników Spotify Free, jak i Spotify Premium.***
 
+Możemy sterować odtwarzaczem spotify z aplikacji Asystent domowy oraz z aplikacji Spotify widzimy nasze urządzenie z Asystentem domowym(jako głośnik AI-Speaker) i możemy je wybierać jako głośnik na który ma być przesyłana muzyka z aplikacji Spotify. Asystent domowy po każdej komendzie odtwarzania muzyki ze Spotify automatycznie wybierze głośnik AI-Speker (głośnik podłączony do bramki) jako urządzenie na które muzyka ma być odtwarzana.
+
+![Przejście do Spotify](/AIS-docs/img/en/frontend/spotify_2_way.png)
+
+
 > Interfejs do Spotify będziemy rozwijać o kolejne funkcjonalności wraz z dążeniem do celu, jakim jest dostarczenie najlepszego i najbardziej wszechstronnego urządzenia do domowego Audio i Internetu Rzeczy z wbudowanym głosowym Asystentem domowym.
 ***Ubiegamy się o certyfikację w Spotify.*** Integracja ze Spotify jest obecnie wersją beta; ta funkcjonalność może się znacznie zmienić lub przestać działać, bez ostrzeżenia. Dokładamy wszelkich starań żeby spełnić wymogi Spotify i otrzymać certifikację, jednak dopóki nie podpiszemy umowy ze Spotify nie możemy gwarantować działania tego serwisu na naszych urządzeniach.
 
@@ -38,19 +43,23 @@ Integracja ze Spotify pozwala systemowi Asystent domowy na odtwarzanie teści au
 
 * Przejdz do aplikacji "Asystent domowy" z przeglądarki internetowej w Twojej lokalnej sieci [Dostęp do bramki po HTTP](/AIS-docs/docs/en/ais_bramka_remote_http)
 
-* Otwórz panel powiadomień klikając ikonę "dzwoneczka" w prawym górnym rogu
+* Otwórz ***Ustawienia*** -> ***Integracje*** klikając ikonę "rozwijanego menu" w lewym górnym rogu
 
-![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/go_to_notifications.png)
+![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/go_to_settings.png)
 
-
-* Uruchom konfigurator Spotify
 
 ![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s1.png)
 
 
-* Kliknij na link "Połącz konto Spotify"
+* Uruchom konfigurator integracji ***AIS Serwis Spotify***
 
 ![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s2.png)
+
+
+* Kliknij na link "Uwierzytelnienie na Spotify"
+
+![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s2.1.png)
+
 
 * Zaloguj się do Spotify na swoje konto (to samo na które logowaleś się w punkcie 2.)
 

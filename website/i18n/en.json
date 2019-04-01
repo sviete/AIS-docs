@@ -29,6 +29,10 @@
         "title": "Pogoda",
         "sidebar_label": "Pogoda"
       },
+      "ais_app_drives": {
+        "title": "Dyski",
+        "sidebar_label": "Dyski"
+      },
       "ais_app_groups": {
         "title": "Grupy",
         "sidebar_label": "Grupy"
@@ -602,6 +606,14 @@
         "sidebar_label": "Wbudowane komendy"
       },
       "version-0.89.4-ais_app_spotify": {
+        "title": "Spotify",
+        "sidebar_label": "Spotify"
+      },
+      "version-0.90.5-ais_app_drives": {
+        "title": "Dyski",
+        "sidebar_label": "Dyski"
+      },
+      "version-0.90.5-ais_app_spotify": {
         "title": "Spotify",
         "sidebar_label": "Spotify"
       }

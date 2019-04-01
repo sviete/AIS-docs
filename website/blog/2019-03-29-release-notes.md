@@ -11,16 +11,15 @@ title: Wersja systemu 0.90.5 Dyski
 
 #### Dyski zdalne
 
-Połączenie z dyskami zdalnymi definiowane jest w ustawieniach aplikacji, w sekcji ***Integracje***
-
-
-
-W systemie "Aysystent domowy" mamy trzy typy dysków:
-1. ***Dysk wewnętrzny*** urządzenia, jest on dostępny w twojej lokalnej sieci (protokół ftp) pod adresem ftp://ais-dom.local:1024/sdcard/dom możesz tu dodać muzykę lub pliki tekstowe a następnie je odtwarzać w aplikacji.
-2. ***Dyski-zewnętrzne*** są to dołączone do urządzenia karty SD lub pamięci USB
-3. ***Dyski-zdalne*** są to dyski/usługi przechowywania danych w churach.
-
+Połączenie z dyskami zdalnymi definiowane jest za pomocą kreatora który krok po kroku prowadzi przez proces dodawania dysku.
+Krator dostępny jest w ustawieniach aplikacji, w sekcji ***Integracje*** (w tym miejscu zarządzamy urządzeniami i usługami podłączonymi do urządzenia).
+Szczególowy opis wraz z prezentacją wideo dostępny jest tu: [Dyski](/AIS-docs/docs/en/ais_app_drives.html)
 
 
 #### Nowa karta odtwarzacza
-ułatwia przeglądanie i odtwarzanie treści audio z wszyskich dostępnych źródeł (Radio, Podcasty, Muzyka z YouTube i Spotify oraz pliki Audio z dysków). Karta audio
+Przeglądanie i odtwarzanie treści audio z wszyskich dostępnych źródeł (Radio, Podcasty, Muzyka z YouTube i Spotify oraz pliki Audio z dysków) w jednej karcie.
+<div>
+  <video width="100%" height="100%" playsinline autoplay muted loop>
+    <source src="/AIS-docs/video/odtwarzacz_audio_w_Asystencie_domowym.mp4" type="video/mp4">
+  <video>
+</div>
