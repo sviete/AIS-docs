@@ -73,6 +73,10 @@
         "title": "Bramka",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_bramka_remote_adb": {
+        "title": "Dostęp do konsoli bramki po ADB",
+        "sidebar_label": "ADB"
+      },
       "ais_bramka_remote_dom_tunnel": {
         "title": "Tunelowanie połączenia TCP",
         "sidebar_label": "Tunel"
@@ -92,6 +96,10 @@
       "ais_bramka_remote_index": {
         "title": "Dostęp do bramki w lokalnej sieci",
         "sidebar_label": "Wprowadzenie"
+      },
+      "ais_bramka_remote_other_programs": {
+        "title": "Uruchamianie innych aplikacji",
+        "sidebar_label": "Inne Aplikacje"
       },
       "ais_bramka_remote_serveo": {
         "title": "Zdalne przekazywania portów SSH",

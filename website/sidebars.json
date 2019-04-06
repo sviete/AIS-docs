@@ -6,14 +6,16 @@
       "ais_bramka_role",
       "ais_bramka_system",
       "ais_bramka_services",
-      "ais_bramka_settings"
+      "ais_bramka_settings",
+      "ais_bramka_remote_other_programs"
     ],
     "Dostęp w sieci lokalnej": [
       "ais_bramka_remote_index",
       "ais_bramka_remote_http",
       "ais_bramka_remote_https",
       "ais_bramka_remote_ftp",
-      "ais_bramka_remote_ssh"
+      "ais_bramka_remote_ssh",
+      "ais_bramka_remote_adb"
     ],
     "Dostęp z Internetu": [
       "ais_bramka_remote_www_index",
