@@ -98,8 +98,8 @@
         "sidebar_label": "Wprowadzenie"
       },
       "ais_bramka_remote_other_programs": {
-        "title": "Uruchamianie innych aplikacji",
-        "sidebar_label": "Inne Aplikacje"
+        "title": "Instalowanie Aplikacji",
+        "sidebar_label": "Instalowanie Aplikacji"
       },
       "ais_bramka_remote_serveo": {
         "title": "Zdalne przekazywania portów SSH",

@@ -5,11 +5,11 @@ sidebar_label: ADB
 
 Android Debug Bridge (adb) to kolejne narzędzie działające w konsoli, które umożliwia komunikację z urządzeniem.
 
-Ta metoda komunikacji jest przydana szczególnie w systuacji gdy nie mamy możliwości łączenia się z Asystentem domowym bo go np odinstalowaliśmy z bramki.
+> Ta metoda komunikacji jest przydatna szczególnie w sytuacji gdy nie mamy możliwości łączenia się z Asystentem domowym po SSH bo go np odinstalowaliśmy z bramki.
 
 ## Instalacja ADB na komputerze
 
-ADB jest czcęścią Android SDK, instalacja dla 3 systemów (Windows, Mac, Linux) opisana jest pod tym linkiem:
+ADB jest częścią Android SDK, instalacja dla 3 systemów (Windows, Mac, Linux) opisana jest pod tym linkiem:
 
 https://developer.android.com/studio/releases/platform-tools.html
 
@@ -18,13 +18,13 @@ https://developer.android.com/studio/releases/platform-tools.html
 
 1. Podłącz bramkę do telewizora lub monitora
 
-2. Wyjdz z aplikacji Asystent domowy,
+2. Wyjdź z aplikacji Asystent domowy,
 [Wyjście z aplikacji](/AIS-docs/docs/en/ais_bramka_settings.html#ustawienia-aplikacji-asystent-domowy)
 
-3. Przejdz do ustawień Android
+3. Przejdź do ustawień Android
 [Ustawienia systemu Android](/AIS-docs/docs/en/ais_bramka_settings.html#ustawienia-systemu-android)
 
-4. W ustawieniach Android przejdz do **Informacje**
+4. W ustawieniach Android przejdź do **Informacje**
 ![Ustawienia - Informacje](/AIS-docs/img/en/bramka/adb_settings_1.png)
 
 5. Kliknij 5 razy w opcję **Kompilacja** aż pojawi się komunikat, że jesteś już programistą
@@ -51,11 +51,11 @@ $ adb start-server
 $ adb connect <ip-bramki-w-lokalnej-sieci>
 ```
 
-3. Zaakceptuj na bramce połączenie z komutera
+3. Zaakceptuj na bramce połączenie z komputera
 
 ![Ustawienia - Kompilacja](/AIS-docs/img/en/bramka/adb_settings_5.png)
 
-4. Połącz się z konsolą bramki wpisując w konsoli na swoim komuterze
+4. Połącz się z konsolą bramki wpisując w konsoli na swoim komputerze
 
 ```bash
 $ adb shell
