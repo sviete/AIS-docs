@@ -83,6 +83,10 @@
     "Urządzenia": [
       "ais_iot_index",
       "ais_iot_works_with",
+      "ais_iot_add_to_gate",
+      "ais_iot_remote",
+      "ais_iot_browser",
+      "ais_iot_android",
       "ais_iot_s26"
     ],
     "Oprogramowanie dla urządzeń": [

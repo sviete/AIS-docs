@@ -10,7 +10,7 @@ title: Wersja systemu 0.91.4  Wikipedia, kamery i łatwe dodawnie urządzeń
 ### Informacje z Wikipedii
 
 **Asystent domowy** udzielając odpowiedzi na pytania typu "kto to jest... ", "kim jest... ", "znajdź informację o..." korzysta z zasobów bazy wiedzy "Google Knowledge Graph". Korzystanie z tego typu bazy wiedzy ma na celu selekcję możliwie najistotniejszych treści i udzielenia krótkiej odpowiedzi na pytanie.
-Źródłem informacji do Google Knowledge Graph jest głównie Wikipedia. Wraz z bieżącą aktualizacją dodajemy możliwość wyszukania i odsłuchania całego artykółu z Wikipedii.
+Źródłem informacji do Google Knowledge Graph jest głównie Wikipedia. Wraz z bieżącą aktualizacją dodajemy możliwość wyszukania i odsłuchania całego artykułu z Wikipedii.
 
 Nowa komenda w sekcji **Wyszukiwanie informacji**: [Komendy głosowe Wikipedia](/AIS-docs/docs/en/ais_app_assistent_commands.html#wyszukiwanie-informacji)
 Na początek obsługujemy jedną komendę głosową: "Wikipedia + {szukana fraza}", {szukana fraza} - może być dowolną nazwą.
@@ -20,7 +20,7 @@ Na początek obsługujemy jedną komendę głosową: "Wikipedia + {szukana fraza
 
 ### Obraz wideo z kamer
 
-Dzięki komponentowi [live steam z Home Assistant](https://www.home-assistant.io/components/generic/#live-stream) mamy możliwość podglądu obrazu wideo z kamer IP.
+Dzięki komponentowi [live stream z Home Assistant](https://www.home-assistant.io/components/generic/#live-stream) mamy możliwość podglądu obrazu wideo z kamer IP.
 Otwiera to szereg możliwości takich jak:
 - automatyczne przesyłanie obrazu z kamery umieszczonej na drzwiach wejściowych, na telewizor z chromecast, po tym gdy ktoś zadzwoni
 - możliwość zainstalowania kamery w pokoju dziecka i użycia swojej bramki jako elektronicznej niani
@@ -34,6 +34,6 @@ Tematem tym planujemy zająć się szerzej, niebawem opiszemy krok po kroku zast
 ### Łatwe dodawanie urządzeń
 
 W celu łatwiejszego dołączania urządzeń do systemu dodaliśmy kreator, który krok po kroku prowadzi przez proces dodawania nowych urządzeń.
-Więcej o naszych urządzeniach, w dokumentacji [Urządzenia](/AIS-docs/docs/en/ais_iot_firmware_index.html)
+Więcej o naszych urządzeniach, w dokumentacji [Urządzenia](/AIS-docs/docs/en/ais_iot_works_with.html)
 
 ![Kreator dodawania urządzeń](/AIS-docs/img/en/frontend/add_device.png)

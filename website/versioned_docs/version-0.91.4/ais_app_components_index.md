@@ -1,6 +1,8 @@
 ---
-title: "Komponenty"
+title: Komponenty
 sidebar_label: Wprowadzenie
+id: version-0.91.4-ais_app_components_index
+original_id: ais_app_components_index
 ---
 
 Asystent domowy oferuje szereg (ponad 1300) komponentów.

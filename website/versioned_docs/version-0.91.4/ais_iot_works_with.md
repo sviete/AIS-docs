@@ -1,6 +1,8 @@
 ---
 title: Działa z Asystentem domowym
 sidebar_label: Działa z Asystentem domowym
+id: version-0.91.4-ais_iot_works_with
+original_id: ais_iot_works_with
 ---
 
 ### Urządzenia które posiadają następujące cechy:

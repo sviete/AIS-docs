@@ -82,6 +82,10 @@
     "Urządzenia": [
       "version-0.91.4-ais_iot_index",
       "version-0.91.4-ais_iot_works_with",
+      "version-0.91.4-ais_iot_add_to_gate",
+      "version-0.91.4-ais_iot_remote",
+      "version-0.91.4-ais_iot_browser",
+      "version-0.91.4-ais_iot_android",
       "version-0.91.4-ais_iot_s26"
     ],
     "Oprogramowanie dla urządzeń": [

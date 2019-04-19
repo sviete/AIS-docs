@@ -181,6 +181,18 @@
         "title": "Usługi",
         "sidebar_label": "Usługi"
       },
+      "ais_iot_add_to_gate": {
+        "title": "Obsługa urządzenia za pomocą bramki",
+        "sidebar_label": "Obsługa urządzenia za pomocą bramki"
+      },
+      "ais_iot_android": {
+        "title": "Obsługa urządznia z aplikacji Android",
+        "sidebar_label": "Obsługa urządznia z aplikacji Android"
+      },
+      "ais_iot_browser": {
+        "title": "Obsługa urządznia z przeglądarki",
+        "sidebar_label": "Obsługa urządznia z przeglądarki"
+      },
       "ais_iot_firmware_index": {
         "title": "Oprogramowanie dla urządzeń automatyki domowej",
         "sidebar_label": "Wprowadzenie"
@@ -192,6 +204,10 @@
       "ais_iot_index": {
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
+      },
+      "ais_iot_remote": {
+        "title": "Obsługa urządznia pilotem",
+        "sidebar_label": "Obsługa urządznia pilotem"
       },
       "ais_iot_s26": {
         "title": "S26, inteligentne gniazdo WiFi",
@@ -629,6 +645,10 @@
         "title": "Wbudowane komendy",
         "sidebar_label": "Wbudowane komendy"
       },
+      "version-0.91.4-ais_app_components_index": {
+        "title": "Komponenty",
+        "sidebar_label": "Wprowadzenie"
+      },
       "version-0.91.4-ais_bramka_remote_adb": {
         "title": "Dostęp do konsoli bramki po ADB",
         "sidebar_label": "ADB"
@@ -637,13 +657,37 @@
         "title": "Instalowanie Aplikacji",
         "sidebar_label": "Instalowanie Aplikacji"
       },
+      "version-0.91.4-ais_iot_add_to_gate": {
+        "title": "Obsługa urządzenia za pomocą bramki",
+        "sidebar_label": "Obsługa urządzenia za pomocą bramki"
+      },
+      "version-0.91.4-ais_iot_android": {
+        "title": "Obsługa urządznia z aplikacji Android",
+        "sidebar_label": "Obsługa urządznia z aplikacji Android"
+      },
+      "version-0.91.4-ais_iot_browser": {
+        "title": "Obsługa urządznia z przeglądarki",
+        "sidebar_label": "Obsługa urządznia z przeglądarki"
+      },
       "version-0.91.4-ais_iot_firmware_index": {
         "title": "Oprogramowanie dla urządzeń automatyki domowej",
         "sidebar_label": "Wprowadzenie"
       },
+      "version-0.91.4-ais_iot_index": {
+        "title": "Urządzenia",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.91.4-ais_iot_remote": {
+        "title": "Obsługa urządznia pilotem",
+        "sidebar_label": "Obsługa urządznia pilotem"
+      },
       "version-0.91.4-ais_iot_s26": {
         "title": "S26, inteligentne gniazdo WiFi",
         "sidebar_label": "Inteligentne gniazdo WiFi"
+      },
+      "version-0.91.4-ais_iot_works_with": {
+        "title": "Działa z Asystentem domowym",
+        "sidebar_label": "Działa z Asystentem domowym"
       }
     },
     "links": {
