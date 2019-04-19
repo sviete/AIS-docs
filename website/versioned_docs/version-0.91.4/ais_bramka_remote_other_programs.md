@@ -1,6 +1,8 @@
 ---
-title: "Instalowanie Aplikacji"
+title: Instalowanie Aplikacji
 sidebar_label: Instalowanie Aplikacji
+id: version-0.91.4-ais_bramka_remote_other_programs
+original_id: ais_bramka_remote_other_programs
 ---
 
 W deweloperskiej wersji bramki instnieje możliwość uruchamiania przeglądarki Internetowej oraz instalowania innych aplikacji.

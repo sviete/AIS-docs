@@ -624,6 +624,26 @@
       "version-0.90.5-ais_app_spotify": {
         "title": "Spotify",
         "sidebar_label": "Spotify"
+      },
+      "version-0.91.4-ais_app_assistent_commands": {
+        "title": "Wbudowane komendy",
+        "sidebar_label": "Wbudowane komendy"
+      },
+      "version-0.91.4-ais_bramka_remote_adb": {
+        "title": "Dostęp do konsoli bramki po ADB",
+        "sidebar_label": "ADB"
+      },
+      "version-0.91.4-ais_bramka_remote_other_programs": {
+        "title": "Instalowanie Aplikacji",
+        "sidebar_label": "Instalowanie Aplikacji"
+      },
+      "version-0.91.4-ais_iot_firmware_index": {
+        "title": "Oprogramowanie dla urządzeń automatyki domowej",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.91.4-ais_iot_s26": {
+        "title": "S26, inteligentne gniazdo WiFi",
+        "sidebar_label": "Inteligentne gniazdo WiFi"
       }
     },
     "links": {

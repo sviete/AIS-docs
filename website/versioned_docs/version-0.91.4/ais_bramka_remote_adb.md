@@ -1,6 +1,8 @@
 ---
-title: "Dostęp do konsoli bramki po ADB"
+title: Dostęp do konsoli bramki po ADB
 sidebar_label: ADB
+id: version-0.91.4-ais_bramka_remote_adb
+original_id: ais_bramka_remote_adb
 ---
 
 Android Debug Bridge (adb) to kolejne narzędzie działające w konsoli, które umożliwia komunikację z urządzeniem.
