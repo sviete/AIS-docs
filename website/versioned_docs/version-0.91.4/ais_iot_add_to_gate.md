@@ -7,6 +7,6 @@ original_id: ais_iot_add_to_gate
 
 ## Wprowadzenie
 
-W celu dodania urządzenia do bramki **AIS dom** wystarczy posłużyć się kreatorem dostępny w aplikacji **Aststent domowy** w **Menu** -> **Ustawienia** -> **Integracje** -> **AIS Dodanie Nowego Urządzenia**. Cały proces jest szybki i intuicyjny, jego przebieg obrazuje poniższy film:
+W celu dodania urządzenia do bramki **AIS dom** wystarczy posłużyć się kreatorem dostępnym w aplikacji **Aststent domowy** w **Menu** -> **Ustawienia** -> **Integracje** -> **AIS Dodanie Nowego Urządzenia**. Cały proces jest szybki i intuicyjny, jego przebieg obrazuje poniższy film:
 
 > Film w przygotowaniu

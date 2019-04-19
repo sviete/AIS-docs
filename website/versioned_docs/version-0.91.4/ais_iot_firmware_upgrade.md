@@ -1,6 +1,8 @@
 ---
 title: Aktualizacja oprogramowania urządzeń automatyki domowej
 sidebar_label: Aktualizacja oprogramowania
+id: version-0.91.4-ais_iot_firmware_upgrade
+original_id: ais_iot_firmware_upgrade
 ---
 
 > Obecnie aktualizacja wymaga wgrania nowego oprogramowania do urządzenia z przeglądarki internetowej.

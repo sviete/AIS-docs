@@ -5,6 +5,6 @@ sidebar_label: Obsługa urządznia z przeglądarki
 
 ## Wprowadzenie
 
-Urządznie z oprogramowaniem **Asystent domowy** jest autonomiczne i do podstawowych funkcjonalności nie potrzebuje żadnego dodatkowego komponentu takiego jak bramka czy chmura. Poniżej przedstawiamy w jaki sposób urządznie może być sterowane za pomocą dowolnej przeglądarki Internetowej.
+Urządzenie z oprogramowaniem **Asystent domowy** jest autonomiczne i do podstawowych funkcjonalności nie potrzebuje żadnego dodatkowego komponentu, takiego jak bramka czy chmura. Poniżej przedstawiamy w jaki sposób urządzenie może być sterowane za pomocą dowolnej przeglądarki internetowej.
 
 > Opis/Film w przygotowaniu

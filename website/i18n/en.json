@@ -673,6 +673,10 @@
         "title": "Oprogramowanie dla urządzeń automatyki domowej",
         "sidebar_label": "Wprowadzenie"
       },
+      "version-0.91.4-ais_iot_firmware_upgrade": {
+        "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
+        "sidebar_label": "Aktualizacja oprogramowania"
+      },
       "version-0.91.4-ais_iot_index": {
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"

@@ -5,13 +5,15 @@ sidebar_label: Wprowadzenie
 
 ## Oprogramowanie
 
-Decydując się na oprogramowanie do naszych urządzeń  opartych na ESP8266 ![ESP8266](/AIS-docs/img/en/iot/iot_esp_8266.png) wybraliśmy rozwiązanie umożliwiające:
+![ESP8266](/AIS-docs/img/en/iot/iot_esp_8266.png)
+
+Decydując się na oprogramowanie do naszych urządzeń  opartych na ESP8266 wybraliśmy rozwiązanie umożliwiające:
 
 - szybkie i stabilne działanie
 - sterowanie lokalne w ramach wielu protokołów (Serial, HTTP, MQTT i KNX)
 - możliwość konfiguracji i kontorli z przeglądarki oraz za pomocą aplikacji i systemów do automatyki domowej
 - aktualizację zdalną (z bramki, przeglądarki czy aplikacji mobilnej)
-- obsługę dołączania dodatkowych czujników do urzadzeń
+- obsługę dołączania dodatkowych czujników do urządzeń
 - obsługę harmonogramów i reguł na urządzeniu
 
 
@@ -22,11 +24,11 @@ Oprogramowanie to rozwijane jest od kilku lat w ramach projektu [Sonoff-Tasmota]
 
 **Koncentrujemy się na pełnej lokalnej kontroli (bez chmury). Robimy to, by nasz system/asystent był szybki, niezawodny oraz w celu poszanowania prywatności użytkowników.**
 
-Żeby osiągnąć pełną lokalną kontrolę musimy mieć urządzenia końcowe, które działają lokalnie, bez potrzeby połączenia z internetem i bez wysyłania danych do zewnętrznych serwisów.
+Żeby osiągnąć pełną lokalną kontrolę musimy mieć urządzenia końcowe, które działają lokalnie, bez potrzeby połączenia z Internetem i bez wysyłania danych do zewnętrznych serwisów.
 
 W naszym rozwiązaniu dane np o tym kiedy było włączone światło czy inne urzadzenie w Twoim domu składowane są lokalnie na dysku Twojej bramki i nigdy nie opuszczają tej lokalizacji. Takie działanie odbiega od ogólnego trendu, który zaczyna panować na rynku*, i jest ono z naszej strony zamierzone.
 
-\* "Dane to nowa ropa naftowa" to popularne wyrażenie w Internecie, które obrazuje między innymi to, że dane, a w szczególności dane osobowe, mają ogromną wartość. Wielkie korporacje zdają sobie z tego sprawę i podejmą skrajne starania, aby uzyskać dostęp do danych osobowych, ponieważ zawierają wgląd w twoje zachowanie. Statystyki wygenerowane z tych danych pozwalają im lepiej ukierunkować marketing, dając potężne nażędzie do przewidywania zachowań konsumentów.
+\* "Dane to nowa ropa naftowa" to popularne wyrażenie w Internecie, które obrazuje między innymi to, że dane, a w szczególności dane osobowe, mają ogromną wartość. Wielkie korporacje zdają sobie z tego sprawę i podejmą skrajne starania, aby uzyskać dostęp do danych osobowych, ponieważ zawierają wgląd w twoje zachowanie. Statystyki wygenerowane z tych danych pozwalają im lepiej ukierunkować marketing, dając potężne narzędzie do przewidywania zachowań konsumentów.
 
 
 

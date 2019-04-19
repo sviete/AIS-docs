@@ -4,8 +4,8 @@ sidebar_label: Wprowadzenie
 ---
 
 
-Dzięki zastosowaniu otwartej platformy do sterowania domową automatyką można skonfigurować i podłączyć do **Asystenta domowego ponad 1300 różnych komponentów**.
-Wsparcie dla tych komponentów zapewnia społeczność skupiona wokół platformy do automatyki domowej, którą mamy zainstalowaną na naszym urządzeniu. Otwartość tej platformy zapewnia naszemu produktowi stały rozwój i aktualizacje, pracuje na to setki programistów. Rynek Internetu Rzeczy się rozwija bardzo dynamicznie i co tydzień w systemie pojawiajają sie integracje z nowymi urządzeniami.
+Dzięki zastosowaniu otwartej platformy do sterowania automatyką domową można skonfigurować i podłączyć do **Asystenta domowego ponad 1300 różnych komponentów**.
+Wsparcie dla tych komponentów zapewnia społeczność skupiona wokół platformy do automatyki domowej, którą mamy zainstalowaną na naszym urządzeniu. Otwartość tej platformy zapewnia naszemu produktowi stały rozwój i aktualizacje, pracuje na to setki programistów. Rynek Internetu Rzeczy rozwija się bardzo dynamicznie i co tydzień w systemie pojawiajają sie integracje z nowymi urządzeniami.
 
 Obecnie konfiguracja większości komponentów odbywa się w plikach konfiguracyjnych i czasami może nie być prosta. By umożliwić każdemu proste dodawanie nowych urządzeń stworzyliśmy specjalną sekcję rekomendowanych urządzeń [Działa z Asystentem domowym](/AIS-docs/docs/en/ais_iot_works_with.html)
 
