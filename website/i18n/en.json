@@ -692,6 +692,10 @@
       "version-0.91.4-ais_iot_works_with": {
         "title": "Działa z Asystentem domowym",
         "sidebar_label": "Działa z Asystentem domowym"
+      },
+      "version-0.92.5-ais_app_views": {
+        "title": "Widoki",
+        "sidebar_label": "Widoki"
       }
     },
     "links": {

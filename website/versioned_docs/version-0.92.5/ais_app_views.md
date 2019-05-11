@@ -1,6 +1,8 @@
 ---
-title: "Widoki"
+title: Widoki
 sidebar_label: Widoki
+id: version-0.92.5-ais_app_views
+original_id: ais_app_views
 ---
 
 Aby ułatwić nawigowanie po aplikacji, karty (grupy elementów) w interfejsie użytkownika pogrupowane są w widokach.
