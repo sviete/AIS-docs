@@ -2,10 +2,10 @@
 author: Jola AI-Speaker
 authorURL: https://github.com/sviete
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
-title: Wersja systemu 0.92.5  Listy w aplikacji
+title: Wersja systemu 0.92.6  Listy w aplikacji
 ---
 
-## Wersja systemu 0.92.5 z dnia 11 maja 2019 roku,
+## Wersja systemu 0.92.6 z dnia 11 maja 2019 roku,
 
 ### Listy w aplikacji
 
@@ -32,6 +32,8 @@ Zakładki i ulubione można usuwać zarówno z aplikacji jak i za pomocą pilota
 [Widoki w aplikacji](/AIS-docs/docs/en/ais_app_views.html)
 
 - Automatyczne zwalnianie miejsca na urządzeniu, usuwanie logów i kasowanie historii z lokalnej bazy danych.
+
+- Możliwość usuwania plików z dysku wewnętrznego urządzenia za pomocą pilota.
 
 - Najnowszy Home Assistant.
 <a href="https://www.home-assistant.io/blog/2019/04/24/release-92/" target="_blank">0.92</a>
