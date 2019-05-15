@@ -1,6 +1,8 @@
 ---
 title: Obsługa urządzenia za pomocą bramki
 sidebar_label: Obsługa urządzenia za pomocą bramki
+id: version-0.92.6-ais_iot_add_to_gate
+original_id: ais_iot_add_to_gate
 ---
 
 ## Dodanie nowego urządzenia

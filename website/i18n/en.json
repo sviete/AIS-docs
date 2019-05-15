@@ -696,6 +696,22 @@
       "version-0.92.6-ais_app_views": {
         "title": "Widoki",
         "sidebar_label": "Widoki"
+      },
+      "version-0.92.6-ais_iot_add_to_gate": {
+        "title": "Obsługa urządzenia za pomocą bramki",
+        "sidebar_label": "Obsługa urządzenia za pomocą bramki"
+      },
+      "version-0.92.6-ais_iot_firmware_index": {
+        "title": "Oprogramowanie dla urządzeń automatyki domowej",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.92.6-ais_iot_s26": {
+        "title": "S26, inteligentne gniazdo WiFi",
+        "sidebar_label": "Inteligentne gniazdo WiFi"
+      },
+      "version-0.92.6-ais_iot_works_with": {
+        "title": "Działa z Asystentem domowym",
+        "sidebar_label": "Działa z Asystentem domowym"
       }
     },
     "links": {
