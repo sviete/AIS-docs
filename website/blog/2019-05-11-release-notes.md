@@ -9,7 +9,7 @@ title: Wersja systemu 0.92.5  Listy w aplikacji
 
 ### Listy w aplikacji
 
- Ulubione, zakładki, artykuły, stacje radiowe, podcasty, wyszukane pozycje z YoutTube i Spotify można teraz w prosty sposób wybierać, wystarczy kliknąć pozycję na liście.
+ Ulubione, zakładki, artykuły, stacje radiowe, podcasty, wyszukane pozycje z YouTube i Spotify można teraz w prosty sposób wybierać, wystarczy kliknąć pozycję na liście.
 
 ![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/audio_lists.png)
 
