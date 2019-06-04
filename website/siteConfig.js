@@ -99,6 +99,7 @@ const siteConfig = {
   repoFrontendUrl: 'https://github.com/sviete/home-assistant-polymer',
   repoFrontendWebsite: 'https://github.com/home-assistant/home-assistant.github.io',
   repoDevWebsite: 'https://github.com/home-assistant/developers.home-assistant',
+  blogSidebarCount: 10,
 };
 
 module.exports = siteConfig;

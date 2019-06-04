@@ -1,0 +1,95 @@
+{
+  "version-0.93.6-System": {
+    "Bramka": [
+      "version-0.93.6-ais_bramka_index",
+      "version-0.93.6-ais_bramka_first_run",
+      "version-0.93.6-ais_bramka_role",
+      "version-0.93.6-ais_bramka_system",
+      "version-0.93.6-ais_bramka_services",
+      "version-0.93.6-ais_bramka_settings",
+      "version-0.93.6-ais_bramka_remote_other_programs"
+    ],
+    "Dostęp w sieci lokalnej": [
+      "version-0.93.6-ais_bramka_remote_index",
+      "version-0.93.6-ais_bramka_remote_http",
+      "version-0.93.6-ais_bramka_remote_ftp",
+      "version-0.93.6-ais_bramka_remote_ssh",
+      "version-0.93.6-ais_bramka_remote_adb"
+    ],
+    "Dostęp z Internetu": [
+      "version-0.93.6-ais_bramka_remote_www_index",
+      "version-0.93.6-ais_bramka_remote_dom_tunnel",
+      "version-0.93.6-ais_bramka_remote_tor",
+      "version-0.93.6-ais_bramka_remote_serveo"
+    ],
+    "Portal Integratora": [
+      "version-0.93.6-ais_dom_cloud_index",
+      "version-0.93.6-ais_dom_cloud_login",
+      "version-0.93.6-ais_dom_cloud_gates",
+      "version-0.93.6-ais_dom_cloud_content",
+      "version-0.93.6-ais_dom_cloud_services"
+    ],
+    "API": [
+      "version-0.93.6-ais_bramka_api_index",
+      "version-0.93.6-ais_bramka_api_command",
+      "version-0.93.6-ais_bramka_api_led"
+    ]
+  },
+  "version-0.93.6-Aplikacja": {
+    "Aplikacja": [
+      "version-0.93.6-ais_app_index",
+      "version-0.93.6-ais_app_views",
+      "version-0.93.6-ais_app_cards",
+      "version-0.93.6-ais_app_ui_config"
+    ],
+    "Komponenty": [
+      "version-0.93.6-ais_app_components_index",
+      "version-0.93.6-ais_app_components_weather",
+      "version-0.93.6-ais_app_spotify",
+      "version-0.93.6-ais_app_drives"
+    ],
+    "Asystent": [
+      "version-0.93.6-ais_app_assistent",
+      "version-0.93.6-ais_app_assistent_commands",
+      "version-0.93.6-ais_app_assistent_add_command"
+    ],
+    "Aktualizacja": [
+      "version-0.93.6-ais_bramka_update_index",
+      "version-0.93.6-ais_bramka_update_auto",
+      "version-0.93.6-ais_bramka_update_logs",
+      "version-0.93.6-ais_bramka_update_manual",
+      "version-0.93.6-ais_bramka_update_force"
+    ],
+    "Reset do ustawień fabrycznych": [
+      "version-0.93.6-ais_bramka_reset_index",
+      "version-0.93.6-ais_bramka_reset_step_by_step"
+    ]
+  },
+  "version-0.93.6-Pilot radiowy": {
+    "Pilot radiowy": [
+      "version-0.93.6-ais_remote_index",
+      "version-0.93.6-ais_remote_modes",
+      "version-0.93.6-ais_remote_mode_on_tv",
+      "version-0.93.6-ais_remote_mode_off_tv",
+      "version-0.93.6-ais_remote_mode_gesture"
+    ],
+    "Najczęstrze pytania": [
+      "version-0.93.6-ais_remote_faq_index"
+    ]
+  },
+  "version-0.93.6-Urządzenia": {
+    "Urządzenia": [
+      "version-0.93.6-ais_iot_index",
+      "version-0.93.6-ais_iot_works_with",
+      "version-0.93.6-ais_iot_add_to_gate",
+      "version-0.93.6-ais_iot_remote",
+      "version-0.93.6-ais_iot_browser",
+      "version-0.93.6-ais_iot_android",
+      "version-0.93.6-ais_iot_s26"
+    ],
+    "Oprogramowanie dla urządzeń": [
+      "version-0.93.6-ais_iot_firmware_index",
+      "version-0.93.6-ais_iot_firmware_upgrade"
+    ]
+  }
+}
