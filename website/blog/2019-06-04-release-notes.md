@@ -12,11 +12,7 @@ title: Wersja systemu 0.93.6  Łatwiejsza konfiguracja
  Przy pierwszym uruchomieniu "Asystenta domowego" wykonujemy początkową prostą konfigurację. Pierwszym krokiem konfiguracji jest utworzenie konta właściciela - to konto będzie miało uprawniania administratora z pełnym dostępem do wszystkich elementów systemu i możliwością dodawania innych kont. Następny krok który można wykonać przy pierwszym uruchomieniu (lub zrobić to później w konfiguracji) to dodanie urządzeń i usług, które są reprezentowane w "Asystencie domowym" jako integrację.
  Ta funkcjonalność będzie rozwijana - w kolejnej wersji dodamy możliwość wybrania lokalizacji na mapie, strefy czasowej oraz innych podstawowych ustawień systemu. Docelowo chcemy umożliwić konfigurację wszystkich komponentów z poziomu interfejsu w aplikacji, bez potrzeby edycji parametrów w plikach.
 
- <div>
-   <video width="100%" height="100%" playsinline autoplay muted loop>
-     <source src="https://youtu.be/CiysJlfZK70" type="video/mp4">
-   <video>
- </div>
+ <iframe width="560" height="315"  src="https://www.youtube.com/embed/CiysJlfZK70" frameborder="0" allowfullscreen></iframe>
 
 
 ### Łatwiejszy pełny reset aplikacji
@@ -24,11 +20,7 @@ title: Wersja systemu 0.93.6  Łatwiejsza konfiguracja
 W wersji deweloperskiej zachęcamy do eksperymentowania z bramką - dodawanie dowolnych urządzeń, zmiana ustawień, konfigurowanie interfejsu, itd.. Gdyby efekty własnych eksperymentów i zmian nie były zadowalające ;) to od teraz można już w wygodny i szybki sposób wykonać pełny reset "Asystenta domowego" do domyślnej wersji, z poziomu aplikacji (bez potrzeby uruchamiania konsoli i wykonywania poleceń).
 
 
-<div>
-  <video width="100%" height="100%" playsinline autoplay muted loop>
-    <source src="https://youtu.be/CiysJlfZK70" type="video/mp4">
-  <video>
-</div>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/3FO9hBl1V90" frameborder="0" allowfullscreen></iframe>
 
 
 ### Ulepszona nawigacja na dotykowych ekranach
