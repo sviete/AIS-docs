@@ -59,7 +59,7 @@
       },
       "ais_bramka_api_index": {
         "title": "API systemu",
-        "sidebar_label": "Wprowadzenie"
+        "sidebar_label": "API systemu"
       },
       "ais_bramka_api_led": {
         "title": "Sterowanie diodą LED",
@@ -70,8 +70,8 @@
         "sidebar_label": "Uruchomienie"
       },
       "ais_bramka_index": {
-        "title": "Bramka",
-        "sidebar_label": "Wprowadzenie"
+        "title": "Bramka IoT",
+        "sidebar_label": "Karta produktu"
       },
       "ais_bramka_remote_adb": {
         "title": "Dostęp do konsoli bramki po ADB",
@@ -719,18 +719,18 @@
       }
     },
     "links": {
-      "Bramka": "Bramka",
+      "Bramka IoT": "Bramka IoT",
       "Aplikacja": "Aplikacja",
       "Pilot": "Pilot",
       "Urządzenia": "Urządzenia",
       "Aktualności": "Aktualności"
     },
     "categories": {
-      "Bramka": "Bramka",
+      "Bramka IoT": "Bramka IoT",
       "Dostęp w sieci lokalnej": "Dostęp w sieci lokalnej",
       "Dostęp z Internetu": "Dostęp z Internetu",
       "Portal Integratora": "Portal Integratora",
-      "API": "API",
+      "Ustawienia zaawansowane": "Ustawienia zaawansowane",
       "Aplikacja": "Aplikacja",
       "Komponenty": "Komponenty",
       "Asystent": "Asystent",
@@ -740,6 +740,8 @@
       "Najczęstrze pytania": "Najczęstrze pytania",
       "Urządzenia": "Urządzenia",
       "Oprogramowanie dla urządzeń": "Oprogramowanie dla urządzeń",
+      "Bramka": "Bramka",
+      "API": "API",
       "Dostęp": "Dostęp"
     }
   },

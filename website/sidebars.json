@@ -1,13 +1,8 @@
 {
   "System": {
-    "Bramka": [
+    "Bramka IoT": [
       "ais_bramka_index",
-      "ais_bramka_first_run",
-      "ais_bramka_role",
-      "ais_bramka_system",
-      "ais_bramka_services",
-      "ais_bramka_settings",
-      "ais_bramka_remote_other_programs"
+      "ais_bramka_first_run"
     ],
     "Dostęp w sieci lokalnej": [
       "ais_bramka_remote_index",
@@ -30,7 +25,10 @@
       "ais_dom_cloud_content",
       "ais_dom_cloud_services"
     ],
-    "API": [
+    "Ustawienia zaawansowane": [
+      "ais_bramka_services",
+      "ais_bramka_settings",
+      "ais_bramka_remote_other_programs",
       "ais_bramka_api_index",
       "ais_bramka_api_command",
       "ais_bramka_api_led"

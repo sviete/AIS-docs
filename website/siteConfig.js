@@ -39,7 +39,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'ais_bramka_index', label: 'Bramka'},
+    {doc: 'ais_bramka_index', label: 'Bramka IoT'},
     {doc: 'ais_app_index', label: 'Aplikacja'},
     {doc: 'ais_remote_index', label: 'Pilot'},
     {doc: 'ais_iot_index', label: 'Urządzenia'},

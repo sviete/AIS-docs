@@ -1,6 +1,6 @@
 ---
 title: "API systemu"
-sidebar_label: Wprowadzenie
+sidebar_label: API systemu
 ---
 
 
