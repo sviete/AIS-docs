@@ -181,9 +181,13 @@
         "title": "Usługi",
         "sidebar_label": "Usługi"
       },
+      "ais_gate_faq_index": {
+        "title": "Bramka IoT FAQ",
+        "sidebar_label": "Bramka IoT FAQ"
+      },
       "ais_iot_add_to_gate": {
-        "title": "Obsługa urządzenia za pomocą bramki",
-        "sidebar_label": "Obsługa urządzenia za pomocą bramki"
+        "title": "Obsługa urządzeń w systemie Asystent domowy",
+        "sidebar_label": "Obsługa urządzeń w systemie Asystent domowy"
       },
       "ais_iot_android": {
         "title": "Obsługa urządznia z aplikacji Android",
@@ -192,6 +196,10 @@
       "ais_iot_browser": {
         "title": "Obsługa urządznia z przeglądarki",
         "sidebar_label": "Obsługa urządznia z przeglądarki"
+      },
+      "ais_iot_commands": {
+        "title": "S26, inteligentne gniazdo WiFi",
+        "sidebar_label": "Inteligentne gniazdo WiFi"
       },
       "ais_iot_firmware_index": {
         "title": "Oprogramowanie dla urządzeń automatyki domowej",
@@ -202,20 +210,24 @@
         "sidebar_label": "Aktualizacja oprogramowania"
       },
       "ais_iot_index": {
-        "title": "Urządzenia",
-        "sidebar_label": "Wprowadzenie"
+        "title": "Urządzenia dodatkowe",
+        "sidebar_label": "Urządzenia dodatkowe"
+      },
+      "ais_iot_powers": {
+        "title": "Możliwości urządzeń AIS dom",
+        "sidebar_label": "Możliwości urządzeń AIS dom"
       },
       "ais_iot_remote": {
-        "title": "Obsługa urządznia pilotem",
-        "sidebar_label": "Obsługa urządznia pilotem"
+        "title": "Sterowanie komendami i pilotem",
+        "sidebar_label": "Sterowanie komendami i pilotem"
       },
       "ais_iot_s26": {
         "title": "S26, inteligentne gniazdo WiFi",
         "sidebar_label": "Inteligentne gniazdo WiFi"
       },
       "ais_iot_works_with": {
-        "title": "Działa z Asystentem domowym",
-        "sidebar_label": "Działa z Asystentem domowym"
+        "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
+        "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },
       "ais_remote_faq_index": {
         "title": "Pilot FAQ",
@@ -713,9 +725,45 @@
         "title": "Działa z Asystentem domowym",
         "sidebar_label": "Działa z Asystentem domowym"
       },
+      "version-0.93.6/version-0.93.6-ais_bramka_index": {
+        "title": "Bramka IoT",
+        "sidebar_label": "Karta produktu"
+      },
       "version-0.93.6/version-0.93.6-ais_bramka_services": {
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
+      },
+      "version-0.93.6/version-0.93.6-ais_gate_faq_index": {
+        "title": "Bramka IoT FAQ",
+        "sidebar_label": "Bramka IoT FAQ"
+      },
+      "version-0.93.6/version-0.93.6-ais_iot_add_to_gate": {
+        "title": "Obsługa urządzeń w systemie Asystent domowy",
+        "sidebar_label": "Obsługa urządzeń w systemie Asystent domowy"
+      },
+      "version-0.93.6/version-0.93.6-ais_iot_browser": {
+        "title": "Obsługa urządznia z przeglądarki",
+        "sidebar_label": "Obsługa urządznia z przeglądarki"
+      },
+      "version-0.93.6/version-0.93.6-ais_iot_commands": {
+        "title": "S26, inteligentne gniazdo WiFi",
+        "sidebar_label": "Inteligentne gniazdo WiFi"
+      },
+      "version-0.93.6/version-0.93.6-ais_iot_index": {
+        "title": "Urządzenia dodatkowe",
+        "sidebar_label": "Urządzenia dodatkowe"
+      },
+      "version-0.93.6/version-0.93.6-ais_iot_powers": {
+        "title": "Możliwości urządzeń AIS dom",
+        "sidebar_label": "Możliwości urządzeń AIS dom"
+      },
+      "version-0.93.6/version-0.93.6-ais_iot_remote": {
+        "title": "Sterowanie komendami i pilotem",
+        "sidebar_label": "Sterowanie komendami i pilotem"
+      },
+      "version-0.93.6/version-0.93.6-ais_iot_works_with": {
+        "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
+        "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       }
     },
     "links": {
@@ -731,17 +779,19 @@
       "Dostęp z Internetu": "Dostęp z Internetu",
       "Portal Integratora": "Portal Integratora",
       "Ustawienia zaawansowane": "Ustawienia zaawansowane",
+      "Najczęstrze pytania": "Najczęstrze pytania",
       "Aplikacja": "Aplikacja",
       "Komponenty": "Komponenty",
       "Asystent": "Asystent",
       "Aktualizacja": "Aktualizacja",
       "Reset do ustawień fabrycznych": "Reset do ustawień fabrycznych",
       "Pilot radiowy": "Pilot radiowy",
-      "Najczęstrze pytania": "Najczęstrze pytania",
-      "Urządzenia": "Urządzenia",
-      "Oprogramowanie dla urządzeń": "Oprogramowanie dla urządzeń",
+      "Urządzenia AIS dom": "Urządzenia AIS dom",
+      "Oprogramowanie dla urządzeń AIS dom": "Oprogramowanie dla urządzeń AIS dom",
       "Bramka": "Bramka",
       "API": "API",
+      "Urządzenia": "Urządzenia",
+      "Oprogramowanie dla urządzeń": "Oprogramowanie dla urządzeń",
       "Dostęp": "Dostęp"
     }
   },

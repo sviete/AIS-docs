@@ -2,10 +2,18 @@
 author: Celina AI-Speaker
 authorURL: https://github.com/sviete
 authorFBID: 1186570423
-title: Wersja systemu 0.93.6  Łatwiejsza konfiguracja
+title: Wersja systemu 0.93.6  Łatwiejsza nawigacja i konfiguracja
 ---
 
 ## Wersja systemu 0.93.6 z dnia 04 czerwca 2019 roku,
+
+### Ulepszona nawigacja na dotykowych ekranach
+
+Na dotykowych ekranach dodano możliwość nawigacji pomiędzy kartami w aplikacji za pomocą przeciągania (swipe).
+
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/KfmvwHS6Noo" frameborder="0" allowfullscreen></iframe>
+
+
 
 ### Prosta konfiguracja - start!
 
@@ -23,11 +31,6 @@ W wersji deweloperskiej zachęcamy do eksperymentowania z bramką - dodawanie do
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/3FO9hBl1V90" frameborder="0" allowfullscreen></iframe>
 
 
-### Ulepszona nawigacja na dotykowych ekranach
-
-Na dotykowych ekranach dodano możliwość nawigacji pomiędzy kartami w aplikacji za pomocą przeciągania (swipe).
-Film/demo w przygotowaniu :)
-
 
 ### Pozostałe istotne zmiany
 
@@ -36,6 +39,6 @@ Film/demo w przygotowaniu :)
 - Odtwarzanie nie tylko utworów ale też albumów, kanałów artystów i playlist ze Spotify.
 - Możliwość wyłączenia/włączenia odtwarzania losowego ze Spotify.
 - Nowe, uproszczone menu w aplikacji mobilnej (kliencie) i aplikacji na bramce (serwerze)
-- Usuwamy domyślnie włączoną usługę dostępu do bramki w sieci lokalnej po https. Oczywiście nadal można włączyć taką opcję samemu na bramce lub uruchomić [Dostęp do bramki z Internetu](/AIS-docs/docs/en/ais_bramka_remote_dom_tunnel.html) - takie połączenie jest automatycznie szyfrowane (i nie wymaga importowania certyfikatu oraz utrzymywania serwera https na bramce).
+- Usuwamy domyślnie włączoną usługę dostępu do bramki w sieci lokalnej po https. Oczywiście nadal można włączyć taką opcję samemu [włączając usługę na bramce](/AIS-docs/docs/en/ais_gate_faq_index.html) lub uruchomić [Dostęp do bramki z Internetu](/AIS-docs/docs/en/ais_bramka_remote_dom_tunnel.html) - takie połączenie jest automatycznie szyfrowane (i nie wymaga importowania certyfikatu oraz utrzymywania serwera https na bramce).
 - Najnowszy Home Assistant.
 <a href="https://www.home-assistant.io/blog/2019/05/16/release-93/" target="_blank">0.93</a>

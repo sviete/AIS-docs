@@ -1,13 +1,8 @@
 {
   "version-0.93.6-System": {
-    "Bramka": [
+    "Bramka IoT": [
       "version-0.93.6-ais_bramka_index",
-      "version-0.93.6-ais_bramka_first_run",
-      "version-0.93.6-ais_bramka_role",
-      "version-0.93.6-ais_bramka_system",
-      "version-0.93.6-ais_bramka_services",
-      "version-0.93.6-ais_bramka_settings",
-      "version-0.93.6-ais_bramka_remote_other_programs"
+      "version-0.93.6-ais_bramka_first_run"
     ],
     "Dostęp w sieci lokalnej": [
       "version-0.93.6-ais_bramka_remote_index",
@@ -29,10 +24,16 @@
       "version-0.93.6-ais_dom_cloud_content",
       "version-0.93.6-ais_dom_cloud_services"
     ],
-    "API": [
+    "Ustawienia zaawansowane": [
+      "version-0.93.6-ais_bramka_services",
+      "version-0.93.6-ais_bramka_settings",
+      "version-0.93.6-ais_bramka_remote_other_programs",
       "version-0.93.6-ais_bramka_api_index",
       "version-0.93.6-ais_bramka_api_command",
       "version-0.93.6-ais_bramka_api_led"
+    ],
+    "Najczęstrze pytania": [
+      "version-0.93.6-ais_gate_faq_index"
     ]
   },
   "version-0.93.6-Aplikacja": {
@@ -77,17 +78,19 @@
       "version-0.93.6-ais_remote_faq_index"
     ]
   },
-  "version-0.93.6-Urządzenia": {
-    "Urządzenia": [
+  "version-0.93.6-Urządzenia dodatkowe": {
+    "Komponenty": [
       "version-0.93.6-ais_iot_index",
-      "version-0.93.6-ais_iot_works_with",
       "version-0.93.6-ais_iot_add_to_gate",
-      "version-0.93.6-ais_iot_remote",
+      "version-0.93.6-ais_iot_remote"
+    ],
+    "Urządzenia AIS dom": [
+      "version-0.93.6-ais_iot_works_with",
+      "version-0.93.6-ais_iot_powers",
       "version-0.93.6-ais_iot_browser",
-      "version-0.93.6-ais_iot_android",
       "version-0.93.6-ais_iot_s26"
     ],
-    "Oprogramowanie dla urządzeń": [
+    "Oprogramowanie dla urządzeń AIS dom": [
       "version-0.93.6-ais_iot_firmware_index",
       "version-0.93.6-ais_iot_firmware_upgrade"
     ]

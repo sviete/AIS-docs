@@ -32,6 +32,9 @@
       "ais_bramka_api_index",
       "ais_bramka_api_command",
       "ais_bramka_api_led"
+    ],
+    "Najczęstrze pytania": [
+      "ais_gate_faq_index"
     ]
   },
   "Aplikacja": {
@@ -76,17 +79,20 @@
       "ais_remote_faq_index"
     ]
   },
-  "Urządzenia": {
-    "Urządzenia": [
+  "Urządzenia dodatkowe": {
+    "Komponenty": [
       "ais_iot_index",
-      "ais_iot_works_with",
       "ais_iot_add_to_gate",
-      "ais_iot_remote",
+      "ais_iot_remote"
+
+    ],
+    "Urządzenia AIS dom": [
+      "ais_iot_works_with",
+      "ais_iot_powers",
       "ais_iot_browser",
-      "ais_iot_android",
       "ais_iot_s26"
     ],
-    "Oprogramowanie dla urządzeń": [
+    "Oprogramowanie dla urządzeń AIS dom": [
       "ais_iot_firmware_index",
       "ais_iot_firmware_upgrade"
     ]

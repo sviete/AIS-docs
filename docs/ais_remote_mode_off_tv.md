@@ -11,12 +11,12 @@ W tym trybie można sterować całym systemem za pomocą dedykowanego menu zorga
 
 Nawigowanie po systemie w tym trybie jest intuicyjne, najpierw wybierz jedną z czterech głównych grup:
 
-- Twój dom,
+- Mój dom,
 - Audio,
 - Ustawienia,
 - Pomoc
 
-i przejdź do interesującej cię kategorii. W grupie ‘Twój dom’ możesz sprawdzać status i sterować urządzeniami domowymi.
+i przejdź do interesującej cię kategorii. W grupie ‘Mój dom’ możesz sprawdzać status i sterować urządzeniami domowymi.
 
 W grupie ‘Audio’ znajdziesz odtwarzacz, wiadomości, radia internetowe, podcasty, muzykę oraz audio książki.
 
