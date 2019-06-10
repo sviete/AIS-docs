@@ -241,479 +241,479 @@
         "title": "Tryby działania",
         "sidebar_label": "Tryby działania"
       },
-      "version-0.77.0-ais_app_assistent_add_command": {
+      "version-0.77.0/version-0.77.0-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
         "sidebar_label": "Dodawanie komendy"
       },
-      "version-0.77.0-ais_app_assistent_commands": {
+      "version-0.77.0/version-0.77.0-ais_app_assistent_commands": {
         "title": "Wbudowane komendy",
         "sidebar_label": "Wbudowane komendy"
       },
-      "version-0.77.0-ais_app_assistent": {
+      "version-0.77.0/version-0.77.0-ais_app_assistent": {
         "title": "Asystent",
         "sidebar_label": "Asystent"
       },
-      "version-0.77.0-ais_app_index": {
+      "version-0.77.0/version-0.77.0-ais_app_index": {
         "title": "Aplikacja",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.77.0-ais_bramka_first_run": {
+      "version-0.77.0/version-0.77.0-ais_bramka_first_run": {
         "title": "Bramka",
         "sidebar_label": "Uruchomienie"
       },
-      "version-0.77.0-ais_bramka_index": {
+      "version-0.77.0/version-0.77.0-ais_bramka_index": {
         "title": "Bramka",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.77.0-ais_bramka_remote_index": {
+      "version-0.77.0/version-0.77.0-ais_bramka_remote_index": {
         "title": "Dostęp do bramki",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.77.0-ais_bramka_role": {
+      "version-0.77.0/version-0.77.0-ais_bramka_role": {
         "title": "Rola bramki",
         "sidebar_label": "Rola bramki"
       },
-      "version-0.77.0-ais_bramka_system": {
+      "version-0.77.0/version-0.77.0-ais_bramka_system": {
         "title": "Oprogramowanie bramki",
         "sidebar_label": "Oprogramowanie bramki"
       },
-      "version-0.77.0-ais_bramka_update_index": {
+      "version-0.77.0/version-0.77.0-ais_bramka_update_index": {
         "title": "Aktualizacja oprogramowania",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.77.0-ais_iot_index": {
+      "version-0.77.0/version-0.77.0-ais_iot_index": {
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.77.0-ais_remote_index": {
+      "version-0.77.0/version-0.77.0-ais_remote_index": {
         "title": "Pilot radiowy",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.77.0-ais_remote_mode_gesture": {
+      "version-0.77.0/version-0.77.0-ais_remote_mode_gesture": {
         "title": "Sterowanie gestami",
         "sidebar_label": "Sterowanie gestami"
       },
-      "version-0.77.0-ais_remote_mode_off_tv": {
+      "version-0.77.0/version-0.77.0-ais_remote_mode_off_tv": {
         "title": "Sterowanie bez monitora",
         "sidebar_label": "Sterowanie bez monitora"
       },
-      "version-0.77.0-ais_remote_mode_on_tv": {
+      "version-0.77.0/version-0.77.0-ais_remote_mode_on_tv": {
         "title": "Sterowanie na monitorze",
         "sidebar_label": "Sterowanie na monitorze"
       },
-      "version-0.77.0-ais_remote_modes": {
+      "version-0.77.0/version-0.77.0-ais_remote_modes": {
         "title": "Tryby działania",
         "sidebar_label": "Tryby działania"
       },
-      "version-0.78.8-ais_bramka_remote_ftp": {
+      "version-0.78.8/version-0.78.8-ais_bramka_remote_ftp": {
         "title": "Dostęp do bramki po FTP",
         "sidebar_label": "FTP"
       },
-      "version-0.78.8-ais_bramka_remote_https": {
+      "version-0.78.8/version-0.78.8-ais_bramka_remote_https": {
         "title": "Dostęp do bramki po HTTPS",
         "sidebar_label": "HTTPS"
       },
-      "version-0.78.8-ais_bramka_remote_ssh": {
+      "version-0.78.8/version-0.78.8-ais_bramka_remote_ssh": {
         "title": "Dostęp do bramki po SSH",
         "sidebar_label": "SSH"
       },
-      "version-0.78.8-ais_bramka_remote_tor": {
+      "version-0.78.8/version-0.78.8-ais_bramka_remote_tor": {
         "title": "Dostęp do bramki w sieci TOR",
         "sidebar_label": "TOR"
       },
-      "version-0.78.8-ais_iot_index": {
+      "version-0.78.8/version-0.78.8-ais_iot_index": {
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.78.8-ais_remote_faq_index": {
+      "version-0.78.8/version-0.78.8-ais_remote_faq_index": {
         "title": "Pilot FAQ",
         "sidebar_label": "Pilot FAQ"
       },
-      "version-0.79.5-ais_app_groups": {
+      "version-0.79.5/version-0.79.5-ais_app_groups": {
         "title": "Grupy",
         "sidebar_label": "Grupy"
       },
-      "version-0.79.5-ais_app_views": {
+      "version-0.79.5/version-0.79.5-ais_app_views": {
         "title": "Widoki",
         "sidebar_label": "Widoki"
       },
-      "version-0.79.5-ais_bramka_processes": {
+      "version-0.79.5/version-0.79.5-ais_bramka_processes": {
         "title": "Zarządzanie procesami na bramce",
         "sidebar_label": "Zarządzanie procesami"
       },
-      "version-0.79.5-ais_bramka_remote_ftp": {
+      "version-0.79.5/version-0.79.5-ais_bramka_remote_ftp": {
         "title": "Dostęp do bramki po FTP",
         "sidebar_label": "FTP"
       },
-      "version-0.79.5-ais_bramka_remote_http": {
+      "version-0.79.5/version-0.79.5-ais_bramka_remote_http": {
         "title": "Dostęp do bramki po HTTP",
         "sidebar_label": "HTTP"
       },
-      "version-0.79.5-ais_bramka_remote_https": {
+      "version-0.79.5/version-0.79.5-ais_bramka_remote_https": {
         "title": "Dostęp do bramki po HTTPS",
         "sidebar_label": "HTTPS"
       },
-      "version-0.79.5-ais_bramka_remote_index": {
+      "version-0.79.5/version-0.79.5-ais_bramka_remote_index": {
         "title": "Dostęp do bramki",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.79.5-ais_bramka_remote_ssh": {
+      "version-0.79.5/version-0.79.5-ais_bramka_remote_ssh": {
         "title": "Dostęp do bramki po SSH",
         "sidebar_label": "SSH"
       },
-      "version-0.79.5-ais_bramka_remote_tor": {
+      "version-0.79.5/version-0.79.5-ais_bramka_remote_tor": {
         "title": "Dostęp do bramki w sieci TOR",
         "sidebar_label": "TOR"
       },
-      "version-0.79.5-ais_bramka_services": {
+      "version-0.79.5/version-0.79.5-ais_bramka_services": {
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
       },
-      "version-0.79.5-ais_bramka_update_auto": {
+      "version-0.79.5/version-0.79.5-ais_bramka_update_auto": {
         "title": "Aktualizacja automatyczna",
         "sidebar_label": "Aktualizacja automatyczna"
       },
-      "version-0.79.5-ais_bramka_update_index": {
+      "version-0.79.5/version-0.79.5-ais_bramka_update_index": {
         "title": "Aktualizacja oprogramowania",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.79.5-ais_bramka_update_logs": {
+      "version-0.79.5/version-0.79.5-ais_bramka_update_logs": {
         "title": "Logi aktualizacji",
         "sidebar_label": "Logi aktualizacji"
       },
-      "version-0.79.5-ais_bramka_update_manual": {
+      "version-0.79.5/version-0.79.5-ais_bramka_update_manual": {
         "title": "Aktualizacja ręczna",
         "sidebar_label": "Aktualizacja ręczna"
       },
-      "version-0.79.5-ais_iot_index": {
+      "version-0.79.5/version-0.79.5-ais_iot_index": {
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.79.5-ais_iot_works_with": {
+      "version-0.79.5/version-0.79.5-ais_iot_works_with": {
         "title": "Działa z Asystentem domowym",
         "sidebar_label": "Działa z Asystentem domowym"
       },
-      "version-0.79.5-ais_remote_faq_index": {
+      "version-0.79.5/version-0.79.5-ais_remote_faq_index": {
         "title": "Pilot FAQ",
         "sidebar_label": "Pilot FAQ"
       },
-      "version-0.79.5-ais_remote_mode_gesture": {
+      "version-0.79.5/version-0.79.5-ais_remote_mode_gesture": {
         "title": "Sterowanie gestami",
         "sidebar_label": "Sterowanie gestami"
       },
-      "version-0.79.5-ais_remote_mode_off_tv": {
+      "version-0.79.5/version-0.79.5-ais_remote_mode_off_tv": {
         "title": "Sterowanie bez monitora",
         "sidebar_label": "Sterowanie bez monitora"
       },
-      "version-0.80.4-ais_app_assistent_add_command": {
+      "version-0.80.4/version-0.80.4-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
         "sidebar_label": "Dodawanie komendy"
       },
-      "version-0.80.4-ais_bramka_remote_http": {
+      "version-0.80.4/version-0.80.4-ais_bramka_remote_http": {
         "title": "Dostęp do bramki po HTTP",
         "sidebar_label": "HTTP"
       },
-      "version-0.80.4-ais_bramka_remote_index": {
+      "version-0.80.4/version-0.80.4-ais_bramka_remote_index": {
         "title": "Dostęp do bramki",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.80.4-ais_bramka_services": {
+      "version-0.80.4/version-0.80.4-ais_bramka_services": {
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
       },
-      "version-0.81.12-ais_bramka_api_command": {
+      "version-0.81.12/version-0.81.12-ais_bramka_api_command": {
         "title": "Wykonywanie komendy",
         "sidebar_label": "Wykonywanie komendy"
       },
-      "version-0.81.12-ais_bramka_api_index": {
+      "version-0.81.12/version-0.81.12-ais_bramka_api_index": {
         "title": "API systemu",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.81.12-ais_bramka_api_led": {
+      "version-0.81.12/version-0.81.12-ais_bramka_api_led": {
         "title": "Sterowanie diodą LED",
         "sidebar_label": "Sterowanie diodą LED"
       },
-      "version-0.81.12-ais_remote_mode_gesture": {
+      "version-0.81.12/version-0.81.12-ais_remote_mode_gesture": {
         "title": "Sterowanie gestami",
         "sidebar_label": "Sterowanie gestami"
       },
-      "version-0.82.3-ais_bramka_remote_ftp": {
+      "version-0.82.3/version-0.82.3-ais_bramka_remote_ftp": {
         "title": "Dostęp do bramki po FTP",
         "sidebar_label": "FTP"
       },
-      "version-0.82.3-ais_bramka_remote_index": {
+      "version-0.82.3/version-0.82.3-ais_bramka_remote_index": {
         "title": "Dostęp do bramki",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.82.3-ais_bramka_remote_serveo": {
+      "version-0.82.3/version-0.82.3-ais_bramka_remote_serveo": {
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Serveo"
       },
-      "version-0.82.3-ais_bramka_remote_ssh": {
+      "version-0.82.3/version-0.82.3-ais_bramka_remote_ssh": {
         "title": "Dostęp do bramki po SSH",
         "sidebar_label": "SSH"
       },
-      "version-0.82.3-ais_bramka_remote_tor": {
+      "version-0.82.3/version-0.82.3-ais_bramka_remote_tor": {
         "title": "Dostęp do bramki w sieci TOR",
         "sidebar_label": "TOR"
       },
-      "version-0.83.7-ais_app_assistent_add_command": {
+      "version-0.83.7/version-0.83.7-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
         "sidebar_label": "Dodawanie komendy"
       },
-      "version-0.83.7-ais_app_assistent_commands": {
+      "version-0.83.7/version-0.83.7-ais_app_assistent_commands": {
         "title": "Wbudowane komendy",
         "sidebar_label": "Wbudowane komendy"
       },
-      "version-0.83.7-ais_bramka_api_command": {
+      "version-0.83.7/version-0.83.7-ais_bramka_api_command": {
         "title": "Wykonywanie komendy",
         "sidebar_label": "Wykonywanie komendy"
       },
-      "version-0.83.7-ais_bramka_api_index": {
+      "version-0.83.7/version-0.83.7-ais_bramka_api_index": {
         "title": "API systemu",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.83.7-ais_bramka_remote_ftp": {
+      "version-0.83.7/version-0.83.7-ais_bramka_remote_ftp": {
         "title": "Dostęp do bramki po FTP",
         "sidebar_label": "FTP"
       },
-      "version-0.83.7-ais_bramka_remote_http": {
+      "version-0.83.7/version-0.83.7-ais_bramka_remote_http": {
         "title": "Dostęp do bramki po HTTP",
         "sidebar_label": "HTTP"
       },
-      "version-0.83.7-ais_bramka_remote_https": {
+      "version-0.83.7/version-0.83.7-ais_bramka_remote_https": {
         "title": "Dostęp do bramki po HTTPS",
         "sidebar_label": "HTTPS"
       },
-      "version-0.83.7-ais_bramka_remote_index": {
+      "version-0.83.7/version-0.83.7-ais_bramka_remote_index": {
         "title": "Dostęp do bramki",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.83.7-ais_bramka_remote_serveo": {
+      "version-0.83.7/version-0.83.7-ais_bramka_remote_serveo": {
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Serveo"
       },
-      "version-0.83.7-ais_bramka_remote_ssh": {
+      "version-0.83.7/version-0.83.7-ais_bramka_remote_ssh": {
         "title": "Dostęp do bramki po SSH",
         "sidebar_label": "SSH"
       },
-      "version-0.83.7-ais_bramka_services": {
+      "version-0.83.7/version-0.83.7-ais_bramka_services": {
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
       },
-      "version-0.83.7-ais_bramka_settings": {
+      "version-0.83.7/version-0.83.7-ais_bramka_settings": {
         "title": "Ustawienia zaawansowane",
         "sidebar_label": "Ustawienia zaawansowane"
       },
-      "version-0.84.6-ais_app_components_index": {
+      "version-0.84.6/version-0.84.6-ais_app_components_index": {
         "title": "Komponenty",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.84.6-ais_app_components_weather": {
+      "version-0.84.6/version-0.84.6-ais_app_components_weather": {
         "title": "Pogoda",
         "sidebar_label": "Pogoda"
       },
-      "version-0.84.6-ais_bramka_update_auto": {
+      "version-0.84.6/version-0.84.6-ais_bramka_update_auto": {
         "title": "Aktualizacja automatyczna",
         "sidebar_label": "Aktualizacja automatyczna"
       },
-      "version-0.84.6-ais_iot_firmware_index": {
+      "version-0.84.6/version-0.84.6-ais_iot_firmware_index": {
         "title": "Oprogramowanie dla urządzeń automatyki domowej",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.84.6-ais_iot_firmware_upgrade": {
+      "version-0.84.6/version-0.84.6-ais_iot_firmware_upgrade": {
         "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
         "sidebar_label": "Aktualizacja oprogramowania"
       },
-      "version-0.84.6-ais_iot_index": {
+      "version-0.84.6/version-0.84.6-ais_iot_index": {
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.84.6-ais_iot_works_with": {
+      "version-0.84.6/version-0.84.6-ais_iot_works_with": {
         "title": "Działa z Asystentem domowym",
         "sidebar_label": "Działa z Asystentem domowym"
       },
-      "version-0.85.1-ais_app_assistent_commands": {
+      "version-0.85.1/version-0.85.1-ais_app_assistent_commands": {
         "title": "Wbudowane komendy",
         "sidebar_label": "Wbudowane komendy"
       },
-      "version-0.86.7-ais_app_assistent": {
+      "version-0.86.7/version-0.86.7-ais_app_assistent": {
         "title": "Asystent",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.86.7-ais_app_cards": {
+      "version-0.86.7/version-0.86.7-ais_app_cards": {
         "title": "Karty",
         "sidebar_label": "Karty"
       },
-      "version-0.86.7-ais_app_ui_config": {
+      "version-0.86.7/version-0.86.7-ais_app_ui_config": {
         "title": "Konfiguracja interfejsu użytkownika",
         "sidebar_label": "Konfiguracja"
       },
-      "version-0.86.7-ais_app_views": {
+      "version-0.86.7/version-0.86.7-ais_app_views": {
         "title": "Widoki",
         "sidebar_label": "Widoki"
       },
-      "version-0.86.7-ais_bramka_remote_dom_tunnel": {
+      "version-0.86.7/version-0.86.7-ais_bramka_remote_dom_tunnel": {
         "title": "Tunelowanie połączenia TCP",
         "sidebar_label": "Tunel"
       },
-      "version-0.86.7-ais_bramka_remote_serveo": {
+      "version-0.86.7/version-0.86.7-ais_bramka_remote_serveo": {
         "title": "Zdalne przekazywania portów SSH",
         "sidebar_label": "Serveo"
       },
-      "version-0.86.7-ais_bramka_remote_www_index": {
+      "version-0.86.7/version-0.86.7-ais_bramka_remote_www_index": {
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.86.7-ais_bramka_reset_index": {
+      "version-0.86.7/version-0.86.7-ais_bramka_reset_index": {
         "title": "Przywracanie ustawień fabrycznych urządzenia",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.86.7-ais_bramka_reset_step_by_step": {
+      "version-0.86.7/version-0.86.7-ais_bramka_reset_step_by_step": {
         "title": "Przywracanie ustawień fabrycznych urządzenia",
         "sidebar_label": "Procedura"
       },
-      "version-0.86.7-ais_bramka_update_auto": {
+      "version-0.86.7/version-0.86.7-ais_bramka_update_auto": {
         "title": "Aktualizacja automatyczna",
         "sidebar_label": "Aktualizacja automatyczna"
       },
-      "version-0.86.7-ais_bramka_update_force": {
+      "version-0.86.7/version-0.86.7-ais_bramka_update_force": {
         "title": "Wymuszenie aktualizacji",
         "sidebar_label": "Wymuszenie aktualizacji"
       },
-      "version-0.86.7-ais_bramka_update_logs": {
+      "version-0.86.7/version-0.86.7-ais_bramka_update_logs": {
         "title": "Logi aktualizacji",
         "sidebar_label": "Logi aktualizacji"
       },
-      "version-0.86.7-ais_bramka_update_manual": {
+      "version-0.86.7/version-0.86.7-ais_bramka_update_manual": {
         "title": "Aktualizacja ręczna krok po kroku",
         "sidebar_label": "Aktualizacja ręczna"
       },
-      "version-0.86.7-ais_dom_cloud_content": {
+      "version-0.86.7/version-0.86.7-ais_dom_cloud_content": {
         "title": "Konfiguracja treści",
         "sidebar_label": "Konfiguracja treści"
       },
-      "version-0.86.7-ais_dom_cloud_gates": {
+      "version-0.86.7/version-0.86.7-ais_dom_cloud_gates": {
         "title": "Moje bramki",
         "sidebar_label": "Moje bramki"
       },
-      "version-0.86.7-ais_dom_cloud_index": {
+      "version-0.86.7/version-0.86.7-ais_dom_cloud_index": {
         "title": "Portal integratora",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.86.7-ais_dom_cloud_login": {
+      "version-0.86.7/version-0.86.7-ais_dom_cloud_login": {
         "title": "Logowanie",
         "sidebar_label": "Logowanie do Portalu integratora"
       },
-      "version-0.86.7-ais_dom_cloud_services": {
+      "version-0.86.7/version-0.86.7-ais_dom_cloud_services": {
         "title": "Usługi",
         "sidebar_label": "Usługi"
       },
-      "version-0.86.7-ais_iot_s26": {
+      "version-0.86.7/version-0.86.7-ais_iot_s26": {
         "title": "S26, inteligentne gniazdo WiFi",
         "sidebar_label": "Inteligentne gniazdo WiFi"
       },
-      "version-0.87.3-ais_bramka_remote_dom_tunnel": {
+      "version-0.87.3/version-0.87.3-ais_bramka_remote_dom_tunnel": {
         "title": "Tunelowanie połączenia TCP",
         "sidebar_label": "Tunel"
       },
-      "version-0.87.3-ais_bramka_remote_ssh": {
+      "version-0.87.3/version-0.87.3-ais_bramka_remote_ssh": {
         "title": "Dostęp do konsoli bramki po SSH",
         "sidebar_label": "SSH"
       },
-      "version-0.87.3-ais_bramka_remote_www_index": {
+      "version-0.87.3/version-0.87.3-ais_bramka_remote_www_index": {
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.89.4-ais_app_assistent_commands": {
+      "version-0.89.4/version-0.89.4-ais_app_assistent_commands": {
         "title": "Wbudowane komendy",
         "sidebar_label": "Wbudowane komendy"
       },
-      "version-0.89.4-ais_app_spotify": {
+      "version-0.89.4/version-0.89.4-ais_app_spotify": {
         "title": "Spotify",
         "sidebar_label": "Spotify"
       },
-      "version-0.90.5-ais_app_drives": {
+      "version-0.90.5/version-0.90.5-ais_app_drives": {
         "title": "Dyski",
         "sidebar_label": "Dyski"
       },
-      "version-0.90.5-ais_app_spotify": {
+      "version-0.90.5/version-0.90.5-ais_app_spotify": {
         "title": "Spotify",
         "sidebar_label": "Spotify"
       },
-      "version-0.91.4-ais_app_assistent_commands": {
+      "version-0.91.4/version-0.91.4-ais_app_assistent_commands": {
         "title": "Wbudowane komendy",
         "sidebar_label": "Wbudowane komendy"
       },
-      "version-0.91.4-ais_app_components_index": {
+      "version-0.91.4/version-0.91.4-ais_app_components_index": {
         "title": "Komponenty",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.91.4-ais_bramka_remote_adb": {
+      "version-0.91.4/version-0.91.4-ais_bramka_remote_adb": {
         "title": "Dostęp do konsoli bramki po ADB",
         "sidebar_label": "ADB"
       },
-      "version-0.91.4-ais_bramka_remote_other_programs": {
+      "version-0.91.4/version-0.91.4-ais_bramka_remote_other_programs": {
         "title": "Instalowanie Aplikacji",
         "sidebar_label": "Instalowanie Aplikacji"
       },
-      "version-0.91.4-ais_iot_add_to_gate": {
+      "version-0.91.4/version-0.91.4-ais_iot_add_to_gate": {
         "title": "Obsługa urządzenia za pomocą bramki",
         "sidebar_label": "Obsługa urządzenia za pomocą bramki"
       },
-      "version-0.91.4-ais_iot_android": {
+      "version-0.91.4/version-0.91.4-ais_iot_android": {
         "title": "Obsługa urządznia z aplikacji Android",
         "sidebar_label": "Obsługa urządznia z aplikacji Android"
       },
-      "version-0.91.4-ais_iot_browser": {
+      "version-0.91.4/version-0.91.4-ais_iot_browser": {
         "title": "Obsługa urządznia z przeglądarki",
         "sidebar_label": "Obsługa urządznia z przeglądarki"
       },
-      "version-0.91.4-ais_iot_firmware_index": {
+      "version-0.91.4/version-0.91.4-ais_iot_firmware_index": {
         "title": "Oprogramowanie dla urządzeń automatyki domowej",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.91.4-ais_iot_firmware_upgrade": {
+      "version-0.91.4/version-0.91.4-ais_iot_firmware_upgrade": {
         "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
         "sidebar_label": "Aktualizacja oprogramowania"
       },
-      "version-0.91.4-ais_iot_index": {
+      "version-0.91.4/version-0.91.4-ais_iot_index": {
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.91.4-ais_iot_remote": {
+      "version-0.91.4/version-0.91.4-ais_iot_remote": {
         "title": "Obsługa urządznia pilotem",
         "sidebar_label": "Obsługa urządznia pilotem"
       },
-      "version-0.91.4-ais_iot_s26": {
+      "version-0.91.4/version-0.91.4-ais_iot_s26": {
         "title": "S26, inteligentne gniazdo WiFi",
         "sidebar_label": "Inteligentne gniazdo WiFi"
       },
-      "version-0.91.4-ais_iot_works_with": {
+      "version-0.91.4/version-0.91.4-ais_iot_works_with": {
         "title": "Działa z Asystentem domowym",
         "sidebar_label": "Działa z Asystentem domowym"
       },
-      "version-0.92.6-ais_app_views": {
+      "version-0.92.6/version-0.92.6-ais_app_views": {
         "title": "Widoki",
         "sidebar_label": "Widoki"
       },
-      "version-0.92.6-ais_iot_add_to_gate": {
+      "version-0.92.6/version-0.92.6-ais_iot_add_to_gate": {
         "title": "Obsługa urządzenia za pomocą bramki",
         "sidebar_label": "Obsługa urządzenia za pomocą bramki"
       },
-      "version-0.92.6-ais_iot_firmware_index": {
+      "version-0.92.6/version-0.92.6-ais_iot_firmware_index": {
         "title": "Oprogramowanie dla urządzeń automatyki domowej",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.92.6-ais_iot_s26": {
+      "version-0.92.6/version-0.92.6-ais_iot_s26": {
         "title": "S26, inteligentne gniazdo WiFi",
         "sidebar_label": "Inteligentne gniazdo WiFi"
       },
-      "version-0.92.6-ais_iot_works_with": {
+      "version-0.92.6/version-0.92.6-ais_iot_works_with": {
         "title": "Działa z Asystentem domowym",
         "sidebar_label": "Działa z Asystentem domowym"
       },
-      "version-0.93.6-ais_bramka_services": {
+      "version-0.93.6/version-0.93.6-ais_bramka_services": {
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
       }
