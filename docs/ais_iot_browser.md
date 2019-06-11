@@ -14,16 +14,38 @@ Podłącz urządzenie do źródła zasilania, następnie wprowadz je w tryb konf
 <img src="/AIS-docs/img/en/iot/ais_s20_2.gif" align="center"> </img>
 
 
+<img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step1.png" width="300px" align="left"> </img>
+ Teraz na smartfonie (komputerze, tablecie, laptopie albo innym urządzenie obsługujące sieć i Wi-Fi) wyszukaj punkt dostępu Wi-Fi o nazwie **dom_xxx_yyyyyy_zzzz** (gdzie xxx_yyyyyy_zzzz jest nazwą modelu i unikalnym identyfikatorem urządzenia) i połącz się z nim. W tym przykładzie punkt dostępu Wi-Fi ma nazwę dom_s20_3EB39C_5020.
 
- Teraz na smartfonie (komputerze, tablecie, laptopie albo innym urządzenie obsługujące sieć i Wi-Fi) wyszukaj punkt dostępu Wi-Fi o nazwie **dom_xxx_yyy_zzz** (gdzie xxx_yyy_zzz jest nazwą modelu i unikalnym identyfikatorem urządzenia) i połącz się z nim. W tym przykładzie punkt dostępu Wi-Fi ma nazwę dom_s20_.
+>Bezprzewodowy punkt dostepu na urządzeniu jest **aktywny tylko przez 3 minuty**. Jeśli przegapisz to okno czasowe, może być konieczne ponowne wprowadzenie go w tryb parowania.
 
-Serwer menedżera Wi-Fi jest aktywny tylko przez 3 minuty. Jeśli przegapisz okno, może być konieczne ponowne wprowadzenie go w tryb parowania.
-
-
-Po połączeniu się z Wi-Fi na urządzeniu otwórz http://192.168.4.1 w przeglądarce internetowej. Niektóre urządzenia mogą monitować o zalogowanie się do sieci Wi-Fi, która powinna również otworzyć powyższy adres automatycznie.
+<img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step2.png" width="300px" align="right"> </img>
+Po połączeniu się z Wi-Fi na urządzeniu otwórz http://192.168.4.1 w przeglądarce internetowej. Niektóre urządzenia mogą wyświetlić powiadomienie o potrzebę zalogowania się do sieci Wi-Fi, wybranie tej opcji powinno otworzyć powyższy adres automatycznie.
 
 
-Na tej stronie możesz przeskanować dostępne sieci Wi-Fi, następnie wybrać swoją sieć Wi-Fi do której chcesz podłączyć urządzenie.
+Na tej stronie (http://192.168.4.1) możesz przeskanować dostępne sieci Wi-Fi, następnie z listy wykrytych sieci wybrać swoją sieć Wi-Fi do której chcesz podłączyć urządzenie.
+<img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step3.png" width="300px" align="left"> </img>
+
 Podaj następujące informacje:
-- AP1 SSid - nazwa sieci Wi-Fi do której podłączasz urządzenie. **W Identyfikatorze SSID ważna jest wielkość liter**
-- Hasło AP1 - hasło do punktu dostępowego Wi-Fi. **Hasło Wi-Fi musi mieć mniej niż 32 znaki i nie może zawierać znaków specjalnych (np. gwiazdki) lub białych znaków**
+- **SSID** - nazwa sieci Wi-Fi do której podłączasz urządzenie.
+> **Uwaga** w Identyfikatorze SSID ważna jest wielkość liter
+- **Hasło** - hasło do sieci Wi-Fi do której podłączasz urządzenie.
+> **Uwaga** Hasło Wi-Fi musi mieć mniej niż 32 znaki i nie może zawierać znaków specjalnych (np. gwiazdki) lub białych znaków
+
+~~Sprawdź~~ Podwójne sprawdź czy podałeś poprawnie dane do sieci i kliknij **Zapisz**, aby zastosować ustawienia. Urządzenie uruchomi się ponownie i połączy się z siecią domową.
+<img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step4.png" width="300px" align="center"> </img>
+
+
+## IP nowo podłączonego urządzenia
+
+Sprawdz IP nowo podłączonego urządzenia w Twojej sieci.
+
+Możesz to zrobić na swoim routerze, wystarczy, że sprawdzisz jakie IP ma nowo podłączone urządzenie o tej samej nazwie, co miał punkt dostępu Wi-Fi na urzadzeniu (w tym przykładzie było to dom_s20_3EB39C_5020).
+
+Jeśli nie masz dostępu do routera, możesz znaleźć swoje nowe urządzenie za pomocą skanera IP, np:
+
+* [Fing](https://www.fing.com/products/) - na Androida lub iOS
+* [Angry IP Scanner](https://angryip.org/) - open source dla systemów Linux, Windows i Mac (wymagana Java)
+* [Super Scan](https://sectools.org/tool/superscan/) - darmowe narzędzie dostępne tylko w systemie Windows
+
+Gdy ustalisz jaki adres IP ma urządzenie to otwórz ten adres IP za pomocą przeglądarki internetowej i **masz pełny dostęp do urządzenia w swojej lokalnej sieci**.

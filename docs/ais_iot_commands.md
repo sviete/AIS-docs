@@ -5,6 +5,15 @@ sidebar_label: Inteligentne gniazdo WiFi
 
 ## Opis
 
+1. erase all flash and reset parameters to firmware defaults but keep Wi-Fi settings and restart
+Reset 5
+
+
+2. add new settings
+Backlog ssid2 8DB0839D; password2 094FAFE8; SetOption57 1; SetOption3 0; WifiConfig 4
+
+SetOption3 0 - disable MQTT
+WifiConfig 4 - disable Wi-Fi config but retry other AP without restart
 SetOption57 - Wi-Fi network re-scan every 44 minutes with switch to +10dB stronger signal if detected (only visible networks)
 
 LedPower - LED power state as on or off
