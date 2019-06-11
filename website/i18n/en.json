@@ -749,6 +749,10 @@
         "title": "S26, inteligentne gniazdo WiFi",
         "sidebar_label": "Inteligentne gniazdo WiFi"
       },
+      "version-0.93.6/version-0.93.6-ais_iot_firmware_upgrade": {
+        "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
+        "sidebar_label": "Aktualizacja oprogramowania"
+      },
       "version-0.93.6/version-0.93.6-ais_iot_index": {
         "title": "Urządzenia dodatkowe",
         "sidebar_label": "Urządzenia dodatkowe"
@@ -760,6 +764,10 @@
       "version-0.93.6/version-0.93.6-ais_iot_remote": {
         "title": "Sterowanie komendami i pilotem",
         "sidebar_label": "Sterowanie komendami i pilotem"
+      },
+      "version-0.93.6/version-0.93.6-ais_iot_s26": {
+        "title": "S26, inteligentne gniazdo WiFi",
+        "sidebar_label": "Inteligentne gniazdo WiFi"
       },
       "version-0.93.6/version-0.93.6-ais_iot_works_with": {
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",

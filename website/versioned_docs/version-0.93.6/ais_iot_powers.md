@@ -9,12 +9,12 @@ original_id: ais_iot_powers
 <div class="gridBlock">
   <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
     <div class="blockImage"><img src="/AIS-docs/img/en/icons/browser_click.svg"></img></div>
-    <div class="blockContent"><div><span><p>Możliwość sterowania urządzenia bezpośrednio z przeglądarki internetowej.
+    <div class="blockContent"><div><span><p>Możliwość sterowania urządzeniem bezpośrednio z przeglądarki internetowej.
     </p></span></div></div>
   </div>
   <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
     <div class="blockImage"><img src="/AIS-docs/img/en/icons/stopwatch.svg"></img></div>
-    <div class="blockContent"><div><span><p>Możliwość definiowania harmonogramów i regół działania bezpośredno na urządzeniu.</p></span></div></div>
+    <div class="blockContent"><div><span><p>Możliwość definiowania harmonogramów i reguł działania bezpośredno na urządzeniu.</p></span></div></div>
   </div>
   <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
     <div class="blockImage"><img src="/AIS-docs/img/en/icons/browser_conf.svg"></img></div>
@@ -50,7 +50,7 @@ original_id: ais_iot_powers
   </div>
   <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
     <div class="blockImage"><img src="/AIS-docs/img/en/icons/motion-sensor.svg"></img></div>
-    <div class="blockContent"><div><span><p>Zaawansowani użytkownicy mogą dołączać dodatkowe przełączniki czujniki, wyświetlacze, mikrofony, odtwarzacze mp3 itd do urządzeń.</p></span></div></div>
+    <div class="blockContent"><div><span><p>Zaawansowani użytkownicy mogą dołączać do urządzeń dodatkowe przełączniki, czujniki, wyświetlacze, mikrofony, odtwarzacze mp3 itd. do urządzeń.</p></span></div></div>
   </div>
   <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
     <div class="blockImage"><img src="/AIS-docs/img/en/icons/logo-responsive.svg"></div>

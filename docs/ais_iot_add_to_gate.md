@@ -6,29 +6,29 @@ sidebar_label: Obsługa urządzeń w systemie Asystent domowy
 ## Integracja z urządzeniem
 
 Podłączonymi urządzeniami i usługami zarządzamy z poziomu **Integracje** dostępnego w menu konfiguracji.
-Część urządzeń jest automatycznie wykrywana inne można dodać za pomocą konfiguratorów.
+Część urządzeń jest automatycznie wykrywana, inne można dodać za pomocą konfiguratorów.
+
 <img src="/AIS-docs/img/en/iot/iot_add_new_device.png" > </img>
 
 ## Rejestr urządzeń
 
-Asystent domowy prowadzi rejestr urządzeń, są wnim dostępne dane o wszystkich urządzeniach jakie zostały z nim zintegrowane. Każde urządzenie ma przypisany unikalny identyfikator zarezerwowany tylko dla niego.
+Asystent domowy prowadzi rejestr urządzeń, są w nim dostępne dane o wszystkich urządzeniach jakie zostały z nim zintegrowane. Każde urządzenie ma przypisany unikalny identyfikator zarezerwowany tylko dla niego.
+
 <img src="/AIS-docs/img/en/iot/iot_rejest_encji.png"> </img>
 
 ## Dodawanie urządzenia do interfejsu użytkownika
 
 Urządzenia są automatycznie grupowane w podstawowe grupy (przełączniki, czujniki, światła) i automatycznie wyświetlane w ostatnim domyślnym [widoku aplikacji](/AIS-docs/docs/en/ais_app_views.html)
+
 <img src="/AIS-docs/img/en/iot/iot_dev_view.png"> </img>
 
 Nasze urzadzenia możemy też łatwo i szybko (za pomocą edytora dostępnego w przeglądarce) wyświetlić na kartach. [Karty](/AIS-docs/docs/en/ais_app_cards.html) mogą reprezentować pomieszczenia i pięknie wyglądają oraz działają, zarówno na urządzeniach mobilnych, jak i stacjonarnych.
 
-<img src="/AIS-docs/img/en/iot/iot_cards_ios.png" width="250" align="left"> </img>
-<img src="/AIS-docs/img/en/iot/iot_cards_ipad.png" width="400" align="right"> </img>
+<img src="/AIS-docs/img/en/iot/iot_cards_ipad.png" align="center"> </img>
 
-<div>
-<br/>
 
-<div class="gridBlock" style="width:100%">
-<h2>Własne karty</h2>
-W systemie mamy dostępne 24 typy kart które możemy konfigurować według własnego uznania i na których możemy umieszczać urządzenia i inne przedmioty(encje z systemu). Możliwe są też dowolne bardziej zaawansowanych kart, takich jak trójwymiarowy interaktywny plan mieszkania.
+## Własne karty
+
+W systemie mamy dostępne 24 typy kart, które możemy konfigurować według własnego uznania i na których możemy umieszczać urządzenia i inne przedmioty (encje z systemu). Możliwe jest też dodanie dodatkowych, bardziej zaawansowanych kart, takich jak trójwymiarowy interaktywny plan mieszkania.
+
 <img src="/AIS-docs/img/en/iot/ais_florplan.gif" > </img>
-</div>
