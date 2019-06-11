@@ -65,54 +65,57 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_iot_powers.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Możliwości urządzeń AIS dom</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="podstawowe-możliwości"></a><a href="#podstawowe-możliwości" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Podstawowe możliwości</h2>
-<style>
-table#devices{
-  border:none !important;
-  vertical-align: middle;
-  align="left"
-}
-table#devices tr td{
-  border:none !important;
-  vertical-align: middle;
-}
-</style>
-<table id="devices">
-    <tbody>
-        <tr>
-            <td width="70px" border="0"><img src="/AIS-docs/img/en/icons/browser.svg" width="40"></img></td>
-            <td>Możliwość konfiguracji i sterowania urządzenia z aplikacji dostępnej bezpośrednio w przeglądarce internetowej.
-            Aktualizacje oprogramowania dostępna z [aplikacji w przeglądarce](/AIS-docs/docs/en/ais_iot_firmware_upgrade.html) lub serwera automatycznie za pomocą <a href="https://en.wikipedia.org/wiki/Over-the-air_programming" target="_blank">mechanizmu OTA</a></td>
-        </tr>
-        <tr>
-          <td><img src="/AIS-docs/img/en/icons/stopwatch.svg" width="40"></img></td>
-          <td>Reguły i Harmonogramy do automatyzacji działania urządzenia.</td>
-        </tr>
-        <tr>
-            <td><img src="/AIS-docs/img/en/icons/controls.svg" width="40"></img></td>
-            <td>Łatwa konfiguracja urządzeń.</td>
-        </tr>
-        <tr>
-            <td><img src="/AIS-docs/img/en/icons/setting.svg" width="40"></img></td>
-            <td>Sterowanie za pomocą protokołu <a href="https://pl.wikipedia.org/wiki/MQTT" target="_blank">MQTT</a>
-            Sterowania za pomocą protokołu <a href="https://pl.wikipedia.org/wiki/KNX " target="_blank">KNX</a>
-            Sterowania za pomocą protokołu <a href="https://pl.wikipedia.org/wiki/GET_(metoda)" target="_blank">HTTP (metoda GET)</a>
-            Łatwa integracja z rozwiązaniami automatyki domowej, takimi jak [openHAB](https://www.openhab.org/), [Home Assistant](https://www.home-assistant.io/), [Domoticz](http://www.domoticz.com/)
-            Emulacja Wemo i Hue umożliwiająca sterowanie za pomocą systemów wspierających sterowanie urządzeniami Hue, np. Amazon Alexa</td>
-        </tr>
-        <tr>
-            <td><img src="/AIS-docs/img/en/icons/controls.svg" width="40"></img></td>
-            <td>Łatwa konfiguracja urządzeń.</td>
-        </tr>
-        <tr>
-            <td><img src="/AIS-docs/img/en/icons/motion-sensor.svg" width="40"></img></td>
-            <td>Zaawansowani użytkownicy mogą dołączać dodatkowe przełączniki czujniki, wyświetlacze, mikrofony, odtwarzacze mp3 itd do urządzeń.</td>
-        </tr>
-        <tr>
-            <td><img src="/AIS-docs/img/en/icons/voice-assistant.svg" width="40"></td>
-            <td>Pełna integracja z systemem <a href="/AIS-docs/docs/en/ais_iot_add_to_gate.html">Asystent domowy</a></td>
-        </tr>
-    </tbody>
-</table>
-<h2><a class="anchor" aria-hidden="true" id="menu-aplikacji-na-urządzeniu"></a><a href="#menu-aplikacji-na-urządzeniu" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Menu aplikacji na urządzeniu</h2>
+<div class="gridBlock">
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/browser_click.svg"></img></div>
+    <div class="blockContent"><div><span><p>Możliwość sterowania urządzenia bezpośrednio z przeglądarki internetowej.
+    </p></span></div></div>
+  </div>
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/stopwatch.svg"></img></div>
+    <div class="blockContent"><div><span><p>Możliwość definiowania harmonogramów i regół działania bezpośredno na urządzeniu.</p></span></div></div>
+  </div>
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/browser_conf.svg"></img></div>
+    <div class="blockContent"><div><span><p>Łatwa konfiguracja urządzeń w przeglądarce internetowej.</p></span></div></div>
+  </div>
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/mqtticon.svg"></img></div>
+    <div class="blockContent"><div><span><p>Możliwość sterowania za pomocą protokołu <a href="https://pl.wikipedia.org/wiki/MQTT" target="_blank">MQTT</a></p></span></div></div>
+  </div>
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/KNX_logo.svg"></img></div>
+    <div class="blockContent"><div><span><p>Możliwość Sterowania za pomocą protokołu <a href="https://pl.wikipedia.org/wiki/KNX " target="_blank">KNX</a></p></span></div></div>
+  </div>
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/remote-api.png""></img></div>
+    <div class="blockContent"><div><span><p>Możliwość sterowania za pomocą protokołu <a href="https://pl.wikipedia.org/wiki/GET_(metoda)" target="_blank">HTTP</a></p></span></div></div>
+  </div>
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/DomoticzLogo.png"></img></div>
+    <div class="blockContent"><div><span><p>Łatwa integracja z systemem automatyki domowej <a href="http://www.domoticz.com/" target="_blank">Domoticz</a></p></span></div></div>
+  </div>
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/openhub.png"></img></div>
+    <div class="blockContent"><div><span><p>Łatwa integracja z systemem automatyki domowej <a href="https://www.openhab.org/" target="_blank">openHAB</a></p></span></div></div>
+  </div>
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/homeassistant.png"></img></div>
+    <div class="blockContent"><div><span><p>Łatwa integracja z systemem automatyki domowej <a href="https://www.home-assistant.io/" target="_blank">Home Assistant</a></p></span></div></div>
+  </div>
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/voice-assistant-alexa.svg"></img></div>
+    <div class="blockContent"><div><span><p>Emulacja Wemo i Hue umożliwiająca sterowanie za pomocą systemów wspierających sterowanie urządzeniami Hue, np. Amazon Alexa.</p></span></div></div>
+  </div>
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/motion-sensor.svg"></img></div>
+    <div class="blockContent"><div><span><p>Zaawansowani użytkownicy mogą dołączać dodatkowe przełączniki czujniki, wyświetlacze, mikrofony, odtwarzacze mp3 itd do urządzeń.</p></span></div></div>
+  </div>
+  <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
+    <div class="blockImage"><img src="/AIS-docs/img/en/icons/logo-responsive.svg"></div>
+    <div class="blockContent"><div><span><p>W pełni zintegrowane z systemem <a href="/AIS-docs/docs/en/ais_iot_add_to_gate.html">Asystent domowy</a> (łatwa integracja z innymi systemami automatyki domowej)</p></span></div></div>
+  </div>
+</div>
+<h2><a class="anchor" aria-hidden="true" id="głowne-menu-aplikacji-na-urządzeniu-dostępne-w-przeglądarce"></a><a href="#głowne-menu-aplikacji-na-urządzeniu-dostępne-w-przeglądarce" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Główne menu aplikacji na urządzeniu dostępne w przeglądarce</h2>
 <p><img src="/AIS-docs/img/en/iot/iot_switch_app.png" width="300" align="center"> </img></p>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/AIS-docs/docs/en/ais_iot_works_with.html"><span class="arrow-prev">← </span><span>Rekomendowane do zastosowania w Twoim domu</span></a><a class="docs-next button" href="/AIS-docs/docs/en/ais_iot_browser.html"><span>Obsługa urządznia z przeglądarki</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#podstawowe-możliwości">Podstawowe możliwości</a></li><li><a href="#menu-aplikacji-na-urządzeniu">Menu aplikacji na urządzeniu</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy, dokumentacja" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2019 AI-Speaker</section></footer></div></body></html>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/AIS-docs/docs/en/ais_iot_works_with.html"><span class="arrow-prev">← </span><span>Rekomendowane do zastosowania w Twoim domu</span></a><a class="docs-next button" href="/AIS-docs/docs/en/ais_iot_browser.html"><span>Obsługa urządznia z przeglądarki</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#podstawowe-możliwości">Podstawowe możliwości</a></li><li><a href="#głowne-menu-aplikacji-na-urządzeniu-dostępne-w-przeglądarce">Główne menu aplikacji na urządzeniu dostępne w przeglądarce</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy, dokumentacja" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2019 AI-Speaker</section></footer></div></body></html>
