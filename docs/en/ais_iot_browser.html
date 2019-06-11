@@ -68,35 +68,35 @@
 <p>Urządzenie z oprogramowaniem <strong>AIS dom</strong> jest autonomiczne i do podstawowych funkcjonalności nie potrzebuje żadnego dodatkowego komponentu, takiego jak lokalna bramka czy zdalny serwer (chmura). Poniżej przedstawiamy w jaki sposób urządzenie może być sterowane za pomocą dowolnej przeglądarki internetowej.</p>
 <h2><a class="anchor" aria-hidden="true" id="konfiguracja-wi-fi"></a><a href="#konfiguracja-wi-fi" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Konfiguracja Wi-Fi</h2>
 <p>Urządzenia AIS dom zapewniają bezprzewodowy punkt dostępu do łatwej konfiguracji Wi-Fi.</p>
-<p>Podłącz urządzenie do źródła zasilania, następnie wprowadz je w tryb konfiguracj (bezprzewodowego punktu dostępu) wciskając szybko 4 razy przycisk na urządzeniu, tak jak to pokazano na animacji poniżej
+<p>Podłącz urządzenie do źródła zasilania, następnie wprowadź je w tryb konfiguracj (bezprzewodowego punktu dostępu) wciskając szybko 4 razy przycisk na urządzeniu, tak jak to pokazano na animacji poniżej
 <img src="/AIS-docs/img/en/iot/ais_s20_2.gif" align="center"> </img></p>
-<p><img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step1.png" width="300px" align="left"> </img>
-Teraz na smartfonie (komputerze, tablecie, laptopie albo innym urządzenie obsługujące sieć i Wi-Fi) wyszukaj punkt dostępu Wi-Fi o nazwie <strong>dom_xxx_yyyyyy_zzzz</strong> (gdzie xxx_yyyyyy_zzzz jest nazwą modelu i unikalnym identyfikatorem urządzenia) i połącz się z nim. W tym przykładzie punkt dostępu Wi-Fi ma nazwę dom_s20_3EB39C_5020.</p>
+<p><img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step1.png" width="300px" align="left" style="margin:20px;"> </img>
+Teraz na smartfonie (komputerze, tablecie, laptopie albo innym urządzeniu obsługującym sieć i Wi-Fi) wyszukaj punkt dostępu Wi-Fi o nazwie <strong>dom_xxx_yyyyyy_zzzz</strong> (gdzie xxx_yyyyyy_zzzz jest nazwą modelu i unikalnym identyfikatorem urządzenia) i połącz się z nim. W tym przykładzie punkt dostępu Wi-Fi ma nazwę dom_s20_3EB39C_5020.</p>
 <blockquote>
 <p>Bezprzewodowy punkt dostepu na urządzeniu jest <strong>aktywny tylko przez 3 minuty</strong>. Jeśli przegapisz to okno czasowe, może być konieczne ponowne wprowadzenie go w tryb parowania.</p>
 </blockquote>
-<p><img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step2.png" width="300px" align="right"> </img>
-Po połączeniu się z Wi-Fi na urządzeniu otwórz http://192.168.4.1 w przeglądarce internetowej. Niektóre urządzenia mogą wyświetlić powiadomienie o potrzebę zalogowania się do sieci Wi-Fi, wybranie tej opcji powinno otworzyć powyższy adres automatycznie.</p>
-<p>Na tej stronie (http://192.168.4.1) możesz przeskanować dostępne sieci Wi-Fi, następnie z listy wykrytych sieci wybrać swoją sieć Wi-Fi do której chcesz podłączyć urządzenie.
-<img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step3.png" width="300px" align="left"> </img></p>
+<p><img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step2.png" width="300px" align="right" style="margin:20px;"> </img>
+Po połączeniu się z Wi-Fi na urządzeniu otwórz http://192.168.4.1 w przeglądarce internetowej. Niektóre urządzenia mogą wyświetlić powiadomienie o potrzebie zalogowania się do sieci Wi-Fi, wybranie tej opcji powinno otworzyć powyższy adres automatycznie.</p>
+<p>Na tej stronie (http://192.168.4.1) możesz przeskanować dostępne sieci Wi-Fi, następnie z listy wykrytych sieci wybrać swoją sieć Wi-Fi, do której chcesz podłączyć urządzenie.
+<img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step3.png" width="300px" align="left" style="margin:20px;"> </img></p>
 <p>Podaj następujące informacje:</p>
 <ul>
-<li><strong>SSID</strong> - nazwa sieci Wi-Fi do której podłączasz urządzenie.</li>
+<li><strong>SSID</strong> - nazwa sieci Wi-Fi, do której podłączasz urządzenie.</li>
 </ul>
 <blockquote>
 <p><strong>Uwaga</strong> w Identyfikatorze SSID ważna jest wielkość liter</p>
 </blockquote>
 <ul>
-<li><strong>Hasło</strong> - hasło do sieci Wi-Fi do której podłączasz urządzenie.</li>
+<li><strong>Hasło</strong> - hasło do sieci Wi-Fi, do której podłączasz urządzenie.</li>
 </ul>
 <blockquote>
 <p><strong>Uwaga</strong> Hasło Wi-Fi musi mieć mniej niż 32 znaki i nie może zawierać znaków specjalnych (np. gwiazdki) lub białych znaków</p>
 </blockquote>
-<p><del>Sprawdź</del> Podwójne sprawdź czy podałeś poprawnie dane do sieci i kliknij <strong>Zapisz</strong>, aby zastosować ustawienia. Urządzenie uruchomi się ponownie i połączy się z siecią domową.
-<img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step4.png" width="300px" align="center"> </img></p>
-<h2><a class="anchor" aria-hidden="true" id="ip-nowo-podłączonego-urządzenia"></a><a href="#ip-nowo-podłączonego-urządzenia" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>IP nowo podłączonego urządzenia</h2>
-<p>Sprawdz IP nowo podłączonego urządzenia w Twojej sieci.</p>
-<p>Możesz to zrobić na swoim routerze, wystarczy, że sprawdzisz jakie IP ma nowo podłączone urządzenie o tej samej nazwie, co miał punkt dostępu Wi-Fi na urzadzeniu (w tym przykładzie było to dom_s20_3EB39C_5020).</p>
+<p>Sprawdź, czy podałeś poprawne dane do sieci i kliknij <strong>Zapisz</strong>, aby zastosować ustawienia. Urządzenie uruchomi się ponownie i połączy się z siecią domową.
+<img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step4.png" width="300px" align="center" style="margin:20px;"> </img></p>
+<h2><a class="anchor" aria-hidden="true" id="adres-ip-urządzenia"></a><a href="#adres-ip-urządzenia" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adres IP urządzenia</h2>
+<p>Sprawdź adres IP nowo podłączonego urządzenia w Twojej sieci.</p>
+<p>Możesz to zrobić na swoim routerze, wystarczy, że sprawdzisz jakie IP ma nowo podłączone urządzenie o tej samej nazwie, co miał punkt dostępu Wi-Fi na urządzeniu (w tym przykładzie było to dom_s20_3EB39C_5020).</p>
 <p>Jeśli nie masz dostępu do routera, możesz znaleźć swoje nowe urządzenie za pomocą skanera IP, np:</p>
 <ul>
 <li><a href="https://www.fing.com/products/">Fing</a> - na Androida lub iOS</li>
@@ -104,4 +104,4 @@ Po połączeniu się z Wi-Fi na urządzeniu otwórz http://192.168.4.1 w przegl�
 <li><a href="https://sectools.org/tool/superscan/">Super Scan</a> - darmowe narzędzie dostępne tylko w systemie Windows</li>
 </ul>
 <p>Gdy ustalisz jaki adres IP ma urządzenie to otwórz ten adres IP za pomocą przeglądarki internetowej i <strong>masz pełny dostęp do urządzenia w swojej lokalnej sieci</strong>.</p>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/AIS-docs/docs/en/ais_iot_powers.html"><span class="arrow-prev">← </span><span>Możliwości urządzeń AIS dom</span></a><a class="docs-next button" href="/AIS-docs/docs/en/ais_iot_s26.html"><span class="function-name-prevnext">Inteligentne gniazdo WiFi</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#wprowadzenie">Wprowadzenie</a></li><li><a href="#konfiguracja-wi-fi">Konfiguracja Wi-Fi</a></li><li><a href="#ip-nowo-podłączonego-urządzenia">IP nowo podłączonego urządzenia</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy, dokumentacja" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2019 AI-Speaker</section></footer></div></body></html>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/AIS-docs/docs/en/ais_iot_powers.html"><span class="arrow-prev">← </span><span>Możliwości urządzeń AIS dom</span></a><a class="docs-next button" href="/AIS-docs/docs/en/ais_iot_s26.html"><span class="function-name-prevnext">Inteligentne gniazdo WiFi</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#wprowadzenie">Wprowadzenie</a></li><li><a href="#konfiguracja-wi-fi">Konfiguracja Wi-Fi</a></li><li><a href="#adres-ip-urządzenia">Adres IP urządzenia</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy, dokumentacja" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2019 AI-Speaker</section></footer></div></body></html>
