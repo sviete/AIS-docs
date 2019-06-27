@@ -48,7 +48,7 @@ sidebar_label: Możliwości urządzeń AIS dom
   </div>
   <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
     <div class="blockImage"><img src="/AIS-docs/img/en/icons/motion-sensor.svg"></img></div>
-    <div class="blockContent"><div><span><p>Zaawansowani użytkownicy mogą dołączać do urządzeń dodatkowe przełączniki, czujniki, wyświetlacze, mikrofony, odtwarzacze mp3 itd. do urządzeń.</p></span></div></div>
+    <div class="blockContent"><div><span><p>Zaawansowani użytkownicy mogą dołączać do urządzeń dodatkowe przełączniki, czujniki, wyświetlacze, mikrofony, odtwarzacze mp3, itd.</p></span></div></div>
   </div>
   <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
     <div class="blockImage"><img src="/AIS-docs/img/en/icons/logo-responsive.svg"></div>
