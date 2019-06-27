@@ -65,9 +65,13 @@
         "title": "Sterowanie diodą LED",
         "sidebar_label": "Sterowanie diodą LED"
       },
+      "ais_bramka_connect": {
+        "title": "Podłączenie bramki",
+        "sidebar_label": "Podłączenie"
+      },
       "ais_bramka_first_run": {
-        "title": "Bramka",
-        "sidebar_label": "Uruchomienie"
+        "title": "Pierwsze uruchomienie",
+        "sidebar_label": "Pierwsze uruchomienie"
       },
       "ais_bramka_index": {
         "title": "Bramka IoT",
@@ -772,6 +776,18 @@
       "version-0.93.6/version-0.93.6-ais_iot_works_with": {
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
+      },
+      "version-0.94.6/version-0.94.6-ais_bramka_connect": {
+        "title": "Podłączenie bramki",
+        "sidebar_label": "Podłączenie"
+      },
+      "version-0.94.6/version-0.94.6-ais_bramka_first_run": {
+        "title": "Pierwsze uruchomienie",
+        "sidebar_label": "Pierwsze uruchomienie"
+      },
+      "version-0.94.6/version-0.94.6-ais_iot_powers": {
+        "title": "Możliwości urządzeń AIS dom",
+        "sidebar_label": "Możliwości urządzeń AIS dom"
       }
     },
     "links": {

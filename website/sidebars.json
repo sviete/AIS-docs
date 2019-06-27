@@ -2,6 +2,7 @@
   "System": {
     "Bramka IoT": [
       "ais_bramka_index",
+      "ais_bramka_connect",
       "ais_bramka_first_run"
     ],
     "Dostęp w sieci lokalnej": [
