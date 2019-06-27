@@ -11,7 +11,7 @@ Przy pierwszym uruchomieniu **Asystenta domowego** wykonujemy początkową prost
 
 Następne kroki, które można wykonać przy pierwszym uruchomieniu (lub zrobić to później w konfiguracji), to:
 -  Zaznaczenie na mapie lokalizacji Twojego domu.
--  Dodanie urządzeń i usług, które są reprezentowane w "Asystencie domowym" jako integrację.
+-  Dodawanie urządzeń i usług, które są reprezentowane w "Asystencie domowym" jako integrację.
 
 Poniżej na zdjęciach z systemu pokazane są poszczególne kroki, wykonywane podczas pierwszego uruchomienia.
 
@@ -26,16 +26,16 @@ Poniżej na zdjęciach z systemu pokazane są poszczególne kroki, wykonywane po
 ![Utworzenie konta](/AIS-docs/img/en/frontend/onboarding_step_2.png)
 
 
-
 ## Konfiguracja WiFi
 
 ![Konfiguracja WiFi](/AIS-docs/img/en/frontend/onboarding_step_3.png)
 
 
-## Dodanie urządzeń
+## Dodawanie urządzeń
 
 ![Dodanie urządzeń](/AIS-docs/img/en/frontend/onboarding_step_4.png)
 
-## Dodanie usług
+
+## Dodawanie usług
 
 ![Dodanie usług](/AIS-docs/img/en/frontend/onboarding_step_5.png)
