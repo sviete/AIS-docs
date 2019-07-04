@@ -1,6 +1,8 @@
 ---
-title: "Instalowanie Aplikacji Android"
+title: Instalowanie Aplikacji Android
 sidebar_label: Instalowanie Aplikacji Android
+id: version-0.94.6-ais_bramka_remote_other_programs
+original_id: ais_bramka_remote_other_programs
 ---
 
 W deweloperskiej wersji bramki instnieje możliwość uruchamiania przeglądarki Internetowej oraz instalowania innych aplikacji.

@@ -32,9 +32,6 @@
       "version-0.94.6-ais_bramka_api_index",
       "version-0.94.6-ais_bramka_api_command",
       "version-0.94.6-ais_bramka_api_led"
-    ],
-    "Najczęstrze pytania": [
-      "version-0.94.6-ais_gate_faq_index"
     ]
   },
   "version-0.94.6-Aplikacja": {
@@ -74,9 +71,6 @@
       "version-0.94.6-ais_remote_mode_on_tv",
       "version-0.94.6-ais_remote_mode_off_tv",
       "version-0.94.6-ais_remote_mode_gesture"
-    ],
-    "Najczęstrze pytania": [
-      "version-0.94.6-ais_remote_faq_index"
     ]
   },
   "version-0.94.6-Urządzenia dodatkowe": {
@@ -94,6 +88,24 @@
     "Oprogramowanie dla urządzeń AIS dom": [
       "version-0.94.6-ais_iot_firmware_index",
       "version-0.94.6-ais_iot_firmware_upgrade"
+    ]
+  },
+  "version-0.94.6-FAQ": {
+    "Wprowadzenie": [
+      "version-0.94.6-ais_faq_index"
+    ],
+    "Bramka": [
+      "version-0.94.6-ais_gate_faq_https"
+    ],
+    "Pilot radiowy": [
+      "version-0.94.6-ais_remote_faq_index"
+    ],
+    "Oprogramowanie": [
+      "version-0.94.6-ais_gate_faq_hass_compatibility",
+      "version-0.94.6-ais_gate_faq_config_yaml",
+      "version-0.94.6-ais_gate_faq_custom_component",
+      "version-0.94.6-ais_gate_faq_package_compile",
+      "version-0.94.6-ais_bramka_remote_other_programs"
     ]
   }
 }

@@ -102,8 +102,8 @@
         "sidebar_label": "Wprowadzenie"
       },
       "ais_bramka_remote_other_programs": {
-        "title": "Instalowanie Aplikacji",
-        "sidebar_label": "Instalowanie Aplikacji"
+        "title": "Instalowanie Aplikacji Android",
+        "sidebar_label": "Instalowanie Aplikacji Android"
       },
       "ais_bramka_remote_serveo": {
         "title": "Zdalne przekazywania portów SSH",
@@ -185,9 +185,33 @@
         "title": "Usługi",
         "sidebar_label": "Usługi"
       },
+      "ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
+      },
+      "ais_gate_faq_config_yaml": {
+        "title": "Zaawansowana konfiguracja Asystenta domowego",
+        "sidebar_label": "configuration.yaml"
+      },
+      "ais_gate_faq_custom_component": {
+        "title": "Własny komponent w Asystencie domowym",
+        "sidebar_label": "Własny komponent w Asystencie domowym"
+      },
+      "ais_gate_faq_hass_compatibility": {
+        "title": "Kompatybilność z Home Assistant",
+        "sidebar_label": "Kompatybilność z Home Assistant"
+      },
+      "ais_gate_faq_https": {
+        "title": "Lokalny serwer z szyfrowaniem",
+        "sidebar_label": "HTTPS na bramce"
+      },
       "ais_gate_faq_index": {
         "title": "Bramka IoT FAQ",
         "sidebar_label": "Bramka IoT FAQ"
+      },
+      "ais_gate_faq_package_compile": {
+        "title": "Własny pakiet do systemu Linux",
+        "sidebar_label": "Własny pakiet do systemu Linux"
       },
       "ais_iot_add_to_gate": {
         "title": "Obsługa urządzeń w systemie Asystent domowy",
@@ -236,6 +260,10 @@
       "ais_remote_faq_index": {
         "title": "Pilot FAQ",
         "sidebar_label": "Pilot FAQ"
+      },
+      "ais_remote_faq": {
+        "title": "Pilot rozwiązywanie problemów",
+        "sidebar_label": "Pilot rozwiązywanie problemów"
       },
       "ais_remote_index": {
         "title": "Pilot radiowy",
@@ -777,6 +805,26 @@
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },
+      "version-0.94.6/version-0.94.6-ais_app_assistent_commands": {
+        "title": "Wbudowane komendy",
+        "sidebar_label": "Wbudowane komendy"
+      },
+      "version-0.94.6/version-0.94.6-ais_app_components_index": {
+        "title": "Komponenty",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.94.6/version-0.94.6-ais_app_drives": {
+        "title": "Dyski",
+        "sidebar_label": "Dyski"
+      },
+      "version-0.94.6/version-0.94.6-ais_app_spotify": {
+        "title": "Spotify",
+        "sidebar_label": "Spotify"
+      },
+      "version-0.94.6/version-0.94.6-ais_app_views": {
+        "title": "Widoki",
+        "sidebar_label": "Widoki"
+      },
       "version-0.94.6/version-0.94.6-ais_bramka_connect": {
         "title": "Podłączenie bramki",
         "sidebar_label": "Podłączenie"
@@ -785,9 +833,97 @@
         "title": "Pierwsze uruchomienie",
         "sidebar_label": "Pierwsze uruchomienie"
       },
+      "version-0.94.6/version-0.94.6-ais_bramka_index": {
+        "title": "Bramka IoT",
+        "sidebar_label": "Karta produktu"
+      },
+      "version-0.94.6/version-0.94.6-ais_bramka_remote_adb": {
+        "title": "Dostęp do konsoli bramki po ADB",
+        "sidebar_label": "ADB"
+      },
+      "version-0.94.6/version-0.94.6-ais_bramka_remote_other_programs": {
+        "title": "Instalowanie Aplikacji Android",
+        "sidebar_label": "Instalowanie Aplikacji Android"
+      },
+      "version-0.94.6/version-0.94.6-ais_bramka_services": {
+        "title": "Usługi działające na bramce",
+        "sidebar_label": "Usługi bramki"
+      },
+      "version-0.94.6/version-0.94.6-ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
+      },
+      "version-0.94.6/version-0.94.6-ais_gate_faq_config_yaml": {
+        "title": "Zaawansowana konfiguracja Asystenta domowego",
+        "sidebar_label": "configuration.yaml"
+      },
+      "version-0.94.6/version-0.94.6-ais_gate_faq_custom_component": {
+        "title": "Własny komponent w Asystencie domowym",
+        "sidebar_label": "Własny komponent w Asystencie domowym"
+      },
+      "version-0.94.6/version-0.94.6-ais_gate_faq_hass_compatibility": {
+        "title": "Kompatybilność z Home Assistant",
+        "sidebar_label": "Kompatybilność z Home Assistant"
+      },
+      "version-0.94.6/version-0.94.6-ais_gate_faq_https": {
+        "title": "Lokalny serwer z szyfrowaniem",
+        "sidebar_label": "HTTPS na bramce"
+      },
+      "version-0.94.6/version-0.94.6-ais_gate_faq_index": {
+        "title": "Bramka IoT FAQ",
+        "sidebar_label": "Bramka IoT FAQ"
+      },
+      "version-0.94.6/version-0.94.6-ais_gate_faq_package_compile": {
+        "title": "Własny pakiet do systemu Linux",
+        "sidebar_label": "Własny pakiet do systemu Linux"
+      },
+      "version-0.94.6/version-0.94.6-ais_iot_add_to_gate": {
+        "title": "Obsługa urządzeń w systemie Asystent domowy",
+        "sidebar_label": "Obsługa urządzeń w systemie Asystent domowy"
+      },
+      "version-0.94.6/version-0.94.6-ais_iot_android": {
+        "title": "Obsługa urządznia z aplikacji Android",
+        "sidebar_label": "Obsługa urządznia z aplikacji Android"
+      },
+      "version-0.94.6/version-0.94.6-ais_iot_browser": {
+        "title": "Obsługa urządznia z przeglądarki",
+        "sidebar_label": "Obsługa urządznia z przeglądarki"
+      },
+      "version-0.94.6/version-0.94.6-ais_iot_commands": {
+        "title": "S26, inteligentne gniazdo WiFi",
+        "sidebar_label": "Inteligentne gniazdo WiFi"
+      },
+      "version-0.94.6/version-0.94.6-ais_iot_firmware_index": {
+        "title": "Oprogramowanie dla urządzeń automatyki domowej",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.94.6/version-0.94.6-ais_iot_firmware_upgrade": {
+        "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
+        "sidebar_label": "Aktualizacja oprogramowania"
+      },
+      "version-0.94.6/version-0.94.6-ais_iot_index": {
+        "title": "Urządzenia dodatkowe",
+        "sidebar_label": "Urządzenia dodatkowe"
+      },
       "version-0.94.6/version-0.94.6-ais_iot_powers": {
         "title": "Możliwości urządzeń AIS dom",
         "sidebar_label": "Możliwości urządzeń AIS dom"
+      },
+      "version-0.94.6/version-0.94.6-ais_iot_remote": {
+        "title": "Sterowanie komendami i pilotem",
+        "sidebar_label": "Sterowanie komendami i pilotem"
+      },
+      "version-0.94.6/version-0.94.6-ais_iot_s26": {
+        "title": "S26, inteligentne gniazdo WiFi",
+        "sidebar_label": "Inteligentne gniazdo WiFi"
+      },
+      "version-0.94.6/version-0.94.6-ais_iot_works_with": {
+        "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
+        "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
+      },
+      "version-0.94.6/version-0.94.6-ais_remote_faq": {
+        "title": "Pilot rozwiązywanie problemów",
+        "sidebar_label": "Pilot rozwiązywanie problemów"
       }
     },
     "links": {
@@ -795,6 +931,7 @@
       "Aplikacja": "Aplikacja",
       "Pilot": "Pilot",
       "Urządzenia": "Urządzenia",
+      "FAQ": "FAQ",
       "Aktualności": "Aktualności"
     },
     "categories": {
@@ -803,7 +940,6 @@
       "Dostęp z Internetu": "Dostęp z Internetu",
       "Portal Integratora": "Portal Integratora",
       "Ustawienia zaawansowane": "Ustawienia zaawansowane",
-      "Najczęstrze pytania": "Najczęstrze pytania",
       "Aplikacja": "Aplikacja",
       "Komponenty": "Komponenty",
       "Asystent": "Asystent",
@@ -812,8 +948,11 @@
       "Pilot radiowy": "Pilot radiowy",
       "Urządzenia AIS dom": "Urządzenia AIS dom",
       "Oprogramowanie dla urządzeń AIS dom": "Oprogramowanie dla urządzeń AIS dom",
+      "Wprowadzenie": "Wprowadzenie",
       "Bramka": "Bramka",
+      "Oprogramowanie": "Oprogramowanie",
       "API": "API",
+      "Najczęstrze pytania": "Najczęstrze pytania",
       "Urządzenia": "Urządzenia",
       "Oprogramowanie dla urządzeń": "Oprogramowanie dla urządzeń",
       "Dostęp": "Dostęp"
