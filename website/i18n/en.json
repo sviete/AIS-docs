@@ -65,6 +65,10 @@
         "title": "Sterowanie diodą LED",
         "sidebar_label": "Sterowanie diodą LED"
       },
+      "ais_bramka_automation": {
+        "title": "Automatyzacja Asystenta domowego",
+        "sidebar_label": "Automatyzacja"
+      },
       "ais_bramka_connect": {
         "title": "Podłączenie bramki",
         "sidebar_label": "Podłączenie"
@@ -76,6 +80,10 @@
       "ais_bramka_index": {
         "title": "Bramka IoT",
         "sidebar_label": "Karta produktu"
+      },
+      "ais_bramka_presence_detection": {
+        "title": "Konfigurowanie wykrywania obecności",
+        "sidebar_label": "Wykrywanie obecności"
       },
       "ais_bramka_remote_adb": {
         "title": "Dostęp do konsoli bramki po ADB",

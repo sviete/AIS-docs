@@ -3,7 +3,9 @@
     "Bramka IoT": [
       "ais_bramka_index",
       "ais_bramka_connect",
-      "ais_bramka_first_run"
+      "ais_bramka_first_run",
+      "ais_bramka_automation",
+      "ais_bramka_presence_detection"
     ],
     "Dostęp w sieci lokalnej": [
       "ais_bramka_remote_index",
