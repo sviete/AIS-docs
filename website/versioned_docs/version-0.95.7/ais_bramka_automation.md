@@ -1,6 +1,8 @@
 ---
-title: "Automatyzacja Asystenta domowego"
+title: Automatyzacja Asystenta domowego
 sidebar_label: Automatyzacja
+id: version-0.95.7-ais_bramka_automation
+original_id: ais_bramka_automation
 ---
 
 ## Wprowadzenie

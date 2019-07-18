@@ -32,7 +32,7 @@ Możemy sterować odtwarzaczem spotify z aplikacji Asystent domowy oraz z aplika
 
 * Włącz pilotem tryb "Sterowanie na monitorze" [Tryby działania pilota](/AIS-docs/docs/en/ais_remote_modes.html)
 
-* Przejdz do ustawień aplikacji klikając na ikonkę w lewym dolnym rogu ekranu aplikacji [Ustawienia aplikacji](/AIS-docs/docs/en/ais_bramka_settings.html#ustawienia-aplikacji-asystent-domowy)
+* Przejdź do ustawień aplikacji klikając na ikonkę w lewym dolnym rogu ekranu aplikacji [Ustawienia aplikacji](/AIS-docs/docs/en/ais_bramka_settings.html#ustawienia-aplikacji-asystent-domowy)
 
 * Wybierz opcję "Integracje" -> "Spotify"
 
@@ -43,7 +43,7 @@ Możemy sterować odtwarzaczem spotify z aplikacji Asystent domowy oraz z aplika
 
 ### 3. Pozwól "Asystentowi domowemu" na pobieranie danych ze Spotify oraz na sterowanie odtwarzaczem
 
-* Przejdz do aplikacji "Asystent domowy" z przeglądarki internetowej w Twojej lokalnej sieci [Dostęp do bramki po HTTP](/AIS-docs/docs/en/ais_bramka_remote_http)
+* Przejdź do aplikacji "Asystent domowy" z przeglądarki internetowej w Twojej lokalnej sieci [Dostęp do bramki po HTTP](/AIS-docs/docs/en/ais_bramka_remote_http)
 
 * Otwórz ***Ustawienia*** -> ***Integracje*** klikając ikonę "rozwijanego menu" w lewym górnym rogu
 

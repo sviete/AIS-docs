@@ -23,7 +23,7 @@ W systemie "Aysystent domowy" mamy trzy typy dysków, z których możemy odtwarz
 ## Konfiguracja dysku zdalnego
 
 
-* Przejdz do aplikacji "Asystent domowy" z przeglądarki internetowej w Twojej lokalnej sieci [Dostęp do bramki po HTTP](/AIS-docs/docs/en/ais_bramka_remote_http)
+* Przejdź do aplikacji "Asystent domowy" z przeglądarki internetowej w Twojej lokalnej sieci [Dostęp do bramki po HTTP](/AIS-docs/docs/en/ais_bramka_remote_http)
 
 * Otwórz ***Ustawienia*** -> ***Integracje*** klikając ikonę "rozwijanego menu" w lewym górnym rogu
 

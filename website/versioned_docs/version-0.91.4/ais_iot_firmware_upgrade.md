@@ -28,7 +28,7 @@ W systemie Asystent domowy przejdź do grupy "Menu" -> "Ustawienia" -> "Integrac
 
 http://ais-dom.local:8180/config/integrations/dashboard
 
-a następnie przejdz do konfiguracji urządzeń "MQTT" by sprawdzić status urządzenia w tym jego adres IP
+a następnie przejdź do konfiguracji urządzeń "MQTT" by sprawdzić status urządzenia w tym jego adres IP
 
 
 ![Urządzenia w Twojej sieci](/AIS-docs/img/en/iot/iot_device_discovery.png)
@@ -55,7 +55,7 @@ Odczekaj aż pojawi się informacja o powodzeniu aktualizacji
 ![Pierwszy plik](/AIS-docs/img/en/iot/iot_device_menu_upgrade_2.png)
 
 
-Odśwież menu urządzenia i przejdz do wgrywania kolejnego pliku
+Odśwież menu urządzenia i przejdź do wgrywania kolejnego pliku
 
 ### Drugi plik
 
@@ -65,7 +65,7 @@ Wybierz plik **s26_firmware_v6.5.0.bin** i naciśnij "Start upgrade"
 
 
 Odczekaj aż pojawi się informacja o powodzeniu aktualizacji.
-Następnie urządzenie sie zrestartuje i powróci do głównego menu, z głównego menu przejdz do konsoli urządzenia
+Następnie urządzenie sie zrestartuje i powróci do głównego menu, z głównego menu przejdź do konsoli urządzenia
 
 
 ![Przejście do konsoli](/AIS-docs/img/en/iot/iot_device_menu_upgrade_5.png)

@@ -932,6 +932,18 @@
       "version-0.94.6/version-0.94.6-ais_remote_faq": {
         "title": "Pilot rozwiązywanie problemów",
         "sidebar_label": "Pilot rozwiązywanie problemów"
+      },
+      "version-0.95.7/version-0.95.7-ais_app_assistent_commands": {
+        "title": "Wbudowane komendy",
+        "sidebar_label": "Wbudowane komendy"
+      },
+      "version-0.95.7/version-0.95.7-ais_bramka_automation": {
+        "title": "Automatyzacja Asystenta domowego",
+        "sidebar_label": "Automatyzacja"
+      },
+      "version-0.95.7/version-0.95.7-ais_bramka_presence_detection": {
+        "title": "Konfigurowanie wykrywania obecności",
+        "sidebar_label": "Wykrywanie obecności"
       }
     },
     "links": {
