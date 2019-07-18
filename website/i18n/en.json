@@ -944,6 +944,10 @@
       "version-0.95.7/version-0.95.7-ais_bramka_presence_detection": {
         "title": "Konfigurowanie wykrywania obecności",
         "sidebar_label": "Wykrywanie obecności"
+      },
+      "version-0.95.7/version-0.95.7-ais_gate_faq_config_yaml": {
+        "title": "Zaawansowana konfiguracja Asystenta domowego",
+        "sidebar_label": "configuration.yaml"
       }
     },
     "links": {

@@ -1,6 +1,8 @@
 ---
-title: "Zaawansowana konfiguracja Asystenta domowego"
+title: Zaawansowana konfiguracja Asystenta domowego
 sidebar_label: configuration.yaml
+id: version-0.95.7-ais_gate_faq_config_yaml
+original_id: ais_gate_faq_config_yaml
 ---
 
 ## Plik konfiguracyjny configuration.yaml

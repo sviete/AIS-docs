@@ -24,7 +24,7 @@ Więcej w dokumentacji [Wykrywanie obecności](/AIS-docs/docs/en/ais_bramka_pres
 
 Asystent domowy oferuje szeroki zakres konfiguracji automatyzacji.
 Zanim zaczniesz tworzyć własne przydatne automatyzacje w swoim domu, ważne jest, aby zrozumieć podstawy.
-W przewodniku postaramy się poprowadzić Cię "krok po kroku" przez podstawowe możliwości i opcje podczas tworzenia prostej reguły automatyzacji, która włącza oświetlenie, gdy zachodzi słońce. [Zapraszamy do zapoznania się z przewodnikiem i automatyzowania!](/AIS-docs/docs/en/ais_bramka_automation.html)
+W przewodniku postaramy się poprowadzić Cię "krok po kroku" przez podstawowe możliwości i opcje podczas tworzenia prostej reguły automatyzacji, która włącza oświetlenie, gdy zachodzi słońce. [Zapraszamy do automatyzowania!](/AIS-docs/docs/en/ais_bramka_automation.html)
 
 
 ![Wykrywanie obecności](/AIS-docs/img/en/bramka/automation8.png)
@@ -46,21 +46,20 @@ Od wersji 0.95.6 na tym ekranie wyświetlamy też aktualną datę i godzinę. Po
 
 ### Literowanie
 
-Chcemy, żeby nasz produkt był łatwy w obsłudze również dla osób mających problemy ze wzrokiem oraz dla osób starszych. Kolejnym udogodnieniem w tym temacie jest funkcjonalność literowania, np. asystentka może przeliterować unikalny identyfikatora urządzenia.
+Chcemy, żeby nasz produkt był łatwy w obsłudze również dla osób mających problemy ze wzrokiem oraz dla osób starszych. Kolejnym udogodnieniem w tym temacie jest funkcjonalność literowania - np. asystentka może przeliterować unikalny identyfikator urządzenia.
 Ta opcja dostępna jest z pilota - po wybraniu pozycji identyfikatora urządzenia możemy wcisnąć przycisk "OK" by przeliterować nasz identyfikator.
-Możemy też kazać przeliterować asystentce status dowolnego elementu systemu wystarczy powiedzieć "Przeliteruj " i dodać nazwę elementu, np.:
+Możemy też kazać przeliterować asystentce status dowolnego elementu systemu - wystarczy powiedzieć "Przeliteruj " i dodać nazwę elementu, np.:
 
 ```text
 Przeliteruj unikalny identyfikator bramki
 ```
 
-W dokumentacji opisane są wszystkie [wbudowane komendy które rozumie Asystent domowy](/AIS-docs/docs/en/ais_app_assistent_commands.html)
+W dokumentacji opisane są wszystkie [wbudowane komendy, które rozumie Asystent domowy](/AIS-docs/docs/en/ais_app_assistent_commands.html)
 
 
 ### Pozostałe istotne zmiany
 
-- Muzyka into podczas uruchomienia urządzenia i komunikat głosowy informujący o uruchamianiu systemu
-optymalizacja w trzech głównych aktywnościach aplikacji.
-- Stronicowanie wynkików wyszukiwania z YouTube. Informacja o całkowitej liczbie wyników dla zapytania/wyszukiwania na YouTube (ograniczone do 1 000 000 - maksymalny limit na YouTube). Stronicowanie wyników - 10 na stronę, możliwość nawigowania po stronach wyszukania - przechodzenie pilotem i/lub w aplikacji do poprzedniej i kolejnej strony
+- Muzyka intro podczas uruchomienia urządzenia i komunikat głosowy informujący o uruchamianiu systemu, optymalizacja w trzech głównych aktywnościach aplikacji.
+- Stronicowanie wyników wyszukiwania z YouTube. Informacja o całkowitej liczbie wyników dla zapytania/wyszukiwania na YouTube (ograniczone do 1 000 000 - maksymalny limit na YouTube). Stronicowanie wyników - 10 na stronę, możliwość nawigowania po stronach wyszukania - przechodzenie pilotem i/lub w aplikacji do poprzedniej i kolejnej strony
 - Poprawione skanowanie sieci w poszukiwaniu urządzeń. Rozpoznawanie urządzeń po adresie MAC.
 - Najnowszy Home Assistant <a href="https://www.home-assistant.io/blog/2019/06/26/release-95/" target="_blank">0.95</a>
