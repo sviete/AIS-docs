@@ -193,9 +193,17 @@
         "title": "Usługi",
         "sidebar_label": "Usługi"
       },
+      "ais_faq_audio_cards": {
+        "title": "Obsługa kart dzwiękowych",
+        "sidebar_label": "Obsługa kart dzwiękowych"
+      },
       "ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
+      },
+      "ais_faq_when_speaker": {
+        "title": "Czy planujecie jeszcze zbudowanie głośnika.",
+        "sidebar_label": "Czy planujecie jeszcze zbudowanie głośnika"
       },
       "ais_gate_faq_config_yaml": {
         "title": "Zaawansowana konfiguracja Asystenta domowego",
@@ -945,6 +953,18 @@
         "title": "Konfigurowanie wykrywania obecności",
         "sidebar_label": "Wykrywanie obecności"
       },
+      "version-0.95.7/version-0.95.7-ais_faq_audio_cards": {
+        "title": "Obsługa kart dzwiękowych",
+        "sidebar_label": "Obsługa kart dzwiękowych"
+      },
+      "version-0.95.7/version-0.95.7-ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
+      },
+      "version-0.95.7/version-0.95.7-ais_faq_when_speaker": {
+        "title": "Czy planujecie jeszcze w ogóle zbudowanie głośnika.",
+        "sidebar_label": "Kiedy powstanie głośnik"
+      },
       "version-0.95.7/version-0.95.7-ais_gate_faq_config_yaml": {
         "title": "Zaawansowana konfiguracja Asystenta domowego",
         "sidebar_label": "configuration.yaml"
@@ -973,6 +993,7 @@
       "Urządzenia AIS dom": "Urządzenia AIS dom",
       "Oprogramowanie dla urządzeń AIS dom": "Oprogramowanie dla urządzeń AIS dom",
       "Wprowadzenie": "Wprowadzenie",
+      "Ogólne": "Ogólne",
       "Bramka": "Bramka",
       "Oprogramowanie": "Oprogramowanie",
       "API": "API",

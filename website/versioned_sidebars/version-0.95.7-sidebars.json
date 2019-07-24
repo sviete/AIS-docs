@@ -96,8 +96,12 @@
     "Wprowadzenie": [
       "version-0.95.7-ais_faq_index"
     ],
+    "Ogólne": [
+      "version-0.95.7-ais_faq_when_speaker"
+    ],
     "Bramka": [
-      "version-0.95.7-ais_gate_faq_https"
+      "version-0.95.7-ais_gate_faq_https",
+      "version-0.95.7-ais_faq_audio_cards"
     ],
     "Pilot radiowy": [
       "version-0.95.7-ais_remote_faq_index"

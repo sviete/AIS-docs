@@ -98,8 +98,12 @@
     "Wprowadzenie": [
       "ais_faq_index"
     ],
+    "Ogólne": [
+      "ais_faq_when_speaker"
+    ],
     "Bramka": [
-      "ais_gate_faq_https"
+      "ais_gate_faq_https",
+      "ais_faq_audio_cards"
     ],
     "Pilot radiowy": [
       "ais_remote_faq_index"
