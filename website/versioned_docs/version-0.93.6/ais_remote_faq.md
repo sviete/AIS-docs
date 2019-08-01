@@ -1,6 +1,8 @@
 ---
-title: "Pilot FAQ"
-sidebar_label: Pilot FAQ
+title: Pilot rozwiązywanie problemów
+sidebar_label: Pilot rozwiązywanie problemów
+id: version-0.93.6-ais_remote_faq
+original_id: ais_remote_faq
 ---
 
 

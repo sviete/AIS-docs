@@ -29,13 +29,9 @@
     "Ustawienia zaawansowane": [
       "ais_bramka_services",
       "ais_bramka_settings",
-      "ais_bramka_remote_other_programs",
       "ais_bramka_api_index",
       "ais_bramka_api_command",
       "ais_bramka_api_led"
-    ],
-    "Najczęstrze pytania": [
-      "ais_gate_faq_index"
     ]
   },
   "Aplikacja": {
@@ -75,9 +71,6 @@
       "ais_remote_mode_on_tv",
       "ais_remote_mode_off_tv",
       "ais_remote_mode_gesture"
-    ],
-    "Najczęstrze pytania": [
-      "ais_remote_faq_index"
     ]
   },
   "Urządzenia dodatkowe": {
@@ -96,6 +89,24 @@
     "Oprogramowanie dla urządzeń AIS dom": [
       "ais_iot_firmware_index",
       "ais_iot_firmware_upgrade"
+    ]
+  },
+  "FAQ": {
+    "Wprowadzenie": [
+      "ais_faq_index"
+    ],
+    "Bramka": [
+      "ais_gate_faq_https"
+    ],
+    "Pilot radiowy": [
+      "ais_remote_faq_index"
+    ],
+    "Oprogramowanie": [
+      "ais_gate_faq_hass_compatibility",
+      "ais_gate_faq_config_yaml",
+      "ais_gate_faq_custom_component",
+      "ais_gate_faq_package_compile",
+      "ais_bramka_remote_other_programs"
     ]
   }
 }

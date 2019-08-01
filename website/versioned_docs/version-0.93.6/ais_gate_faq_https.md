@@ -1,8 +1,8 @@
 ---
-title: Bramka IoT FAQ
-sidebar_label: Bramka IoT FAQ
-id: version-0.93.6-ais_gate_faq_index
-original_id: ais_gate_faq_index
+title: Lokalny serwer z szyfrowaniem
+sidebar_label: HTTPS na bramce
+id: version-0.93.6-ais_gate_faq_https
+original_id: ais_gate_faq_https
 ---
 
 ## Uruchomienie usługi lokalnego serwera z szyfrowaniem

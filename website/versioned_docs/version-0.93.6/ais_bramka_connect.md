@@ -1,7 +1,7 @@
 ---
 title: Podłączenie bramki
 sidebar_label: Podłączenie
-id: version-0.94.6-ais_bramka_connect
+id: version-0.93.6-ais_bramka_connect
 original_id: ais_bramka_connect
 ---
 

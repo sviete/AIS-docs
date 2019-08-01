@@ -185,9 +185,29 @@
         "title": "Usługi",
         "sidebar_label": "Usługi"
       },
-      "ais_gate_faq_index": {
-        "title": "Bramka IoT FAQ",
-        "sidebar_label": "Bramka IoT FAQ"
+      "ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
+      },
+      "ais_gate_faq_config_yaml": {
+        "title": "Zaawansowana konfiguracja Asystenta domowego",
+        "sidebar_label": "configuration.yaml"
+      },
+      "ais_gate_faq_custom_component": {
+        "title": "Własny komponent w Asystencie domowym",
+        "sidebar_label": "Własny komponent w Asystencie domowym"
+      },
+      "ais_gate_faq_hass_compatibility": {
+        "title": "Kompatybilność z Home Assistant",
+        "sidebar_label": "Kompatybilność z Home Assistant"
+      },
+      "ais_gate_faq_https": {
+        "title": "Lokalny serwer z szyfrowaniem",
+        "sidebar_label": "HTTPS na bramce"
+      },
+      "ais_gate_faq_package_compile": {
+        "title": "Własny pakiet do systemu Linux",
+        "sidebar_label": "Własny pakiet do systemu Linux"
       },
       "ais_iot_add_to_gate": {
         "title": "Obsługa urządzeń w systemie Asystent domowy",
@@ -233,9 +253,9 @@
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },
-      "ais_remote_faq_index": {
-        "title": "Pilot FAQ",
-        "sidebar_label": "Pilot FAQ"
+      "ais_remote_faq": {
+        "title": "Pilot rozwiązywanie problemów",
+        "sidebar_label": "Pilot rozwiązywanie problemów"
       },
       "ais_remote_index": {
         "title": "Pilot radiowy",
@@ -296,6 +316,10 @@
       "version-0.77.0/version-0.77.0-ais_bramka_update_index": {
         "title": "Aktualizacja oprogramowania",
         "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.77.0/version-0.93.6-ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
       },
       "version-0.77.0/version-0.77.0-ais_iot_index": {
         "title": "Urządzenia",
@@ -713,6 +737,10 @@
         "title": "Widoki",
         "sidebar_label": "Widoki"
       },
+      "version-0.92.6/version-0.93.6-ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
+      },
       "version-0.92.6/version-0.92.6-ais_iot_add_to_gate": {
         "title": "Obsługa urządzenia za pomocą bramki",
         "sidebar_label": "Obsługa urządzenia za pomocą bramki"
@@ -729,6 +757,14 @@
         "title": "Działa z Asystentem domowym",
         "sidebar_label": "Działa z Asystentem domowym"
       },
+      "version-0.93.6/version-0.93.6-ais_bramka_connect": {
+        "title": "Podłączenie bramki",
+        "sidebar_label": "Podłączenie"
+      },
+      "version-0.93.6/version-0.93.6-ais_bramka_first_run": {
+        "title": "Pierwsze uruchomienie",
+        "sidebar_label": "Pierwsze uruchomienie"
+      },
       "version-0.93.6/version-0.93.6-ais_bramka_index": {
         "title": "Bramka IoT",
         "sidebar_label": "Karta produktu"
@@ -737,9 +773,29 @@
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
       },
-      "version-0.93.6/version-0.93.6-ais_gate_faq_index": {
-        "title": "Bramka IoT FAQ",
-        "sidebar_label": "Bramka IoT FAQ"
+      "version-0.93.6/version-0.93.6-ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
+      },
+      "version-0.93.6/version-0.93.6-ais_gate_faq_config_yaml": {
+        "title": "Zaawansowana konfiguracja Asystenta domowego",
+        "sidebar_label": "configuration.yaml"
+      },
+      "version-0.93.6/version-0.93.6-ais_gate_faq_custom_component": {
+        "title": "Własny komponent w Asystencie domowym",
+        "sidebar_label": "Własny komponent w Asystencie domowym"
+      },
+      "version-0.93.6/version-0.93.6-ais_gate_faq_hass_compatibility": {
+        "title": "Kompatybilność z Home Assistant",
+        "sidebar_label": "Kompatybilność z Home Assistant"
+      },
+      "version-0.93.6/version-0.93.6-ais_gate_faq_https": {
+        "title": "Lokalny serwer z szyfrowaniem",
+        "sidebar_label": "HTTPS na bramce"
+      },
+      "version-0.93.6/version-0.93.6-ais_gate_faq_package_compile": {
+        "title": "Własny pakiet do systemu Linux",
+        "sidebar_label": "Własny pakiet do systemu Linux"
       },
       "version-0.93.6/version-0.93.6-ais_iot_add_to_gate": {
         "title": "Obsługa urządzeń w systemie Asystent domowy",
@@ -777,17 +833,9 @@
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },
-      "version-0.94.6/version-0.94.6-ais_bramka_connect": {
-        "title": "Podłączenie bramki",
-        "sidebar_label": "Podłączenie"
-      },
-      "version-0.94.6/version-0.94.6-ais_bramka_first_run": {
-        "title": "Pierwsze uruchomienie",
-        "sidebar_label": "Pierwsze uruchomienie"
-      },
-      "version-0.94.6/version-0.94.6-ais_iot_powers": {
-        "title": "Możliwości urządzeń AIS dom",
-        "sidebar_label": "Możliwości urządzeń AIS dom"
+      "version-0.93.6/version-0.93.6-ais_remote_faq": {
+        "title": "Pilot rozwiązywanie problemów",
+        "sidebar_label": "Pilot rozwiązywanie problemów"
       }
     },
     "links": {
@@ -795,6 +843,7 @@
       "Aplikacja": "Aplikacja",
       "Pilot": "Pilot",
       "Urządzenia": "Urządzenia",
+      "FAQ": "FAQ",
       "Aktualności": "Aktualności"
     },
     "categories": {
@@ -803,7 +852,6 @@
       "Dostęp z Internetu": "Dostęp z Internetu",
       "Portal Integratora": "Portal Integratora",
       "Ustawienia zaawansowane": "Ustawienia zaawansowane",
-      "Najczęstrze pytania": "Najczęstrze pytania",
       "Aplikacja": "Aplikacja",
       "Komponenty": "Komponenty",
       "Asystent": "Asystent",
@@ -812,8 +860,11 @@
       "Pilot radiowy": "Pilot radiowy",
       "Urządzenia AIS dom": "Urządzenia AIS dom",
       "Oprogramowanie dla urządzeń AIS dom": "Oprogramowanie dla urządzeń AIS dom",
+      "Wprowadzenie": "Wprowadzenie",
       "Bramka": "Bramka",
+      "Oprogramowanie": "Oprogramowanie",
       "API": "API",
+      "Najczęstrze pytania": "Najczęstrze pytania",
       "Urządzenia": "Urządzenia",
       "Oprogramowanie dla urządzeń": "Oprogramowanie dla urządzeń",
       "Dostęp": "Dostęp"

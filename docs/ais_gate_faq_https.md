@@ -1,6 +1,6 @@
 ---
-title: "Bramka IoT FAQ"
-sidebar_label: Bramka IoT FAQ
+title: "Lokalny serwer z szyfrowaniem"
+sidebar_label: HTTPS na bramce
 ---
 
 ## Uruchomienie usługi lokalnego serwera z szyfrowaniem

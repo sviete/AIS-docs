@@ -1,0 +1,41 @@
+---
+title: Odpowiedzi na najczęściej zadawane pytania
+sidebar_label: Informacja
+id: version-0.93.6-ais_faq_index
+original_id: ais_faq_index
+---
+
+### Witamy na stronie FAQ.
+
+Na tej stronie znajdują się odpowiedzi na najczęściej zadawane nam pytania. Staramy się je na bieżąco uzupełniać, jeżeli jednak nie znajdujesz odpowiedzi na swoje pytanie, to proszę zwrócić się z pytaniem do naszego helpdesku pod adresem info@sviete.pl, Dziękujemy!
+
+<div class="introSection lightBackground">
+<div class="container">
+<div class="wrapper">
+<div style="display:flex;flex-flow:row wrap;justify-content:space-evenly">
+<div style="display:flex;flex-direction:column;max-width:420px">
+<h2>Bramka</h2>
+<ul style="flex:1">
+  <li><a href="/AIS-docs/docs/en/ais_gate_faq_https.html">HTTPS na bramce</a></li>
+</ul>
+
+<h2>Pilot radiowy</h2>
+<ul style="flex:1">
+  <li><a href="/AIS-docs/docs/en/ais_remote_index.html">Jak działa pilot</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_app_assistent_commands.html">Komendy, które rozumie Asystent</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_remote_faq_index.html">Rozwiązywanie problemów z pilotem</a></li>
+</ul>
+
+<h2>Oprogramowanie</h2>
+<ul>
+  <li><a href="/AIS-docs/docs/en/ais_gate_faq_hass_compatibility.html">Kompatybilność z Home Assistant</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_gate_faq_config_yaml.html">Zaawansowana konfiguracja Asystenta domowego</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_gate_faq_custom_component.html">Dodanie własnego komponentu do Asystenta</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_gate_faq_package_compile.html">Kompilacja pakietu Linux</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_bramka_remote_other_programs.html">Instalowanie Aplikacji w systemie Android</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
