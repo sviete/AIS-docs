@@ -27,3 +27,9 @@ $ cat /proc/asound/cards
 ```
 
 ### Testowanie kart dźwiękowych
+
+```bash
+$ su -c 'tinymix -D 0'
+```
+
+> TODO
