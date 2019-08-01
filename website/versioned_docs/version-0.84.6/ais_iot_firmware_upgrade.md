@@ -23,7 +23,7 @@ Pobierz najnowsze wersje 2 plkiów:
 
 ### Urządzenia w Twojej sieci
 
-W systemie Asystent domowy przejdz do grupy "System" -> "Urządzenia w Twojej sieci", domyślny adres:
+W systemie Asystent domowy przejdź do grupy "System" -> "Urządzenia w Twojej sieci", domyślny adres:
 
 http://ais-dom.local:8180/states/group.system
 
@@ -57,7 +57,7 @@ Odczekaj aż pojawi się informacja o powodzeniu aktualizacji
 ![Pierwszy plik](/AIS-docs/img/en/iot/iot_device_menu_upgrade_2.png)
 
 
-Odświerz menu urządzenia i przejdz do wgrywania kolejnego pliku
+Odświerz menu urządzenia i przejdź do wgrywania kolejnego pliku
 
 ### Drugi plik
 
@@ -70,7 +70,7 @@ Odczekaj aż pojawi się informacja o powodzeniu aktualizacji
 
 ![Drugi plik](/AIS-docs/img/en/iot/iot_device_menu_upgrade_4.png)
 
-następnie urządzenie sie zrestartuje i powróci do głównego menu, z głównego menu przejdz do konsoli urządzenia
+następnie urządzenie sie zrestartuje i powróci do głównego menu, z głównego menu przejdź do konsoli urządzenia
 
 
 ![Przejście do konsoli](/AIS-docs/img/en/iot/iot_device_menu_upgrade_5.png)

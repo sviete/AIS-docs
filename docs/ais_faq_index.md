@@ -11,12 +11,20 @@ Na tej stronie znajdują się odpowiedzi na najczęściej zadawane nam pytania. 
 <div class="container">
 <div class="wrapper">
 <div style="display:flex;flex-flow:row wrap;justify-content:space-evenly">
-<div style="display:flex;flex-direction:column;max-width:420px">
+
+<div style="display:flex;flex-direction:column;max-width:360px">
+<h2>Ogólne</h2>
+<ul style="flex:1">
+  <li><a href="/AIS-docs/docs/en/ais_faq_when_speaker.html">Czy planujecie jeszcze zbudowanie głośnika</a></li>
+</ul>
 <h2>Bramka</h2>
 <ul style="flex:1">
   <li><a href="/AIS-docs/docs/en/ais_gate_faq_https.html">HTTPS na bramce</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_faq_audio_cards.html">Sterowanie kartami dzwiękowymi/audio</a></li>
 </ul>
+</div>
 
+<div style="display:flex;flex-direction:column;max-width:360px">
 <h2>Pilot radiowy</h2>
 <ul style="flex:1">
   <li><a href="/AIS-docs/docs/en/ais_remote_index.html">Jak działa pilot</a></li>
@@ -25,7 +33,7 @@ Na tej stronie znajdują się odpowiedzi na najczęściej zadawane nam pytania. 
 </ul>
 
 <h2>Oprogramowanie</h2>
-<ul>
+<ul style="flex:1">
   <li><a href="/AIS-docs/docs/en/ais_gate_faq_hass_compatibility.html">Kompatybilność z Home Assistant</a></li>
   <li><a href="/AIS-docs/docs/en/ais_gate_faq_config_yaml.html">Zaawansowana konfiguracja Asystenta domowego</a></li>
   <li><a href="/AIS-docs/docs/en/ais_gate_faq_custom_component.html">Dodanie własnego komponentu do Asystenta</a></li>
@@ -33,6 +41,7 @@ Na tej stronie znajdują się odpowiedzi na najczęściej zadawane nam pytania. 
   <li><a href="/AIS-docs/docs/en/ais_bramka_remote_other_programs.html">Instalowanie Aplikacji w systemie Android</a></li>
 </ul>
 </div>
+
 </div>
 </div>
 </div>

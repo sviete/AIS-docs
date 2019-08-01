@@ -65,6 +65,10 @@
         "title": "Sterowanie diodą LED",
         "sidebar_label": "Sterowanie diodą LED"
       },
+      "ais_bramka_automation": {
+        "title": "Automatyzacja Asystenta domowego",
+        "sidebar_label": "Automatyzacja"
+      },
       "ais_bramka_connect": {
         "title": "Podłączenie bramki",
         "sidebar_label": "Podłączenie"
@@ -76,6 +80,10 @@
       "ais_bramka_index": {
         "title": "Bramka IoT",
         "sidebar_label": "Karta produktu"
+      },
+      "ais_bramka_presence_detection": {
+        "title": "Konfigurowanie wykrywania obecności",
+        "sidebar_label": "Wykrywanie obecności"
       },
       "ais_bramka_remote_adb": {
         "title": "Dostęp do konsoli bramki po ADB",
@@ -102,8 +110,8 @@
         "sidebar_label": "Wprowadzenie"
       },
       "ais_bramka_remote_other_programs": {
-        "title": "Instalowanie Aplikacji",
-        "sidebar_label": "Instalowanie Aplikacji"
+        "title": "Instalowanie Aplikacji Android",
+        "sidebar_label": "Instalowanie Aplikacji Android"
       },
       "ais_bramka_remote_serveo": {
         "title": "Zdalne przekazywania portów SSH",
@@ -185,9 +193,17 @@
         "title": "Usługi",
         "sidebar_label": "Usługi"
       },
+      "ais_faq_audio_cards": {
+        "title": "Obsługa kart dzwiękowych",
+        "sidebar_label": "Obsługa kart dzwiękowych"
+      },
       "ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
+      },
+      "ais_faq_when_speaker": {
+        "title": "Czy planujecie jeszcze zbudowanie głośnika.",
+        "sidebar_label": "Czy planujecie jeszcze zbudowanie głośnika"
       },
       "ais_gate_faq_config_yaml": {
         "title": "Zaawansowana konfiguracja Asystenta domowego",
@@ -204,6 +220,10 @@
       "ais_gate_faq_https": {
         "title": "Lokalny serwer z szyfrowaniem",
         "sidebar_label": "HTTPS na bramce"
+      },
+      "ais_gate_faq_index": {
+        "title": "Bramka IoT FAQ",
+        "sidebar_label": "Bramka IoT FAQ"
       },
       "ais_gate_faq_package_compile": {
         "title": "Własny pakiet do systemu Linux",
@@ -252,6 +272,10 @@
       "ais_iot_works_with": {
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
+      },
+      "ais_remote_faq": {
+        "title": "Pilot rozwiązywanie problemów",
+        "sidebar_label": "Pilot rozwiązywanie problemów"
       },
       "ais_remote_faq": {
         "title": "Pilot rozwiązywanie problemów",
@@ -861,6 +885,7 @@
       "Urządzenia AIS dom": "Urządzenia AIS dom",
       "Oprogramowanie dla urządzeń AIS dom": "Oprogramowanie dla urządzeń AIS dom",
       "Wprowadzenie": "Wprowadzenie",
+      "Ogólne": "Ogólne",
       "Bramka": "Bramka",
       "Oprogramowanie": "Oprogramowanie",
       "API": "API",

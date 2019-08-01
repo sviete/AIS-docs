@@ -59,7 +59,7 @@ sensor:
 
 ### Sprawdzenie konfiguracji i Restart serwera
 
-Upewnijmy się, że nasza konfiguracja jest poprawna — w tym celu kliknij przycisk **Sprawdź konfigurację** dostępny w opcjach ogólnych systemu. Następnie restartujemy serwer przyciskiem **Uruchom ponownie***
+Upewnijmy się, że nasza konfiguracja jest poprawna — w tym celu kliknij przycisk **Sprawdź konfigurację** dostępny w opcjach ogólnych systemu. Następnie restartujemy serwer przyciskiem **Uruchom ponownie**
 
 <img src="/AIS-docs/img/en/bramka/faq_sensor_4.png"> </img>
 

@@ -1,6 +1,6 @@
 ---
-title: "Instalowanie Aplikacji"
-sidebar_label: Instalowanie Aplikacji
+title: "Instalowanie Aplikacji Android"
+sidebar_label: Instalowanie Aplikacji Android
 ---
 
 W deweloperskiej wersji bramki instnieje możliwość uruchamiania przeglądarki Internetowej oraz instalowania innych aplikacji.

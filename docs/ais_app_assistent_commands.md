@@ -200,3 +200,11 @@ W podobny sposób możemy szukać albumu lub listy utworów.
 ```text
 Spotify {wykonawca/album/playlista}
 ```
+
+## Literowanie
+
+Możemy kazać przeliterować asystentce status dowolnego elementu systemu wystarczy powiedzieć "Przeliteruj " i dodać nazwę elementu:
+
+```text
+Przeliteruj {nazwa elementu}
+```
