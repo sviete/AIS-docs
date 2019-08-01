@@ -17,10 +17,11 @@ Na tej stronie znajdują się odpowiedzi na najczęściej zadawane nam pytania. 
 <div style="display:flex;flex-direction:column;max-width:360px">
 <h2>Ogólne</h2>
 <ul style="flex:1">
-  <li><a href="/AIS-docs/docs/en/ais_faq_when_speaker.html">Czy planujecie jeszcze w ogóle zbudowanie głośnika.</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_faq_when_speaker.html">Czy planujecie jeszcze zbudowanie głośnika</a></li>
 </ul>
 <h2>Bramka</h2>
 <ul style="flex:1">
+  <li><a href="/AIS-docs/docs/en/ais_faq_logs.html">Logi dostępne na bramce</a></li>
   <li><a href="/AIS-docs/docs/en/ais_gate_faq_https.html">HTTPS na bramce</a></li>
   <li><a href="/AIS-docs/docs/en/ais_faq_audio_cards.html">Sterowanie kartami dzwiękowymi/audio</a></li>
 </ul>

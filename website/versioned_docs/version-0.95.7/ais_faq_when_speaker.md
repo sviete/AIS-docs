@@ -1,11 +1,11 @@
 ---
-title: Czy planujecie jeszcze w ogóle zbudowanie głośnika.
-sidebar_label: Kiedy powstanie głośnik
+title: Czy planujecie jeszcze zbudowanie głośnika.
+sidebar_label: Czy planujecie jeszcze zbudowanie głośnika
 id: version-0.95.7-ais_faq_when_speaker
 original_id: ais_faq_when_speaker
 ---
 
-### Kiedy powstanie głośnik.
+### Tak.
 
 Cały czas pracujemy nad głośnikiem - developerska wersja bramki którą w tej chwili rozwijamy i sprzedajemy jest platformą/komputerem który będzie umieszczony w pięknym drewnianym głośniku.
 
