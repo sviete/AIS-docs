@@ -22,6 +22,7 @@ Na tej stronie znajdują się odpowiedzi na najczęściej zadawane nam pytania. 
   <li><a href="/AIS-docs/docs/en/ais_faq_logs.html">Logi dostępne na bramce</a></li>
   <li><a href="/AIS-docs/docs/en/ais_gate_faq_https.html">HTTPS na bramce</a></li>
   <li><a href="/AIS-docs/docs/en/ais_faq_audio_cards.html">Sterowanie kartami dzwiękowymi/audio</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_faq_wifi.html">Ustawienia połączenia WiFi</a></li>
 </ul>
 </div>
 

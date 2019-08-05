@@ -209,6 +209,10 @@
         "title": "Czy planujecie jeszcze zbudowanie głośnika.",
         "sidebar_label": "Czy planujecie jeszcze zbudowanie głośnika"
       },
+      "ais_faq_wifi": {
+        "title": "Ustawienia połączenia WiFi",
+        "sidebar_label": "Ustawienia WiFi"
+      },
       "ais_gate_faq_config_yaml": {
         "title": "Zaawansowana konfiguracja Asystenta domowego",
         "sidebar_label": "configuration.yaml"
@@ -992,6 +996,10 @@
       "version-0.95.7/version-0.95.7-ais_faq_when_speaker": {
         "title": "Czy planujecie jeszcze zbudowanie głośnika.",
         "sidebar_label": "Czy planujecie jeszcze zbudowanie głośnika"
+      },
+      "version-0.95.7/version-0.95.7-ais_faq_wifi": {
+        "title": "Ustawienia połączenia WiFi",
+        "sidebar_label": "Ustawienia WiFi"
       },
       "version-0.95.7/version-0.95.7-ais_gate_faq_config_yaml": {
         "title": "Zaawansowana konfiguracja Asystenta domowego",

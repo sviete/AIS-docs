@@ -101,8 +101,10 @@
       "ais_faq_when_speaker"
     ],
     "Bramka": [
+      "ais_faq_logs",
       "ais_gate_faq_https",
-      "ais_faq_audio_cards"
+      "ais_faq_audio_cards",
+      "ais_faq_wifi"
     ],
     "Pilot radiowy": [
       "ais_remote_faq_index"
