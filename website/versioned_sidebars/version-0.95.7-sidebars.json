@@ -96,23 +96,25 @@
       "version-0.95.7-ais_faq_index"
     ],
     "Ogólne": [
-      "version-0.95.7-ais_faq_when_speaker"
+      "version-0.95.7-ais_faq_when_speaker",
+      "version-0.95.7-ais_faq_where_is_the_code"
     ],
     "Bramka": [
       "version-0.95.7-ais_faq_logs",
       "version-0.95.7-ais_gate_faq_https",
       "version-0.95.7-ais_faq_audio_cards",
-      "version-0.95.7-ais_faq_wifi"
-    ],
-    "Pilot radiowy": [
-      "version-0.95.7-ais_remote_faq_index"
-    ],
-    "Oprogramowanie": [
+      "version-0.95.7-ais_faq_wifi",
       "version-0.95.7-ais_gate_faq_hass_compatibility",
       "version-0.95.7-ais_gate_faq_config_yaml",
       "version-0.95.7-ais_gate_faq_custom_component",
       "version-0.95.7-ais_gate_faq_package_compile",
       "version-0.95.7-ais_bramka_remote_other_programs"
+    ],
+    "Pilot radiowy": [
+      "version-0.95.7-ais_remote_faq_index"
+    ],
+    "Urządzenia AIS dom": [
+      "version-0.95.7-ais_faq_iot_ap_mode"
     ]
   }
 }
