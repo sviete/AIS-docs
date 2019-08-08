@@ -1024,6 +1024,10 @@
       "version-0.95.7/version-0.95.7-ais_iot_firmware_upgrade": {
         "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
         "sidebar_label": "Aktualizacja oprogramowania"
+      },
+      "version-0.96.10/version-0.96.10-ais_app_assistent_commands": {
+        "title": "Wbudowane komendy",
+        "sidebar_label": "Wbudowane komendy"
       }
     },
     "links": {
