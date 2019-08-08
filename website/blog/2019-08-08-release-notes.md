@@ -31,7 +31,7 @@ Oczywiście pierwszy użytkownik jest administratorem i to on, w konfiguracji, m
 Na pierwszej stronie dodaliśmy kartę z informacją o statusie osób oraz kartę z informacją o zdefiniowanych automatyzacjach.
 Informacje te dostępne też są z pilota (bez monitora).
 
-Automatyzacje mozemy włączać głosowo mową komendą: "Uruchom + {nazwa automatyzacji}" lub "Automatyzacja " + {nazwa automatyzacji}
+Automatyzacje możemy włączać głosowo nową komendą: "Uruchom + {nazwa automatyzacji}" lub "Automatyzacja " + {nazwa automatyzacji}
 [Komendy głosowe](/AIS-docs/docs/en/ais_app_assistent_commands.html#uruchamianie-automatyzacji)
 
 
@@ -40,7 +40,7 @@ Automatyzacje mozemy włączać głosowo mową komendą: "Uruchom + {nazwa autom
 
 ### Pozostałe istotne zmiany
 
-- Ulepszony tryb parowania na urządzeniu. Żeby wprowadzić urządzenie w tryb parowania, wystarczy nacisnąć szybko od 3 do 7 razy przycisk na urządzeniu (wcześniej było trzeba nacisnąć dokładnie 4 razy) lub go przytrzymać przez 4 sekundy. Tryb parowania dostępny będzie przez 4 minuty (wcześniej był 3 minuty). Uruchamianie menedżera WiFi (AP na urządzeniu i serwer z aplikacją do ustawiania parametrów WiFi) na kanale 1 (wcześniej był to kanał 13).
+- Ulepszony tryb parowania na urządzeniu. Żeby wprowadzić urządzenie w tryb parowania, wystarczy nacisnąć szybko od 3 do 7 razy przycisk na urządzeniu (wcześniej należało nacisnąć dokładnie 4 razy) lub przytrzymać go przez 4 sekundy. Tryb parowania dostępny będzie przez 4 minuty (wcześniej były 3 minuty). Uruchamianie menedżera WiFi (AP na urządzeniu i serwer z aplikacją do ustawiania parametrów WiFi) na kanale 1 (wcześniej był to kanał 13).
 - Zapamiętywanie wyboru głosu asystenta, możliwość niezależnego wyboru głosu na bramce (głośniku) i w mobilnej aplikacji kliencie
 - Najnowszy Home Assistant <a href="https://www.home-assistant.io/blog/2019/07/17/release-96/" target="_blank">0.96</a>
 - Wyszukiwanie integracji w aplikacji. Coraz więcej urządzeń i usług można dodawać za pomocą kreatorów w aplikacji, wybranie integracji do dodania ułatwia nowe pole wyszukiwania.
