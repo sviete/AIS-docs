@@ -99,7 +99,8 @@
     ],
     "Ogólne": [
       "ais_faq_when_speaker",
-      "ais_faq_where_is_the_code"
+      "ais_faq_where_is_the_code",
+      "ais_faq_authentication"
     ],
     "Bramka": [
       "ais_faq_logs",

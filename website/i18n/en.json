@@ -197,6 +197,10 @@
         "title": "Obsługa kart dzwiękowych",
         "sidebar_label": "Obsługa kart dzwiękowych"
       },
+      "ais_faq_authentication": {
+        "title": "Jak działa logowanie do aplikacji.",
+        "sidebar_label": "Jak działa logowanie do aplikacji"
+      },
       "ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
@@ -1028,6 +1032,18 @@
       "version-0.96.10/version-0.96.10-ais_app_assistent_commands": {
         "title": "Wbudowane komendy",
         "sidebar_label": "Wbudowane komendy"
+      },
+      "version-0.96.10/version-0.96.10-ais_bramka_remote_www_index": {
+        "title": "Dostęp do bramki z Internetu",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.96.10/version-0.96.10-ais_faq_authentication": {
+        "title": "Jak działa logowanie do aplikacji.",
+        "sidebar_label": "Jak działa logowanie do aplikacji"
+      },
+      "version-0.96.10/version-0.96.10-ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
       }
     },
     "links": {
