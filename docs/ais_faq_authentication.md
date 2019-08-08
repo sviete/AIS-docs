@@ -98,4 +98,9 @@ homeassistant:
 ![Konsola](/AIS-docs/img/en/faq/reload_config.png)
 
 
-Po tej zmianie w konfiguracji opisanej powyżej, bez względu na to czy dostęp z Internetu do bramki jest włączony czy nie będziemy mieli możliwość logowania tylko przez podanie urzytkownika i hasła.
+Po tej zmianie w konfiguracji opisanej powyżej, bez względu na to, czy dostęp z Internetu do bramki jest włączony, czy nie będziemy mieli możliwość logowania tylko przez podanie użytkownika i hasła.
+
+
+## Jak to się dzieje, że po pierwszym logowaniu nie muszę się już logować ponownie
+
+Przy pierwszym logowaniu pytamy czy zapamiętać dane logowania
