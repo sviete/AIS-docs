@@ -25,8 +25,8 @@ konfiguracja autentykacji wygląda tak:
 ```yaml
 homeassistant:
   auth_providers:
-    - type: homeassistant
     - type: trusted_networks
+    - type: homeassistant
     - type: legacy_api_password
 ```
 

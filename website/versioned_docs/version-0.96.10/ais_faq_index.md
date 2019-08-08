@@ -19,7 +19,7 @@ Na tej stronie znajdują się odpowiedzi na najczęściej zadawane nam pytania. 
 <ul style="flex:1">
   <li><a href="/AIS-docs/docs/en/ais_faq_when_speaker.html">Czy planujecie jeszcze zbudowanie głośnika</a></li>
   <li><a href="/AIS-docs/docs/en/ais_faq_where_is_the_code.html">Gdzie jest kod źródłowy</a></li>
-  <li><a href="/AIS-docs/docs/en/ais_faq_authentication.html">Na czy polega logowanie do panelu www Asystent domowy</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_faq_authentication.html"> Jak działa logowanie do Asystenta domowego</a></li>
 </ul>
 <h2>Bramka</h2>
 <ul style="flex:1">
