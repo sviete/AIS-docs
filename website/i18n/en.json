@@ -269,6 +269,10 @@
         "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
         "sidebar_label": "Aktualizacja oprogramowania"
       },
+      "ais_iot_gate": {
+        "title": "Obsługa urządznia z bramki AIS dom",
+        "sidebar_label": "Obsługa urządznia z bramki AIS dom"
+      },
       "ais_iot_index": {
         "title": "Urządzenia dodatkowe",
         "sidebar_label": "Urządzenia dodatkowe"
@@ -1044,6 +1048,10 @@
       "version-0.96.10/version-0.96.10-ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
+      },
+      "version-0.96.10/version-0.96.10-ais_iot_gate": {
+        "title": "Obsługa urządznia z bramki AIS dom",
+        "sidebar_label": "Obsługa urządznia z bramki AIS dom"
       }
     },
     "links": {

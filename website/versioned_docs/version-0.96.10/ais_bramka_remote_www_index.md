@@ -45,7 +45,7 @@ homeassistant:
     - type: homeassistant
 ```
 
-Przy włączonym dostępie z internetu wymagane jest logowanie do aplikacji:
+Przy włączonym dostępie z Internetu wymagane jest logowanie do aplikacji:
 
 ![Logowanie z Internetu](/AIS-docs/img/en/frontend/frontend_internet_login.png)
 
