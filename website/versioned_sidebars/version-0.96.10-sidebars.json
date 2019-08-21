@@ -33,6 +33,10 @@
       "version-0.96.10-ais_bramka_api_index",
       "version-0.96.10-ais_bramka_api_command",
       "version-0.96.10-ais_bramka_api_led"
+    ],
+    "Reset urządzenia do ustawień fabrycznych": [
+      "version-0.96.10-ais_bramka_reset_index",
+      "version-0.96.10-ais_bramka_reset_step_by_step"
     ]
   },
   "version-0.96.10-Aplikacja": {
@@ -60,9 +64,8 @@
       "version-0.96.10-ais_bramka_update_manual",
       "version-0.96.10-ais_bramka_update_force"
     ],
-    "Reset do ustawień fabrycznych": [
-      "version-0.96.10-ais_bramka_reset_index",
-      "version-0.96.10-ais_bramka_reset_step_by_step"
+    "Pełny reset aplikacji": [
+      "version-0.96.10-ais_bramka_reset_ais_step_by_step"
     ]
   },
   "version-0.96.10-Pilot radiowy": {

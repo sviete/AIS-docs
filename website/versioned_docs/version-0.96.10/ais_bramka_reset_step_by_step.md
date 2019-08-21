@@ -1,6 +1,8 @@
 ---
-title: "Przywracanie ustawień fabrycznych urządzenia"
+title: Przywracanie ustawień fabrycznych urządzenia
 sidebar_label: Procedura
+id: version-0.96.10-ais_bramka_reset_step_by_step
+original_id: ais_bramka_reset_step_by_step
 ---
 
 > Przywrócenie urządzenia do pierwotnych ustawień producenta wykonuje się zwykle, aby rozwiązać poważny problem z urządzeniem, którego nie daje się rozwiązać w inny sposób.

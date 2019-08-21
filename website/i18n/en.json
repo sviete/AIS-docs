@@ -129,6 +129,10 @@
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_bramka_reset_ais_step_by_step": {
+        "title": "Pełny reset aplikacji",
+        "sidebar_label": "Wykoanie pełnego resetu aplikacji"
+      },
       "ais_bramka_reset_index": {
         "title": "Przywracanie ustawień fabrycznych urządzenia",
         "sidebar_label": "Wprowadzenie"
@@ -1041,6 +1045,14 @@
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Wprowadzenie"
       },
+      "version-0.96.10/version-0.96.10-ais_bramka_reset_ais_step_by_step": {
+        "title": "Pełny reset aplikacji",
+        "sidebar_label": "Wykoanie pełnego resetu aplikacji"
+      },
+      "version-0.96.10/version-0.96.10-ais_bramka_reset_step_by_step": {
+        "title": "Przywracanie ustawień fabrycznych urządzenia",
+        "sidebar_label": "Procedura"
+      },
       "version-0.96.10/version-0.96.10-ais_faq_authentication": {
         "title": "Jak działa logowanie do aplikacji.",
         "sidebar_label": "Jak działa logowanie do aplikacji"
@@ -1068,17 +1080,19 @@
       "Dostęp z Internetu": "Dostęp z Internetu",
       "Portal Integratora": "Portal Integratora",
       "Ustawienia zaawansowane": "Ustawienia zaawansowane",
+      "Reset urządzenia do ustawień fabrycznych": "Reset urządzenia do ustawień fabrycznych",
       "Aplikacja": "Aplikacja",
       "Komponenty": "Komponenty",
       "Asystent": "Asystent",
       "Aktualizacja": "Aktualizacja",
-      "Reset do ustawień fabrycznych": "Reset do ustawień fabrycznych",
+      "Pełny reset aplikacji": "Pełny reset aplikacji",
       "Pilot radiowy": "Pilot radiowy",
       "Urządzenia AIS dom": "Urządzenia AIS dom",
       "Oprogramowanie dla urządzeń AIS dom": "Oprogramowanie dla urządzeń AIS dom",
       "Wprowadzenie": "Wprowadzenie",
       "Ogólne": "Ogólne",
       "Bramka": "Bramka",
+      "Reset do ustawień fabrycznych": "Reset do ustawień fabrycznych",
       "Oprogramowanie": "Oprogramowanie",
       "API": "API",
       "Najczęstrze pytania": "Najczęstrze pytania",
