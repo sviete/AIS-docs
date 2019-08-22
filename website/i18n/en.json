@@ -1045,6 +1045,10 @@
         "title": "Wbudowane komendy",
         "sidebar_label": "Wbudowane komendy"
       },
+      "version-0.96.10/version-0.96.10-ais_app_ui_config": {
+        "title": "Konfiguracja interfejsu użytkownika",
+        "sidebar_label": "Konfiguracja"
+      },
       "version-0.96.10/version-0.96.10-ais_bramka_remote_www_index": {
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Wprowadzenie"

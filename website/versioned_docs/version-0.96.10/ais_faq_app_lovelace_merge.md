@@ -11,8 +11,8 @@ Aktualnie intensywnie rozwijamy system, konfiguracja domyślna będzie się jesz
 Docelowo, do wersji 1.0 rozwiążemy ten problem, myślimy nad zastosowaniem jednego z poniższych rozwiązań:
 
 1. od wersji 1.0 nie będziemy już zmieniać interfejsu automatycznie (ewentualnie poinformujemy o możliwości instalacji nowego interfejsu),
-2. automatyczne połączymy zmiany, które dodał użytkownik z naszymi,
-3. stworzymy profile interfejsu, do wyboru.
+2. automatycznie połączymy zmiany, które dodał użytkownik, z naszymi zmianami,
+3. stworzymy profile interfejsu- do wyboru.
 
 Rozwiązanie numer 3. jest najbardziej obiecujące i docelowo właśnie to chcemy zastosować.
 Dzięki takiemu rozwiązaniu będziemy mogli dodać domyślny interfejs i ten interfejs aktualizować automatycznie przy instalacji nie nadpisując interfejsu, który dodał użytkownik. Dodatkowo użytkownik będzie miał możliwość dodania kilku interfejsów dopasowanych do różnych urządzeń, na których używa Asystenta domowego.
