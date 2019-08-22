@@ -197,6 +197,10 @@
         "title": "Usługi",
         "sidebar_label": "Usługi"
       },
+      "ais_faq_app_lovelace_merge": {
+        "title": "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację",
+        "sidebar_label": "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację"
+      },
       "ais_faq_audio_cards": {
         "title": "Obsługa kart dzwiękowych",
         "sidebar_label": "Obsługa kart dzwiękowych"
@@ -1053,6 +1057,10 @@
         "title": "Przywracanie ustawień fabrycznych urządzenia",
         "sidebar_label": "Procedura"
       },
+      "version-0.96.10/version-0.96.10-ais_faq_app_lovelace_merge": {
+        "title": "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację",
+        "sidebar_label": "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację"
+      },
       "version-0.96.10/version-0.96.10-ais_faq_authentication": {
         "title": "Jak działa logowanie do aplikacji.",
         "sidebar_label": "Jak działa logowanie do aplikacji"
@@ -1060,6 +1068,10 @@
       "version-0.96.10/version-0.96.10-ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
+      },
+      "version-0.96.10/version-0.96.10-ais_faq_iot_ap_mode": {
+        "title": "Jak działa tryb parowania urządzeń.",
+        "sidebar_label": "Jak działa tryb parowania urządzeń"
       },
       "version-0.96.10/version-0.96.10-ais_iot_gate": {
         "title": "Obsługa urządznia z bramki AIS dom",

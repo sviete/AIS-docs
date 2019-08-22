@@ -1,6 +1,8 @@
 ---
-title: "Jak działa tryb parowania urządzeń."
+title: Jak działa tryb parowania urządzeń.
 sidebar_label: Jak działa tryb parowania urządzeń
+id: version-0.96.10-ais_faq_iot_ap_mode
+original_id: ais_faq_iot_ap_mode
 ---
 
 ## Tryb parowania w urządzeniach AIS dom
