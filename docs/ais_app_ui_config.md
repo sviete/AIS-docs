@@ -23,7 +23,7 @@ Więcej informacji technicznych oraz demo interfejsu dostępne są na stronie pr
 
 ## Kopia konfiguracji
 
-Gdy jesteś w trybie konfiguracji intefrejsu użytkownika, możesz wybrać opcję **"Raw config editor"** dostępną w prawym górnym rogu każdej strony w aplikacji będącej w trybie konfiguracji.
+Gdy jesteś w trybie konfiguracji intefrejsu użytkownika, możesz wybrać opcję **"Ręczny edytor konfiguracji"** dostępną w prawym górnym rogu każdej strony w aplikacji będącej w trybie konfiguracji.
 
 ![Konfiguracja interfejsu użytkownika kopia](/AIS-docs/img/en/frontend/lovelace-ui-conf-raw.png)
 
