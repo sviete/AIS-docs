@@ -20,7 +20,7 @@ Dzięki takiemu rozwiązaniu będziemy mogli dodać domyślny interfejs i ten in
 
 ## Jak zabezpieczyć swój zdefiniowany wygląd ekranów przed aktualizacją?
 
-Proszę zapoznać się z opisem w dokumentacji [Kopia konfiguracji interfejsu użytkownika](/AIS-docs/docs/en/ais_app_ui_config.html#kopia-konfiguracji)
+Proszę zapoznać się z opisem w dokumentacji [Kopia konfiguracji interfejsu użytkownika](/AIS-docs/docs/en/ais_app_ui_config.html)
 
 ![Konfiguracja interfejsu użytkownika kopia](/AIS-docs/img/en/frontend/lovelace-ui-conf-raw.png)
 
