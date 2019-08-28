@@ -18,12 +18,24 @@ Bramka do domowego Internetu Rzeczy z inteligentnym asystentem głosowym to urz�
 
 ### Specyfikacja techniczna
 
-Sprzętowo nasza konstrukcja oparta jest na wydajnym procesorze Amlogic, posiada wbudowane WiFi (i opcjonalnie Bluetooth) oraz dysk, a także porty LAN/Ethernet, 4 x USB, SPDIF, Aux, HDMI.
+Sprzętowo nasza konstrukcja oparta jest na wydajnym procesorze Amlogic, posiada wbudowane WiFi oraz dysk, a także porty LAN/Ethernet, 4 x USB, SPDIF, Aux, HDMI.
 
-<img
-  src='/AIS-docs/img/en/bramka/devBramkaSpec.png'
-  alt='Bramka AIS dom'
-/>
+|                       | dev1                                                    |
+|-----------------------|---------------------------------------------------------|
+| oprogramowanie        | Asystent domowy, środowisko Linux, Android 7.1.2(root)  |
+| procesor              | Amlogic S905w ARM Cortex-A53 (cztero-rdzeniowy)         |
+| pamięć                | 1 GB                                                    |
+| wbudowany dysk        | 8 GB                                                    |
+| Gniazdo karty pamięci | SD/MMC                                                  |
+| USB                   | 4 (1x OTG, 3x USB 2.0)                                  |
+| HDMI                  | 2.0A                                                    |
+| AV                    | 3,5mm jack                                              |
+| SPDIF                 | 3,5mm jack                                              |
+| Ethernet RJ45         | 10/100M                                                 |
+| WiFI                  | 2.4 GHz                                                 |
+| Dodatkowo w zestawie  | kabel HDMI, zasilacz 5V 2A                              |
+| Do kupienia osobno    | pilot radiowy, inteligentne urządzenia                  |
+
 
 ### Oprogramowanie
 

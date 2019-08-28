@@ -5,11 +5,7 @@ sidebar_label: Logowanie do Portalu integratora
 
 Aplikacja dostępna jest online pod adresem [Logowanie do Portalu integratora](https://powiedz.co/ords/f?p=100)
 
-Funkcjonalność jest rozwojowa i obecnie udostępniliśmy ją tylko integratorowi naszego systemu, jeżeli jednak masz naszą bramkę i chciałbyś wypróbować tą funkcjonalność to napisz do nas - wyślemy Ci dostęp.
-
-Docelowo każdy właściciel bramki będzie mógł założyć konto i zalogować sie na tej stronie. 
-
-
+Każdy właściciel bramki może założyć konto i zalogować sie na tej stronie a następnie zarządzać treściami na swojej bramce. 
 
 
 ![Portal integratora logowanie](/AIS-docs/img/en/frontend/dom_cloud_login.png)

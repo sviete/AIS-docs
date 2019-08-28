@@ -7,6 +7,11 @@ title: Wersja systemu 0.97.5 Obsługa wywołań zwrotnych HTTP, kolejne uproszcz
 
 ## Wersja systemu 0.97.5 z dnia (do uzupełnienia) sierpnia 2019 roku,
 
+### Poprawki dostępność aplikacji dla użytkowników niedowidzących
+
+W naszej aplikacji na system Android oznakowaliśmy przyciski etykietami w celu zapewniania wsparcia dla mechanizmów typu TalkBack.
+Podobne wysiłki zostały poczynione w aplikacji webowej, celem tego procesu jest udostępnienie interfejsu użytkownika Asystenta domowego dla wszystkich.
+
 ### Uproszczenia w aplikacji
 
 W ramach prac nad wersją 1.0 upraszczamy domyślny interfejs użytkownika aplikacji Asystent domowy. 
@@ -14,15 +19,15 @@ Od wersji 0.97 Konfiguracja bramki, Przydatne linki i Dokumentacja będą miały
 
 #### Konfiguracja bramki
 
-Konfiguraccja bramki jest dostępna z menu z pozycji **Ustawienia bramki AIS dom**. Z tego miejsca można zarządzać swoją bramką IoT i Audio.
-Konfiguracja bramki ma 4 sekcje, więcej o tym na nowej stronie dokumentacji [Konfiguracja bramki](/AIS-docs/docs/en/ais_bramka_configuration) 
+Konfiguracja bramki jest dostępna z menu z pozycji **Ustawienia bramki AIS dom**. Z tego miejsca można zarządzać swoją bramką IoT i Audio.
+Konfiguracja bramki ma 4 sekcje, są one opisane na nowej stronie dokumentacji [Konfiguracja bramki](/AIS-docs/docs/en/ais_bramka_configuration) 
 
 ![AIS dom ustawienia bramki](/AIS-docs/img/en/frontend/ais_dom_gate_settings_voice.png)
 
 
 #### Przydatne linki 
 
-Linki do serwisów działających na bramce umieściliśmy jako nową opcje w menu w aplikacji **Przydatne linki**.
+Linki do serwisów działających na bramce umieściliśmy jako nową opcję w menu w aplikacji [Przydatne linki](/AIS-docs/docs/en/ais_bramka_services)
 
 ![AIS dom przydatne linki](/AIS-docs/img/en/frontend/ais_dom_links.png)
 
@@ -40,12 +45,32 @@ Kolejna nowa opcja w menu **Dokumentacja**, to przejście do serwisu z naszą of
 Obsługa wywołań zwrotnych HTTP do powiadamiania asystenta o zdarzeniach z zewnątrz. 
 Wszystko, co jest skonfigurowane do uruchamiania przez wywołanie zwrotne, ma publicznie dostępny unikalny adres URL, aby umożliwić wysyłanie danych do Asystenta domowego z dowolnego miejsca.
 
-Pozwala to na przesyłanie powiadomień do naszej bramki o naszej lokalizacji z aplikacji w telefonie - opcja opisana szerzej w [Wykrywanie obecności](/AIS-docs/docs/en/ais_bramka_presence_detection.html)
+Pozwala to na przesyłanie powiadomień do naszej bramki z Internetu. 
+
+W ten sposób możemy np. powiadamiać bramkę o naszej lokalizacji z aplikacji mobilnej - opcja opisana szerzej w [Wykrywanie obecności](/AIS-docs/docs/en/ais_bramka_presence_detection.html)
+
+![AIS dom webhooks](/AIS-docs/img/en/frontend/integration_owntracks.png)
+
+Otrzymywać powiadomienia z serwisu dialogflow
+
+![AIS dom webhooks](/AIS-docs/img/en/frontend/integration_dialogflow.png)
+
+i/lub z serwisu IFTTT
+
+![AIS dom webhooks](/AIS-docs/img/en/frontend/integration_ifttt.png)
+
+Zarządzanie powiadomieniami zwrotnymi dostępne jest w [konfiguracji zdalnego dostępu do bramki](/AIS-docs/docs/en/ais_bramka_configuration.html#konfiguracja-zdalnego-dostępu-do-bramki)
 ![AIS dom webhooks](/AIS-docs/img/en/frontend/ais_dom_webhooks.png)
 
+### Nowe repozytorium pakietów binarnych
 
-### Poprawki dostępność aplikacji webowej dla użytkowników niedowidzących
+Mamy nowe repozytorium pakietów binarnych na własnym serwerze (nie instalujemy już binarek z serwisu Github). Wszystkie pakiety zostały zaktualizowane do najnowszych wersji i w ramach optymalizacji skompilowane dla minimalnego Android API 24 (wcześniej wspieraliśmy API 21 dostępne na Android 5).
 
+> Nie przełączamy na nowe repozytorium automatycznie i nie dostarczamy tych nowych pakietów binarnych automatycznie podczas zwykłej instalacji. Wymaga to po standardowej aktualizacji, wykonania dodatkowo procedury "Pełnego resetu aplikacji". **Zachęcamy do przełączenia się na nowe repozytorium w celu usprawnienia/przyśpieszenia działania procesów na urządzeniu.**
+
+Przełączenie na nowe repozytorium pakietów binarnych:
+1. Wykonaj standardową aktualizację automatyczną
+2. Wykonaj "Pełny reset aplikacji" - przebieg tej procedury opisany jest w dokumentacji [Pełny reset aplikacji](/AIS-docs/docs/en/ais_bramka_reset_ais_step_by_step.html), znajduje się tam też wideo prezentujące przebieg procesu pełnego resetu.
 
 
 ### Pozostałe istotne zmiany
@@ -65,10 +90,14 @@ https
 
 - Możliwość połączenia się z WiFi przy pierwszym uruchomieniu w 2 kroku kreatora (po założeniu konta, przed wykryciem lokalizacji domu).
 
-- Poprawione działanie mikrofonu. W przypadku zablokowania mikrofonu dodaliśmy automatyczny reset urządzenia USB, bez fizycznego rozłączania / podłączania.
+[Pierwsze uruchomienie -> Lokalizacja Twojego domu -> Konfiguracja WiFi](/AIS-docs/docs/en/ais_bramka_first_run.html#lokalizacja-twojego-domu)
 
 - Możliwość uwierzytelniania za pomocą hasła przy połączeniu ssh.
 
-- Nowe repozytorium pakietów binarnych (nie instalujemy już binarek z Github). Wszystkie pakiety są zaktualizowane do najnowszych wersji i w ramach optymalizacji skompilowane dla minimalnego Android API 24 (wcześniej wspieraliśmy API 21 dostępne na Android 5).
+[Dostęp w sieci lokalnej -> SSH](/AIS-docs/docs/en/next/ais_bramka_remote_ssh.html#autentykacja-za-pomocą-hasła)
 
-- Najnowszy Home Assistant.
+- Poprawione działanie mikrofonu. W przypadku zablokowania mikrofonu dodaliśmy automatyczny reset urządzenia USB, bez fizycznego rozłączania / podłączania.
+
+![AIS dom webhooks](/AIS-docs/img/en/blog/repo_update.png)
+
+- Najnowszy (stabilny) Home Assistant <a href="https://www.home-assistant.io/blog/2019/08/07/release-97/" target="_blank">0.97</a>

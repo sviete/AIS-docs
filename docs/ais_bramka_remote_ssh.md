@@ -19,14 +19,41 @@ Istnieje możliwość dostępu bezpośredion z naszej aplikacji (działającej w
 
 ## Dostęp do konsoli z zewnętrznych klientów
 
-### pobranie autoryzowanego klucza
+
+### Autentykacja za pomocą hasła
+
+Jeśli chcesz możesz łączyć się za pomocą hasła, w tym celu należy ustalić hasło komendą passwd (tak jak we wszystkich systemach Linux)
+
+```bash
+$ passwd
+``` 
+
+![Pobranie klucza SSH](/AIS-docs/img/en/bramka/ssh_passwd.png)
+
+
+
+### Autentykacja za pomocą autoryzowanego klucza
 
 > W Asystent domowy obsługujemy logowanie po SSH za pomocą autoryzowanego klucza. Wygenerowany i autoryzowany klucz dostępny jest w lokalnej instancji systemu Asystent domowy pod adresem: [https://ais-dom.local:8123/local/id_rsa_ais](https://ais-dom.local:8123/local/id_rsa_ais)
 
-
+Można też go pobrać wybierając z menu **Przydatne linki**
 ![Pobranie klucza SSH](/AIS-docs/img/en/bramka/ssh_download_key.png)
 
-### połączenie z konsolą bramki z systemu Linux i Apple
+
+### Połączenie z konsolą bramki za pomocą hasła
+
+Wystarczy uruchomić klienta ssh, podając nazwę hosta bramki(lub ip) oraz port 8022
+
+```bash
+$ ssh ais-dom.local -p 8022
+```
+
+następnie podajemy hasło które wcześniej ustaliliśmy komendą passwd.
+
+
+### Połączenie z konsolą bramki za pomocą autoryzowanego klucza
+
+#### połączenie z konsolą bramki z systemu Linux i Apple
 
 Po pobraniu autoryzowanego klucza ssh możemy połączyć się z konsolą bramki, w tym celu w swojej konsoli wystarczy:
 
@@ -39,20 +66,20 @@ $ chmod 400 id_rsa_ais
 - uruchomić ssh z odpowiednim portem i ścieżką do klucza ssh
 
 ```bash
-$ ssh ais-dom -p 8022 -i id_rsa_ais
+$ ssh ais-dom.local -p 8022 -i id_rsa_ais
 ```
 
 ![Połączenie SSH](/AIS-docs/img/en/bramka/ssh_console.png)
 
 
-### połączenie z konsolą bramki z systemu Windows
+#### połączenie z konsolą bramki z systemu Windows
 
 Zalecamy urzycie darmowego programu [PuTTY](https://www.putty.org/)
 
 
 Po zainstalowaniu programu należy:
 
-#### Przegenerować klucz dostępu pobrany z bramki do formatu PuTTY
+##### Przegenerować klucz dostępu pobrany z bramki do formatu PuTTY
 
 PuTTY używa własnego formatu do przechowywania kluczy. W celu skonwertowania klucza na fromat PuTTY zastosujemy program PuTTY Key Generator instalowany domyślnie razem z PuTTY.
 W  PuTTY Key Generator naciskamy przycisk "Load":
@@ -76,7 +103,7 @@ zapisujemy plik jako prywaais_bramka_remote_sshtny klucz w formacie PuTTY jako p
 ![Połączenie SSH](/AIS-docs/img/en/bramka/ssh_putty_6.png)
 
 
-#### Łaczenie po SSH z bramką z programu PuTTY
+##### Łaczenie po SSH z bramką z programu PuTTY
 
 Uruchamiamy program PuTTY i definiujemy nowe połączenie SSH z bramką:
 

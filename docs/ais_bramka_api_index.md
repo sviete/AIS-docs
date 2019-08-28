@@ -20,9 +20,9 @@ Asystent Domowy udostępnia serwer WWW na porcie 8123 (https) oraz 8180 (http)
 
 ## Wywoływanie/testowanie usług w apllikacji
 
-> Aby sprawdzić dostępne usługi, w aplikacji przejdź do "Narzędzia deweloperskie" ->
+> Aby sprawdzić dostępne usługi, w aplikacji, z głównego menu przejdz do "Narzędzia deweloperskie" ->
 <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-    <path fill="#000000" d="M12,0C8.96,0 6.21,1.23 4.22,3.22L5.63,4.63C7.26,3 9.5,2 12,2C14.5,2 16.74,3 18.36,4.64L19.77,3.23C17.79,1.23 15.04,0 12,0M7.05,6.05L8.46,7.46C9.37,6.56 10.62,6 12,6C13.38,6 14.63,6.56 15.54,7.46L16.95,6.05C15.68,4.78 13.93,4 12,4C10.07,4 8.32,4.78 7.05,6.05M12,15A2,2 0 0,1 10,13A2,2 0 0,1 12,11A2,2 0 0,1 14,13A2,2 0 0,1 12,15M15,9H9A1,1 0 0,0 8,10V22A1,1 0 0,0 9,23H15A1,1 0 0,0 16,22V10A1,1 0 0,0 15,9Z" />
+    <path fill="#000000" d="M16,5L19,8L18.5,8.5C19.5,9.5 20,10 20.5,9.5L22,11C22,12 20.5,13.5 19.5,13.5L18,12C18.5,11.5 18,11 17,10L16,11L13,8C14.5,6 13,4 9,5C10,4 11,3 12,3C12.5,3 14,3 16,5M2,20L4,22L14,12L12,10L2,20Z" />
 </svg> z tego miejsca możesz wywoływać/testować dowolne usług dostępne na bramce.
 
 
@@ -39,7 +39,7 @@ Każda usługa ma:
 - a) opis
 - b) wylistowane parametry (parametr, opis i przykładowa wartość parametru)
 
-![Ustawienia sieci](/AIS-docs/img/en/bramka/services_1.png)
+![Ustawienia sieci](/AIS-docs/img/en/frontend/services_1.png)
 
 
 

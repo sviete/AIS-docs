@@ -4,6 +4,7 @@
       "ais_bramka_index",
       "ais_bramka_connect",
       "ais_bramka_first_run",
+      "ais_bramka_configuration",
       "ais_bramka_automation",
       "ais_bramka_presence_detection"
     ],
@@ -16,10 +17,7 @@
     ],
     "Dostęp z Internetu": [
       "ais_bramka_remote_www_index",
-      "ais_bramka_remote_dom_tunnel",
-      "ais_bramka_remote_tor",
-      "ais_bramka_remote_serveo"
-
+      "ais_bramka_remote_dom_others"
     ],
     "Portal Integratora": [
       "ais_dom_cloud_index",

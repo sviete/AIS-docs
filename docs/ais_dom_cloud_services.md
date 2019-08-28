@@ -1,6 +1,6 @@
 ---
-title: "Usługi"
-sidebar_label: Usługi
+title: "Usługi zewnętrzne"
+sidebar_label: Usługi zewnętrzne
 ---
 
 > Ta funkcjonlaność jest w przygotowaniu

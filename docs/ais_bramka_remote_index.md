@@ -14,8 +14,12 @@ W przypadku systemów firmy Apple, mDNS jest wspierany “fabrycznie” przez us
 
 ## sprawdzenie adresu IP w aplikacji
 
-w aplikacji "Asystent domowy" przejdź do zakładki "Ustawienia" a następnie w grupie "Ustawienia sieci" możesz zobaczyć swój adres IP
-![Ustawienia sieci](/AIS-docs/img/en/bramka/net_settings.png)
+w aplikacji "Asystent domowy" wybierz z menu pozycję **Konfiguracja** nastepnie **Konfiguracja bramki AIS dom**. W sekcji **Parametry sieci** możesz zobaczyć swój lokalny adres IP
+
+![Ustawienia sieci](/AIS-docs/img/en/bramka/ais_bramka_ip_address.png)
+
+możesz też wybrać z menu pozycję [Przydatne linki](/AIS-docs/docs/en/next/ais_bramka_services.html) by zobaczyć adresy usług w Twojej sieci
+
 
 ## zapytanie asystenta o adres IP
 

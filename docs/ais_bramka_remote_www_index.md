@@ -3,54 +3,51 @@ title: "Dostęp do bramki z Internetu"
 sidebar_label: Wprowadzenie
 ---
 
+
 Możesz skonfigurować dostęp do Twojej lokalnej bramki przez Internet. Dzięki temu będziesz mógł sterować automatyką w swoim domu (także głosowo) nie tylko w swojej lokalnej sieci, ale też z dowolnego miejsca z dostępem do Internetu.
 
-> Gdy dodajesz dostęp z Internetu do swojej bramki, to **pamiętaj o  bezpieczeństwie**. Należy odpowiednio skonfigurować logowanie do Asystenta domowego w celu zabezpieczenia dostępu, patrz opis: [**Zabezpieczenie dostępu do aplikacji**](#zabezpieczenie-dostępu-do-aplikacji).
+Najprostszym ze sposobów na dostęp do bramki z Internetu jest tunelowanie połączenia TCP (**usługa, którą obecnie oferujemy za darmo dla użytkowników bramek**).
 
-## Przekierowanie portów na routerze
+![Zdalny dostęp kod QR](/AIS-docs/img/en/bramka/http_remote_access_qr.png)
 
-Jedną z metod na udostępnienie bramki z Internetu jest przekierowanie portów na routerze. W przypadku aplikacji sprowadza się to do przekierowania portu 8123 z bramki na wolny port na routerze. Router jest dostępny z Internetu, więc wywołując jego adres na udostępnionym porcie można uzyskać dostęp do aplikacji Asystent domowy. To, jak wykonać takie przekierowanie, zależy do modelu routera. Szczegółowy opis należy sprawdzić w instrukcji danego routera.
+## Zalety
 
-## Zabezpieczenie dostępu do aplikacji
+Zalety tego rozwiązania:
+- brak potrzeby konfiguracji routera
+- nie naruszamy ustawień DNS i zapory sieciowej
+- nie potrzebujemy publicznego adresu IP
 
-Gdy bramka działa tylko w sieci lokalnej umożliwiamy trzy sposoby autentykacji:
-- logowanie za pomocą nazwy użytkownika i hasła
-- łatwe logowanie w zaufanej sieci (wystarczy wybrać użytkownika z listy żeby się zalogować bez podawania hasła)
-- logowanie za pomocą hasla API
+## Jak to działa
 
-konfiguracja autentykacji wygląda tak:
+Każde urządzenie posiada swój unikalny identyfikator, jest on losowo generowany przy pierwszym uruchomieniu i pozostaje stały przez cały okres użytkowania urządzenia.
+Gdy włączysz dostęp z Internetu, otwieramy połączenie TCP pomiędzy Twoim urządzeniem a naszym serwerem i tworzymy na serwerze unikalny (na bazie identyfikatora urządzenia), publicznie dostępny adres URL.
+Adres ten pełni funkcję proxy - wszystkie wywołania do naszego serwera adresowane identyfikatorem bramki przekazujemy do lokalnie działającego serwera na bramce.
 
-```yaml
-homeassistant:
-  auth_providers:
-    - type: trusted_networks
-    - type: homeassistant
-    - type: legacy_api_password
-```
-
-W aplikacji wygląda to tak:
-
-![Logowanie w sieci lokalnej](/AIS-docs/img/en/frontend/frontend_local_login.png)
+Kody źródłowe klienta działającego na urzadzeniach są dostępne tu: [dom-tunnel](https://www.npmjs.com/package/dom-tunnel), otwarta licencja MIT.
 
 
-### Wyłączenie łatwego logowania
+## Bezpieczeństwo
 
-Tak łatwe metody autentykacji nie są odpowiednie w przypadku dostępu z Internetu, dlatego gdy dostęp z Internetu jest włączony to automatycznie zmieniamy konfigurację autentykacji na następującą:
-
-```yaml
-homeassistant:
-  auth_providers:
-    - type: homeassistant
-```
-
-Przy włączonym dostępie z Internetu wymagane jest logowanie do aplikacji:
-
-![Logowanie z Internetu](/AIS-docs/img/en/frontend/frontend_internet_login.png)
+> W celu zachowania większego bezpieczeństwa, gdy dostęp do urządzenia z Internetu jest włączony to automatycznie blokujemy możliwość łatwego logowania do aplikacji, więcej informacji w FAQ [Jak działa logowanie do aplikacji](/AIS-docs/docs/en/ais_faq_authentication.html). Dodatkowo zalecamy włączenie modułu uwierzytelniania wieloskładnikowego. Więcej informacji w FAQ [Jak zabezpieczyć się bardziej](/AIS-docs/docs/en/ais_faq_authentication.html#jak-zabezpieczyć-się-bardziej)
 
 
-###  Włączenie modułu uwierzytelniania wieloskładnikowego
 
-Moduł uwierzytelniania wieloskładnikowego po podaniu hasła (czyli coś, co już wiemy) wymaga podania kolejnego jednorazowego hasła, które ma określony czas ważności i jest przesyłane na telefon (czyli coś, co tylko my dostaniemy). W celu włączenia tego zabezpieczenia należy przejść do 'ustawienia użytkownika' a następnie postępować zgodnie z instrukcją zamieszczoną w regionie **Moduły uwierzytelniania wieloskładnikowego**
+## Włączenie dostępu
+
+W celu włączenia tunelowania należy w aplikacji przejść do ustawień zdalnego dostępu do bramki (sekcja dostępna po wybraniu z menu po lewej stronie opcji **Konfiguracja** a następnie pierwszej opcji na liście **Usawienia bramki AIS dom**). 
 
 
-![Hasło jednorazowe](/AIS-docs/img/en/bramka/totp_settings.png)
+
+![Zdalny dostęp](/AIS-docs/img/en/bramka/config_ais_dom_section3.png)   
+
+
+## Unikalny adres URL
+
+Po włączeniu dostępu z Internetu Twoja bramka będzie dostępna pod unikalnym adresem
+
+https://identyfikator-twojej-bramki.paczka.pro
+
+
+Adres jest dość skomplikowany - w celu ułatwienia przepisania go na telefon, możesz wyświetlić go w aplikacji w postaci kodu QR a następnie zeskanować go telefonem.
+
+

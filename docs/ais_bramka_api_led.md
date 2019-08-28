@@ -18,4 +18,4 @@ Przykładowo żeby dioda pulsowała w rytmie bicia serca wywołujemy usługę ai
 ```
 
 
-![Ustawienia sieci](/AIS-docs/img/en/bramka/services_led.png)
+![Ustawienia sieci](/AIS-docs/img/en/frontend/services_led.png)

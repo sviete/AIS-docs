@@ -144,7 +144,7 @@ $ nano configuration.yaml
 
 3. Nadpisujemy domyślną konfigurację systemu
 
-W dokumentacji opisaliśmy jak działa [Zaawansowana konfiguracja Asystenta domowego](AIS-docs/docs/en/ais_gate_faq_config_yaml.html#plik-konfiguracyjny-configurationyaml)
+W dokumentacji opisaliśmy jak działa [Zaawansowana konfiguracja Asystenta domowego](/AIS-docs/docs/en/ais_gate_faq_config_yaml.html#plik-konfiguracyjny-configurationyaml)
 
 Jeżeli chcemy, żeby logowanie było zawsze za pomocą loginu i hasła (nawet gdy bramka nie jest dostępna przez Internet) to podajemy następującą konfigurację:
 

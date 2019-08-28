@@ -69,6 +69,10 @@
         "title": "Automatyzacja Asystenta domowego",
         "sidebar_label": "Automatyzacja"
       },
+      "ais_bramka_configuration": {
+        "title": "Konfiguracja bramki",
+        "sidebar_label": "Konfiguracja bramki"
+      },
       "ais_bramka_connect": {
         "title": "Podłączenie bramki",
         "sidebar_label": "Podłączenie"
@@ -89,9 +93,9 @@
         "title": "Dostęp do konsoli bramki po ADB",
         "sidebar_label": "ADB"
       },
-      "ais_bramka_remote_dom_tunnel": {
-        "title": "Tunelowanie połączenia TCP",
-        "sidebar_label": "Tunel"
+      "ais_bramka_remote_dom_others": {
+        "title": "Inne metody na dostęp zdalny",
+        "sidebar_label": "Inne metody na dostęp zdalny"
       },
       "ais_bramka_remote_ftp": {
         "title": "Dostęp do bramki po FTP",
@@ -113,17 +117,9 @@
         "title": "Instalowanie Aplikacji Android",
         "sidebar_label": "Instalowanie Aplikacji Android"
       },
-      "ais_bramka_remote_serveo": {
-        "title": "Zdalne przekazywania portów SSH",
-        "sidebar_label": "Serveo"
-      },
       "ais_bramka_remote_ssh": {
         "title": "Dostęp do konsoli bramki po SSH",
         "sidebar_label": "SSH"
-      },
-      "ais_bramka_remote_tor": {
-        "title": "Dostęp do bramki w sieci TOR",
-        "sidebar_label": "TOR"
       },
       "ais_bramka_remote_www_index": {
         "title": "Dostęp do bramki z Internetu",
@@ -194,8 +190,8 @@
         "sidebar_label": "Logowanie do Portalu integratora"
       },
       "ais_dom_cloud_services": {
-        "title": "Usługi",
-        "sidebar_label": "Usługi"
+        "title": "Usługi zewnętrzne",
+        "sidebar_label": "Usługi zewnętrzne"
       },
       "ais_faq_app_lovelace_merge": {
         "title": "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację",
@@ -1080,6 +1076,74 @@
       "version-0.96.10/version-0.96.10-ais_iot_gate": {
         "title": "Obsługa urządznia z bramki AIS dom",
         "sidebar_label": "Obsługa urządznia z bramki AIS dom"
+      },
+      "version-0.97.5/version-0.97.5-ais_app_views": {
+        "title": "Widoki",
+        "sidebar_label": "Widoki"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_api_index": {
+        "title": "API systemu",
+        "sidebar_label": "API systemu"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_api_led": {
+        "title": "Sterowanie diodą LED",
+        "sidebar_label": "Sterowanie diodą LED"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_configuration": {
+        "title": "Konfiguracja bramki",
+        "sidebar_label": "Konfiguracja bramki"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_first_run": {
+        "title": "Pierwsze uruchomienie",
+        "sidebar_label": "Pierwsze uruchomienie"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_index": {
+        "title": "Bramka IoT",
+        "sidebar_label": "Karta produktu"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_remote_dom_others": {
+        "title": "Inne metody na dostęp zdalny",
+        "sidebar_label": "Inne metody na dostęp zdalny"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_remote_index": {
+        "title": "Dostęp do bramki w lokalnej sieci",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_remote_ssh": {
+        "title": "Dostęp do konsoli bramki po SSH",
+        "sidebar_label": "SSH"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_remote_www_index": {
+        "title": "Dostęp do bramki z Internetu",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_services": {
+        "title": "Usługi działające na bramce",
+        "sidebar_label": "Usługi bramki"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_update_auto": {
+        "title": "Aktualizacja automatyczna",
+        "sidebar_label": "Aktualizacja automatyczna"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_update_index": {
+        "title": "Aktualizacja oprogramowania",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_update_logs": {
+        "title": "Logi aktualizacji",
+        "sidebar_label": "Logi aktualizacji"
+      },
+      "version-0.97.5/version-0.97.5-ais_dom_cloud_gates": {
+        "title": "Moje bramki",
+        "sidebar_label": "Moje bramki"
+      },
+      "version-0.97.5/version-0.97.5-ais_dom_cloud_login": {
+        "title": "Logowanie",
+        "sidebar_label": "Logowanie do Portalu integratora"
+      },
+      "version-0.97.5/version-0.97.5-ais_faq_authentication": {
+        "title": "Jak działa logowanie do aplikacji.",
+        "sidebar_label": "Jak działa logowanie do aplikacji"
       }
     },
     "links": {

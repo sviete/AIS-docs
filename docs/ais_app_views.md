@@ -7,15 +7,15 @@ Aby ułatwić nawigowanie po aplikacji, karty (grupy elementów) w interfejsie u
 
 ## Domyślne widoki
 
-W dostępnym z aplikacji interfejsie użytkownika mamy domyślnie 5 widoków:
+W dostępnym z aplikacji interfejsie użytkownika mamy domyślnie 3 widoki:
 
 
 ![Aplikacja asystent domowy](/AIS-docs/img/en/frontend/frontend-views.png)
 
-|Dom|Audio|Ustawienia|Pomoc|System|
-|---|-----|----------|-----|------|
-w widoku **System** dostępne są zaawansowane ustawienia i informacje, docelowo widok ten nie będzie potrzebny/wyświetlany.
-
+|Dom|Audio|Urządzenia|
+|---|-----|----------|
+w widoku **Urządzenia** dostępne są informacje o wszystkich urządzeniach, które są zintegrowane z systemem Asystent domowy.
+Jest to "widok roboczy", urządzenie te można dodawać do własnych widoków i umieszczać na ładniejszych kartach wg własnych upodobań.
 
 ## Tworzenie własnych widoków
 

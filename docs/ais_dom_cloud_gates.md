@@ -5,14 +5,14 @@ sidebar_label: Moje bramki
 
 ## Unikalny identyfikator urządzenia
 Każde urządzenie posiada swój unikalny identyfikator, jest on losowo generowany przy pierwszym uruchomieniu i pozostaje stały przez cały okres użytkowania urządzenia. 
-Identyfikator można sprawdzić w aplikacji działającej lokalnie na urządzeniu, przechodząc do widoku **"Ustawienia"** w karcie **"Konfiguracja treści i usług"**.
+Identyfikator można sprawdzić w aplikacji, przechodząc z menu do opcji **Przydatne linki**.
 
 
 ![Portal integratora identyfikator bramki](/AIS-docs/img/en/frontend/dom_cloud_gate_id.png)
 
 
 ## Zarządzanie bramkami
-W portalu integratora możemy w łatwy sposób dodawać, modyfikować i usuwać swoje bramki. 
+W portalu integratora możemy w łatwy sposób dodawać, modyfikować i usuwać bramki, którymi administrujemy.
 
 ![Portal integratora bramki](/AIS-docs/img/en/frontend/dom_cloud_gates.png)
 
