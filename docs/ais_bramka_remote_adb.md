@@ -3,7 +3,7 @@ title: "Dostęp do konsoli bramki po ADB"
 sidebar_label: ADB
 ---
 
-Android Debug Bridge (adb) to kolejne narzędzie działające w konsoli, które umożliwia komunikację z urządzeniem.
+Android Debug Bridge (ADB) to kolejne narzędzie działające w konsoli, które umożliwia komunikację z urządzeniem.
 
 > Ta metoda komunikacji jest przydatna szczególnie w sytuacji, gdy nie mamy możliwości łączenia się z Asystentem domowym po SSH, bo go np odinstalowaliśmy z bramki.
 
@@ -25,15 +25,19 @@ https://developer.android.com/studio/releases/platform-tools.html
 [Ustawienia systemu Android](/AIS-docs/docs/en/ais_bramka_settings.html#ustawienia-systemu-android)
 
 4. W ustawieniach Android przejdź do **Informacje**
+
 ![Ustawienia - Informacje](/AIS-docs/img/en/bramka/adb_settings_1.png)
 
 5. Kliknij 5 razy w opcję **Kompilacja** aż pojawi się komunikat, że jesteś już programistą
+
 ![Ustawienia - Kompilacja](/AIS-docs/img/en/bramka/adb_settings_2.png)
 
 6. Wróć do ustawień (strzałka na pilocie) i wybierz nową opcję **Opcje programistyczne**
+
 ![Ustawienia - Opcje programistyczne](/AIS-docs/img/en/bramka/adb_settings_3.png)
 
 7. W opcjach programistycznych włącz **Debugowanie USB**
+
 ![Ustawienia - Debugowanie USB](/AIS-docs/img/en/bramka/adb_settings_4.png)
 
 
@@ -45,7 +49,7 @@ https://developer.android.com/studio/releases/platform-tools.html
 $ adb start-server
 ```
 
-2. Połącz się do bramki wpisując w konsoli na swoim komputerze
+2. Podłącz się do bramki wpisując w konsoli na swoim komputerze
 
 ```bash
 $ adb connect <ip-bramki-w-lokalnej-sieci>
