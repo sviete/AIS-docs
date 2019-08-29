@@ -4,10 +4,10 @@ sidebar_label: Wykonywanie komendy
 ---
 
 Usługa **ais_ai_service.process** pozwala na wykonanie komendy tekstowej na bramce.
-Wymagany jest jeden parametr **text**, tekst pynia/komendy. Przykładowe wartości parametru to:
-- Włącz radio RMF,
-- Która godzina,
-- Jaka jest pogoda,
+Wymagany jest jeden parametr **text**, tekst pytania/komendy. Przykładowe wartości parametru to:
+- Włącz radio RMF
+- Która godzina
+- Jaka jest pogoda
 - Włącz światło w kuchni
 - Znajdz informacje o NATO
 
