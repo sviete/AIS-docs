@@ -23,12 +23,12 @@ Każde urządzenie posiada swój unikalny identyfikator, jest on losowo generowa
 Gdy włączysz dostęp z Internetu, otwieramy połączenie TCP pomiędzy Twoim urządzeniem a naszym serwerem i tworzymy na serwerze unikalny (na bazie identyfikatora urządzenia), publicznie dostępny adres URL.
 Adres ten pełni funkcję proxy - wszystkie wywołania do naszego serwera adresowane identyfikatorem bramki przekazujemy do lokalnie działającego serwera na bramce.
 
-Kody źródłowe klienta działającego na urzadzeniach są dostępne tu: [dom-tunnel](https://www.npmjs.com/package/dom-tunnel), otwarta licencja MIT.
+Kody źródłowe klienta działającego na urządzeniach są dostępne tu: [dom-tunnel](https://www.npmjs.com/package/dom-tunnel), otwarta licencja MIT.
 
 
 ## Bezpieczeństwo
 
-> W celu zachowania większego bezpieczeństwa, gdy dostęp do urządzenia z Internetu jest włączony to automatycznie blokujemy możliwość łatwego logowania do aplikacji, więcej informacji w FAQ [Jak działa logowanie do aplikacji](/AIS-docs/docs/en/ais_faq_authentication.html). Dodatkowo zalecamy włączenie modułu uwierzytelniania wieloskładnikowego. Więcej informacji w FAQ [Jak zabezpieczyć się bardziej](/AIS-docs/docs/en/ais_faq_authentication.html#jak-zabezpieczyć-się-bardziej)
+> W celu zachowania większego bezpieczeństwa, gdy dostęp do urządzenia z Internetu jest włączony, automatycznie blokujemy możliwość łatwego logowania do aplikacji, więcej informacji w FAQ [Jak działa logowanie do aplikacji](/AIS-docs/docs/en/ais_faq_authentication.html). Dodatkowo zalecamy włączenie modułu uwierzytelniania wieloskładnikowego. Więcej informacji w FAQ [Jak zabezpieczyć się bardziej](/AIS-docs/docs/en/ais_faq_authentication.html#jak-zabezpieczyć-się-bardziej)
 
 
 
