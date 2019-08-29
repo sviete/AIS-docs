@@ -3,7 +3,7 @@ title: "Podłączenie bramki"
 sidebar_label: Podłączenie
 ---
 
-## Co jest w pudełku
+## Zawartość opakowania
 
 W pudełku znajdziesz bramkę oraz niezbęde akcesoria:
 
@@ -19,7 +19,7 @@ W pudełku znajdziesz bramkę oraz niezbęde akcesoria:
 
 ## Gniazda dostępne na tylnym panelu urządzenia
 
-Na tylnym panelu licząc od lewej strony znajdują się kolejno:
+Na tylnym panelu, licząc od lewej strony, znajdują się kolejno:
 
 * USB
 * SPDIF
