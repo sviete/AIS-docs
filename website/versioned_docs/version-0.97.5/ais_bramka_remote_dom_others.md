@@ -19,7 +19,7 @@ Jedną z metod na udostępnienie bramki z Internetu jest przekierowanie portów 
 Możliwe jest zdefiniowanie dostępu do bramki przez Internet w sieci Tor Onion.
 Usługa Tor Onion pozwala na zdalny dostęp do aplikacji Asystent domowy działającej na bramce w twojej sieci lokalnej za pośrednictwem standardowych portów.
 
-Dostęp do urządzenia za pośrednictwem Tora jest najbezpieczniejszą metodą ponieważ oferuje silne szyfrowanie, dodatkowo Twoja bramka nie jest widoczna w zwykłym Internecie. Niestety nie jest to zbyt efektywna moteda ponieważ sieć TOR jest zwykle dość wolna.
+Dostęp do urządzenia za pośrednictwem Tora jest najbezpieczniejszą metodą ponieważ oferuje silne szyfrowanie, dodatkowo Twoja bramka nie jest widoczna w zwykłym Internecie. Niestety nie jest to zbyt efektywna moteda, ponieważ sieć TOR jest zwykle dość wolna.
 
 
 ### Instalacja potrzebnych pakietów
@@ -33,7 +33,7 @@ $ apt install tor
 ### Ustawienia serwisu Onion
 
 Należy zmodyfikować domyślny plik konfiguracyjny tor znajdujący się w lokalizacji $PREFIX/etc/tor/torrc
-Wykonaj tą komendę by udostępnić na bramce serwis SSH oraz HTTP w Onion:
+Wykonaj tą komendę, by udostępnić na bramce serwis SSH oraz HTTP w Onion:
 
 ```bash
 $ echo "SOCKSPort 127.0.0.1:9050
@@ -55,13 +55,13 @@ Uruchom usługę Tor wpisując w konsoli:
 $ tor
 ```
 
-poczekaj aż serwis się uruchomi, pojawi się kilka logów na końcu będzie:
+poczekaj, aż serwis się uruchomi, pojawi się kilka logów aż na końcu będzie:
 
 
 ```bash
  Bootstrapped 100%: Done
 ```
-zamknij serwis, kombinacją klawiszy: Ctrl+c
+zamknij serwis kombinacją klawiszy: Ctrl+c
 
 
 ### Nazwa hosta w Onion
@@ -84,7 +84,7 @@ $ ytdv3tvdeh8u6koz.onion
 
 > Pamiętaj, że usługa `TOR` powinna działać na obu stronach (klient / serwer), w przeciwnym razie pojawią się błędy połączenia.
 
-- SSH
+- SSH. 
 Programem do połączenia z serwisem SSH może być torsocks
 
 Zainstaluj torsocks wykonując w konsoli komendę:
@@ -93,20 +93,20 @@ Zainstaluj torsocks wykonując w konsoli komendę:
 $ apt install torsocks
 ```
 
-Żeby połączyć się ze konsolą bramki przez sieć TOR w konsoli swojego klienta wpisz polecenie:
+Żeby połączyć się ze konsolą bramki przez sieć TOR, w konsoli swojego klienta wpisz polecenie:
 
 ```bash
 $ torsocks ssh ytdv3tvdeh8u6koz.onion -i id_rsa_ais
 ```
 
-- HTTP
+- HTTP. 
 Do połączenia z aplikacją użyj specjalnej przeglądarki działającej w sieci Onion Tor, możesz ją pobrać z tego adresu: https://www.torproject.org/projects/torbrowser.html.en
 w adresie przeglądarki wpisz swoją unikalną nazwę hosta w sieci Onion
 
 
 ### Dodanie serwisu tor do menedżera procesów
 
-Żeby TOR był uruchamiany automatycznie po każdym restarcie bramki dodaj go do menedżera procesów PM2 wykonując następującą komendę w konsoli:
+Żeby TOR był uruchamiany automatycznie po każdym restarcie bramki, dodaj go do menedżera procesów PM2 wykonując następującą komendę w konsoli:
 
 ```bash
 $ pm2 start tor --name tor && pm2 save
@@ -116,12 +116,12 @@ $ pm2 start tor --name tor && pm2 save
 ## Serveo
 ---
 
-Inny sposób na dostęp do bramki z Internetu, który nie wymaga konfiguracji routera oraz instalowania żadnych dodatkowych pakietów to wykorzystanie **usługi zdalnego przekazywania portów SSH**. Ta metoda zostanie dokładnie opisana poniżej wraz z przykładami.
+Inny sposób na dostęp do bramki z Internetu, który nie wymaga konfiguracji routera oraz instalowania żadnych dodatkowych pakietów, to wykorzystanie **usługi zdalnego przekazywania portów SSH**. Ta metoda zostanie dokładnie opisana poniżej wraz z przykładami.
 
 
 ### Dostęp do aplikacji z sieci Internet
 
-żeby udostępnić aplikację w sieci internet, w konsoli bramki wykonaj komendę:
+żeby udostępnić aplikację w sieci Internet, w konsoli bramki wykonaj komendę:
 
 ```bash
 $ ssh -R 80:localhost:8180 serveo.net
@@ -136,7 +136,7 @@ Forwarding HTTP traffic from https://alias.serveo.net
 Press g to start a GUI session and ctrl-c to quit.
 ```
 
-teraz w celu połączenia się ze swoją bramką z internetu, wpisz w przeglądarce:
+teraz w celu połączenia się ze swoją bramką z Internetu, wpisz w przeglądarce:
 
 https://**alias**.serveo.net
 
@@ -152,7 +152,7 @@ $ ssh -R bramka:80:localhost:8180 serveo.net
 
 ### Dostęp do konsoli bramki z sieci Internet
 
-w podobny sposób jak aplikację możesz też przekierować połączenie ssh, w tym celu w konsoli wpisz:
+w podobny sposób jak aplikację, możesz też przekierować połączenie ssh, w tym celu w konsoli wpisz:
 
 ```bash
 $ ssh -R bramka:22:localhost:8022 serveo.net
@@ -166,7 +166,7 @@ Forwarding SSH traffic from alias "bramka"
 Press g to start a GUI session and ctrl-c to quit.
 ```
 
-teraz w celu połączenia się ze swoją bramką po ssh będąc poza lokalną siecią wystearczy, że wpiszesz w konsoli:
+teraz w celu połączenia się ze swoją bramką po ssh będąc poza lokalną siecią wystarczy, że wpiszesz w konsoli:
 
 ```bash
 $ ssh -o ProxyCommand="ssh -W bramka:22 serveo.net" bramka -i id_rsa_ais
@@ -184,7 +184,7 @@ $ ssh -o ProxyCommand="ssh -W bramka:22 serveo.net" bramka -i id_rsa_ais
  $ apt install autossh
  ```
 
-W celu uruhamiania dostępu po każdym restarcie bramki, możemy posłużyć się menedżerem procesów PM2.
+W celu uruchamiania dostępu po każdym restarcie bramki, możemy posłużyć się menedżerem procesów PM2.
 
 > Należy zwrócić uwagę, że w poniższych przykładach **bramka**, to tylko przykładowy alias - definiując proces należy podać własny alias
 
@@ -195,7 +195,7 @@ $ pm2 start autossh --name ext-http \
     -- -M 0 -o ServerAliveInterval=60 -R bramka:80:localhost:8180 serveo.net
 ```
 
-- zdefiniowanie procesu dostep do konsoli w PM2
+- zdefiniowanie procesu dostępu do konsoli w PM2
 
 ```bash
 $ pm2 start autossh --name ext-ssh \
@@ -211,9 +211,9 @@ $ pm2 save
 
 ## Zabezpieczenie dostępu do aplikacji
 
-Gdy bramka działa tylko w sieci lokalnej umożliwiamy trzy sposoby autentykacji:
+Gdy bramka działa tylko w sieci lokalnej, umożliwiamy trzy sposoby autentykacji:
 - logowanie za pomocą nazwy użytkownika i hasła
-- łatwe logowanie w zaufanej sieci (wystarczy wybrać użytkownika z listy żeby się zalogować bez podawania hasła)
+- łatwe logowanie w zaufanej sieci (wystarczy wybrać użytkownika z listy, żeby się zalogować bez podawania hasła)
 - logowanie za pomocą hasla API
 
 konfiguracja autentykacji wygląda tak:

@@ -218,12 +218,12 @@
         "sidebar_label": "Logi dostępne na bramce"
       },
       "ais_faq_mic_not_on": {
-        "title": "Czy macie stale włączony mikrofon",
-        "sidebar_label": "Czy macie stale włączony mikrofon"
+        "title": "Czy macie stale włączony mikrofon?",
+        "sidebar_label": "Czy macie stale włączony mikrofon?"
       },
       "ais_faq_raspberry_pi": {
-        "title": "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)",
-        "sidebar_label": "Czy płyta to Raspberry Pi"
+        "title": "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)?",
+        "sidebar_label": "Czy płyta to Raspberry Pi?"
       },
       "ais_faq_when_speaker": {
         "title": "Czy planujecie jeszcze zbudowanie głośnika.",
@@ -1121,9 +1121,17 @@
         "title": "Konfigurowanie wykrywania obecności",
         "sidebar_label": "Wykrywanie obecności"
       },
+      "version-0.97.5/version-0.97.5-ais_bramka_remote_adb": {
+        "title": "Dostęp do konsoli bramki po ADB",
+        "sidebar_label": "ADB"
+      },
       "version-0.97.5/version-0.97.5-ais_bramka_remote_dom_others": {
         "title": "Inne metody na dostęp zdalny",
         "sidebar_label": "Inne metody na dostęp zdalny"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_remote_ftp": {
+        "title": "Dostęp do bramki po FTP",
+        "sidebar_label": "FTP"
       },
       "version-0.97.5/version-0.97.5-ais_bramka_remote_http": {
         "title": "Dostęp do bramki po HTTP",
@@ -1144,6 +1152,10 @@
       "version-0.97.5/version-0.97.5-ais_bramka_services": {
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_settings": {
+        "title": "Ustawienia zaawansowane",
+        "sidebar_label": "Ustawienia zaawansowane"
       },
       "version-0.97.5/version-0.97.5-ais_bramka_update_auto": {
         "title": "Aktualizacja automatyczna",
@@ -1174,12 +1186,12 @@
         "sidebar_label": "Informacja"
       },
       "version-0.97.5/version-0.97.5-ais_faq_mic_not_on": {
-        "title": "Czy macie stale włączony mikrofon",
-        "sidebar_label": "Czy macie stale włączony mikrofon"
+        "title": "Czy macie stale włączony mikrofon?",
+        "sidebar_label": "Czy macie stale włączony mikrofon?"
       },
       "version-0.97.5/version-0.97.5-ais_faq_raspberry_pi": {
-        "title": "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)",
-        "sidebar_label": "Czy płyta to Raspberry Pi"
+        "title": "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)?",
+        "sidebar_label": "Czy płyta to Raspberry Pi?"
       }
     },
     "links": {

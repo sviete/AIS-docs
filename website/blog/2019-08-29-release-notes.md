@@ -5,7 +5,7 @@ authorFBID: 1186570423
 title: Wersja systemu 0.97.5 Obsługa wywołań zwrotnych HTTP, kolejne uproszczenia w aplikacji
 ---
 
-## Wersja systemu 0.97.5 z dnia (do uzupełnienia) sierpnia 2019 roku,
+## Wersja systemu 0.97.5 z dnia 29 sierpnia 2019 roku,
 
 ### Poprawa dostępności aplikacji dla użytkowników niedowidzących
 
