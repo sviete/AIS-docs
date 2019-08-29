@@ -10,9 +10,9 @@ Asystent domowy dostarcza połączenie SSH za pośrednictwem bardzo popularnego 
 
 ## Dostęp do konsoli z aplikacji
 
-Istnieje możliwość dostępu bezpośredion z naszej aplikacji (działającej w dowolnej przeglądarce) do konsoli systemowej "Asystenta domowego"
+Istnieje możliwość dostępu bezpośrednio z naszej aplikacji (działającej w dowolnej przeglądarce) do konsoli systemowej "Asystenta domowego"
 
-> ***Ta opcja dostępna jest tylko w lokalnej sieci.*** Obecnie nie tunelujemy portu na którym działa serwer SSH i gdy będziesz łączył się z bramką z Internetu to konsola nie będzie dostępna.
+> ***Ta opcja dostępna jest tylko w lokalnej sieci.*** Obecnie nie tunelujemy portu, na którym działa serwer SSH i gdy będziesz łączył się z bramką z Internetu, to konsola nie będzie dostępna.
 
 ![SSH z aplikacji](/AIS-docs/img/en/bramka/ssh_from_app.png)
 
@@ -22,7 +22,7 @@ Istnieje możliwość dostępu bezpośredion z naszej aplikacji (działającej w
 
 ### Autentykacja za pomocą hasła
 
-Jeśli chcesz możesz łączyć się za pomocą hasła, w tym celu należy ustalić hasło komendą passwd (tak jak we wszystkich systemach Linux)
+Jeśli chcesz, możesz łączyć się za pomocą hasła, w tym celu należy ustalić hasło komendą passwd (tak jak we wszystkich systemach Linux)
 
 ```bash
 $ passwd
@@ -34,21 +34,22 @@ $ passwd
 
 ### Autentykacja za pomocą autoryzowanego klucza
 
-> W Asystent domowy obsługujemy logowanie po SSH za pomocą autoryzowanego klucza. Wygenerowany i autoryzowany klucz dostępny jest w lokalnej instancji systemu Asystent domowy pod adresem: [https://ais-dom.local:8123/local/id_rsa_ais](https://ais-dom.local:8123/local/id_rsa_ais)
+> W Asystencie domowym obsługujemy logowanie po SSH za pomocą autoryzowanego klucza. Wygenerowany i autoryzowany klucz dostępny jest w lokalnej instancji systemu Asystent domowy pod adresem: [https://ais-dom.local:8123/local/id_rsa_ais](https://ais-dom.local:8123/local/id_rsa_ais)
 
 Można też go pobrać wybierając z menu **Przydatne linki**
+
 ![Pobranie klucza SSH](/AIS-docs/img/en/bramka/ssh_download_key.png)
 
 
 ### Połączenie z konsolą bramki za pomocą hasła
 
-Wystarczy uruchomić klienta ssh, podając nazwę hosta bramki(lub ip) oraz port 8022
+Wystarczy uruchomić klienta ssh, podając nazwę hosta bramki (lub IP) oraz port 8022
 
 ```bash
 $ ssh ais-dom.local -p 8022
 ```
 
-następnie podajemy hasło które wcześniej ustaliliśmy komendą passwd.
+następnie podajemy hasło, które wcześniej ustaliliśmy komendą passwd.
 
 
 ### Połączenie z konsolą bramki za pomocą autoryzowanego klucza
@@ -74,14 +75,14 @@ $ ssh ais-dom.local -p 8022 -i id_rsa_ais
 
 #### połączenie z konsolą bramki z systemu Windows
 
-Zalecamy urzycie darmowego programu [PuTTY](https://www.putty.org/)
+Zalecamy użycie darmowego programu [PuTTY](https://www.putty.org/)
 
 
 Po zainstalowaniu programu należy:
 
 ##### Przegenerować klucz dostępu pobrany z bramki do formatu PuTTY
 
-PuTTY używa własnego formatu do przechowywania kluczy. W celu skonwertowania klucza na fromat PuTTY zastosujemy program PuTTY Key Generator instalowany domyślnie razem z PuTTY.
+PuTTY używa własnego formatu do przechowywania kluczy. W celu skonwertowania klucza na format PuTTY zastosujemy program PuTTY Key Generator instalowany domyślnie razem z PuTTY.
 W  PuTTY Key Generator naciskamy przycisk "Load":
 
 ![Połączenie SSH](/AIS-docs/img/en/bramka/ssh_putty_1.png)
@@ -113,8 +114,8 @@ Uruchamiamy program PuTTY i definiujemy nowe połączenie SSH z bramką:
 
 ![Połączenie SSH](/AIS-docs/img/en/bramka/ssh_putty_7.png)
 
-Następnie podajemy ścieżkę do prywatnego klucza **id_rsa_ais.ppk** który skonwertowaliśmy programem PuTTY Key Generator
+Następnie podajemy ścieżkę do prywatnego klucza **id_rsa_ais.ppk**, który skonwertowaliśmy programem PuTTY Key Generator
 
 ![Połączenie SSH](/AIS-docs/img/en/bramka/ssh_putty_8.png)
 
-Nadajemy nazwę dla połączenia i zapisujemy je żeby kolejnym razem można było się łączyć bez konieczności przeprowadzania powyższej konfiguracji.
+Nadajemy nazwę dla połączenia i zapisujemy ją, żeby kolejnym razem można było łączyć się bez konieczności przeprowadzania powyższej konfiguracji.
