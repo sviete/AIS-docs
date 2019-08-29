@@ -9,7 +9,7 @@ original_id: ais_bramka_index
 
 ### Opis produktu
 
-Bramka do domowego Internetu Rzeczy z inteligentnym asystentem głosowym to urządzenie którego celem jest komunikacja i zarządzanie inteligentnymi urządzeniami w Twoim domu. **Bramka "tłumaczy" polecenia głosowe na komendy które są zrozumiałe przez urządzenia** oraz automatycznie wykonuje czynności (np. włączenie urządzeń) w określonych okolicznościach.
+Bramka do domowego Internetu Rzeczy z inteligentnym asystentem głosowym to urządzenie, którego celem jest komunikacja i zarządzanie inteligentnymi urządzeniami w Twoim domu. **Bramka "tłumaczy" polecenia głosowe na komendy, które są zrozumiałe przez urządzenia** oraz automatycznie wykonuje czynności (np. włączenie urządzeń) w określonych okolicznościach.
 
 ### Zdjęcie produktu
 
@@ -46,9 +46,9 @@ Oprogramowanie obsługuje najbardziej popularne urządzenia inteligentnego domu 
 W naszym rozwiązaniu bramka jest odpowiedzialna za kontrolę nad urządzeniami oraz dostarczanie treści.
 Bramka umożliwia zarządzanie urządzeniami i sensorami oraz pełni rolę mostu między Internetem Rzeczy a Twoją siecią domową. Urządzenie jest „tłumaczem” protokołów IoT i przekazuje komunikację sieciową do aplikacji w celu prezentacji stanu urządzeń oraz dostarczeniu kontroli dla użytkownika.
 
-Główne zdania które realizuje oprogramowanie zainstalowane na bramce to:
+Główne zadania, które realizuje oprogramowanie zainstalowane na bramce to:
 
- * tłumaczenie poleceń głosowych na komendy które są zrozumiałe przez urządzenia,
+ * tłumaczenie poleceń głosowych na komendy, które są zrozumiałe przez urządzenia,
  * zbieranie informacji i kontrolowanie urządzeń,
  * wyzwalanie poleceń na podstawie konfiguracji użytkownika (automatyzacja),
  * dostarczanie i prezentowanie treści (wiadomości, pogoda, audio) na żądanie użytkownika.

@@ -12,7 +12,7 @@ Przy pierwszym uruchomieniu **Asystenta domowego** wykonujemy początkową prost
 Następne kroki, które można wykonać przy pierwszym uruchomieniu (lub zrobić to później w konfiguracji), to:
 -  Podłączenie do sieci WiFi
 -  Zaznaczenie na mapie lokalizacji Twojego domu.
--  Dodawanie urządzeń i usług, które są reprezentowane w "Asystencie domowym" jako integrację.
+-  Dodawanie urządzeń i usług, które są reprezentowane w "Asystencie domowym", jako integracje.
 
 Poniżej na zdjęciach z systemu pokazane są poszczególne kroki, wykonywane podczas pierwszego uruchomienia.
 
@@ -25,10 +25,10 @@ Poniżej na zdjęciach z systemu pokazane są poszczególne kroki, wykonywane po
 
 ## Lokalizacja Twojego domu
 
-Asystent domowy chciałby wiedzieć gdzie mieszkasz. Te dane pomogą w wyświetlaniu informacji i konfigurowaniu automatyki opartej na położeniu słońca. 
+Asystent domowy chciałby wiedzieć gdzie mieszkasz. Pomoże to w wyświetlaniu informacji i konfigurowaniu automatyki opartej na położeniu słońca. 
 Te dane nigdy nie będą udostępniane poza Twoją sieć lokalną.
 
-Możemy pomóc Ci wprowadzić informacje dotyczące Twojej lokalizacji, wysyłając jednorazowe zapytanie do usługi zewnętrznej. **Do tego jest potrzebne połączenie z Internetem** więc jeśli jeszcze nie podłączyłeś bramki do Internetu po kablu Ethernet to możesz teraz skonfigurować połączenie WiFi
+Możemy pomóc Ci wprowadzić informacje dotyczące Twojej lokalizacji, wysyłając jednorazowe zapytanie do usługi zewnętrznej. **Do tego jest potrzebne połączenie z Internetem**, więc jeśli jeszcze nie podłączyłeś bramki do Internetu po kablu Ethernet to możesz teraz skonfigurować połączenie WiFi.
 
 ### Konfiguracja WiFi
 

@@ -217,6 +217,14 @@
         "title": "Logi dostępne na bramce",
         "sidebar_label": "Logi dostępne na bramce"
       },
+      "ais_faq_mic_not_on": {
+        "title": "Czy macie stale włączony mikrofon",
+        "sidebar_label": "Czy macie stale włączony mikrofon"
+      },
+      "ais_faq_raspberry_pi": {
+        "title": "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)",
+        "sidebar_label": "Czy płyta to Raspberry Pi"
+      },
       "ais_faq_when_speaker": {
         "title": "Czy planujecie jeszcze zbudowanie głośnika.",
         "sidebar_label": "Czy planujecie jeszcze zbudowanie głośnika"
@@ -1089,9 +1097,17 @@
         "title": "Sterowanie diodą LED",
         "sidebar_label": "Sterowanie diodą LED"
       },
+      "version-0.97.5/version-0.97.5-ais_bramka_automation": {
+        "title": "Automatyzacja Asystenta domowego",
+        "sidebar_label": "Automatyzacja"
+      },
       "version-0.97.5/version-0.97.5-ais_bramka_configuration": {
         "title": "Konfiguracja bramki",
         "sidebar_label": "Konfiguracja bramki"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_connect": {
+        "title": "Podłączenie bramki",
+        "sidebar_label": "Podłączenie"
       },
       "version-0.97.5/version-0.97.5-ais_bramka_first_run": {
         "title": "Pierwsze uruchomienie",
@@ -1101,9 +1117,17 @@
         "title": "Bramka IoT",
         "sidebar_label": "Karta produktu"
       },
+      "version-0.97.5/version-0.97.5-ais_bramka_presence_detection": {
+        "title": "Konfigurowanie wykrywania obecności",
+        "sidebar_label": "Wykrywanie obecności"
+      },
       "version-0.97.5/version-0.97.5-ais_bramka_remote_dom_others": {
         "title": "Inne metody na dostęp zdalny",
         "sidebar_label": "Inne metody na dostęp zdalny"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_remote_http": {
+        "title": "Dostęp do bramki po HTTP",
+        "sidebar_label": "HTTP"
       },
       "version-0.97.5/version-0.97.5-ais_bramka_remote_index": {
         "title": "Dostęp do bramki w lokalnej sieci",
@@ -1144,6 +1168,18 @@
       "version-0.97.5/version-0.97.5-ais_faq_authentication": {
         "title": "Jak działa logowanie do aplikacji.",
         "sidebar_label": "Jak działa logowanie do aplikacji"
+      },
+      "version-0.97.5/version-0.97.5-ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
+      },
+      "version-0.97.5/version-0.97.5-ais_faq_mic_not_on": {
+        "title": "Czy macie stale włączony mikrofon",
+        "sidebar_label": "Czy macie stale włączony mikrofon"
+      },
+      "version-0.97.5/version-0.97.5-ais_faq_raspberry_pi": {
+        "title": "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)",
+        "sidebar_label": "Czy płyta to Raspberry Pi"
       }
     },
     "links": {
@@ -1169,9 +1205,10 @@
       "Pilot radiowy": "Pilot radiowy",
       "Urządzenia AIS dom": "Urządzenia AIS dom",
       "Oprogramowanie dla urządzeń AIS dom": "Oprogramowanie dla urządzeń AIS dom",
-      "Wprowadzenie": "Wprowadzenie",
+      "Odpowiedzi na pytania": "Odpowiedzi na pytania",
       "Ogólne": "Ogólne",
       "Bramka": "Bramka",
+      "Wprowadzenie": "Wprowadzenie",
       "Reset do ustawień fabrycznych": "Reset do ustawień fabrycznych",
       "Oprogramowanie": "Oprogramowanie",
       "API": "API",

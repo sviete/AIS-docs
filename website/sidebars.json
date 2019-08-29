@@ -96,13 +96,15 @@
     ]
   },
   "FAQ": {
-    "Wprowadzenie": [
+    "Odpowiedzi na pytania": [
       "ais_faq_index"
     ],
     "Ogólne": [
       "ais_faq_when_speaker",
       "ais_faq_where_is_the_code",
-      "ais_faq_authentication"
+      "ais_faq_mic_not_on",
+      "ais_faq_raspberry_pi"
+      
     ],
     "Bramka": [
       "ais_faq_logs",
@@ -119,7 +121,9 @@
       "ais_remote_faq_index"
     ],
     "Urządzenia AIS dom": [
-        "ais_faq_iot_ap_mode"
+        "ais_faq_iot_ap_mode",
+        "ais_faq_app_lovelace_merge",
+        "ais_faq_authentication"
     ]
   }
 }

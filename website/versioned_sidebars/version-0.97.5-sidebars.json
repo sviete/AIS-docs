@@ -95,13 +95,14 @@
     ]
   },
   "version-0.97.5-FAQ": {
-    "Wprowadzenie": [
+    "Odpowiedzi na pytania": [
       "version-0.97.5-ais_faq_index"
     ],
     "Ogólne": [
       "version-0.97.5-ais_faq_when_speaker",
       "version-0.97.5-ais_faq_where_is_the_code",
-      "version-0.97.5-ais_faq_authentication"
+      "version-0.97.5-ais_faq_mic_not_on",
+      "version-0.97.5-ais_faq_raspberry_pi"
     ],
     "Bramka": [
       "version-0.97.5-ais_faq_logs",
@@ -118,7 +119,9 @@
       "version-0.97.5-ais_remote_faq_index"
     ],
     "Urządzenia AIS dom": [
-      "version-0.97.5-ais_faq_iot_ap_mode"
+      "version-0.97.5-ais_faq_iot_ap_mode",
+      "version-0.97.5-ais_faq_app_lovelace_merge",
+      "version-0.97.5-ais_faq_authentication"
     ]
   }
 }

@@ -7,15 +7,15 @@ title: Wersja systemu 0.97.5 Obsługa wywołań zwrotnych HTTP, kolejne uproszcz
 
 ## Wersja systemu 0.97.5 z dnia (do uzupełnienia) sierpnia 2019 roku,
 
-### Poprawki dostępność aplikacji dla użytkowników niedowidzących
+### Poprawa dostępności aplikacji dla użytkowników niedowidzących
 
-W naszej aplikacji na system Android oznakowaliśmy przyciski etykietami w celu zapewniania wsparcia dla mechanizmów typu TalkBack.
+W naszej aplikacji na system Android oznakowaliśmy przyciski etykietami w celu zapewnienia wsparcia dla mechanizmów typu TalkBack.
 Podobne wysiłki zostały poczynione w aplikacji webowej, celem tego procesu jest udostępnienie interfejsu użytkownika Asystenta domowego dla wszystkich.
 
 ### Uproszczenia w aplikacji
 
 W ramach prac nad wersją 1.0 upraszczamy domyślny interfejs użytkownika aplikacji Asystent domowy. 
-Od wersji 0.97 Konfiguracja bramki, Przydatne linki i Dokumentacja będą miały swoje osobne strony.
+Od wersji 0.97 Konfiguracja bramki, Przydatne linki i Dokumentacją będą miały swoje osobne strony.
 
 #### Konfiguracja bramki
 
@@ -34,7 +34,7 @@ Linki do serwisów działających na bramce umieściliśmy jako nową opcję w m
 
 #### Dokumentacja
 
-Kolejna nowa opcja w menu **Dokumentacja**, to przejście do serwisu z naszą oficjalną dokumentacja użytkownika.
+Kolejna nowa opcja w menu **Dokumentacja** to przejście do serwisu z naszą oficjalną dokumentacja użytkownika.
 
 ![AIS dom dokumentacja](/AIS-docs/img/en/frontend/ais_dom_docs.png)
 
@@ -66,7 +66,7 @@ Zarządzanie powiadomieniami zwrotnymi dostępne jest w [konfiguracji zdalnego 
 
 Mamy nowe repozytorium pakietów binarnych na własnym serwerze (nie instalujemy już binarek z serwisu Github). Wszystkie pakiety zostały zaktualizowane do najnowszych wersji i w ramach optymalizacji skompilowane dla minimalnego Android API 24 (wcześniej wspieraliśmy API 21 dostępne na Android 5).
 
-> Nie przełączamy na nowe repozytorium automatycznie i nie dostarczamy tych nowych pakietów binarnych automatycznie podczas zwykłej instalacji. Wymaga to po standardowej aktualizacji, wykonania dodatkowo procedury "Pełnego resetu aplikacji". **Zachęcamy do przełączenia się na nowe repozytorium w celu usprawnienia/przyśpieszenia działania procesów na urządzeniu.**
+> Nie przełączamy na nowe repozytorium automatycznie i nie dostarczamy tych nowych pakietów binarnych automatycznie podczas zwykłej instalacji. Wymaga to po standardowej aktualizacji wykonania dodatkowo procedury "Pełnego resetu aplikacji". **Zachęcamy do przełączenia się na nowe repozytorium w celu usprawnienia/przyśpieszenia działania procesów na urządzeniu.**
 
 Przełączenie na nowe repozytorium pakietów binarnych:
 1. Wykonaj standardową aktualizację automatyczną
@@ -76,12 +76,16 @@ Przełączenie na nowe repozytorium pakietów binarnych:
 ### Pozostałe istotne zmiany
 
 - Możliwość włączenia dźwięku mono (połączenie kanałów podczas odtwarzania audio).
-Opcja dostępna jest z aplikacji oraz ze zdalnego pilota. Jest to przydatne gdy nasza bramka podłączona jest do jednego głośnika a audio ma więcej kanałów lub gdy słychamy na słuchawkach i mamy lepszy słuch w jednym uchu niż w drugim. 
+Opcja dostępna jest z aplikacji oraz ze zdalnego pilota. Jest to przydatne gdy nasza bramka podłączona jest do jednego głośnika a audio ma więcej kanałów lub gdy słuchamy na słuchawkach i mamy lepszy słuch w jednym uchu niż w drugim. 
 
 - Pokazywanie mikrofonu w przeglądarce, tylko gdy przeglądarka wspiera głosowe wprowadzanie (webkitSpeechRecognition) i gdy połączenie jest szyfrowane.
-http
+
+http:
+
 ![AIS dom webhooks](/AIS-docs/img/en/blog/no_mic_http.png)
-https
+
+https:
+
 ![AIS dom webhooks](/AIS-docs/img/en/blog/yes_mic_https.png)
 
 - Powiadomienia w aplikacji o nowej wersji.
