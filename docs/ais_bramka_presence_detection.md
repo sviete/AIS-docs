@@ -14,7 +14,7 @@ Wykrywanie obecności ma na celu ustalenie, czy i kto jest w domu (lub innej zde
 
 ## Wykrywanie obecności
 
-Istnieją różne sposoby ustawiania wykrywania obecności w systemie Asystent domowy. Zazwyczaj najłatwiejszym sposobem wykrycia obecności jest sprawdzenie, które urządzenia(telefony) są podłączone do domowej sieci - w ten sposób możesz łatwo wykryć, kto jest w domu.
+Istnieją różne sposoby ustawiania wykrywania obecności w systemie Asystent domowy. Zazwyczaj najłatwiejszym sposobem jest sprawdzenie, które urządzenia (telefony) są podłączone do domowej sieci - w ten sposób możesz łatwo wykryć, kto jest w domu.
 
 Innym sposobem pozwalającm na dostarczenie szczegółowych informacje o lokalizacji jest uruchomienie aplikacji na telefonie. Dla Androida i iOS rekomendujemy aplikację OwnTracks. Ten sposób jest bardziej zaawansowany i zostanie opisany szczegółowo poniżej.
 
@@ -99,14 +99,14 @@ Aby dodać nową osobę, przejdź do konfiguracji a następnie wybierz opcję **
 ![Dodanie osoby](/AIS-docs/img/en/bramka/presence_detection_8.png)
 
 
-Naciśnij pomarańczowy przycisk z ikonką "plus" w prawym dolnym rogu ekranu, żeby otworzyć formularz dodawania osoby. Wybierz urządzenia raportujące lokalizację osoby, tak jak to pokazano poniżej.
+Naciśnij pomarańczowy przycisk z ikonką "plus" w prawym dolnym rogu ekranu, żeby otworzyć formularz dodawania osoby. Wybierz urządzenia raportujące lokalizację, tak jak to pokazano poniżej.
 
 ![Dodanie osoby](/AIS-docs/img/en/bramka/presence_detection_9.png)
 
 
 ### Ustawienie zdjęcia osoby
 
-Możesz dodać zdjęcie osoby do wyświetlania na mapie w tym celu przejdź do **Konfiguracja** -> **Dostosowywanie**, wybierz osobę a następnie dodaj jej nowy atrybut **entity_picture** z adresem jej zdjęcia.
+Możesz dodać zdjęcie osoby do wyświetlania na mapie. W tym celu przejdź do **Konfiguracja** -> **Dostosowywanie**, wybierz osobę a następnie dodaj jej nowy atrybut **entity_picture** z adresem jej zdjęcia.
 
 
 ![Dodanie zdjęcia osoby](/AIS-docs/img/en/bramka/presence_detection_10.png)
@@ -137,10 +137,10 @@ Wypełnij formularz strefy w podobny sposób jak przedstawiono na przykładzie p
 ## Automatyzacje oparte na lokalizacji
 
 
-Wyzwalacze strefy oraz geolokalizacji mogą uruchamiać się, gdy osoba wchodzi w strefę lub gdy opuszcza strefę. W celu dodania automatyzacji opartej na lokalizacji, podczas dodawania automatyzacji wybierz typ wyzwalacza **Strefa** następnie wybierz osobę której dotyczy sprawdzenie lokalizacji
+Wyzwalacze strefy oraz geolokalizacji mogą uruchamiać się, gdy osoba wchodzi w strefę lub gdy opuszcza strefę. W celu dodania automatyzacji opartej na lokalizacji, podczas dodawania automatyzacji wybierz typ wyzwalacza **Strefa**, następnie wybierz osobę, której dotyczy sprawdzenie lokalizacji.
 
 ![Dodanie automatyzacji](/AIS-docs/img/en/bramka/presence_detection_15.png)
 
-w kolejnym kroku wybierz strefę oraz zaznacz typ zdarzenia (wejście w strefę lub opuszczenie strefy)
+W kolejnym kroku wybierz strefę oraz zaznacz typ zdarzenia (wejście w strefę lub opuszczenie strefy)
 
 ![Dodanie automatyzacji](/AIS-docs/img/en/bramka/presence_detection_16.png)
