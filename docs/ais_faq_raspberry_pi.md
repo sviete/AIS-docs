@@ -1,6 +1,6 @@
 ---
-title: "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)"
-sidebar_label: Czy płyta to Raspberry Pi
+title: "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)?"
+sidebar_label: Czy płyta to Raspberry Pi?
 ---
 
 ## Czy płyta to Raspberry Pi?
