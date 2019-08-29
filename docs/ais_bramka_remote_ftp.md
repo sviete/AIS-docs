@@ -3,10 +3,10 @@ title: "Dostęp do bramki po FTP"
 sidebar_label: FTP
 ---
 
-Asystent domowy ma domyślnie uruchomiony serwer FTP dzięki czemu możesz zdalnie zarządzać plikami na bramce.
+Asystent domowy ma domyślnie uruchomiony serwer FTP, dzięki czemu możesz zdalnie zarządzać plikami na bramce.
 
 
-> **Ostrzeżenie**: domyślny serwer FTP obsługuje tylko anonimowe logowanie, więc nie ma uwierzytelniania i każdy w twojej lokalnej sieci może połączyć się z urządzeniem. Używaj tego serwera tylko, gdy bramka działa w lokalnej sieci. Jeżeli udostępnisz bramkę na zewnątrz (będzie dostępna z Internetu) to wyłącz serwer FTP lub zmień FTP na SFTP.
+> **Ostrzeżenie**: domyślny serwer FTP obsługuje tylko anonimowe logowanie, więc nie ma uwierzytelniania i każdy w twojej lokalnej sieci może połączyć się z urządzeniem. Używaj tego serwera tylko wtedy, gdy bramka działa w lokalnej sieci. Jeżeli udostępnisz bramkę na zewnątrz (będzie dostępna z Internetu), to wyłącz serwer FTP lub zmień FTP na SFTP.
 
 
 Usługa FTP działa na porcie **1024**
@@ -16,15 +16,15 @@ Usługa FTP działa na porcie **1024**
 
 ## logowanie z systemu Windows
 
-System Windows "fabrycznie" nie wspiera mDNS więc żeby połaczyć się z bramką będziemy będziemy potrzebowali znać jej adres IP [sprawdz adres IP bramki](ais_bramka_remote_index#sprawdzenie-adresu-ip-w-aplikacji)
+System Windows "fabrycznie" nie wspiera mDNS, więc żeby połaczyć się z bramką będziemy musieli znać jej adres IP [sprawdź adres IP bramki](ais_bramka_remote_index#sprawdzenie-adresu-ip-w-aplikacji)
 
 
-Zalecamy użycie pełnowartościowego klienta FTP ponieważ klient FTP wbudowany w menedżer plików Windowsa ma ograniczone możliwości.
-Przetestowany przez nas darmowy klient który możemy polecić to [WinScp](https://winscp.net/eng/download.php)
+Zalecamy użycie pełnowartościowego klienta FTP, ponieważ klient FTP wbudowany w menedżer plików Windowsa ma ograniczone możliwości.
+Przetestowany przez nas darmowy klient, którego możemy polecić to [WinScp](https://winscp.net/eng/download.php)
 
 Po zainstalowaniu WinScp tworzymy nową sesję i ustawiamy:
 - Protokół pliku: FTP
-- Nazwa hosta: <IP bramki>
+- Nazwa hosta: IP bramki
 - Numer portu: 1024
 - Logowanie anonimowe: zaznaczone
 
@@ -32,7 +32,7 @@ Ustawienia można zapisać lub od razu połączyć się przyciskiem Logowanie:
 
 ![Uruchomienie klienta ftp](/AIS-docs/img/en/bramka/ftp_windows_1.png)
 
-W celu przejścia do edycji konfiguracji bramki po połączeniu się z bramką za pomocą WinScp w prawym oknie pojawi się nowa sesja połączenia z bramką - domyślnie katalog: /storage/emulated/0
+W celu przejścia do edycji konfiguracji bramki, po połączeniu się z bramką za pomocą WinScp, w prawym oknie pojawi się nowa sesja połączenia z bramką - domyślnie katalog: /storage/emulated/0
 Klikamy dwukrotnie obok nazwy ścieżki aby zmienić katalog i wpisujemy:
 /data/data/pl.sviete.dom/files/home/AIS
 
