@@ -70,14 +70,14 @@
 <h2><a class="anchor" aria-hidden="true" id="tor"></a><a href="#tor" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>TOR</h2>
 <p>Możliwe jest zdefiniowanie dostępu do bramki przez Internet w sieci Tor Onion.
 Usługa Tor Onion pozwala na zdalny dostęp do aplikacji Asystent domowy działającej na bramce w twojej sieci lokalnej za pośrednictwem standardowych portów.</p>
-<p>Dostęp do urządzenia za pośrednictwem Tora jest najbezpieczniejszą metodą ponieważ oferuje silne szyfrowanie, dodatkowo Twoja bramka nie jest widoczna w zwykłym Internecie. Niestety nie jest to zbyt efektywna moteda ponieważ sieć TOR jest zwykle dość wolna.</p>
+<p>Dostęp do urządzenia za pośrednictwem Tora jest najbezpieczniejszą metodą ponieważ oferuje silne szyfrowanie, dodatkowo Twoja bramka nie jest widoczna w zwykłym Internecie. Niestety nie jest to zbyt efektywna moteda, ponieważ sieć TOR jest zwykle dość wolna.</p>
 <h3><a class="anchor" aria-hidden="true" id="instalacja-potrzebnych-pakietow"></a><a href="#instalacja-potrzebnych-pakietow" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalacja potrzebnych pakietów</h3>
 <p>Zainstaluj TOR wykonując w konsoli komendę:</p>
 <pre><code class="hljs css language-bash">$ apt install tor
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="ustawienia-serwisu-onion"></a><a href="#ustawienia-serwisu-onion" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ustawienia serwisu Onion</h3>
 <p>Należy zmodyfikować domyślny plik konfiguracyjny tor znajdujący się w lokalizacji $PREFIX/etc/tor/torrc
-Wykonaj tą komendę by udostępnić na bramce serwis SSH oraz HTTP w Onion:</p>
+Wykonaj tą komendę, by udostępnić na bramce serwis SSH oraz HTTP w Onion:</p>
 <pre><code class="hljs css language-bash">$ <span class="hljs-built_in">echo</span> <span class="hljs-string">"SOCKSPort 127.0.0.1:9050
 HiddenServiceDir /data/data/pl.sviete.dom/files/home/.tor/hidden_dom
 HiddenServicePort 22 127.0.0.1:8022
@@ -89,10 +89,10 @@ HiddenServicePort 80 127.0.0.1:8180"</span> &gt; <span class="hljs-variable">$PR
 <p>Uruchom usługę Tor wpisując w konsoli:</p>
 <pre><code class="hljs css language-bash">$ tor
 </code></pre>
-<p>poczekaj aż serwis się uruchomi, pojawi się kilka logów na końcu będzie:</p>
+<p>poczekaj, aż serwis się uruchomi, pojawi się kilka logów aż na końcu będzie:</p>
 <pre><code class="hljs css language-bash"> Bootstrapped 100%: Done
 </code></pre>
-<p>zamknij serwis, kombinacją klawiszy: Ctrl+c</p>
+<p>zamknij serwis kombinacją klawiszy: Ctrl+c</p>
 <h3><a class="anchor" aria-hidden="true" id="nazwa-hosta-w-onion"></a><a href="#nazwa-hosta-w-onion" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Nazwa hosta w Onion</h3>
 <p>Żeby sprawdzić unikalną nazwę hosta bramki w Onion wykonaj w konsoli:</p>
 <pre><code class="hljs css language-bash">$ cat ~/.tor/hidden_dom/hostname
@@ -105,29 +105,29 @@ HiddenServicePort 80 127.0.0.1:8180"</span> &gt; <span class="hljs-variable">$PR
 <p>Pamiętaj, że usługa <code>TOR</code> powinna działać na obu stronach (klient / serwer), w przeciwnym razie pojawią się błędy połączenia.</p>
 </blockquote>
 <ul>
-<li>SSH
+<li>SSH.
 Programem do połączenia z serwisem SSH może być torsocks</li>
 </ul>
 <p>Zainstaluj torsocks wykonując w konsoli komendę:</p>
 <pre><code class="hljs css language-bash">$ apt install torsocks
 </code></pre>
-<p>Żeby połączyć się ze konsolą bramki przez sieć TOR w konsoli swojego klienta wpisz polecenie:</p>
+<p>Żeby połączyć się ze konsolą bramki przez sieć TOR, w konsoli swojego klienta wpisz polecenie:</p>
 <pre><code class="hljs css language-bash">$ torsocks ssh ytdv3tvdeh8u6koz.onion -i id_rsa_ais
 </code></pre>
 <ul>
-<li>HTTP
+<li>HTTP.
 Do połączenia z aplikacją użyj specjalnej przeglądarki działającej w sieci Onion Tor, możesz ją pobrać z tego adresu: <a href="https://www.torproject.org/projects/torbrowser.html.en">https://www.torproject.org/projects/torbrowser.html.en</a>
 w adresie przeglądarki wpisz swoją unikalną nazwę hosta w sieci Onion</li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="dodanie-serwisu-tor-do-menedżera-procesow"></a><a href="#dodanie-serwisu-tor-do-menedżera-procesow" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dodanie serwisu tor do menedżera procesów</h3>
-<p>Żeby TOR był uruchamiany automatycznie po każdym restarcie bramki dodaj go do menedżera procesów PM2 wykonując następującą komendę w konsoli:</p>
+<p>Żeby TOR był uruchamiany automatycznie po każdym restarcie bramki, dodaj go do menedżera procesów PM2 wykonując następującą komendę w konsoli:</p>
 <pre><code class="hljs css language-bash">$ pm2 start tor --name tor &amp;&amp; pm2 save
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="serveo"></a><a href="#serveo" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Serveo</h2>
 <hr>
-<p>Inny sposób na dostęp do bramki z Internetu, który nie wymaga konfiguracji routera oraz instalowania żadnych dodatkowych pakietów to wykorzystanie <strong>usługi zdalnego przekazywania portów SSH</strong>. Ta metoda zostanie dokładnie opisana poniżej wraz z przykładami.</p>
+<p>Inny sposób na dostęp do bramki z Internetu, który nie wymaga konfiguracji routera oraz instalowania żadnych dodatkowych pakietów, to wykorzystanie <strong>usługi zdalnego przekazywania portów SSH</strong>. Ta metoda zostanie dokładnie opisana poniżej wraz z przykładami.</p>
 <h3><a class="anchor" aria-hidden="true" id="dostęp-do-aplikacji-z-sieci-internet"></a><a href="#dostęp-do-aplikacji-z-sieci-internet" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dostęp do aplikacji z sieci Internet</h3>
-<p>żeby udostępnić aplikację w sieci internet, w konsoli bramki wykonaj komendę:</p>
+<p>żeby udostępnić aplikację w sieci Internet, w konsoli bramki wykonaj komendę:</p>
 <pre><code class="hljs css language-bash">$ ssh -R 80:localhost:8180 serveo.net
 </code></pre>
 <p>Opcja -R nakazuje klientowi SSH żądanie przekierowania portów z serwera i żądań proxy do określonego hosta i portu (Twojej bramki). Poddomena serwera serveo.net zostanie przypisana do przekazywania ruchu HTTP.</p>
@@ -136,7 +136,7 @@ w adresie przeglądarki wpisz swoją unikalną nazwę hosta w sieci Onion</li>
 Forwarding HTTP traffic from https://alias.serveo.net
 Press g to start a GUI session and ctrl-c to quit.
 </code></pre>
-<p>teraz w celu połączenia się ze swoją bramką z internetu, wpisz w przeglądarce:</p>
+<p>teraz w celu połączenia się ze swoją bramką z Internetu, wpisz w przeglądarce:</p>
 <p>https://<strong>alias</strong>.serveo.net</p>
 <blockquote>
 <p>W powyższym przypadku <strong>alias</strong> został wygenerowany/nadany automatycznie. Jest on unikalny dla każdej instancji i w Twoim przypadku będzie inny.</p>
@@ -145,7 +145,7 @@ Press g to start a GUI session and ctrl-c to quit.
 <pre><code class="hljs css language-bash">$ ssh -R bramka:80:localhost:8180 serveo.net
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="dostęp-do-konsoli-bramki-z-sieci-internet"></a><a href="#dostęp-do-konsoli-bramki-z-sieci-internet" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dostęp do konsoli bramki z sieci Internet</h3>
-<p>w podobny sposób jak aplikację możesz też przekierować połączenie ssh, w tym celu w konsoli wpisz:</p>
+<p>w podobny sposób jak aplikację, możesz też przekierować połączenie ssh, w tym celu w konsoli wpisz:</p>
 <pre><code class="hljs css language-bash">$ ssh -R bramka:22:localhost:8022 serveo.net
 </code></pre>
 <p>W odpowiedzi w konsoli pojawi się informacja typu:</p>
@@ -153,7 +153,7 @@ Press g to start a GUI session and ctrl-c to quit.
 Forwarding SSH traffic from <span class="hljs-built_in">alias</span> <span class="hljs-string">"bramka"</span>
 Press g to start a GUI session and ctrl-c to quit.
 </code></pre>
-<p>teraz w celu połączenia się ze swoją bramką po ssh będąc poza lokalną siecią wystearczy, że wpiszesz w konsoli:</p>
+<p>teraz w celu połączenia się ze swoją bramką po ssh będąc poza lokalną siecią wystarczy, że wpiszesz w konsoli:</p>
 <pre><code class="hljs css language-bash">$ ssh -o ProxyCommand=<span class="hljs-string">"ssh -W bramka:22 serveo.net"</span> bramka -i id_rsa_ais
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="zapisanie-zdalnego-przekazywania-portow-ssh"></a><a href="#zapisanie-zdalnego-przekazywania-portow-ssh" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Zapisanie zdalnego przekazywania portów SSH</h3>
@@ -163,7 +163,7 @@ Press g to start a GUI session and ctrl-c to quit.
 <p>W celu zapewnienia, że zdalne przekierowanie portów będzie automatycznie odnawiane, zamiast ssh zastosujemy autossh, w tym celu w konsoli instalujemy pakiet:</p>
 <pre><code class="hljs css language-bash">$ apt install autossh
 </code></pre>
-<p>W celu uruhamiania dostępu po każdym restarcie bramki, możemy posłużyć się menedżerem procesów PM2.</p>
+<p>W celu uruchamiania dostępu po każdym restarcie bramki, możemy posłużyć się menedżerem procesów PM2.</p>
 <blockquote>
 <p>Należy zwrócić uwagę, że w poniższych przykładach <strong>bramka</strong>, to tylko przykładowy alias - definiując proces należy podać własny alias</p>
 </blockquote>
@@ -174,7 +174,7 @@ Press g to start a GUI session and ctrl-c to quit.
     -- -M 0 -o ServerAliveInterval=60 -R bramka:80:localhost:8180 serveo.net
 </code></pre>
 <ul>
-<li>zdefiniowanie procesu dostep do konsoli w PM2</li>
+<li>zdefiniowanie procesu dostępu do konsoli w PM2</li>
 </ul>
 <pre><code class="hljs css language-bash">$ pm2 start autossh --name ext-ssh \
     -- -M 0 -o ServerAliveInterval=60 -R bramka:22:localhost:8022 serveo.net
@@ -185,10 +185,10 @@ Press g to start a GUI session and ctrl-c to quit.
 <pre><code class="hljs css language-bash">$ pm2 save
 </code></pre>
 <h2><a class="anchor" aria-hidden="true" id="zabezpieczenie-dostępu-do-aplikacji"></a><a href="#zabezpieczenie-dostępu-do-aplikacji" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Zabezpieczenie dostępu do aplikacji</h2>
-<p>Gdy bramka działa tylko w sieci lokalnej umożliwiamy trzy sposoby autentykacji:</p>
+<p>Gdy bramka działa tylko w sieci lokalnej, umożliwiamy trzy sposoby autentykacji:</p>
 <ul>
 <li>logowanie za pomocą nazwy użytkownika i hasła</li>
-<li>łatwe logowanie w zaufanej sieci (wystarczy wybrać użytkownika z listy żeby się zalogować bez podawania hasła)</li>
+<li>łatwe logowanie w zaufanej sieci (wystarczy wybrać użytkownika z listy, żeby się zalogować bez podawania hasła)</li>
 <li>logowanie za pomocą hasla API</li>
 </ul>
 <p>konfiguracja autentykacji wygląda tak:</p>
