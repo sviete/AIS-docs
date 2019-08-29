@@ -3,7 +3,7 @@ title: "Przywracanie ustawień fabrycznych urządzenia"
 sidebar_label: Wprowadzenie
 ---
 
-Urządzenie działa na specjalnie zmodyfikowanej wersji systemu Android (custom build). Ta wersja androida posiada preinstalowany system **“Asystent domowy”** oraz wszystkie aplikacje pomocnicze systemu.
+Urządzenie działa na specjalnie zmodyfikowanej wersji systemu Android (custom build). Ta wersja Androida posiada preinstalowany system **“Asystent domowy”** oraz wszystkie aplikacje pomocnicze systemu.
 
 Przywracanie ustawień fabrycznych jest przywracaniem systemu do jego pierwotnego/fabrycznego stanu poprzez usunięcie wszystkich informacji zapisanych na urządzeniu. W ten sposób skutecznie usuniesz wszystkie dane, ustawienia i aplikacje, które zainstalowałeś na urządzeniu po jego zakupie. 
 
