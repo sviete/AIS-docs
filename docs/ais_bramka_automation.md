@@ -33,22 +33,22 @@ Pierwszą rzeczą, jaką zrobimy, jest ustawienie nazwy. Wprowadź „Włącz o�
 
 ### Wyzwalacze automatyzacji
 
-Drugim krokiem jest określenie, co powinno uruchomić naszą automatyzację. W tym przypadku chcemy użyć zdarzenia **zachód słońca**, aby uruchomić naszą automatyzację. Możemy dodać też przesunięcie czasowe, tak żeby włączyć oświetlenie np. na 15 minut przed zachodem (ponieważ po zachodzie jest już dość ciemno).
+Drugim krokiem jest określenie, co powinno uruchomić naszą automatyzację. W tym przypadku chcemy użyć zdarzenia **zachód słońca**, aby ją uruchomić. Możemy dodać też przesunięcie czasowe tak, żeby włączyć oświetlenie np. na 15 minut przed zachodem (ponieważ po zachodzie jest już dość ciemno).
 
-W sekcji wyzwalacza kliknij listę rozwijaną i zmień typ wyzwalacza na **Słońce**. Następnie wybierz **zachód słońca**. Ponieważ chcemy, aby nasza automatyzacja była uruchamiana 15 minut przed faktycznym zachodem słońca, dlatego dodajmy -0:15 do przesunięcia. Oznacza to, że uruchomimy 15 minut przed faktycznym zachodem słońca.
+W sekcji wyzwalacza kliknij rozwijaną listę i zmień typ wyzwalacza na **Słońce**. Następnie wybierz **zachód słońca**. Ponieważ chcemy, aby nasza automatyzacja była uruchamiana 15 minut przed faktycznym zachodem słońca, dlatego dodajmy -0:15 do przesunięcia. Oznacza to, że uruchomimy ją 15 minut przed faktycznym zachodem słońca.
 
 ![Dodanie nowej automatyzacji](/AIS-docs/img/en/bramka/automation5.png)
 
 ### Akcje automatyzacji
 
-Po zdefiniowaniu naszego wyzwalacza przewiń w dół do sekcji akcji (pomijając opcjonalną sekcję warunków).
+Po zdefiniowaniu naszego wyzwalacza przejdź w dół do sekcji Akcje (pomijając opcjonalną sekcję Warunki).
 
 Upewnij się, że typ akcji jest ustawiony na **Wywołanie usługi** i zmień usługę na **light.turn_on**.
-W przypadku tej automatyzacji włączymy światła które nazwaliśmy "Lampy zewnętrzne", więc w danych usługi podajemy identyfikator urządzenia **{"entity_id": "light.lampy_zewnetrzne"}** - oczywiście w Twoim przypadku może być inaczej i identyfikator urządzenia sprawdzisz w rejestrze encji.
+W przypadku tej automatyzacji włączymy światła, które nazwaliśmy "Lampy zewnętrzne", więc w Danych usługi podajemy identyfikator urządzenia **{"entity_id": "light.lampy_zewnetrzne"}** - oczywiście w Twoim przypadku może być inaczej i identyfikator urządzenia sprawdzisz w rejestrze encji.
 
 ![Dodanie nowej automatyzacji](/AIS-docs/img/en/bramka/automation6.png)
 
-Kliknij pomarańczowy przycisk, aby zapisać automatyzację.
+Kliknij pomarańczowy przycisk w prawym dolnym rogu, aby zapisać automatyzację.
 
 ### Edycja i zarządzanie
 
