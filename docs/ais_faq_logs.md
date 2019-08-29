@@ -19,7 +19,7 @@ pm2 status
 
 ![PM2](/AIS-docs/img/en/bramka/pm2_console.png)
 
-### Wyświetlanie logów w na bieżąco
+### Wyświetlanie logów na bieżąco
 
 W celu wyświetlenia na bieżąco 15 ostatnich lini logów wszystkich procesów, wystarczy wpisać w konsoli:
 ```bash
