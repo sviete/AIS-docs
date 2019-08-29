@@ -1,15 +1,15 @@
 ---
-title: "Gdzie jest kod źródłowy"
-sidebar_label: Gdzie jest kod źródłowy
+title: "Gdzie jest kod źródłowy?"
+sidebar_label: Gdzie jest kod źródłowy?
 ---
 
 ## Repozytorium kodu
 
 Kod źródłowy Asystenta domowego znajduje się w publicznie dostępnym repozytorium.
-Adres do naszego repozytorium kodu zródłowego <a href="https://github.com/sviete" target="_blank">https://github.com/sviete</a>
+Adres do naszego repozytorium kodu zródłowego: <a href="https://github.com/sviete" target="_blank">https://github.com/sviete</a>
 
 Bazujemy na oprogramowaniu o otwartym kodzie źródłowym.
-Asystent domowy jest zbudowana na solidnych fundamentach wolnego i otwartoźródłowego oprogramowania. Są to projekty takie jak Linux, Android, Python czy Home Assistant.
+Asystent domowy jest zbudowany na solidnych fundamentach wolnego i otwartoźródłowego oprogramowania. Są to projekty takie jak Linux, Android, Python czy Home Assistant.
 
 ## Bezpieczeństwo i prywatność
 
@@ -23,4 +23,4 @@ Jeśli masz pomysł jak coś ulepszyć, to jesteśmy otwarci na propozycję zmia
 
 Nie przejmuj się, jeśli nie potrafisz kodować, możesz zgłosić nam swój pomysł na ulepszenie systemu bezpośrednio w repozytorium lub na adres email info@sviete.pl. Postaramy się w miarę możliwości technicznych i czasowych uwzględnić każdą sugestię.
 
-Jeśli chcesz się zaangażować w ulepszenie i rozwój Asystenta domowego, to możesz też zacząć od ulepszenia dokumentacji — popatrz, jak działa przycisk **EDIT** na górze, po prawej stronie, strony którą teraz czytasz :)
+Jeśli chcesz się zaangażować w ulepszenie i rozwój Asystenta domowego, to możesz też zacząć od ulepszenia dokumentacji — popatrz, jak działa przycisk **EDIT** na górze, po prawej stronie strony, którą teraz czytasz :)
