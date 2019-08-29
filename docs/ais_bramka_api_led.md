@@ -7,11 +7,11 @@ Usługa **ais_shell_command.led** pozwala na sterowanie diodą led umieszczoną 
 Wymagany jest jeden parametr **brightness**, przykładowe wartości parametru to:
 - 0 - czerwony,
 - 255 - niebieski,
-- timer - utuchomienie funkcji mrugania,
+- timer - uruchomienie funkcji mrugania,
 - heartbeat - uruchomienie funkcji bicia serca
 
 
-Przykładowo żeby dioda pulsowała w rytmie bicia serca wywołujemy usługę ais_shell_command.led z takim parametrami:
+Przykładowo- żeby dioda pulsowała w rytmie bicia serca wywołujemy usługę ais_shell_command.led z takimi parametrami:
 
 ```JSON
 {"brightness": "heartbeat"}
