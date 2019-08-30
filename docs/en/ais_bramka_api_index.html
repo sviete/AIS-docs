@@ -74,15 +74,15 @@
 </blockquote>
 <h2><a class="anchor" aria-hidden="true" id="wywoływanie-testowanie-usług-w-apllikacji"></a><a href="#wywoływanie-testowanie-usług-w-apllikacji" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wywoływanie/testowanie usług w apllikacji</h2>
 <blockquote>
-<p>Aby sprawdzić dostępne usługi, w aplikacji, z głównego menu przejdz do &quot;Narzędzia deweloperskie&quot; -&gt;
+<p>Aby sprawdzić dostępne usługi w aplikacji, z głównego menu przejdź do &quot;Narzędzia deweloperskie&quot; -&gt;
 <svg style="width:24px;height:24px" viewBox="0 0 24 24">
 <path fill="#000000" d="M16,5L19,8L18.5,8.5C19.5,9.5 20,10 20.5,9.5L22,11C22,12 20.5,13.5 19.5,13.5L18,12C18.5,11.5 18,11 17,10L16,11L13,8C14.5,6 13,4 9,5C10,4 11,3 12,3C12.5,3 14,3 16,5M2,20L4,22L14,12L12,10L2,20Z" />
-</svg> z tego miejsca możesz wywoływać/testować dowolne usług dostępne na bramce.</p>
+</svg> z tego miejsca możesz wywoływać/testować dowolne usługi dostępne na bramce.</p>
 </blockquote>
 <p>W celu wywołania usługi:</p>
 <ol>
 <li>usługę do wywołania wybieramy z listy,</li>
-<li>podajemy parametry do przekazania w formacie JSON, np
+<li>podajemy parametry do przekazania w formacie JSON, np.
 przykładowy parametr w formacie JSON:</li>
 </ol>
 <pre><code class="hljs css language-JSON">{<span class="hljs-attr">"text"</span>: <span class="hljs-string">"Cześć, jak się masz?"</span>}
@@ -102,13 +102,13 @@ przykładowy parametr w formacie JSON:</li>
 <pre><code class="hljs css language-bash">$ curl -X GET -H <span class="hljs-string">"Authorization: Bearer ABCDEFGH"</span> \
        -H <span class="hljs-string">"Content-Type: application/json"</span> http://ais-dom.local:8180/api/
 </code></pre>
-<p>Zwraca następującą odpowiedz jeżeli API działa:</p>
+<p>Zwraca następującą odpowiedź, jeżeli API działa:</p>
 <pre><code class="hljs css language-json">{
   <span class="hljs-attr">"message"</span>: <span class="hljs-string">"API running."</span>
 }
 </code></pre>
 <h3><a class="anchor" aria-hidden="true" id="post-api-services-lt-domain-lt-service"></a><a href="#post-api-services-lt-domain-lt-service" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>POST /api/services/&lt;domain&gt;/&lt;service&gt;</h3>
-<p>Komponenty dostępne na bramce uodstępniają swoje usługi. Najczęstszym przypadkiem wywołania usługi komponentu jest automatyczne wywołanie jej w systemie po wystąpieniu okreśonego zdarzenia.
+<p>Komponenty dostępne na bramce udostępniają swoje usługi. Najczęstszym przypadkiem wywołania usługi komponentu jest automatyczne wywołanie jej w systemie po wystąpieniu okreśonego zdarzenia.
 Dodatkowo usługę można również wywołać z zewnętrznego systemu za pomocą API.</p>
 <p>Przykład komedny <code>curl</code> wywołującej czytanie tekstu przez bramkę:</p>
 <pre><code class="hljs css language-bash">$ curl -X POST -H <span class="hljs-string">"Authorization: Bearer ABCDEFGH"</span> \
