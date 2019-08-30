@@ -9,7 +9,7 @@ W deweloperskiej wersji bramki instnieje możliwość uruchamiania przeglądarki
 Instalację wykonamy na przykładzie aplikacji **Asystent domowy**.
 
 
-## Uruchomienie przeglądarki Internetowej na bramce
+## Uruchomienie przeglądarki internetowej na bramce
 
 1. Podłącz bramkę po HDMI do telewizora lub monitora
 
@@ -21,16 +21,20 @@ Instalację wykonamy na przykładzie aplikacji **Asystent domowy**.
 > Program **AIS Explorer** pozwala na przeglądanie oraz zarządzanie plikami, procesami oraz aplikacjami dostępnymi na urządzeniu. Za jego pomocą możemy odinstalować aplikację, uruchomić przeglądarkę internetową, pobrać aplikację i zapisać w pamięci urządzenia, następnie uruchomić pobraną aplikację w celu jej instalacji - opiszemy to dokładnie poniżej.  
 
 Żeby uruchomić program **AIS Explorer** należy kliknąć w ikonę po lewej stronie na górze ekranu
+
 ![AIS Explorer](/AIS-docs/img/en/bramka/other_programs_1.png)
 
 4. W aplikacji AIS Explorer wybierz **Aplikacje użytkownika**
+
 ![AIS Explorer](/AIS-docs/img/en/bramka/other_programs_2.png)
 
 5. Uruchom aplikację Chrome.
+
 Rozwiń menu aplikacji klikając na ikonę z trzema kropkami po prawej stronie
 ![AIS Explorer](/AIS-docs/img/en/bramka/other_programs_3.png)
 
 Następnie wybierz opcję **Otwórz**
+
 ![AIS Explorer](/AIS-docs/img/en/bramka/other_programs_4.png)
 
 
@@ -56,21 +60,23 @@ https://powiedz.co/ota/android/AisPanelApp.apk
 
 1. Uruchom program **AIS Explorer**
 
-2. Przejdź do lokalizacji **Pamięć wewnętrzna/Downloads**
+2. Przejdź do lokalizacji **Pamięć wewnętrzna/Downloads**,
 skopiuj pobrane pliki za pomocą dodatkowego menu dostępnego po prawej stronie pliku
 
 ![AIS Explorer](/AIS-docs/img/en/bramka/other_programs_7.png)
 
-3. Przejdź do lokalizacji **Pamięć wewnętrzna**
+3. Przejdź do lokalizacji **Pamięć wewnętrzna**,
 wklej skopiowane pliki klikając ikonę po prawej stronie na dole
+
 ![AIS Explorer](/AIS-docs/img/en/bramka/other_programs_8.png)
 
-> Jeżeli wykonujemy instalację Asystenta domowego to paczka z aktualnymi kodami systemu (plik **files.tar.7z**) musi znajdować się w lokalizacji  **Pamięć wewnętrzna** i mieć niezmienioną nazwę **files.tar.7z**
+> Jeżeli wykonujemy instalację Asystenta domowego, to paczka z aktualnymi kodami systemu (plik **files.tar.7z**) musi znajdować się w lokalizacji  **Pamięć wewnętrzna** i mieć niezmienioną nazwę **files.tar.7z**
 
 
 ## Instalowanie aplikacji
 
 1. Uruchom pobraną aplikację klikając na nią
+
 ![AIS Explorer](/AIS-docs/img/en/bramka/other_programs_9.png)
 
  potwierdź instalację i poczekaj na jej zakończenie
