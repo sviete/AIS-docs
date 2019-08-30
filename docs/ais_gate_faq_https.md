@@ -5,8 +5,8 @@ sidebar_label: HTTPS na bramce
 
 ## Uruchomienie usługi lokalnego serwera z szyfrowaniem
 
-Najprostrzym sposobem jest włączenie serwera caddy https://caddyserver.com/ który jest już zainstalowany na urządzeniu i posiada domyślną konfigurację https.
-Podobnie można zrobić za pomocą serwera nginx czy apache ale te serwery nie są domyślnie zainstalowane (trzeba je zainstalować za pomocą menadżera pakietów apt).
+Najprostszym sposobem jest włączenie serwera caddy https://caddyserver.com/, który jest już zainstalowany na urządzeniu i posiada domyślną konfigurację https.
+Podobnie można zrobić za pomocą serwera nginx czy apache, ale te serwery nie są domyślnie zainstalowane (trzeba je zainstalować za pomocą menadżera pakietów apt).
 
 Poniżej opiszemy instalację krok po kroku na podstawie serwera cadd
 
@@ -15,7 +15,7 @@ Poniżej opiszemy instalację krok po kroku na podstawie serwera cadd
 ```bash
 cat $PREFIX/bin/Caddyfile
 ```
-odpowiedz w konsoli powinna być taka jak poniżej
+odpowiedź w konsoli powinna być taka jak poniżej
 ```bash
 $ cat $PREFIX/bin/Caddyfile
 :8123 {
@@ -30,7 +30,7 @@ $ cat $PREFIX/bin/Caddyfile
 ```bash
 caddy -conf $PREFIX/bin/Caddyfile
 ```
-odpowiedz w konsoli powinna być taka jak poniżej
+odpowiedź w konsoli powinna być taka jak poniżej
 ```bash
 $ caddy -conf $PREFIX/bin/Caddyfile
 Activating privacy features... done.
@@ -39,9 +39,9 @@ Activating privacy features... done.
 
 4. Sprawdź działanie w przeglądarce wchodząc na adres https://<ip-bramki-iot>:8123
 
-5. Jeśli chcesz by serwer był automatycznie uruchamiany, dodaj go do menadżera usług PM2:
-- zatrzymaj serwer w konsoli uruchomiony w punkcie 3. komendą **Ctrl + c**
-- by uruchomić serwer jako usługę wpisz w konsoli polecenie
+5. Jeśli chcesz, by serwer był automatycznie uruchamiany, dodaj go do menadżera usług PM2:
+- zatrzymaj serwer w konsoli (uruchomiony w punkcie 3) komendą **Ctrl + c**
+- by uruchomić serwer jako usługę, wpisz w konsoli polecenie
 ```bash
 pm2 start caddy --name https -- -conf "$PREFIX/bin/Caddyfile"
 ```
