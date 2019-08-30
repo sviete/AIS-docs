@@ -3,7 +3,7 @@ title: "Własny pakiet do systemu Linux"
 sidebar_label: Własny pakiet do systemu Linux
 ---
 
-## Środowisko Linux-a które mamy na urządzeniu
+## Środowisko Linux-a, które mamy na urządzeniu
 
 Na urządzeniu dostarczamy emulator terminala i zestaw programów działających w konsoli (binarki skompilowane pod architekturę procesora na urządzeniu z uwzględnieniem prefiksu środowiska).
 Nasz system współdzieli jądro Linuksa z systemem Android. Dzięki temu mamy multimedia z Androida oraz interfejs tekstowy do shell-a i repozytorium pakietów APT z dodatkowymi binarkami na jednym urządzeniu w tym samym czasie.
