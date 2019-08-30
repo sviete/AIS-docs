@@ -9,7 +9,7 @@ sidebar_label: Obsługa kart dzwiękowych
 
 ### Wyświtlenie wszystkich kart dzwiękowych
 
-Wszystkie karty audio które są dostepne w systemie (podłączone i z zainstalowanym sterownikiem) listujemy komendą w konsoli:
+Wszystkie karty audio, które są dostepne w systemie (podłączone i z zainstalowanym sterownikiem) listujemy komendą w konsoli:
 
 ```bash
 cat /proc/asound/cards
