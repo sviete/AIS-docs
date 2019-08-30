@@ -226,12 +226,12 @@
         "sidebar_label": "Czy płyta to Raspberry Pi?"
       },
       "ais_faq_when_speaker": {
-        "title": "Czy planujecie jeszcze zbudowanie głośnika.",
-        "sidebar_label": "Czy planujecie jeszcze zbudowanie głośnika"
+        "title": "Czy planujecie jeszcze zbudowanie głośnika?",
+        "sidebar_label": "Czy planujecie jeszcze zbudowanie głośnika?"
       },
       "ais_faq_where_is_the_code": {
-        "title": "Gdzie jest kod źródłowy",
-        "sidebar_label": "Gdzie jest kod źródłowy"
+        "title": "Gdzie jest kod źródłowy?",
+        "sidebar_label": "Gdzie jest kod źródłowy?"
       },
       "ais_faq_wifi": {
         "title": "Ustawienia połączenia WiFi",
@@ -304,6 +304,10 @@
       "ais_iot_works_with": {
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
+      },
+      "version-0.79.5-ais_remote_faq_index": {
+        "title": "Pilot FAQ",
+        "sidebar_label": "Pilot FAQ"
       },
       "ais_remote_faq": {
         "title": "Pilot rozwiązywanie problemów",
@@ -1089,6 +1093,10 @@
         "title": "Widoki",
         "sidebar_label": "Widoki"
       },
+      "version-0.97.5/version-0.97.5-ais_bramka_api_command": {
+        "title": "Wykonywanie komendy",
+        "sidebar_label": "Wykonywanie komendy"
+      },
       "version-0.97.5/version-0.97.5-ais_bramka_api_index": {
         "title": "API systemu",
         "sidebar_label": "API systemu"
@@ -1141,12 +1149,20 @@
         "title": "Dostęp do bramki w lokalnej sieci",
         "sidebar_label": "Wprowadzenie"
       },
+      "version-0.97.5/version-0.97.5-ais_bramka_remote_other_programs": {
+        "title": "Instalowanie Aplikacji Android",
+        "sidebar_label": "Instalowanie Aplikacji Android"
+      },
       "version-0.97.5/version-0.97.5-ais_bramka_remote_ssh": {
         "title": "Dostęp do konsoli bramki po SSH",
         "sidebar_label": "SSH"
       },
       "version-0.97.5/version-0.97.5-ais_bramka_remote_www_index": {
         "title": "Dostęp do bramki z Internetu",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_reset_index": {
+        "title": "Przywracanie ustawień fabrycznych urządzenia",
         "sidebar_label": "Wprowadzenie"
       },
       "version-0.97.5/version-0.97.5-ais_bramka_services": {
@@ -1177,6 +1193,10 @@
         "title": "Logowanie",
         "sidebar_label": "Logowanie do Portalu integratora"
       },
+      "version-0.97.5/version-0.97.5-ais_faq_audio_cards": {
+        "title": "Obsługa kart dzwiękowych",
+        "sidebar_label": "Obsługa kart dzwiękowych"
+      },
       "version-0.97.5/version-0.97.5-ais_faq_authentication": {
         "title": "Jak działa logowanie do aplikacji.",
         "sidebar_label": "Jak działa logowanie do aplikacji"
@@ -1185,6 +1205,10 @@
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
       },
+      "version-0.97.5/version-0.97.5-ais_faq_logs": {
+        "title": "Logi dostępne na bramce",
+        "sidebar_label": "Logi dostępne na bramce"
+      },
       "version-0.97.5/version-0.97.5-ais_faq_mic_not_on": {
         "title": "Czy macie stale włączony mikrofon?",
         "sidebar_label": "Czy macie stale włączony mikrofon?"
@@ -1192,6 +1216,42 @@
       "version-0.97.5/version-0.97.5-ais_faq_raspberry_pi": {
         "title": "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)?",
         "sidebar_label": "Czy płyta to Raspberry Pi?"
+      },
+      "version-0.97.5/version-0.97.5-ais_faq_when_speaker": {
+        "title": "Czy planujecie jeszcze zbudowanie głośnika?",
+        "sidebar_label": "Czy planujecie jeszcze zbudowanie głośnika?"
+      },
+      "version-0.97.5/version-0.97.5-ais_faq_where_is_the_code": {
+        "title": "Gdzie jest kod źródłowy?",
+        "sidebar_label": "Gdzie jest kod źródłowy?"
+      },
+      "version-0.97.5/version-0.97.5-ais_faq_wifi": {
+        "title": "Ustawienia połączenia WiFi",
+        "sidebar_label": "Ustawienia WiFi"
+      },
+      "version-0.97.5/version-0.97.5-ais_gate_faq_config_yaml": {
+        "title": "Zaawansowana konfiguracja Asystenta domowego",
+        "sidebar_label": "configuration.yaml"
+      },
+      "version-0.97.5/version-0.97.5-ais_gate_faq_custom_component": {
+        "title": "Własny komponent w Asystencie domowym",
+        "sidebar_label": "Własny komponent w Asystencie domowym"
+      },
+      "version-0.97.5/version-0.97.5-ais_gate_faq_hass_compatibility": {
+        "title": "Kompatybilność z Home Assistant",
+        "sidebar_label": "Kompatybilność z Home Assistant"
+      },
+      "version-0.97.5/version-0.97.5-ais_gate_faq_https": {
+        "title": "Lokalny serwer z szyfrowaniem",
+        "sidebar_label": "HTTPS na bramce"
+      },
+      "version-0.97.5/version-0.97.5-ais_gate_faq_package_compile": {
+        "title": "Własny pakiet do systemu Linux",
+        "sidebar_label": "Własny pakiet do systemu Linux"
+      },
+      "version-0.97.5/version-0.97.5-version-0.79.5-ais_remote_faq_index": {
+        "title": "Pilot FAQ",
+        "sidebar_label": "Pilot FAQ"
       }
     },
     "links": {
