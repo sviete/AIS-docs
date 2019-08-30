@@ -5,9 +5,9 @@ sidebar_label: Własny komponent w Asystencie domowym
 
 ## Cel dodania własnego komponentu
 
-Przeszukałeś 1400 gotowych komponentów i nie znalazłeś możliwości integracji ze swoim urządzeniem. Coś nie do końca działa tak jak byś chciał i masz pomysł jak zrobić to lepiej. Siłą projektów OpenSource jest to, że masz dostęp do kodu i masz możliwość jego zmiany pod własne potrzeby. Nadszedł czas, aby napisać swój pierwszy kod do integracji.
+Przeszukałeś 1400 gotowych komponentów i nie znalazłeś możliwości integracji ze swoim urządzeniem? Coś nie do końca działa tak jak byś chciał i masz pomysł jak zrobić to lepiej? Siłą projektów OpenSource jest to, że masz dostęp do kodu i masz możliwość jego zmiany pod własne potrzeby. Nadszedł czas, aby napisać swój pierwszy kod do integracji.
 
-Poniżej opiszemy krok po kroku w jaki sposób dodać najprostrzy komponent do Asystenta domowego.
+Poniżej opiszemy krok po krok,u w jaki sposób dodać najprostszy komponent do Asystenta domowego.
 Bardziej obszerne przykłady integracji są dostępne w <a href="https://github.com/home-assistant/example-custom-config/tree/master/custom_components/" target="_blank">repozytorium przykładowych własnych integracji Home Assistant</a>
 
 
@@ -92,15 +92,16 @@ Upewnijmy się, że nasza konfiguracja jest poprawna — w tym celu kliknij przy
 ### Nowa encja w systemie
 
 W informacjach o stanie encji systemu możemy już odszukać nasz nowo dodany element systemu (encja hej_dom) i zobaczyć jego status oraz atrybuty
+
 <img src="/AIS-docs/img/en/bramka/faq_custom_component_1.png"> </img>
 
-Oczywiście ten przykład to tylko wprowadzenie w temat, Twój docelowy komponent na pewno będzie bardziej przydatny niż ten z naszego przykładu. Celowo nie dodawaliśmy w kodzie żadnej logiki, żeby nie zaciemniać zagadnienia. Docelowy komponent może sprawdzać kursy walut, wyliczać prawdopodobieństwo wzrostów na giełdzie czy opadów lub zamawiać głosowo piwo — pełna dowolność my nie osądzamy ;)
-Następnie taki nowy komponent możesz w łatwy sposób połączyć z innymi w systemie Asystent domowy za pomocą automatyzacji i gdy np. zapowiadany jest deszcz -> nie włączasz podlewania trawnika lub gdy w kalendarzu masz rocznicę ślubu, to asystent przypomina Ci o tym głosowo (a z czasem, będzie zamawiał kolację i włącza scenę romantyczną w salonie itp).
+Oczywiście ten przykład to tylko wprowadzenie w temat, Twój docelowy komponent na pewno będzie bardziej przydatny niż ten z naszego przykładu. Celowo nie dodawaliśmy w kodzie żadnej logiki, żeby nie zaciemniać zagadnienia. Docelowy komponent może sprawdzać kursy walut, wyliczać prawdopodobieństwo wzrostów na giełdzie czy opadów lub zamawiać głosowo piwo — pełna dowolność, my nie osądzamy ;)
+Następnie taki nowy komponent możesz w łatwy sposób połączyć z innymi w systemie Asystent domowy za pomocą automatyzacji i gdy np. zapowiadany jest deszcz -> nie włączasz podlewania trawnika lub gdy w kalendarzu masz rocznicę ślubu, to Asystent przypomina Ci o tym głosowo (a z czasem, będzie zamawiał kolację i włączał scenę romantyczną w salonie, itp).
 
 
 ### Dodanie komponentu do wydania Asystenta domowego
 
-Jeżeli dojdziesz do wniosku, że Twój komponent jest tak fajny, że chcesz go udostępnić innym, to preferowana droga by to wykonać jest za pomocą - **pull request do Home Assistant**
+Jeżeli dojdziesz do wniosku, że Twój komponent jest tak fajny, że chcesz go udostępnić innym, to preferowana droga by to wykonać to **pull request do Home Assistant**
 
 https://github.com/home-assistant/home-assistant
 
@@ -109,12 +110,12 @@ w ten sposób Twój komponent zostanie sprawdzony i przetestowany przez setki pr
 
 ### Problemy
 
-Może się zdarzyć, że dodana własna integracja nie przechodzi walidacji i nie działa poprawnie, objawia się to zwykle w ten sposób
+Może się zdarzyć, że dodana własna integracja (w tym przykłdzie sterowanie telewizorem) nie przechodzi walidacji i nie działa poprawnie, objawia się to zwykle w ten sposób
 
 <img src="/AIS-docs/img/en/bramka/faq_custom_component_2.png"> </img>
 
 oznacza to, że nie udało się Asystentowi domowemu zwalidować i zaimportować komponentu z folderu custom_components. Przyczyną może być błąd w kodzie lub brak na urządzeniu biblioteki, która używana jest w tej integracji.
-To, co należy w takim przypadku zrobić to sprawdzić kod integracji oraz dostępność na urządzeniu bibliotek stosowanych w integracji.
+To, co należy w takim przypadku zrobić, to sprawdzić kod integracji oraz dostępność na urządzeniu bibliotek stosowanych w integracji.
 
 <img src="/AIS-docs/img/en/bramka/faq_custom_component_3.png"> </img>
 
