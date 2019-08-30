@@ -6,7 +6,7 @@ sidebar_label: Ustawienia WiFi
 
 ## Konfigurowanie WiFi z Aplikacji webowej
 
-Definicja połączenia WiFi dostępna jest z aplikacji webowej podczas początkowej prostej konfiguracji przy pierwszym uruchomieniu urządzenia.
+Definicja połączenia WiFi dostępna jest z aplikacji webowej podczas początkowej prostej konfiguracji, przy pierwszym uruchomieniu urządzenia.
 
 [Konfiguracja WiFi podczas pierwdzego uruchomienia urządzenia](/AIS-docs/docs/en/ais_bramka_first_run.html#konfiguracja-wifi)
 
@@ -30,7 +30,7 @@ W tym celu, po zalogowaniu się w aplikacji należy:
 
 ### Kreator połączenia z WiFi
 
-Postępować krok po kroku zgodnie z opisem w kreatorze dodawania połączenia WiFi.
+Należy postępować krok po kroku zgodnie z opisem w kreatorze dodawania połączenia WiFi.
 
 ![Konfiguracja WiFi](/AIS-docs/img/en/bramka/start_wifi_integration_wizard.png)
 
@@ -40,7 +40,7 @@ Postępować krok po kroku zgodnie z opisem w kreatorze dodawania połączenia W
 Połączenie WiFi można też skonfigurować za pomocą pilota zdalnego.
 Jest to przydatna opcja w przypadku braku monitora lub telewizora z wyjściem HDMI oraz dla osób, które mają problemy ze wzrokiem.
 
-Opcja konfiguracji połączenia WiFi dostępna jest z pilota po przejściu do **Ustawienia** -> **Ustawienia sieci** -> **Skanowanie dostępnych sieci WiFi**.
+Opcja konfiguracji połączenia WiFi dostępna jest z pilota po przejściu w menu do **Ustawienia** -> **Ustawienia sieci** -> **Skanowanie dostępnych sieci WiFi**.
 
 ## Konfigurowanie WiFi w Android
 
@@ -49,7 +49,7 @@ Istnieje też możliwość konfiguracji połączenia WiFi z poziomu systemu And
 
 ## Ustawienia WiFi w konsoli Linux
 
-Z poziomu konsoli ustawienia WiFi możemy wyświetlić za pomocą polecenia
+Z poziomu konsoli, ustawienia WiFi możemy wyświetlić za pomocą polecenia
 
 ```bash
 su -c 'cat /data/misc/wifi/wpa_supplicant.conf'
