@@ -4,7 +4,7 @@ sidebar_label: Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfig
 ---
 
 
-Aktualnie intensywnie rozwijamy system, konfiguracja domyślna będzie się jeszcze zmieniać i aktualizacje platformy będą ją nadpisywać. Jeżeli wykonasz własną konfigurację, to przed aktualizacją do nowej wersji zrób jej kopię, tak żebyś mógł ją sobie przywrócić po aktualizacji.
+Aktualnie intensywnie rozwijamy system, konfiguracja domyślna będzie się jeszcze zmieniać i aktualizacje platformy będą ją nadpisywać. Jeżeli wykonasz własną konfigurację, to przed aktualizacją do nowej wersji zrób jej kopię, tak żebyś mógł ją przywrócić po aktualizacji.
 
 Docelowo, do wersji 1.0 rozwiążemy ten problem, myślimy nad zastosowaniem jednego z poniższych rozwiązań:
 
