@@ -3,12 +3,12 @@ title: "Komponenty"
 sidebar_label: Wprowadzenie
 ---
 
-Asystent domowy oferuje szereg (ponad 1300) komponentów.
+Asystent domowy oferuje szereg (ponad 1460) komponentów.
 Dzięki komponentom urządzenia automatyki domowej oraz zewnętrzne serwisy mogą być łatwo dodawane i reprezentowane w systemie.
 
 Obecnie konfiguracja komponentów znajduje się w pliku configuration.yaml lub jako wpisy z danymi konfiguracyjnymi w rejestrze konfiguracji.
 
-Nie wszystko jest jeszcze możliwe do skonfigurowania z interfejsu użytkownika, ale dostarczamy system z podstawową konfiguracją działającą "z pudełka" i pracujemy nad tym by cała konfiguracja odbywała się z aplikacji bez potrzeby zmian w plikach konfiguracyjnych.
+Nie wszystko jest jeszcze możliwe do skonfigurowania z interfejsu użytkownika, ale dostarczamy system z podstawową konfiguracją działającą "z pudełka" i pracujemy nad tym, by cała konfiguracja odbywała się z aplikacji, bez potrzeby zmian w plikach konfiguracyjnych.
 
 ## Przykłady dostępnych komponentów
 
