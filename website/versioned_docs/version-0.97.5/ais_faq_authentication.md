@@ -5,20 +5,20 @@ id: version-0.97.5-ais_faq_authentication
 original_id: ais_faq_authentication
 ---
 
-## Na czym polega logowanie do Asystenta domowego
+## Na czym polega logowanie do Asystenta domowego?
 
 W celu zapewnienia maksymalnego bezpieczeństwa (gdy bramka dostępna jest z Internetu), a jednocześnie umożliwienia łatwej autentykacji (gdy bramka działa tylko lokalnie) udostępniamy kilka mechanizmów autentykacji.
 
-Dodatkowo w celu ułatwienia korzystania z aplikacji umożliwiamy zapamiętanie danych logowania w przeglądarce/kliencie.
+Dodatkowo, w celu ułatwienia korzystania z aplikacji, umożliwiamy zapamiętanie danych logowania w przeglądarce/kliencie.
 
 Użytkownikom, którym zależy na najwyższym poziomie bezpieczeństwa, udostępniamy moduł uwierzytelniania wieloskładnikowego (Multi-factor authentication).
 
 W dokumentacji nakreślono, jak działa [zabezpieczenie dostępu do aplikacji](/AIS-docs/docs/en/ais_bramka_remote_www_index.html#zabezpieczenie-dost%C4%99pu-do-aplikacji), poniżej postaramy się wytłumaczyć to na przykładach.
 
 
-### Logowanie gdy bramka działa w sieci lokalnej
+### Logowanie, gdy bramka działa w sieci lokalnej
 
-Gdy bramka działa tylko w sieci lokalnejto standardowo umożliwiamy do wyboru trzy sposoby autentykacji:
+Gdy bramka działa tylko w sieci lokalnej, to standardowo umożliwiamy do wyboru trzy sposoby autentykacji:
 - łatwe logowanie w zaufanej sieci (wystarczy wybrać użytkownika z listy, żeby się zalogować bez podawania hasła)
 - logowanie za pomocą nazwy użytkownika i hasła
 - logowanie za pomocą hasła API
@@ -54,13 +54,13 @@ Przy wybranym trzecim sposobie autentykacji **legacy_api_password** (Hasło do A
 ![Logowanie w sieci lokalnej](/AIS-docs/img/en/faq/auth_legacy_api_password.png)
 
 
-### Logowanie gdy bramka ma włączony dostęp z Internetu
+### Logowanie, gdy bramka ma włączony dostęp z Internetu
 
-W przypadku gdy włączony jest dostęp z Internetu to **automatycznie dla bezpieczeństwa wyłączamy możliwość prostego logowania**.
+W przypadku, gdy włączony jest dostęp z Internetu, to **dla bezpieczeństwa automatycznie wyłączamy możliwość prostego logowania**.
 
 ![Włączenie dostępu z Internetu](/AIS-docs/img/en/faq/access_form_internet.png)
 
-Automatycznie konfiguracja jest taka jak opisano w dokumentacji [wyłączenie łatwego logowania](/AIS-docs/docs/en/ais_bramka_remote_www_index.html#wy%C5%82%C4%85czenie-%C5%82atwego-logowania)
+Automatycznie konfiguracja jest taka, jak opisano w dokumentacji [wyłączenie łatwego logowania](/AIS-docs/docs/en/ais_bramka_remote_www_index.html#wy%C5%82%C4%85czenie-%C5%82atwego-logowania)
 
 ```yaml
 homeassistant:
@@ -72,7 +72,7 @@ Taka konfiguracja jak powyżej oznacza, że możemy logować się tylko za pomo
 ![Włączenie dostępu z Internetu](/AIS-docs/img/en/faq/auth_access_form_internet_on.png)
 
 
-## Jak to się dzieje, że po pierwszym logowaniu nie muszę się już logować ponownie
+## Jak to się dzieje, że po pierwszym logowaniu nie muszę się już logować ponownie?
 
 Przy pierwszym logowaniu pytamy, czy zapamiętać dane logowania.
 
@@ -81,14 +81,14 @@ Przy pierwszym logowaniu pytamy, czy zapamiętać dane logowania.
 Zapamiętanie danych logowania polega na zapisaniu ich w przeglądarce/kliencie, z którego się logujemy.
 Dopóki dane są zapamiętane i dopóki używamy tej samej przeglądarki, nie będziemy pytali o dane logowania.
 
-## Jak zapomnieć dane logowania na kliencie
+## Jak zapomnieć dane logowania na kliencie?
 
 Wystarczy się wylogować, w tym celu przechodzimy do profilu użytkownika i naciskamy przycisk **Wyloguj**
 
 ![Wylogownie](/AIS-docs/img/en/faq/logaut.png)
 
 
-## Jak dodać innych użytkowników
+## Jak dodać innych użytkowników?
 
 Przechodzimy do **Konfiguracja**, następnie wybieramy **Użytkownicy**.
 
@@ -99,7 +99,7 @@ W celu dodania nowego użytkownika naciskamy przycisk plusika po prawej stronie 
 ![Zapisanie użytkownika](/AIS-docs/img/en/faq/add_user_save.png)
 
 
-## Jak zabezpieczyć się bardziej
+## Jak zabezpieczyć się bardziej?
 
 Podczas gdy udostępniamy bramkę przez Internet, ryzykujemy, że ktoś z zewnątrz, kto zna adres naszej bramki, może próbować się na nią włamać.
 
@@ -127,7 +127,7 @@ Po włączeniu uwierzytelniania wieloskładnikowego po zalogowaniu się loginem 
 
 
 
-## Jak mogę sam ustalić preferowany dla mnie sposób logowania.
+## Jak mogę sam ustalić preferowany dla mnie sposób logowania?
 
 Wystarczy nadpisać naszą domyślną konfigurację i wg własnych potrzeb usunąć lub dodać dostawcę autentykacji.
 
@@ -169,10 +169,10 @@ homeassistant:
 Po tej zmianie w konfiguracji opisanej powyżej i ponownym uruchomieniu systemu, bez względu na to, czy dostęp z Internetu do bramki jest włączony czy nie, będziemy mieli możliwość logowania tylko przez podanie użytkownika i hasła.
 
 
-## Jak mogę sam dodać własny sposób logowania.
+## Jak mogę sam dodać własny sposób logowania?
 
 Zapraszamy do zapoznania się z [dokumentacją dla developerów systemu Home Assistant]( https://developers.home-assistant.io/docs/en/auth_index.html).
 
-Jeżeli potrafisz programować w języku Python to możesz dodać własną autentykację, tylko dla siebie w swojej lokalnej instalacji.
+Jeżeli potrafisz programować w języku Python, to możesz dodać własną autentykację, tylko dla siebie i w swojej lokalnej instalacji.
 
-Jesteśmy otwarci na propozycje ulepszenia systemu. Jeśli uważasz, że Twoje rozwiązanie jest dobre, to możesz zaproponować je do użycia dla innych tysięcy użytkowników. Gdy twój kod przejdzie weryfikacje programistów rozwijających platformę Home Assistant i społeczności zorganizowanej wokół projektu, to zostanie dodany do Home Assistant, a następnie wydamy go z kolejną wersją Asystenta domowego.
+Jesteśmy otwarci na propozycje ulepszenia systemu. Jeśli uważasz, że Twoje rozwiązanie jest dobre, to możesz zaproponować je do użycia dla tysięcy innych użytkowników. Gdy twój kod przejdzie weryfikacje programistów rozwijających platformę Home Assistant i społeczności zorganizowanej wokół projektu, to zostanie dodany do Home Assistant, a następnie wydamy go z kolejną wersją Asystenta domowego.

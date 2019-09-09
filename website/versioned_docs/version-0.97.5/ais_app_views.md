@@ -17,7 +17,7 @@ W dostępnym z aplikacji interfejsie użytkownika mamy domyślnie 3 widoki:
 |Dom|Audio|Urządzenia|
 |---|-----|----------|
 w widoku **Urządzenia** dostępne są informacje o wszystkich urządzeniach, które są zintegrowane z systemem Asystent domowy.
-Jest to "widok roboczy", urządzenie te można dodawać do własnych widoków i umieszczać na ładniejszych kartach wg własnych upodobań.
+Jest to "widok roboczy", urządzenia te można dodawać do własnych widoków i umieszczać na ładniejszych kartach, według własnych upodobań.
 
 ## Tworzenie własnych widoków
 

@@ -221,6 +221,10 @@
         "title": "Czy macie stale włączony mikrofon?",
         "sidebar_label": "Czy macie stale włączony mikrofon?"
       },
+      "ais_faq_node_red": {
+        "title": "Jak dodać Node-RED?",
+        "sidebar_label": "Jak dodać Node-RED?"
+      },
       "ais_faq_raspberry_pi": {
         "title": "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)?",
         "sidebar_label": "Czy płyta to Raspberry Pi?"
@@ -1089,6 +1093,34 @@
         "title": "Obsługa urządznia z bramki AIS dom",
         "sidebar_label": "Obsługa urządznia z bramki AIS dom"
       },
+      "version-0.97.5/version-0.97.5-ais_app_cards": {
+        "title": "Karty",
+        "sidebar_label": "Karty"
+      },
+      "version-0.97.5/version-0.97.5-ais_app_components_index": {
+        "title": "Komponenty",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.97.5/version-0.97.5-ais_app_components_weather": {
+        "title": "Pogoda",
+        "sidebar_label": "Pogoda"
+      },
+      "version-0.97.5/version-0.97.5-ais_app_drives": {
+        "title": "Dyski",
+        "sidebar_label": "Dyski"
+      },
+      "version-0.97.5/version-0.97.5-ais_app_index": {
+        "title": "Aplikacja",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.97.5/version-0.97.5-ais_app_spotify": {
+        "title": "Spotify",
+        "sidebar_label": "Spotify"
+      },
+      "version-0.97.5/version-0.97.5-ais_app_ui_config": {
+        "title": "Konfiguracja interfejsu użytkownika",
+        "sidebar_label": "Konfiguracja"
+      },
       "version-0.97.5/version-0.97.5-ais_app_views": {
         "title": "Widoki",
         "sidebar_label": "Widoki"
@@ -1193,6 +1225,10 @@
         "title": "Logowanie",
         "sidebar_label": "Logowanie do Portalu integratora"
       },
+      "version-0.97.5/version-0.97.5-ais_faq_app_lovelace_merge": {
+        "title": "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację",
+        "sidebar_label": "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację"
+      },
       "version-0.97.5/version-0.97.5-ais_faq_audio_cards": {
         "title": "Obsługa kart dzwiękowych",
         "sidebar_label": "Obsługa kart dzwiękowych"
@@ -1205,6 +1241,10 @@
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
       },
+      "version-0.97.5/version-0.97.5-ais_faq_iot_ap_mode": {
+        "title": "Jak działa tryb parowania urządzeń.",
+        "sidebar_label": "Jak działa tryb parowania urządzeń"
+      },
       "version-0.97.5/version-0.97.5-ais_faq_logs": {
         "title": "Logi dostępne na bramce",
         "sidebar_label": "Logi dostępne na bramce"
@@ -1212,6 +1252,10 @@
       "version-0.97.5/version-0.97.5-ais_faq_mic_not_on": {
         "title": "Czy macie stale włączony mikrofon?",
         "sidebar_label": "Czy macie stale włączony mikrofon?"
+      },
+      "version-0.97.5/version-0.97.5-ais_faq_node_red": {
+        "title": "Jak dodać Node-RED?",
+        "sidebar_label": "Jak dodać Node-RED?"
       },
       "version-0.97.5/version-0.97.5-ais_faq_raspberry_pi": {
         "title": "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)?",

@@ -45,6 +45,7 @@ Na tej stronie znajdują się odpowiedzi na najczęściej zadawane nam pytania. 
   <li><a href="/AIS-docs/docs/en/ais_faq_iot_ap_mode.html">Jak działa tryb parowania urządzeń?</a></li>
   <li><a href="/AIS-docs/docs/en/ais_faq_app_lovelace_merge.html">Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację?</a></li>
   <li><a href="/AIS-docs/docs/en/ais_faq_authentication.html"> Jak działa logowanie do Asystenta domowego?</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_faq_node_red.html"> Jak dodać Node-RED?</a></li>
 </ul>
 </div>
 
