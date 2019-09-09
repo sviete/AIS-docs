@@ -4,7 +4,7 @@ sidebar_label: Konfiguracja
 ---
 
 
-> Aktualnie intensywnie rozwijamy platformę, konfiguracja domyślna będzie się jeszcze zmieniać i aktualizacje platformy będą ją nadpisywać. **Jeżeli wykonasz własną konfigurację to przed aktualizacją do nowej wersji [zrób jej kopię](#kopia-konfiguracji), tak żebyś mógł ją sobie przywrócić po aktualizacji**. 
+> Aktualnie intensywnie rozwijamy platformę, konfiguracja domyślna będzie się jeszcze zmieniać i aktualizacje platformy będą ją nadpisywać. **Jeżeli wykonasz własną konfigurację, to przed aktualizacją do nowej wersji [zrób jej kopię](#kopia-konfiguracji), tak żebyś mógł ją przywrócić po aktualizacji**. 
 
 ## Włączenie trybu konfiguracji
 Włączenie konfiguracji interfejsu użytkownika następuje poprzez wybranie w aplikacji opcji **"Konfiguracja interfejsu użytkownika"** dostępnej w prawym górnym rogu każdej strony w aplikacji.
@@ -28,7 +28,7 @@ Gdy jesteś w trybie konfiguracji intefrejsu użytkownika, możesz wybrać opcj�
 ![Konfiguracja interfejsu użytkownika kopia](/AIS-docs/img/en/frontend/lovelace-ui-conf-raw.png)
 
 
-To spowoduje wyświetlenie tekstowej surowej wersji konfiguracji interfejsu
+To spowoduje wyświetlenie tekstowej, surowej wersji konfiguracji interfejsu
 
 ![Konfiguracja interfejsu użytkownika kopia](/AIS-docs/img/en/frontend/lovelace-ui-conf-raw-save.png)
 
