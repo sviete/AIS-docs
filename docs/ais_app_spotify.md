@@ -7,13 +7,13 @@ Integracja ze Spotify pozwala systemowi Asystent domowy na odtwarzanie teści au
 
 ***Integracja działa zarówno dla użytkowników Spotify Free, jak i Spotify Premium.***
 
-Możemy sterować odtwarzaczem spotify z aplikacji Asystent domowy oraz z aplikacji Spotify widzimy nasze urządzenie z Asystentem domowym(jako głośnik AI-Speaker) i możemy je wybierać jako głośnik na który ma być przesyłana muzyka z aplikacji Spotify. Asystent domowy po każdej komendzie odtwarzania muzyki ze Spotify automatycznie wybierze głośnik AI-Speker (głośnik podłączony do bramki) jako urządzenie na które muzyka ma być odtwarzana.
+Możemy sterować odtwarzaczem Spotify z aplikacji Asystent domowy. W aplikacji Spotify widzimy też nasze urządzenie z Asystentem domowym (jako głośnik AI-Speaker) i możemy je wybierać jako głośnik, na który ma być przesyłana muzyka z aplikacji Spotify. Asystent domowy po każdej komendzie odtwarzania muzyki ze Spotify automatycznie wybierze głośnik AI-Speker (głośnik podłączony do bramki) jako urządzenie, na którym muzyka ma być odtwarzana.
 
 ![Przejście do Spotify](/AIS-docs/img/en/frontend/spotify_2_way.png)
 
 
-> Interfejs do Spotify będziemy rozwijać o kolejne funkcjonalności wraz z dążeniem do celu, jakim jest dostarczenie najlepszego i najbardziej wszechstronnego urządzenia do domowego Audio i Internetu Rzeczy z wbudowanym głosowym Asystentem domowym.
-***Ubiegamy się o certyfikację w Spotify.*** Integracja ze Spotify jest obecnie wersją beta; ta funkcjonalność może się znacznie zmienić lub przestać działać, bez ostrzeżenia. Dokładamy wszelkich starań żeby spełnić wymogi Spotify i otrzymać certifikację, jednak dopóki nie podpiszemy umowy ze Spotify nie możemy gwarantować działania tego serwisu na naszych urządzeniach.
+> Interfejs do Spotify będziemy rozwijać o kolejne funkcjonalności wraz z dążeniem do celu, jakim jest dostarczenie najlepszego i najbardziej wszechstronnego urządzenia do domowego audio i Internetu Rzeczy z wbudowanym głosowym Asystentem domowym.
+***Ubiegamy się o certyfikację w Spotify.*** Integracja ze Spotify jest obecnie wersją beta; ta funkcjonalność może się znacznie zmienić lub przestać działać, bez ostrzeżenia. Dokładamy wszelkich starań, żeby spełnić wymogi Spotify i otrzymać certifikację, jednak dopóki nie podpiszemy umowy to nie możemy gwarantować działania tego serwisu na naszych urządzeniach.
 
 ## Konfiguracja w 3 krokach
 
@@ -61,7 +61,7 @@ Możemy sterować odtwarzaczem spotify z aplikacji Asystent domowy oraz z aplika
 ![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s2.1.png)
 
 
-* Zaloguj się do Spotify na swoje konto (to samo na które logowaleś się w punkcie 2.)
+* Zaloguj się do Spotify na swoje konto (to samo, na które logowaleś się w punkcie 2.)
 
 
 * Zezwól aplikacji AI-Speaker na dostęp
