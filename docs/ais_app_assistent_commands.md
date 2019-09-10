@@ -4,7 +4,7 @@ sidebar_label: Wbudowane komendy
 ---
 
 
-Asystent domowy posiada wbudowany komponent konwersacji który obsługuję polecenia głosowe.
+Asystent domowy posiada wbudowany komponent konwersacji, który obsługuje polecenia głosowe.
 Dzieje się to za pomocą konwertowania zarejestrowanych sentencji/zdań na intencje. W zdaniach mogą występować zmienne {umieszczone w nawiasach klamrowych} oraz opcjonalne słowa [umieszczone w nawiasach kwadratowych]. Takie zdania przetwarzane są przez system z uwzględnieniem kontekstu wcześniejszych działań, w celu jak najlepszego określenia intencji użytkownika i wykonania powiązanej z nią czynności.
 
 
@@ -14,7 +14,7 @@ Domyślnie asystent obsługuje:
 
 * **Włączanie i wyłączanie urządzeń**:
 
-Możesz powiedzieć "włącz oświetlenie w kuchni" lub "wyłącz światło w salonie" lub "włącz lampy zewnętrzne" lub "wyłącz podlewanie trawnika" lub "włącz wentylator poziom dwa" W ten sposób możesz sterować oświetleniem i przełącznikami.
+Możesz powiedzieć "włącz oświetlenie w kuchni", "wyłącz światło w salonie", "włącz lampy zewnętrzne", "wyłącz podlewanie trawnika" lub "włącz wentylator poziom dwa". W ten sposób możesz sterować oświetleniem i przełącznikami.
 
 ```text
 'Włącz {szukana-fraza}'; 'Zapal światło w {szukana-fraza}'
@@ -23,7 +23,7 @@ Możesz powiedzieć "włącz oświetlenie w kuchni" lub "wyłącz światło w sa
 
 * **Otwieranie i zamykanie**
 
-Możesz powiedzieć "otwórz bramę w garażu" lub "odsłoń rolety w salonie" lub "zasłoń wszystkie rolety". W ten sposób możesz sterować roletami i bramami.
+Możesz powiedzieć "otwórz bramę w garażu", "odsłoń rolety w salonie" lub "zasłoń wszystkie rolety". W ten sposób możesz sterować roletami i bramami.
 
 ```text
 'Otwórz {szukana-fraza}'; 'Odsłoń {szukana-fraza}'
@@ -34,7 +34,7 @@ Możesz powiedzieć "otwórz bramę w garażu" lub "odsłoń rolety w salonie" l
 
 * **Włączanie stacji radiowych**
 
-Wystarczy, że powiesz "Włącz RMF" lub "Graj radio Zet" lub po prostu "Radio trójka"
+Wystarczy, że powiesz "Włącz RMF", "Graj radio Zet" lub po prostu "Radio trójka"
 
 ```text
 'Włącz [radio] {szukana-fraza}'; 'Graj {szukana-fraza} radio'
@@ -42,7 +42,7 @@ Wystarczy, że powiesz "Włącz RMF" lub "Graj radio Zet" lub po prostu "Radio t
 
 * **Słuchanie podcastów**
 
-Żeby pobrać najnowsze odcinki podcasta i włączyć ostatni z nich wystarczy, że powiesz "Podcast Niebezpiecznik" lub "Włącz podcast jak oszczędzać pieniądze"
+Żeby pobrać najnowsze odcinki podcasta i włączyć ostatni z nich, wystarczy powiedzieć "Podcast Niebezpiecznik" lub "Włącz podcast jak oszczędzać pieniądze"
 
 ```text
 'Podcast {szukana-fraza}'; 'Włącz [podcast] {szukana-fraza}'
@@ -50,7 +50,7 @@ Wystarczy, że powiesz "Włącz RMF" lub "Graj radio Zet" lub po prostu "Radio t
 
 * **Słuchanie muzyki z YouTube**
 
-Żeby wyszukać na YouTube interesującą Cię muzykę i ją odtwarzać wystarczy, że powiesz "Muzyka Maria Peszek" lub "YouTube Brodka"
+Żeby wyszukać na YouTube interesującą Cię muzykę i ją odtwarzać, wystarczy powiedzieć "Muzyka Maria Peszek" lub "YouTube Brodka"
 
 ```text
 Włącz [z] [na] YouTube {szukana-fraza}'; 'YouTube {szukana-fraza}'
@@ -89,7 +89,7 @@ Poprzedni
 
 ## Status czujników
 
-O status każdego elementu systemu możesz też zapytać Asystenta
+Możesz też zapytać Asystenta o status każdego elementu systemu 
 
 * **Sprawdzanie wartości czujników**
 
@@ -101,7 +101,7 @@ Wystarczy, że zapytasz "Jaka jest temperatura w salonie" lub "Jaka jest wilgotn
 
 * **Sprawdzanie wartości innych dowolnych elementów systemu**
 
-Zapytaj "jaki jest adres IP" by otrzymać informację o IP urządzenia, lub "jaki jest status światła w kuchni" by dowiedzieć się czy światło jest włączone lub "jaki jest głos" by otrzymać informację o ustawionym głosie asystenta
+Zapytaj "jaki jest adres IP" by otrzymać informację o IP urządzenia, lub "jaki jest status światła w kuchni" by dowiedzieć się, czy światło jest włączone, lub "jaki jest głos" by otrzymać informację o ustawionym głosie asystenta
 
 ```text
 'Jaki jest {szukana-fraza}'; 'Jaka jest {szukana-fraza}''
@@ -111,7 +111,7 @@ Zapytaj "jaki jest adres IP" by otrzymać informację o IP urządzenia, lub "jak
 
 * **Sprawdzanie aktualnej pogody**
 
-Wystarczy, że powiesz "jaka jest pogoda" by otrzymać informację o aktualnej pogodzie w Twojej lokalizacji
+Wystarczy, że zapytasz "jaka jest pogoda" by otrzymać informację o aktualnej pogodzie w Twojej lokalizacji
 
 ```text
 '[aktualna] pogoda'
@@ -127,13 +127,13 @@ Wystarczy, że zapytasz "jaka będzie pogoda" by otrzymać informację o prognoz
 
 ## Wyszukiwanie informacji
 
-Zapytaj "Co to jest ONZ" lub "Kto to jest Andrzej Wajda" by otrzymać zwięzłą informację z bazy wiedzy
+Zapytaj "Co to jest ONZ" lub "Kto to jest Andrzej Wajda", by otrzymać zwięzłą informację z bazy wiedzy
 
 ```text
 'Wyszukaj {szukana-fraza}'; 'Znajdź informację o {szukana-fraza}'
 ```
 
-Zapytaj "Wikipedia Wielkanoc" lub "Wikipedia Polska" by otrzymać pełny artykół z Wikipedii
+Powiedz "Wikipedia Wielkanoc" lub "Wikipedia Polska" by otrzymać pełny artykół z Wikipedii
 
 ```text
 'Wikipedia {szukana-fraza}'
@@ -185,7 +185,7 @@ Włącz [całe] ogrzewnie
 
 ## Rozgłaszanie tekstu
 
-Żeby asystentka powiedziała przez głośnik np "Obiad gotowy" wystarczy jej powiedzieć "Powiedz obiad gotowy"
+Żeby asystentka powiedziała przez głośnik np. "Obiad gotowy", wystarczy jej powiedzieć "Powiedz obiad gotowy"
 (docelowo będziemy jeszcze wskazywali na jaki odtwarzacz/głośnik ma być przesyłany tekst)
 
 ```text
@@ -195,7 +195,7 @@ Powiedz {szukana-fraza}'; 'Mów {szukana-fraza}'; 'Echo {szukana-fraza}
 
 ## Spotify
 
-Żeby asystentka wyszukała na Spotify i odtworzyła utwory Dawida Podsiadło wystarczy powiedzieć: "Spotify Dawid Podsiadło"
+Żeby asystentka wyszukała na Spotify i odtworzyła utwory Dawida Podsiadło, wystarczy powiedzieć: "Spotify Dawid Podsiadło"
 W podobny sposób możemy szukać albumu lub listy utworów.
 ```text
 Spotify {wykonawca/album/playlista}
@@ -203,7 +203,7 @@ Spotify {wykonawca/album/playlista}
 
 ## Literowanie
 
-Możemy kazać przeliterować asystentce status dowolnego elementu systemu wystarczy powiedzieć "Przeliteruj " i dodać nazwę elementu:
+Możemy kazać przeliterować asystentce status dowolnego elementu systemu. Wystarczy powiedzieć "Przeliteruj " i dodać nazwę elementu:
 
 ```text
 Przeliteruj {nazwa elementu}
