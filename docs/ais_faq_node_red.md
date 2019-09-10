@@ -27,14 +27,14 @@ W konsoli wciskamy kombinację klawiszy **Ctrl +c**:
 
 ### Automatyczny start serwera Node-RED 
 
-Jeżeli chcemy by Node-RED był uruchamiany automatycznie to dodajemy takie zadanie dla menadżera procesów PM2, wpisując w konsoli na bramce:
+Jeżeli chcemy, by Node-RED był uruchamiany automatycznie, to dodajemy takie zadanie dla menadżera procesów PM2, wpisując w konsoli na bramce:
 ```bash
 pm2 start node-red --node-args="--max-old-space-size=128" && pm2 save
 ```
 
 ### Dodanie Node-RED do menu Asystenta domowego
 
-Dodajemy w konfiguracji Asystenta domowego link do z serwera Node-RED:
+Dodajemy w konfiguracji Asystenta domowego link do serwera Node-RED:
 
 ```bash
 nano ~/AIS/configuration.yaml
@@ -49,7 +49,7 @@ panel_iframe:
     url: 'http://<ip-naszej-bramki>:1880/'
 ```
 
-Restartujemy proces Asystenta domowego, komendą z konsoli:
+Restartujemy proces Asystenta domowego komendą z konsoli:
 
 ```bash
 pm2 restart ais
@@ -62,7 +62,7 @@ pm2 restart ais
 
 ### Instalacja wtyczki do Asystenta domowego
 
-W konsoli przechodzimy do folderu z node-red, i instalujem wtyczkę "node-red-contrib-home-assistant-websocket"
+W konsoli przechodzimy do folderu z node-red i instalujemy wtyczkę "node-red-contrib-home-assistant-websocket"
 
 ```bash
 cd ~/.node-red
@@ -78,11 +78,12 @@ pm2 restart node-red
 
 ### Konfigurujemy połączenie z Asystentem domowym
 
-W asystencie domowym przechodzimy do konfiguracji naszego profilu i generujemy długoterminowy token dostępu dla Node-RED
+W Asystencie domowym przechodzimy do konfiguracji naszego profilu i generujemy długoterminowy token dostępu dla Node-RED
 
 
 URL: http://localhost:8180
-Token: <token wygenerowany w Asystencie domowym>
+Token: Twój token wygenerowany w Asystencie domowym
+  
 ![Połaczenie z asystentem](/AIS-docs/img/en/faq/Node-red-Home-Assistant-connection.png)
 
 
