@@ -3,7 +3,7 @@ title: "Sterowanie bez monitora"
 sidebar_label: Sterowanie bez monitora
 ---
 
-## dedykowne menu
+## dedykowane menu
 W tym trybie można sterować całym systemem za pomocą dedykowanego menu zorganizowanego w sposób umożliwiający szybką nawigację pilotem do każdego elementu systemu. Informacja zwrotna o wybranej pozycji oraz aktualnym statusie elementów systemu przekazywana jest głosowo.
 
 ![Pilot do asystenta](/AIS-docs/img/en/remote/remote_off_tv_mode.png)
@@ -11,9 +11,9 @@ W tym trybie można sterować całym systemem za pomocą dedykowanego menu zorga
 
 Nawigowanie po systemie w tym trybie jest intuicyjne, najpierw wybierz jedną z czterech głównych grup:
 
-- Mój dom,
-- Audio,
-- Ustawienia,
+- Mój dom
+- Audio
+- Ustawienia
 - Pomoc
 
 i przejdź do interesującej cię kategorii. W grupie ‘Mój dom’ możesz sprawdzać status i sterować urządzeniami domowymi.
