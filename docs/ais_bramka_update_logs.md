@@ -3,7 +3,7 @@ title: "Logi aktualizacji"
 sidebar_label: Logi aktualizacji
 ---
 
-W aplikacji “Asystent domowy” w zakładce **Przydatne linki** dostępny jest link **“Logi Aktualizacji”**. Po wybraniu tego linku możemy przeglądać logi aktualizacji, w przypadku problemów z aktualizacją logi możemy załączyć do zgłoszenia problemu dla programistów.
+W aplikacji “Asystent domowy”, w zakładce **Przydatne linki** dostępny jest link **“Logi Aktualizacji”**. Po wybraniu tego linku możemy przeglądać logi aktualizacji, w przypadku problemów z aktualizacją logi możemy załączyć do zgłoszenia problemu dla programistów.
 
 
 ![Logi aktualizacji](/AIS-docs/img/en/frontend/update_logs.png)
