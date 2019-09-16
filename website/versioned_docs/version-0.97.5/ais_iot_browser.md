@@ -1,6 +1,8 @@
 ---
 title: Obsługa urządznia z przeglądarki
 sidebar_label: Obsługa urządznia z przeglądarki
+id: version-0.97.5-ais_iot_browser
+original_id: ais_iot_browser
 ---
 
 ## Wprowadzenie

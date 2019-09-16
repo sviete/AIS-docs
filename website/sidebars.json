@@ -87,6 +87,7 @@
       "ais_iot_works_with",
       "ais_iot_powers",
       "ais_iot_browser",
+      "ais_iot_mqtt",
       "ais_iot_gate",
       "ais_iot_s26"
     ],

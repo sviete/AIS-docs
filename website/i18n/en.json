@@ -127,7 +127,7 @@
       },
       "ais_bramka_reset_ais_step_by_step": {
         "title": "Pełny reset aplikacji",
-        "sidebar_label": "Wykoanie pełnego resetu aplikacji"
+        "sidebar_label": "Wykonanie pełnego resetu aplikacji"
       },
       "ais_bramka_reset_index": {
         "title": "Przywracanie ustawień fabrycznych urządzenia",
@@ -292,6 +292,10 @@
       "ais_iot_index": {
         "title": "Urządzenia dodatkowe",
         "sidebar_label": "Urządzenia dodatkowe"
+      },
+      "ais_iot_mqtt": {
+        "title": "Komunikacja za pomocą protokołu MQTT",
+        "sidebar_label": "Komunikacja za pomocą protokołu MQTT"
       },
       "ais_iot_powers": {
         "title": "Możliwości urządzeń AIS dom",
@@ -1093,6 +1097,14 @@
         "title": "Obsługa urządznia z bramki AIS dom",
         "sidebar_label": "Obsługa urządznia z bramki AIS dom"
       },
+      "version-0.97.5/version-0.97.5-ais_app_assistent_add_command": {
+        "title": "Dodawanie komendy",
+        "sidebar_label": "Dodawanie komendy"
+      },
+      "version-0.97.5/version-0.97.5-ais_app_assistent_commands": {
+        "title": "Wbudowane komendy",
+        "sidebar_label": "Wbudowane komendy"
+      },
       "version-0.97.5/version-0.97.5-ais_app_cards": {
         "title": "Karty",
         "sidebar_label": "Karty"
@@ -1193,6 +1205,10 @@
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Wprowadzenie"
       },
+      "version-0.97.5/version-0.97.5-ais_bramka_reset_ais_step_by_step": {
+        "title": "Pełny reset aplikacji",
+        "sidebar_label": "Wykonanie pełnego resetu aplikacji"
+      },
       "version-0.97.5/version-0.97.5-ais_bramka_reset_index": {
         "title": "Przywracanie ustawień fabrycznych urządzenia",
         "sidebar_label": "Wprowadzenie"
@@ -1216,6 +1232,10 @@
       "version-0.97.5/version-0.97.5-ais_bramka_update_logs": {
         "title": "Logi aktualizacji",
         "sidebar_label": "Logi aktualizacji"
+      },
+      "version-0.97.5/version-0.97.5-ais_bramka_update_manual": {
+        "title": "Aktualizacja ręczna krok po kroku",
+        "sidebar_label": "Aktualizacja ręczna"
       },
       "version-0.97.5/version-0.97.5-ais_dom_cloud_gates": {
         "title": "Moje bramki",
@@ -1293,9 +1313,25 @@
         "title": "Własny pakiet do systemu Linux",
         "sidebar_label": "Własny pakiet do systemu Linux"
       },
+      "version-0.97.5/version-0.97.5-ais_iot_browser": {
+        "title": "Obsługa urządznia z przeglądarki",
+        "sidebar_label": "Obsługa urządznia z przeglądarki"
+      },
+      "version-0.97.5/version-0.97.5-ais_iot_mqtt": {
+        "title": "Komunikacja za pomocą protokołu MQTT",
+        "sidebar_label": "Komunikacja za pomocą protokołu MQTT"
+      },
       "version-0.97.5/version-0.97.5-version-0.79.5-ais_remote_faq_index": {
         "title": "Pilot FAQ",
         "sidebar_label": "Pilot FAQ"
+      },
+      "version-0.97.5/version-0.97.5-ais_remote_mode_off_tv": {
+        "title": "Sterowanie bez monitora",
+        "sidebar_label": "Sterowanie bez monitora"
+      },
+      "version-0.97.5/version-0.97.5-ais_remote_modes": {
+        "title": "Tryby działania",
+        "sidebar_label": "Tryby działania"
       }
     },
     "links": {
