@@ -77,7 +77,7 @@ W widoku Node-RED dodajemy nową kartę typu IFRAME
 
 ![Node-RED](/AIS-docs/img/en/faq/node_red_new_card.png)
 
-W konfiguracji karty podajemy adres serwera Node-RED działjącego na naszej bramce:
+W konfiguracji karty podajemy adres serwera Node-RED działającego na naszej bramce:
 
 ![Node-RED](/AIS-docs/img/en/faq/node_red_new_card_2.png)
 
