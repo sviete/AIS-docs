@@ -3,6 +3,7 @@ title: "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację
 sidebar_label: Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację
 ---
 
+> Od wersji 0.98 nie nadpisujemy już interfejsu. Poniższy opis/wyjaśnienie dotyczy wcześniejszych wersji systemu. 
 
 Aktualnie intensywnie rozwijamy system, konfiguracja domyślna będzie się jeszcze zmieniać i aktualizacje platformy będą ją nadpisywać. Jeżeli wykonasz własną konfigurację, to przed aktualizacją do nowej wersji zrób jej kopię, tak żebyś mógł ją przywrócić po aktualizacji.
 

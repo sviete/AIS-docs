@@ -1332,6 +1332,22 @@
       "version-0.97.5/version-0.97.5-ais_remote_modes": {
         "title": "Tryby działania",
         "sidebar_label": "Tryby działania"
+      },
+      "version-0.98.9/version-0.98.9-ais_app_ui_config": {
+        "title": "Konfiguracja interfejsu użytkownika",
+        "sidebar_label": "Konfiguracja"
+      },
+      "version-0.98.9/version-0.98.9-ais_faq_app_lovelace_merge": {
+        "title": "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację",
+        "sidebar_label": "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację"
+      },
+      "version-0.98.9/version-0.98.9-ais_faq_node_red": {
+        "title": "Jak dodać Node-RED?",
+        "sidebar_label": "Jak dodać Node-RED?"
+      },
+      "version-0.98.9/version-0.98.9-ais_iot_index": {
+        "title": "Urządzenia dodatkowe",
+        "sidebar_label": "Urządzenia dodatkowe"
       }
     },
     "links": {
