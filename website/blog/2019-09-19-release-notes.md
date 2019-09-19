@@ -17,6 +17,7 @@ Gdy "uruchamianie trybu nocnego jest włączone" to o wybranej godzinie startu t
 - zredukuje głośność czytanych powiadomień do 20%,
 - zredukuje głośność odtwarzacza audio do 20%,
 - zmieni motyw wyglądu aplikacji na nocny.
+
 Oczywiście o wybranej godzinie zakończenia trybu nocnego głośność i wygląd zostaną automatycznie przywrócone do wartości przed ciszą nocną.
 
 
