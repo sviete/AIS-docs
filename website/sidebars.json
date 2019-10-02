@@ -116,7 +116,8 @@
       "ais_gate_faq_config_yaml",
       "ais_gate_faq_custom_component",
       "ais_gate_faq_package_compile",
-      "ais_bramka_remote_other_programs"
+      "ais_bramka_remote_other_programs",
+      "ais_bramka_faq_usb_dongle"
     ],
     "Pilot radiowy": [
       "ais_remote_faq_index"
