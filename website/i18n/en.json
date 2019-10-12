@@ -1364,6 +1364,10 @@
       "version-0.98.9/version-0.98.9-ais_iot_index": {
         "title": "Urządzenia dodatkowe",
         "sidebar_label": "Urządzenia dodatkowe"
+      },
+      "version-0.99.6/version-0.99.6-ais_bramka_faq_usb_dongle": {
+        "title": "Czy można dołączyć adaptery USB (RF, Zigbee, Z-Wave, Thread, BLE 5.0 itd.)?",
+        "sidebar_label": "Czy można dołączyć adaptery USB?"
       }
     },
     "links": {
