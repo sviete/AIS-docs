@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Jak dodać Node-RED? · Asystent domowy, dokumentacja</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Wprowadzenie"/><meta name="docsearch:version" content="0.98.9"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Jak dodać Node-RED? · Asystent domowy, dokumentacja"/><meta property="og:type" content="website"/><meta property="og:url" content="https://sviete.github.io/AIS-docs/index.html"/><meta property="og:description" content="## Wprowadzenie"/><meta property="og:image" content="https://sviete.github.io/AIS-docs/img/default-social.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://sviete.github.io/AIS-docs/img/default-social.png"/><link rel="shortcut icon" href="/AIS-docs/img/favicon.png"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://sviete.github.io/AIS-docs/blog/atom.xml" title="Asystent domowy, dokumentacja Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://sviete.github.io/AIS-docs/blog/feed.xml" title="Asystent domowy, dokumentacja Blog RSS Feed"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-126115790-1', 'auto');
+              ga('send', 'pageview');
+            </script><script src="/AIS-docs/js/scrollSpy.js"></script><link rel="stylesheet" href="/AIS-docs/css/main.css"/><script src="/AIS-docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/AIS-docs/en"><img class="logo" src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy, dokumentacja"/><h2 class="headerTitleWithLogo">Asystent domowy, dokumentacja</h2></a><a href="/AIS-docs/en/versions.html"><h3>0.98.9</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/AIS-docs/docs/en/0.98.9/ais_bramka_index.html" target="_self">Bramka IoT</a></li><li class=""><a href="/AIS-docs/docs/en/0.98.9/ais_app_index.html" target="_self">Aplikacja</a></li><li class=""><a href="/AIS-docs/docs/en/0.98.9/ais_remote_index.html" target="_self">Pilot</a></li><li class=""><a href="/AIS-docs/docs/en/0.98.9/ais_iot_index.html" target="_self">Urządzenia</a></li><li class=""><a href="/AIS-docs/docs/en/ais_faq_index" target="_self">FAQ</a></li><li class=""><a href="/AIS-docs/blog/" target="_self">Aktualności</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_faq_node_red.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Jak dodać Node-RED?</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="wprowadzenie"></a><a href="#wprowadzenie" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wprowadzenie</h2>
+<p>Celem tego opisu jest wyjaśnienie na przykładzie kilku rzeczy:</p>
+<ul>
+<li>jak zainstalować dodatkowy serwer na bramce (na przykładzie Node-RED)</li>
+<li>w jaki sposób dodać automatyczne uruchamianie tego serwera (po każdym restarcie bramki) do menadżera procesów PM2 działającego na bramce</li>
+<li>w jaki sposób dodać nowy widok z aplikacją do interfejsu Asystenta domowego</li>
+<li>w jaki sposób wygenerować token w Aystencie domowym i dać zewnętrznej aplikacji dostęp do API Asystenta domowego</li>
+<li>jak wywołać przykładowy serwis w Asystencie domowym z Node-RED za pomocą API</li>
+</ul>
+<p><img src="/AIS-docs/img/en/faq/node_red_hey_jolka.png" alt="Node-RED"></p>
+<h2><a class="anchor" aria-hidden="true" id="instalacja-node-red"></a><a href="#instalacja-node-red" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalacja Node-RED</h2>
+<p>Przechodzimy do <a href="/AIS-docs/docs/en/ais_bramka_remote_ssh.html#dostęp-do-konsoli-z-aplikacji">konsoli na bramce</a> i wklejamy/wpisujemy w niej komendę:</p>
+<pre><code class="hljs css language-bash">npm i -g --unsafe-perm node-red &amp;&amp; termux-fix-shebang /data/data/pl.sviete.dom/files/usr/bin/node-red
+</code></pre>
+<p>Efekt powinien być taki jak na poniższym obrazku:</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_install.png" alt="Node-RED"></p>
+<h3><a class="anchor" aria-hidden="true" id="uruchomienie-serwera-node-red"></a><a href="#uruchomienie-serwera-node-red" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Uruchomienie serwera Node-RED</h3>
+<p>W konsoli wpisujemy komendę:</p>
+<pre><code class="hljs css language-bash">node-red
+</code></pre>
+<p>Efekt powinien być taki jak na poniższym obrazku:</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_start.png" alt="Node-RED"></p>
+<p>Na tym etapie mamy już zainstalowany i działający serwer NODE-red na bramce. W przeglądarce możemy wejść na adres http://&lt;ip-bramki-w-lokalnej-seieci&gt;:1880 i korzystać z aplikacji NODE-red</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_in_browser.png" alt="Node-RED"></p>
+<h3><a class="anchor" aria-hidden="true" id="zatrzymanie-serwera-node-red"></a><a href="#zatrzymanie-serwera-node-red" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Zatrzymanie serwera Node-RED</h3>
+<p>W konsoli wciskamy kombinację klawiszy <strong>Ctrl +c</strong> efekt powinien być taki jak na poniższym obrazku:</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_stop_in_console.png" alt="Node-RED"></p>
+<h3><a class="anchor" aria-hidden="true" id="automatyczny-start-serwera-node-red"></a><a href="#automatyczny-start-serwera-node-red" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Automatyczny start serwera Node-RED</h3>
+<p>Jeżeli chcemy, by Node-RED był uruchamiany automatycznie, to dodajemy takie zadanie dla menadżera procesów PM2, wpisując w konsoli na bramce:</p>
+<pre><code class="hljs css language-bash">pm2 start node-red --node-args=<span class="hljs-string">"--max-old-space-size=128"</span> &amp;&amp; pm2 save
+</code></pre>
+<p>Efekt powinien być taki jak na poniższym obrazku:</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_start_from_pm2.png" alt="Node-RED"></p>
+<h3><a class="anchor" aria-hidden="true" id="dodanie-aplikację-node-red-jako-widok-w-naszym-asystencie-domowym"></a><a href="#dodanie-aplikację-node-red-jako-widok-w-naszym-asystencie-domowym" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dodanie aplikację Node-RED jako widok w naszym Asystencie domowym</h3>
+<p>Włczamy <a href="AIS-docs/docs/en/next/ais_app_ui_config.html">Konfigurację interfejsu użytkownika</a></p>
+<p>Dodajemy nowy widok Node-RED:</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_view.png" alt="Node-RED"></p>
+<p>W widoku Node-RED dodajemy nową kartę typu IFRAME</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_new_card.png" alt="Node-RED"></p>
+<p>W konfiguracji karty podajemy adres serwera Node-RED działającego na naszej bramce:</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_new_card_2.png" alt="Node-RED"></p>
+<p>Wracamy do ustawień widoku i możemy przełączyć nasz widok w tryb panela (opcja &quot;Panel Mode&quot;) co spowoduje, że nasza karta z Node-RED będzie zajmowała całą szerokość widoku.</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_view_panel_mode.png" alt="Node-RED"></p>
+<p>Efekt powinien być taki jak na poniższym obrazku:</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_in_view.png" alt="Node-RED"></p>
+<h2><a class="anchor" aria-hidden="true" id="połączenie-z-node-red-do-asystenta-domowego"></a><a href="#połączenie-z-node-red-do-asystenta-domowego" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Połączenie z Node-RED do Asystenta domowego</h2>
+<h3><a class="anchor" aria-hidden="true" id="instalacja-wtyczki-do-asystenta-domowego"></a><a href="#instalacja-wtyczki-do-asystenta-domowego" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalacja wtyczki do Asystenta domowego</h3>
+<p>W konsoli przechodzimy do folderu z node-red i instalujemy wtyczkę &quot;node-red-contrib-home-assistant-websocket&quot; wpisując/wklejając poniższe komendy:</p>
+<pre><code class="hljs css language-bash"><span class="hljs-built_in">cd</span> ~/.node-red
+npm install node-red-contrib-home-assistant-websocket
+</code></pre>
+<p>Efekt powinien być taki jak na poniższym obrazku:</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_install_plugin_to_hass.png" alt="Node-RED"></p>
+<p>następnie restartujemy proces node-red, wpisując komendę:</p>
+<pre><code class="hljs css language-bash">pm2 restart node-red
+</code></pre>
+<p>Efekt powinien być taki jak na poniższym obrazku:</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_reset_from_pm2.png" alt="Node-RED"></p>
+<h3><a class="anchor" aria-hidden="true" id="konfigurujemy-połączenie-z-asystentem-domowym"></a><a href="#konfigurujemy-połączenie-z-asystentem-domowym" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Konfigurujemy połączenie z Asystentem domowym</h3>
+<p>W Asystencie domowym przechodzimy do konfiguracji naszego profilu (klikając w menu na ikonkę po lewej stronie na dole - tą z piwerszą literką naszego loginu) i generujemy długoterminowy token dostępu dla Node-RED</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_long_token.png" alt="Node-RED"></p>
+<p>Kopiujemy wygenerowany token ponieważ nie będzie on ponownie wyświetlany:</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_long_token_copy.png" alt="Node-RED"></p>
+<p>Wracamy do widoku z Node-RED i konfigurujemy połączenie z Asystentem domowym.
+W tym celu z listy dostępnych pozycji wybieramy &quot;home assistant&quot; -&gt; &quot;call service&quot;, klikamy na ten wybrany element i przechodzimy do konfiguracji połączenia</p>
+<p>Podajemy adres url i token wygenerowany w poprzednim kroku w Asystencie domowym.
+URL: <strong><a href="http://localhost:8180">http://localhost:8180</a></strong>
+Token: <strong>Twój token wygenerowany w Asystencie domowym</strong></p>
+<p><img src="/AIS-docs/img/en/faq/Node-red-Home-Assistant-connection.png" alt="Połaczenie z asystentem"></p>
+<p>Naciskamy przycisk <strong>Deploy</strong> w Node-RED, żeby ustanowić połączenia z Asystentem domowym.</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_deploy.png" alt="Połaczenie z asystentem"></p>
+<h3><a class="anchor" aria-hidden="true" id="definicja-wywołania-serwisu-w-asystencie-domowym-z-node-red"></a><a href="#definicja-wywołania-serwisu-w-asystencie-domowym-z-node-red" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Definicja wywołania serwisu w Asystencie domowym z Node-RED</h3>
+<p>Żeby wywołać sewis zdefiniowany w Asystencie domowym, kliknijmy ponownie na nasz element &quot;call service&quot; i wpiszmy/wybierzmy następujące parametry serwisu:</p>
+<ul>
+<li>Name: <strong>Cześć Jolka</strong></li>
+<li>Domain: <strong>ais_ai_service</strong></li>
+<li>Service: <strong>say_it</strong></li>
+<li>Data: <strong>{&quot;text&quot;:&quot;Cześć :)&quot;}</strong></li>
+</ul>
+<p><img src="/AIS-docs/img/en/faq/node_red_home_assistant_service_definition.png" alt="Połaczenie z asystentem"></p>
+<h3><a class="anchor" aria-hidden="true" id="wywołanie-serwisu-w-asystencie-domowym-z-node-red"></a><a href="#wywołanie-serwisu-w-asystencie-domowym-z-node-red" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wywołanie serwisu w Asystencie domowym z Node-RED</h3>
+<p>Żeby wywołać ręcznie nasz testowy serwis dodajmy pierwszy element z listy: &quot;inject&quot;, następnie połączmy nasze elementy węzły żeby otrzymać przepływ taki jak na rysunku poniżej.</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_test_call_service.png" alt="Node-RED"></p>
+<p>Zapisujemy definicję naszego przepływu za pomocą przycisku <strong>Deploy</strong> a następnie naciskamy z lewej strony na nasz element &quot;inject&quot; by ręcznie uruchomić przepływ:</p>
+<p><img src="/AIS-docs/img/en/faq/node_red_call_service.png" alt="Node-RED"></p>
+<p>W efekcie otrzymac 3 rzeczy:</p>
+<ul>
+<li>komunikaty w aplikacji Node-RED o pomyślnym zapisaniu zdefiniowanego przepływu oraz o pomyślnym wykonaniu wywołania naszej usługi (tak jak to pokazano na obrazku powyżej)</li>
+<li>jeżli mamy podłączony do bramki głośnik lub monitor/tv z głośnikami to powinniśmy usłyszeć jak asystent czyta wpisany przez nas tekst <strong>Cześć :)</strong></li>
+<li>w aplikacji Asystent domowy możemy zobaczyć, że wpisany przez nas tekst został przetworzony przez asystenta</li>
+</ul>
+<p><img src="/AIS-docs/img/en/faq/node_red_to_ais.png" alt="Node-RED"></p>
+</span></div></article></div><div class="docs-prevnext"></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#wprowadzenie">Wprowadzenie</a></li><li><a href="#instalacja-node-red">Instalacja Node-RED</a><ul class="toc-headings"><li><a href="#uruchomienie-serwera-node-red">Uruchomienie serwera Node-RED</a></li><li><a href="#zatrzymanie-serwera-node-red">Zatrzymanie serwera Node-RED</a></li><li><a href="#automatyczny-start-serwera-node-red">Automatyczny start serwera Node-RED</a></li><li><a href="#dodanie-aplikację-node-red-jako-widok-w-naszym-asystencie-domowym">Dodanie aplikację Node-RED jako widok w naszym Asystencie domowym</a></li></ul></li><li><a href="#połączenie-z-node-red-do-asystenta-domowego">Połączenie z Node-RED do Asystenta domowego</a><ul class="toc-headings"><li><a href="#instalacja-wtyczki-do-asystenta-domowego">Instalacja wtyczki do Asystenta domowego</a></li><li><a href="#konfigurujemy-połączenie-z-asystentem-domowym">Konfigurujemy połączenie z Asystentem domowym</a></li><li><a href="#definicja-wywołania-serwisu-w-asystencie-domowym-z-node-red">Definicja wywołania serwisu w Asystencie domowym z Node-RED</a></li><li><a href="#wywołanie-serwisu-w-asystencie-domowym-z-node-red">Wywołanie serwisu w Asystencie domowym z Node-RED</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy, dokumentacja" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2019 AI-Speaker</section></footer></div></body></html>
