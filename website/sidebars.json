@@ -104,28 +104,31 @@
       "ais_faq_when_speaker",
       "ais_faq_where_is_the_code",
       "ais_faq_mic_not_on",
-      "ais_faq_raspberry_pi"
-      
+      "ais_faq_raspberry_pi",
+      "ais_gate_faq_hass_compatibility"
     ],
     "Bramka": [
       "ais_faq_logs",
       "ais_gate_faq_https",
       "ais_faq_audio_cards",
       "ais_faq_wifi",
-      "ais_gate_faq_hass_compatibility",
       "ais_gate_faq_config_yaml",
       "ais_gate_faq_custom_component",
       "ais_gate_faq_package_compile",
       "ais_bramka_remote_other_programs",
       "ais_bramka_faq_usb_dongle"
     ],
-    "Pilot radiowy": [
-      "ais_remote_faq_index"
-    ],
-    "Urządzenia AIS dom": [
+    "Aplikacja i Urządzenia AIS dom": [
         "ais_faq_iot_ap_mode",
         "ais_faq_app_lovelace_merge",
-        "ais_faq_authentication"
+        "ais_faq_authentication",
+        "ais_faq_node_red",
+        "ais_faq_automation_tts"
+    ],
+    "Pilot radiowy": [
+      "ais_remote_faq_index",
+      "ais_app_assistent_commands",
+      "ais_remote_faq_index"
     ]
   }
 }

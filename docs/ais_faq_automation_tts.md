@@ -1,0 +1,50 @@
+---
+title: "Jak dodać Automatyzację z powiadomieniami głosowymi?"
+sidebar_label: Automatyzacja z powiadomieniami głosowymi
+---
+
+## Wprowadzenie do automatyzacji
+
+Zapoznaj się z opisem [wprowadzenie do automatyzacji Asystenta domowego](/AIS-docs/docs/en/ais_bramka_automation.html) żeby ponać na czym podstawy dodawania automatyzacji w systemie.
+
+
+## Przykład - mówienie godziny
+
+W typ przykładzie pokażemy w jaki sposób dodać mówienie przez asystenta która godzina o pełnych godzinach w przedziale czasu od 8 do 22.
+
+![Automatyzacja](/AIS-docs/img/en/faq/tts_time_0.png)
+
+
+### Wyzwalacz - szablon czasu
+
+Za pomocą wyzwalacza szablonu czasu można wywołać automatyzację, jeśli godzina, minuta lub sekunda bieżącego czasu odpowiada określonej przez nas wartości. Poprzedzenie watości znakiem / oznacza, że dopasowanie będzie prawidłowe ilekroć wartość jest podzielna przez tę liczbę.
+
+Jeśli w pole godzina wpiszemy /2 oznacza to, że chcemy wywołać automatyzację co 2 godziny.
+
+W naszym przypadku chcemy mówić która godzina co godzinę dlatego dopasowanie będzie takie: /1
+
+![Automatyzacja](/AIS-docs/img/en/faq/tts_time_1.png)
+
+
+### Warunek - przedział czasu
+
+Warunki są opcjonalną częścią automatyzacji i można ich użyć, aby w niektórych warunkach zapobiec wyknania automatyzacji po jej uruchomieniu.
+W naszym przypadku chcemy zapobiec mówieniu godziny w nocy, dlatego dodamy warunek typu czas:
+
+![Automatyzacja](/AIS-docs/img/en/faq/tts_time_2.png)
+
+
+### Akcja - wywołanie usługi
+
+Akcje są wykonywane przez Asystenta domowego po uruchomieniu automatyzacji.
+Wszystkie czynności, jakie wykonuje Asystent domowy takie jak włączenie światła, ustawienie temperatury, włączenie radia czy też sprawdzenie pogody zdefiniowane są w formie usługi (serwisu). Jedną z podstawowych usług w Asystencie domowym jest usługa przetwarzania komendy i wykonania na jej podstawie akcji. Usługa ta nazywa się **ais_ai_service.process** i przyjmuje jeden parametr **text** komendę do wykonania. W naszym przypadku chcemy zapytać o godzinę, dlatego jako komendę napiszmy: **która godzina**
+
+
+![Automatyzacja](/AIS-docs/img/en/faq/tts_time_3.png)
+
+
+### Test działania
+
+Nowo dodaną akcję możemy przetestować, wybierając ją i ekranie gównym Asystenta domowego i naciskając uruchom, jeśli wszystko zrobiliśmy dobrze to asystent powinien nam powiedzieć która godzina. 
+
+![Automatyzacja](/AIS-docs/img/en/faq/tts_time_4.png)

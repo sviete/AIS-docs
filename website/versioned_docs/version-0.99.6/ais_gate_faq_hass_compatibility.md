@@ -1,6 +1,8 @@
 ---
-title: "Kompatybilność z Home Assistant"
+title: Kompatybilność z Home Assistant
 sidebar_label: Kompatybilność z Home Assistant
+id: version-0.99.6-ais_gate_faq_hass_compatibility
+original_id: ais_gate_faq_hass_compatibility
 ---
 
 ## Home Assistant++

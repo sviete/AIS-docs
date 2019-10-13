@@ -209,6 +209,10 @@
         "title": "Jak działa logowanie do aplikacji.",
         "sidebar_label": "Jak działa logowanie do aplikacji"
       },
+      "ais_faq_automation_tts": {
+        "title": "Jak dodać Automatyzację z powiadomieniami głosowymi?",
+        "sidebar_label": "Automatyzacja z powiadomieniami głosowymi"
+      },
       "ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
@@ -1368,6 +1372,18 @@
       "version-0.99.6/version-0.99.6-ais_bramka_faq_usb_dongle": {
         "title": "Czy można dołączyć adaptery USB (RF, Zigbee, Z-Wave, Thread, BLE 5.0 itd.)?",
         "sidebar_label": "Czy można dołączyć adaptery USB?"
+      },
+      "version-0.99.6/version-0.99.6-ais_faq_automation_tts": {
+        "title": "Jak dodać Automatyzację z powiadomieniami głosowymi?",
+        "sidebar_label": "Automatyzacja z powiadomieniami głosowymi"
+      },
+      "version-0.99.6/version-0.99.6-ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
+      },
+      "version-0.99.6/version-0.99.6-ais_gate_faq_hass_compatibility": {
+        "title": "Kompatybilność z Home Assistant",
+        "sidebar_label": "Kompatybilność z Home Assistant"
       }
     },
     "links": {
@@ -1396,6 +1412,7 @@
       "Odpowiedzi na pytania": "Odpowiedzi na pytania",
       "Ogólne": "Ogólne",
       "Bramka": "Bramka",
+      "Aplikacja i Urządzenia AIS dom": "Aplikacja i Urządzenia AIS dom",
       "Wprowadzenie": "Wprowadzenie",
       "Reset do ustawień fabrycznych": "Reset do ustawień fabrycznych",
       "Oprogramowanie": "Oprogramowanie",
