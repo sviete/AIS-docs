@@ -202,8 +202,8 @@
         "sidebar_label": "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację"
       },
       "ais_faq_audio_cards": {
-        "title": "Obsługa kart dzwiękowych",
-        "sidebar_label": "Obsługa kart dzwiękowych"
+        "title": "Obsługa kart dźwiękowych",
+        "sidebar_label": "Obsługa kart dźwiękowych"
       },
       "ais_faq_authentication": {
         "title": "Jak działa logowanie do aplikacji.",
@@ -1382,6 +1382,18 @@
         "sidebar_label": "Informacja"
       },
       "version-0.99.6/version-0.99.6-ais_gate_faq_hass_compatibility": {
+        "title": "Kompatybilność z Home Assistant",
+        "sidebar_label": "Kompatybilność z Home Assistant"
+      },
+      "version-0.99.7/version-0.99.7-ais_faq_audio_cards": {
+        "title": "Obsługa kart dźwiękowych",
+        "sidebar_label": "Obsługa kart dźwiękowych"
+      },
+      "version-0.99.7/version-0.99.7-ais_faq_automation_tts": {
+        "title": "Jak dodać Automatyzację z powiadomieniami głosowymi?",
+        "sidebar_label": "Automatyzacja z powiadomieniami głosowymi"
+      },
+      "version-0.99.7/version-0.99.7-ais_gate_faq_hass_compatibility": {
         "title": "Kompatybilność z Home Assistant",
         "sidebar_label": "Kompatybilność z Home Assistant"
       }
