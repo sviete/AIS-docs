@@ -1,13 +1,13 @@
 ---
-title: "Obsługa kart dzwiękowych"
-sidebar_label: Obsługa kart dzwiękowych
+title: "Obsługa kart dźwiękowych"
+sidebar_label: Obsługa kart dźwiękowych
 ---
 
 ### Wprowadzenie
 
 > Opis w przygotowaniu
 
-### Wyświtlenie wszystkich kart dzwiękowych
+### Wyświetlenie wszystkich kart dzwiękowych
 
 Wszystkie karty audio, które są dostepne w systemie (podłączone i z zainstalowanym sterownikiem) listujemy komendą w konsoli:
 
