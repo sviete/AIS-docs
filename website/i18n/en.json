@@ -5,6 +5,10 @@
     "previous": "Previous",
     "tagline": "Wszystko co potrzebujesz aby korzystać z Asystenta domowego",
     "docs": {
+      "ais_app_android_index": {
+        "title": "Aplikacje Android",
+        "sidebar_label": "Aplikacje Android"
+      },
       "ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
         "sidebar_label": "Dodawanie komendy"
@@ -17,17 +21,13 @@
         "title": "Asystent",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_app_books": {
+        "title": "Audio książki",
+        "sidebar_label": "Audio książki"
+      },
       "ais_app_cards": {
         "title": "Karty",
         "sidebar_label": "Karty"
-      },
-      "ais_app_components_index": {
-        "title": "Komponenty",
-        "sidebar_label": "Wprowadzenie"
-      },
-      "ais_app_components_weather": {
-        "title": "Pogoda",
-        "sidebar_label": "Pogoda"
       },
       "ais_app_drives": {
         "title": "Dyski",
@@ -41,9 +41,29 @@
         "title": "Aplikacja",
         "sidebar_label": "Wprowadzenie"
       },
+      "ais_app_news": {
+        "title": "Wiadomości",
+        "sidebar_label": "Wiadomości"
+      },
+      "ais_app_podcast": {
+        "title": "Podkasty",
+        "sidebar_label": "Podkasty"
+      },
+      "ais_app_radio": {
+        "title": "Radia Internetowe",
+        "sidebar_label": "Radia Internetowe"
+      },
       "ais_app_spotify": {
         "title": "Spotify",
         "sidebar_label": "Spotify"
+      },
+      "ais_app_supla": {
+        "title": "SUPLA",
+        "sidebar_label": "SUPLA"
+      },
+      "ais_app_tauron": {
+        "title": "TAURON eLicznik",
+        "sidebar_label": "TAURON eLicznik"
       },
       "ais_app_ui_config": {
         "title": "Konfiguracja interfejsu użytkownika",
@@ -52,6 +72,10 @@
       "ais_app_views": {
         "title": "Widoki",
         "sidebar_label": "Widoki"
+      },
+      "ais_app_youtube_dl": {
+        "title": "YouTube",
+        "sidebar_label": "Muzyka z YouTube"
       },
       "ais_bramka_api_command": {
         "title": "Wykonywanie komendy",
@@ -221,6 +245,10 @@
         "title": "Jak dodać Automatyzację z powiadomieniami głosowymi?",
         "sidebar_label": "Automatyzacja z powiadomieniami głosowymi"
       },
+      "ais_faq_components_weather": {
+        "title": "Jak dodać własny serwis Pogodowy?",
+        "sidebar_label": "Własny serwis Pogodowy"
+      },
       "ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
@@ -306,8 +334,8 @@
         "sidebar_label": "Obsługa urządznia z bramki AIS dom"
       },
       "ais_iot_index": {
-        "title": "Urządzenia dodatkowe",
-        "sidebar_label": "Urządzenia dodatkowe"
+        "title": "Integracje",
+        "sidebar_label": "Integracje dodatkowe"
       },
       "ais_iot_mqtt": {
         "title": "Komunikacja za pomocą protokołu MQTT",
@@ -1393,9 +1421,57 @@
         "title": "Kompatybilność z Home Assistant",
         "sidebar_label": "Kompatybilność z Home Assistant"
       },
+      "version-0.99.7/version-0.99.7-ais_app_android_index": {
+        "title": "Aplikacje Android",
+        "sidebar_label": "Aplikacje Android"
+      },
+      "version-0.99.7/version-0.99.7-ais_app_books": {
+        "title": "Audio książki",
+        "sidebar_label": "Audio książki"
+      },
+      "version-0.99.7/version-0.99.7-ais_app_drives": {
+        "title": "Dyski",
+        "sidebar_label": "Dyski"
+      },
+      "version-0.99.7/version-0.99.7-ais_app_news": {
+        "title": "Wiadomości",
+        "sidebar_label": "Wiadomości"
+      },
+      "version-0.99.7/version-0.99.7-ais_app_podcast": {
+        "title": "Podkasty",
+        "sidebar_label": "Podkasty"
+      },
+      "version-0.99.7/version-0.99.7-ais_app_radio": {
+        "title": "Radia Internetowe",
+        "sidebar_label": "Radia Internetowe"
+      },
+      "version-0.99.7/version-0.99.7-ais_app_spotify": {
+        "title": "Spotify",
+        "sidebar_label": "Spotify"
+      },
+      "version-0.99.7/version-0.99.7-ais_app_supla": {
+        "title": "SUPLA",
+        "sidebar_label": "SUPLA"
+      },
+      "version-0.99.7/version-0.99.7-ais_app_tauron": {
+        "title": "TAURON eLicznik",
+        "sidebar_label": "TAURON eLicznik"
+      },
+      "version-0.99.7/version-0.99.7-ais_app_youtube_dl": {
+        "title": "YouTube",
+        "sidebar_label": "Muzyka z YouTube"
+      },
       "version-0.99.7/version-0.99.7-ais_bramka_mqtt": {
         "title": "Broker MQTT działający na bramce",
         "sidebar_label": "MQTT"
+      },
+      "version-0.99.7/version-0.99.7-ais_bramka_update_auto": {
+        "title": "Aktualizacja automatyczna",
+        "sidebar_label": "Aktualizacja automatyczna"
+      },
+      "version-0.99.7/version-0.99.7-ais_bramka_update_index": {
+        "title": "Aktualizacja oprogramowania",
+        "sidebar_label": "Wprowadzenie"
       },
       "version-0.99.7/version-0.99.7-ais_faq_audio_cards": {
         "title": "Obsługa kart dźwiękowych",
@@ -1409,6 +1485,10 @@
         "title": "Jak dodać Automatyzację z powiadomieniami głosowymi?",
         "sidebar_label": "Automatyzacja z powiadomieniami głosowymi"
       },
+      "version-0.99.7/version-0.99.7-ais_faq_components_weather": {
+        "title": "Jak dodać własny serwis Pogodowy?",
+        "sidebar_label": "Własny serwis Pogodowy"
+      },
       "version-0.99.7/version-0.99.7-ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
@@ -1416,13 +1496,17 @@
       "version-0.99.7/version-0.99.7-ais_gate_faq_hass_compatibility": {
         "title": "Kompatybilność z Home Assistant",
         "sidebar_label": "Kompatybilność z Home Assistant"
+      },
+      "version-0.99.7/version-0.99.7-ais_iot_index": {
+        "title": "Integracje",
+        "sidebar_label": "Integracje dodatkowe"
       }
     },
     "links": {
       "Bramka IoT": "Bramka IoT",
       "Aplikacja": "Aplikacja",
       "Pilot": "Pilot",
-      "Urządzenia": "Urządzenia",
+      "Integracje": "Integracje",
       "FAQ": "FAQ",
       "Aktualności": "Aktualności"
     },
@@ -1433,18 +1517,23 @@
       "Portal Integratora": "Portal Integratora",
       "Ustawienia zaawansowane": "Ustawienia zaawansowane",
       "Reset urządzenia do ustawień fabrycznych": "Reset urządzenia do ustawień fabrycznych",
-      "Aplikacja": "Aplikacja",
-      "Komponenty": "Komponenty",
+      "Aplikacja Web": "Aplikacja Web",
+      "Aplikacje Android": "Aplikacje Android",
       "Asystent": "Asystent",
       "Aktualizacja": "Aktualizacja",
       "Pełny reset aplikacji": "Pełny reset aplikacji",
       "Pilot radiowy": "Pilot radiowy",
+      "Wbudowane integracje audio": "Wbudowane integracje audio",
+      "Wbudowane inne integracje": "Wbudowane inne integracje",
+      "Integracje dodatkowe": "Integracje dodatkowe",
       "Urządzenia AIS dom": "Urządzenia AIS dom",
       "Oprogramowanie dla urządzeń AIS dom": "Oprogramowanie dla urządzeń AIS dom",
       "Odpowiedzi na pytania": "Odpowiedzi na pytania",
       "Ogólne": "Ogólne",
       "Bramka": "Bramka",
       "Aplikacja i Urządzenia AIS dom": "Aplikacja i Urządzenia AIS dom",
+      "Aplikacja": "Aplikacja",
+      "Komponenty": "Komponenty",
       "Wprowadzenie": "Wprowadzenie",
       "Reset do ustawień fabrycznych": "Reset do ustawień fabrycznych",
       "Oprogramowanie": "Oprogramowanie",

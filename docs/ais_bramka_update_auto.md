@@ -4,16 +4,23 @@ sidebar_label:  Aktualizacja automatyczna
 ---
 
 
-W aplikacji **Asystent domowy**, w menu wybieramy opcję **Konfiguracja** a następnie **Ustawienia bramki AIS dom**. W sekcji “Wersja systemu” dostępna jest informacja o aktualnej wersji systemu. 
-Możemy tu wymusić sprawdzenie aktualizacji i uruchomić automatyczną instalację. W przypadku, gdy mamy dostępną aktualizację to pojawi się możliwość aktualizacji.
+W aplikacji **Asystent domowy**, w menu wybieramy opcję **Konfiguracja** a następnie **Ustawienia bramki AIS dom**. W sekcji **Wersja systemu** dostępna jest informacja o aktualnej wersji składowych systemu.
 
 
-Gdy dostępna jest aktualizacja to wystarczy nacisnąć "WYKONAJ", by ją zainstalować.
+W sekcji tej możemy:
+- Włączyć automatyczne aktualizacje systemu. Jeśli ta opcja jest aktywna, to codziennie sprawdzimy i automatycznie zainstalujemy dostępne aktualizacje składowych systemu Asystent domowy.
+- Uruchomić sprawdzenie dostępności aktualizacji.
+- Uruchomić ręczną instalację. Tu pojawi się informacja o dostępności nowej wersji składowych systemu oraz możliwość natychmiastowego uruchomienia aktualizacji (przydatne szczególnie w przypadku, gdy automatyczne aktualizacje nie są aktywowane).
+
+![Bramka AIS dom](/AIS-docs/img/en/frontend/new_version_info.png)
+
+Aktualizacje dostarczają najnowsze funkcjonalności oraz poprawki zapewniające bezpieczeństwo i stabilność działania systemu dlatego zachęcamy do ich wykonywania.
+
+
+
 Instalacja aktualizacji może być maksymalnie 3 etapowa (nie zawsze wszystkie etapy są wykonywane):
 - aktualizacja środowiska Linux-a
 - aktualizacja platformy automatyzacji
 - aktualizacja aplikacji
 
-Wszystkie te etapy przebiegają automatycznie, po aktualizacji system uruchamia się ponownie i informuje nas, że  jest gotowy do pracy.
-
-![Bramka AIS dom](/AIS-docs/img/en/frontend/new_version_info.png)
+Wszystkie te etapy przebiegają automatycznie, po aktualizacji (jeżeli to konieczne) system uruchamia się ponownie i informuje nas, że  jest gotowy do pracy.

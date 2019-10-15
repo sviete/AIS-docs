@@ -21,16 +21,18 @@ W systemie "Asystent domowy" mamy trzy typy dysków, z których możemy odtwarza
 ## Konfiguracja dysku zdalnego
 
 
-* Przejdź do aplikacji "Asystent domowy" z przeglądarki internetowej w Twojej lokalnej sieci [Dostęp do bramki po HTTP](/AIS-docs/docs/en/ais_bramka_remote_http)
+* Otwórz aplikację "Asystent domowy" w przeglądarce Internetowej [Dostęp do bramki po HTTP](/AIS-docs/docs/en/ais_bramka_remote_http)
 
-* Otwórz ***Ustawienia*** -> ***Integracje*** klikając ikonę "rozwijanego menu" w lewym górnym rogu
+* Przejdź do widoku audio, wybierz przeglądanie dysków, dyski zdalne, następnie uruchom konfigurator dodawnia dysku zdalnego naciskając przycisk "+ DYSK ZDALNY"
 
-![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/go_to_settings.png)
+![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/add_new_remote_drive.png)
+
+* Dalej postępuj zgodnie ze wskazówkami kreatora
 
 
-![Konfiguracja Dysku Zewnętrznego](/AIS-docs/img/en/frontend/configure_spotify_s1.png)
+## Konfiguracja dysku zdalnego z poziomu Integracji
 
-Do ***Integracji*** możesz też przejść z karty dysków klikając w link "Dodaj nowy dysk zdalny"
+Do ***Integracji*** możesz też przejść z menu **Ustawienia**
 
 ![Konfiguracja Dysku Zewnętrznego](/AIS-docs/img/en/frontend/drives_config_0.png)
 
@@ -41,13 +43,3 @@ Do ***Integracji*** możesz też przejść z karty dysków klikając w link "Dod
 
 
 * Dalej postępuj zgodnie ze wskazówkami kreatora
-
-## Prezentacja wideo dodawania dysków zdalnych i ich działania w aplikacji
-
-<div>
-  <video width="100%" height="100%" playsinline autoplay muted loop>
-    <source src="/AIS-docs/video/Dyski_zdalne_w_Asystencie_domowym.mp4" type="video/mp4">
-  <video>
-</div>
-
-</div>

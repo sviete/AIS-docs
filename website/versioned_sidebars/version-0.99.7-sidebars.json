@@ -40,17 +40,14 @@
     ]
   },
   "version-0.99.7-Aplikacja": {
-    "Aplikacja": [
+    "Aplikacja Web": [
       "version-0.99.7-ais_app_index",
       "version-0.99.7-ais_app_views",
       "version-0.99.7-ais_app_cards",
       "version-0.99.7-ais_app_ui_config"
     ],
-    "Komponenty": [
-      "version-0.99.7-ais_app_components_index",
-      "version-0.99.7-ais_app_components_weather",
-      "version-0.99.7-ais_app_spotify",
-      "version-0.99.7-ais_app_drives"
+    "Aplikacje Android": [
+      "version-0.99.7-ais_app_android_index"
     ],
     "Asystent": [
       "version-0.99.7-ais_app_assistent",
@@ -77,8 +74,21 @@
       "version-0.99.7-ais_remote_mode_gesture"
     ]
   },
-  "version-0.99.7-Urządzenia dodatkowe": {
-    "Komponenty": [
+  "version-0.99.7-Integracje": {
+    "Wbudowane integracje audio": [
+      "version-0.99.7-ais_app_radio",
+      "version-0.99.7-ais_app_podcast",
+      "version-0.99.7-ais_app_news",
+      "version-0.99.7-ais_app_youtube_dl",
+      "version-0.99.7-ais_app_spotify",
+      "version-0.99.7-ais_app_drives",
+      "version-0.99.7-ais_app_books"
+    ],
+    "Wbudowane inne integracje": [
+      "version-0.99.7-ais_app_supla",
+      "version-0.99.7-ais_app_tauron"
+    ],
+    "Integracje dodatkowe": [
       "version-0.99.7-ais_iot_index",
       "version-0.99.7-ais_iot_add_to_gate",
       "version-0.99.7-ais_iot_remote"
@@ -124,7 +134,8 @@
       "version-0.99.7-ais_faq_authentication",
       "version-0.99.7-ais_faq_node_red",
       "version-0.99.7-ais_faq_automation_tts",
-      "version-0.99.7-ais_faq_automation_tips_and_tricks"
+      "version-0.99.7-ais_faq_automation_tips_and_tricks",
+      "version-0.99.7-ais_faq_components_weather"
     ],
     "Pilot radiowy": [
       "version-0.99.7-ais_remote_faq_index",

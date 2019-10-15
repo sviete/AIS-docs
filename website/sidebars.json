@@ -40,17 +40,14 @@
     ]
   },
   "Aplikacja": {
-    "Aplikacja": [
+    "Aplikacja Web": [
       "ais_app_index",
       "ais_app_views",
       "ais_app_cards",
       "ais_app_ui_config"
     ],
-    "Komponenty": [
-      "ais_app_components_index",
-      "ais_app_components_weather",
-      "ais_app_spotify",
-      "ais_app_drives"
+    "Aplikacje Android": [
+      "ais_app_android_index"
     ],
     "Asystent": [
       "ais_app_assistent",
@@ -77,12 +74,24 @@
       "ais_remote_mode_gesture"
     ]
   },
-  "Urządzenia dodatkowe": {
-    "Komponenty": [
+  "Integracje": {
+    "Wbudowane integracje audio": [
+      "ais_app_radio",
+      "ais_app_podcast",
+      "ais_app_news",
+      "ais_app_youtube_dl",
+      "ais_app_spotify",
+      "ais_app_drives",
+      "ais_app_books"
+    ],
+    "Wbudowane inne integracje": [
+      "ais_app_supla",
+      "ais_app_tauron"
+    ],
+    "Integracje dodatkowe": [
       "ais_iot_index",
       "ais_iot_add_to_gate",
       "ais_iot_remote"
-
     ],
     "Urządzenia AIS dom": [
       "ais_iot_works_with",
@@ -125,7 +134,8 @@
         "ais_faq_authentication",
         "ais_faq_node_red",
         "ais_faq_automation_tts",
-        "ais_faq_automation_tips_and_tricks"
+        "ais_faq_automation_tips_and_tricks",
+        "ais_faq_components_weather"
     ],
     "Pilot radiowy": [
       "ais_remote_faq_index",

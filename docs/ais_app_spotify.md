@@ -45,8 +45,6 @@ Możemy sterować odtwarzaczem Spotify z aplikacji Asystent domowy. W aplikacji 
 
 * Otwórz ***Ustawienia*** -> ***Integracje*** klikając ikonę "rozwijanego menu" w lewym górnym rogu
 
-![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/go_to_settings.png)
-
 
 ![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s1.png)
 
@@ -67,15 +65,6 @@ Możemy sterować odtwarzaczem Spotify z aplikacji Asystent domowy. W aplikacji 
 * Zezwól aplikacji AI-Speaker na dostęp
 
 ![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s3.png)
-
-* Zamknij okno by wrócić do aplikacji "Asystent domowy"
-
-![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s4.png)
-
-
-* Potwierdź, że dodawanie dostępu dla AI-Speaker zakończyło się sukcesem
-
-![Konfiguracja Spotify](/AIS-docs/img/en/frontend/configure_spotify_s5.png)
 
 
 * Możesz już głosowo wyszukiwać i uruchamiać muzykę ze Spotify.
