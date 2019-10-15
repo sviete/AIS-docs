@@ -13,7 +13,8 @@
       "ais_bramka_remote_http",
       "ais_bramka_remote_ftp",
       "ais_bramka_remote_ssh",
-      "ais_bramka_remote_adb"
+      "ais_bramka_remote_adb",
+      "ais_bramka_mqtt"
     ],
     "Dostęp z Internetu": [
       "ais_bramka_remote_www_index",
@@ -123,7 +124,8 @@
         "ais_faq_app_lovelace_merge",
         "ais_faq_authentication",
         "ais_faq_node_red",
-        "ais_faq_automation_tts"
+        "ais_faq_automation_tts",
+        "ais_faq_automation_tips_and_tricks"
     ],
     "Pilot radiowy": [
       "ais_remote_faq_index",

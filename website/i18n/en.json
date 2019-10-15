@@ -89,6 +89,10 @@
         "title": "Bramka IoT",
         "sidebar_label": "Karta produktu"
       },
+      "ais_bramka_mqtt": {
+        "title": "Broker MQTT działający na bramce",
+        "sidebar_label": "MQTT"
+      },
       "ais_bramka_presence_detection": {
         "title": "Konfigurowanie wykrywania obecności",
         "sidebar_label": "Wykrywanie obecności"
@@ -208,6 +212,10 @@
       "ais_faq_authentication": {
         "title": "Jak działa logowanie do aplikacji.",
         "sidebar_label": "Jak działa logowanie do aplikacji"
+      },
+      "ais_faq_automation_tips_and_tricks": {
+        "title": "Automatyzacje wskazówki i porady",
+        "sidebar_label": "Automatyzacje wskazówki i porady"
       },
       "ais_faq_automation_tts": {
         "title": "Jak dodać Automatyzację z powiadomieniami głosowymi?",
@@ -1385,13 +1393,25 @@
         "title": "Kompatybilność z Home Assistant",
         "sidebar_label": "Kompatybilność z Home Assistant"
       },
+      "version-0.99.7/version-0.99.7-ais_bramka_mqtt": {
+        "title": "Broker MQTT działający na bramce",
+        "sidebar_label": "MQTT"
+      },
       "version-0.99.7/version-0.99.7-ais_faq_audio_cards": {
         "title": "Obsługa kart dźwiękowych",
         "sidebar_label": "Obsługa kart dźwiękowych"
       },
+      "version-0.99.7/version-0.99.7-ais_faq_automation_tips_and_tricks": {
+        "title": "Automatyzacje wskazówki i porady",
+        "sidebar_label": "Automatyzacje wskazówki i porady"
+      },
       "version-0.99.7/version-0.99.7-ais_faq_automation_tts": {
         "title": "Jak dodać Automatyzację z powiadomieniami głosowymi?",
         "sidebar_label": "Automatyzacja z powiadomieniami głosowymi"
+      },
+      "version-0.99.7/version-0.99.7-ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
       },
       "version-0.99.7/version-0.99.7-ais_gate_faq_hass_compatibility": {
         "title": "Kompatybilność z Home Assistant",
