@@ -30,6 +30,8 @@ Aktualizacje dostarczają najnowsze funkcjonalności oraz poprawki zapewniające
 Dodaliśmy pierwszą wersę (jeszcze nie kompletną - obecnie obsługiwane są tylko żaluzje i przełączniki) integracji z SUPLA OpenAPI.
 Bazujemy na pakiecie [PySupla](https://github.com/mwegrzynek/pysupla) i na integracji z Home Assistant autorstwa Michała Węgrzynka [mwegrzynek](https://github.com/mwegrzynek).
 
+[Opis konfiguracji](/AIS-docs/docs/en/ais_app_supla.html)
+
 <div>
   <video width="100%" height="100%" playsinline autoplay muted loop>
     <source src="/AIS-docs/video/supla.webm" type="video/webm">
@@ -42,6 +44,7 @@ Ta integracja skierowana jest do osób, które chcą sterować swoimi urządzeni
 
 Dodaliśmy integrację z TAURON eLiczniki. Integracja bazuje na komponencie [Tauron-AMIplus](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Tauron-AMIplus) autorstwa [Piotra Machowskiego](https://github.com/PiotrMachowski)
 
+[Opis konfiguracji](/AIS-docs/docs/en/ais_app_tauron.html)
 
 <div>
   <video width="100%" height="100%" playsinline autoplay muted loop>

@@ -405,6 +405,10 @@
         "title": "Aplikacja",
         "sidebar_label": "Wprowadzenie"
       },
+      "version-0.77.0/version-0.77.0-ais_app_radio": {
+        "title": "Radia Internetowe",
+        "sidebar_label": "Radia Internetowe"
+      },
       "version-0.77.0/version-0.77.0-ais_bramka_first_run": {
         "title": "Bramka",
         "sidebar_label": "Uruchomienie"
@@ -1452,10 +1456,6 @@
       "version-0.99.7/version-0.99.7-ais_app_podcast": {
         "title": "Podkasty",
         "sidebar_label": "Podkasty"
-      },
-      "version-0.99.7/version-0.99.7-ais_app_radio": {
-        "title": "Radia Internetowe",
-        "sidebar_label": "Radia Internetowe"
       },
       "version-0.99.7/version-0.99.7-ais_app_spotify": {
         "title": "Spotify",

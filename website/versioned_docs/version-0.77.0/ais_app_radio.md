@@ -1,7 +1,7 @@
 ---
 title: Radia Internetowe
 sidebar_label: Radia Internetowe
-id: version-0.99.7-ais_app_radio
+id: version-0.77.0-ais_app_radio
 original_id: ais_app_radio
 ---
 
