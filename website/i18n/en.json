@@ -1457,6 +1457,10 @@
         "title": "Podkasty",
         "sidebar_label": "Podkasty"
       },
+      "version-0.99.7/version-0.99.7-ais_app_radio": {
+        "title": "Radia Internetowe",
+        "sidebar_label": "Radia Internetowe"
+      },
       "version-0.99.7/version-0.99.7-ais_app_spotify": {
         "title": "Spotify",
         "sidebar_label": "Spotify"

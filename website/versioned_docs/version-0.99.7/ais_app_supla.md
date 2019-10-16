@@ -8,12 +8,12 @@ original_id: ais_app_supla
 
 ## Wprowadzenie
 
-[SUPLA](https://www.supla.org/pl/) to popularny w Polsce system automatyki domowej. SUPLA ma własny zestaw protokołów, własne oprogramowanie dla urządzeń opartych na ESP8266 i urządzenia wyprodukowane głownie przez [Zamel](https://zamel.com/pl-PL/). Oprogramowanie [SUPLA jest Open Source](https://github.com/SUPLA).
+[SUPLA](https://www.supla.org/pl/) to popularny w Polsce system automatyki domowej. SUPLA ma własny zestaw protokołów, własne oprogramowanie dla urządzeń opartych na ESP8266 i urządzenia wyprodukowane głównie przez firmę [Zamel](https://zamel.com/pl-PL/). Oprogramowanie [SUPLA jest Open Source](https://github.com/SUPLA).
 
 
 ## Integracja
 
-Oferujemy w systemie Asystent domowy integrację z SUPLA OpenAPI, jest to pierwsza jeszcze nie kompletna wersja (obecnie obsługiwane są tylko żaluzje i przełączniki). Bazujemy na pakiecie [PySupla](https://github.com/mwegrzynek/pysupla) i na integracji z Home Assistant autorstwa Michała Węgrzynka [mwegrzynek](https://github.com/mwegrzynek).
+Oferujemy w systemie Asystent domowy integrację z SUPLA OpenAPI. Jest to pierwsza, jeszcze niekompletna wersja (obecnie obsługiwane są tylko żaluzje i przełączniki). Bazujemy na pakiecie [PySupla](https://github.com/mwegrzynek/pysupla) i na integracji z Home Assistant autorstwa Michała Węgrzynka [mwegrzynek](https://github.com/mwegrzynek).
 
 Ta integracja skierowana jest do osób, które chcą sterować swoimi urządzeniami SUPLA także głosowo z Asystenta domowego.
 

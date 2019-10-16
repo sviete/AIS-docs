@@ -7,7 +7,7 @@ original_id: ais_app_news
 
 ## Wiadomości RSS
 
-Kolejnym serwisem są Wiadomości RSS. Wiadomości grupujemy po kategorii oraz kanale, aby posłuchać wybranego artykułu czytanego przez asystenta, wystarczy wybrać kategorie, następnie kanał oraz artykuł, który ma być czytany przez asystenta.
+Kolejnym serwisem są Wiadomości RSS. Wiadomości grupujemy po kategorii oraz kanale. Aby posłuchać wybranego artykułu czytanego przez asystenta, wystarczy wybrać kategorię, następnie kanał oraz artykuł.
 
 ![AIS News](/AIS-docs/img/en/frontend/ais_integration_news.png)
 
@@ -26,6 +26,6 @@ Nowe kanały wiadomości można dodawać w [Portalu integratora](/AIS-docs/docs/
 
 ## API
 
-Wiadomości RSS tak jak każda integracja udostępnia swoje usługi, dzięki czemu można [automatyzować](/AIS-docs/docs/en/next/ais_bramka_automation.html) także tą funkcjonalność i np. uruchamiać pobieranie najnowszych wiadomości z określonego kanału o określonej porze.
+Wiadomości RSS, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](/AIS-docs/docs/en/next/ais_bramka_automation.html) także tą funkcjonalność i np. uruchamiać pobieranie najnowszych wiadomości z określonego kanału o określonej porze.
 
 ![AIS News](/AIS-docs/img/en/frontend/ais_integration_news_api.png)

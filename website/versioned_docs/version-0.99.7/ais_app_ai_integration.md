@@ -9,7 +9,7 @@ original_id: ais_app_ai_integration
 
 <img src="/AIS-docs/img/en/frontend/ais_integration_ai.png" width="360" align="right"> </img>
 
-System posiada komponent umożliwiający wydawanie komend i przesyłanie zapytań do wbudowanego programu, który zamienia polecenie na intencje, a następnie wykonuje akcje powiązaną z intencją. Program ten nazywamy asystentem. Z asystentem możesz rozmawiać:
+System posiada komponent umożliwiający wydawanie komend i przesyłanie zapytań do wbudowanego programu, który zamienia polecenie na intencję, a następnie wykonuje akcję powiązaną z intencją. Program ten nazywamy asystentem. Z asystentem możesz rozmawiać:
 - przez naciśnięcie mikrofonu w aplikacji webowej (w przeglądarkach obsługujących wprowadzanie głosowe)
 - przez mikrofon w telefonie z systemem Android i z zainstalowaną naszą darmową aplikacją dostępną w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)
 - <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -25,11 +25,11 @@ System posiada komponent umożliwiający wydawanie komend i przesyłanie zapyta�
 
 [Lista wbudowanych poleceń](/AIS-docs/docs/en/ais_app_assistent_commands.html), które rozumie asystent.
 
-Gdy asystent nie jest w stanie zrozumieć komendy lokalnie to, stara się uzyskać informację w zewnętrznych serwisach lub wyszukać ją w Internecie.
+Gdy asystent nie jest w stanie zrozumieć komendy lokalnie, to stara się uzyskać informację w zewnętrznych serwisach lub wyszukać ją w Internecie.
 
 Np. gdy pytasz "Jaka jest temperatura w kuchni" asystent "rozumie", że intencją jest sprawdzenie statusu czujnika o nazwie "Temperatura w kuchni". Udzielając odpowiedzi na pytania typu "kto to jest... ", "kim jest... ", "znajdź informację o..." asystent korzysta z zasobów bazy wiedzy "Google Knowledge Graph". Korzystanie z tego typu bazy wiedzy ma na celu selekcję możliwie najistotniejszych treści i udzielenia krótkiej odpowiedzi na pytanie.
 Źródłem informacji do Google Knowledge Graph jest głównie Wikipedia.
-Sięgamy też po informacje bezpośrednio z Wikipedii oraz z usług internetowych w tym serwisów Google.
+Sięgamy też po informacje bezpośrednio z Wikipedii oraz z usług internetowych, w tym serwisów Google.
 
 
 ## Dodawanie własnej komendy
@@ -108,6 +108,6 @@ conversation: !include conversation.yaml
 
 ## API asystenta
 
-Asystent tak jak każda integracja udostępnia swoje usługi, dzięki czemu można [automatyzować](/AIS-docs/docs/en/next/ais_bramka_automation.html) także tą funkcjonalność i np. uruchamiać [automatyczne mówienie godziny](/AIS-docs/docs/en/ais_faq_automation_tts.html) o pełnych godzinach.
+Asystent, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](/AIS-docs/docs/en/next/ais_bramka_automation.html) także tą funkcjonalność i np. uruchamiać [automatyczne mówienie godziny](/AIS-docs/docs/en/ais_faq_automation_tts.html) o pełnych godzinach.
 
 ![Godzinaais_app_android_index](/AIS-docs/img/en/faq/tts_time_3.png)
