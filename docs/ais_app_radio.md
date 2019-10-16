@@ -9,7 +9,7 @@ Na urządzeniu dostarczamy odtwarzacz audio wraz ze skonfigurowanymi serwisami d
 
 ## Radia internetowe
 
-Jednym z serwisów audio są radia internetowe. Standardowo "z pudełka" dostępnych jest setki stacji pogrupowanych po typie. Po uruchomieniu urządzenia wystarczy powiedzieć ***"Włącz radio {nazwa stacji}"*** aby słuchać ulubionej stacji radiowej.
+Jednym z serwisów audio są radia internetowe. Standardowo "z pudełka" dostępne są setki stacji pogrupowanych po typie. Po uruchomieniu urządzenia wystarczy powiedzieć ***"Włącz radio {nazwa stacji}"*** aby słuchać ulubionej stacji radiowej.
 
 ![AIS Radio](/AIS-docs/img/en/frontend/ais_integration_radio.png)
 
@@ -31,7 +31,7 @@ Nowe stacje radiowe można dodawać w [Portalu integratora](/AIS-docs/docs/en/ne
 
 ## API
 
-Odtwarzacz audio tak jak każda integracja udostępnia swoje usługi, dzięki czemu można [automatyzować](/AIS-docs/docs/en/next/ais_bramka_automation.html) sterowanie odtwarzaczem i np. uruchamiać stację radiową jako budzik lub włączać wybraną audycję o wybranej porze dnia itp.
+Odtwarzacz audio, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](/AIS-docs/docs/en/next/ais_bramka_automation.html) sterowanie odtwarzaczem i np. uruchamiać stację radiową jako budzik, włączać wybraną audycję o wybranej porze dnia, itp.
 
 
 ![AIS Radio](/AIS-docs/img/en/frontend/ais_integration_radio_api.png)
