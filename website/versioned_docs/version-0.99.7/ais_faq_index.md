@@ -45,6 +45,7 @@ Na tej stronie znajdują się odpowiedzi na najczęściej zadawane nam pytania. 
   <li><a href="/AIS-docs/docs/en/ais_faq_node_red.html">Jak dodać Node-RED?</a></li>
   <li><a href="/AIS-docs/docs/en/ais_faq_automation_tts.html">Jak dodać Automatyzację z powiadomieniami głosowymi?</a></li>
   <li><a href="/AIS-docs/docs/en/ais_faq_automation_tips_and_tricks.html">Automatyzacje wskazówki i porady</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_faq_components_weather.html">Jak dodać własny serwis Pogodowy?</a></li>
 </ul>
 <h2>Pilot radiowy</h2>
 <ul style="flex:1">

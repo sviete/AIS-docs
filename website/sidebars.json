@@ -40,7 +40,7 @@
     ]
   },
   "Aplikacja": {
-    "Aplikacja Web": [
+    "Aplikacja internetowa": [
       "ais_app_index",
       "ais_app_views",
       "ais_app_cards",
@@ -48,11 +48,6 @@
     ],
     "Aplikacje Android": [
       "ais_app_android_index"
-    ],
-    "Asystent": [
-      "ais_app_assistent",
-      "ais_app_assistent_commands",
-      "ais_app_assistent_add_command"
     ],
     "Aktualizacja": [
       "ais_bramka_update_index",
@@ -85,6 +80,7 @@
       "ais_app_books"
     ],
     "Wbudowane inne integracje": [
+      "ais_app_ai_integration",
       "ais_app_supla",
       "ais_app_tauron"
     ],

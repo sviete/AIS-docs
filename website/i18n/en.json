@@ -5,6 +5,10 @@
     "previous": "Previous",
     "tagline": "Wszystko co potrzebujesz aby korzystać z Asystenta domowego",
     "docs": {
+      "ais_app_ai_integration": {
+        "title": "Integracja Asystent",
+        "sidebar_label": "Asystent"
+      },
       "ais_app_android_index": {
         "title": "Aplikacje Android",
         "sidebar_label": "Aplikacje Android"
@@ -38,7 +42,7 @@
         "sidebar_label": "Grupy"
       },
       "ais_app_index": {
-        "title": "Aplikacja",
+        "title": "Aplikacja internetowa",
         "sidebar_label": "Wprowadzenie"
       },
       "ais_app_news": {
@@ -1421,6 +1425,10 @@
         "title": "Kompatybilność z Home Assistant",
         "sidebar_label": "Kompatybilność z Home Assistant"
       },
+      "version-0.99.7/version-0.99.7-ais_app_ai_integration": {
+        "title": "Integracja Asystent",
+        "sidebar_label": "Asystent"
+      },
       "version-0.99.7/version-0.99.7-ais_app_android_index": {
         "title": "Aplikacje Android",
         "sidebar_label": "Aplikacje Android"
@@ -1432,6 +1440,10 @@
       "version-0.99.7/version-0.99.7-ais_app_drives": {
         "title": "Dyski",
         "sidebar_label": "Dyski"
+      },
+      "version-0.99.7/version-0.99.7-ais_app_index": {
+        "title": "Aplikacja internetowa",
+        "sidebar_label": "Wprowadzenie"
       },
       "version-0.99.7/version-0.99.7-ais_app_news": {
         "title": "Wiadomości",
@@ -1517,9 +1529,8 @@
       "Portal Integratora": "Portal Integratora",
       "Ustawienia zaawansowane": "Ustawienia zaawansowane",
       "Reset urządzenia do ustawień fabrycznych": "Reset urządzenia do ustawień fabrycznych",
-      "Aplikacja Web": "Aplikacja Web",
+      "Aplikacja internetowa": "Aplikacja internetowa",
       "Aplikacje Android": "Aplikacje Android",
-      "Asystent": "Asystent",
       "Aktualizacja": "Aktualizacja",
       "Pełny reset aplikacji": "Pełny reset aplikacji",
       "Pilot radiowy": "Pilot radiowy",
@@ -1534,6 +1545,7 @@
       "Aplikacja i Urządzenia AIS dom": "Aplikacja i Urządzenia AIS dom",
       "Aplikacja": "Aplikacja",
       "Komponenty": "Komponenty",
+      "Asystent": "Asystent",
       "Wprowadzenie": "Wprowadzenie",
       "Reset do ustawień fabrycznych": "Reset do ustawień fabrycznych",
       "Oprogramowanie": "Oprogramowanie",

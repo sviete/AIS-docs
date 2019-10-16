@@ -10,9 +10,9 @@ Obecnie w systemie Asystent domowy w podstawowej konfiguracji (z pudełka) dosta
 
 ## Lokalizacja
 
-Domyślnie pogoda pobierana jest dla lokacji zdefiniowanej na bramce. W celu uzyskania lepszych danych pogodowych należy podać w systemie swoją lokalizację. Obecnie lokalizacja definiowana jest w ustawieniach aplikacji.
+Domyślnie pogoda pobierana jest dla lokacji zdefiniowanej na bramce. W celu uzyskania lepszych danych pogodowych należy podać w systemie swoją lokalizację. Lokalizacja definiowana jest w konfiguracji:
 
-> TODO opis w przygotowaniu
+![Lokalizacja](/AIS-docs/img/en/frontend/gps_settings.png)
 
 ## Definicja innego serwisu do danych pogodowych
 

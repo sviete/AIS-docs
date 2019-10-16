@@ -42,7 +42,7 @@ const siteConfig = {
     {doc: 'ais_bramka_index', label: 'Bramka IoT'},
     {doc: 'ais_app_index', label: 'Aplikacja'},
     {doc: 'ais_remote_index', label: 'Pilot'},
-    {doc: 'ais_app_spotify', label: 'Integracje'},
+    {doc: 'ais_app_radio', label: 'Integracje'},
     {href: '/AIS-docs/docs/en/ais_faq_index', label: 'FAQ'},
     { blog: true, label: 'Aktualności'},
   ],

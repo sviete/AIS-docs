@@ -28,6 +28,14 @@ Jest to prosty, mały, szybki i wydajny Eksplorator plików oraz wg nas jedna z 
 Menedżer plików jest przeznaczony dla wszystkich urządzeń z Androidem, w tym telefonów, phabletów, tabletów i Android TV. Do działania nie potrzebuje żadnych niepotrzebnych uprawnień, żadnych reklam, żadnych mikropłatności, wszystko za darmo i otwarte.
 
 
+## AIS dom
+
+To nasza główna aplikacja która działa zarówno na bramce jak i na innych urządzeniach w tym: tablety, telefony, Android TV oraz Wear OS.
+
+![AIS Dom](/AIS-docs/img/en/frontend/ais_dom_apk_screen_mob.png)
+
+Aplikacja jest czymś w rodzaju ramki/przeglądarkę do [aplikacji internetowej](/AIS-docs/docs/en/next/ais_app_index.html) działającej na bramce. Dostarcza też nam interfejs do API systemu Android oraz konsolę środowiska Linux (zawierającego minimalny system podstawowy wraz z interpreterem języka Python, Node.js oraz Clang).
+
 ## AIS Synchro
 
 AIS Synchro to aplikacja do synchronizacji plików i katalogów pomiędzy dyskami lokalnymi i dyskami w chmurze.
@@ -35,14 +43,7 @@ AIS Synchro to aplikacja do synchronizacji plików i katalogów pomiędzy dyskam
 <img src="/AIS-docs/img/en/frontend/ais_synchro_apk_screen.png" width="360" align="right"> </img>
 
 
-Aplikacja dostarcza wbudowaną binarkę działającą z wiersza poleceń **rclone**.
-Ta aplikacja służyła nam do dodawania dysków zdalnych w Asystencie domowym, aż przenieśliśmy tę funkcjonalność do aplikacji webowej, a binarkę rclone przenieśliśmy do naszego repozytorium [pakietów apt](http://powiedz.co/apt/). Aplikacja jest dostępna w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom.rcloneexplorer).W przyszłości zamierzamy rozszerzyć funkcjonalność synchronizacji pomiędzy dyskiem lokalnym a dyskami w chmurze. Binarka [Rclone](https://rclone.org/) zapewnia nam api do obsługi kilkudziesięciu dysków.
+Aplikacja dostarcza wbudowaną binarkę działającą z wiersza poleceń **Rclone**.
+Ta aplikacja służyła nam do dodawania dysków zdalnych w Asystencie domowym, aż przenieśliśmy tę funkcjonalność do aplikacji webowej, a binarkę rclone przenieśliśmy do naszego repozytorium [pakietów apt](http://powiedz.co/apt/). Aplikacja jest dostępna w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom.rcloneexplorer).
 
-
-## AIS dom
-
-To nasza główna aplikacja która działa zarówno na bramce jak i na innych urządzeniach w tym: tablety, telefony, Android TV oraz Wear OS
-
-![AIS Dom](/AIS-docs/img/en/frontend/ais_dom_apk_screen_mob.png)
-
-> TODO opis w przygotowaniu
+W przyszłości zamierzamy rozszerzyć funkcjonalność synchronizacji pomiędzy dyskiem lokalnym a dyskami w chmurze o wykonywanie kopii zapasowych ustawień systemu. Binarka [Rclone](https://rclone.org/) zapewnia nam api do obsługi kilkudziesięciu dysków.

@@ -1,6 +1,8 @@
 ---
-title: "Aplikacja internetowa"
+title: Aplikacja internetowa
 sidebar_label: Wprowadzenie
+id: version-0.99.7-ais_app_index
+original_id: ais_app_index
 ---
 
 Aplikacja internetowa (web application) działa na serwerze na bramce i pozwala użytkownikom przeglądać i kontrolować status urządzeń w domu, zarządzać automatyzacjami oraz konfigurować integracje z urządzeniami i serwisami.

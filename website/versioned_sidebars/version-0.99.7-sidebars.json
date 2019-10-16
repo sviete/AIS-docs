@@ -40,7 +40,7 @@
     ]
   },
   "version-0.99.7-Aplikacja": {
-    "Aplikacja Web": [
+    "Aplikacja internetowa": [
       "version-0.99.7-ais_app_index",
       "version-0.99.7-ais_app_views",
       "version-0.99.7-ais_app_cards",
@@ -48,11 +48,6 @@
     ],
     "Aplikacje Android": [
       "version-0.99.7-ais_app_android_index"
-    ],
-    "Asystent": [
-      "version-0.99.7-ais_app_assistent",
-      "version-0.99.7-ais_app_assistent_commands",
-      "version-0.99.7-ais_app_assistent_add_command"
     ],
     "Aktualizacja": [
       "version-0.99.7-ais_bramka_update_index",
@@ -85,6 +80,7 @@
       "version-0.99.7-ais_app_books"
     ],
     "Wbudowane inne integracje": [
+      "version-0.99.7-ais_app_ai_integration",
       "version-0.99.7-ais_app_supla",
       "version-0.99.7-ais_app_tauron"
     ],
