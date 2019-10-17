@@ -1,12 +1,12 @@
 ---
-title: Obsługa urządznia z bramki AIS dom
-sidebar_label: Obsługa urządznia z bramki AIS dom
+title: Obsługa urządzenia z bramki AIS dom
+sidebar_label: Obsługa urządzenia z bramki AIS dom
 ---
 
 ## Wprowadzenie
 
 Urządzenia z oprogramowaniem **AIS dom** w bardzo łatwy sposób można zintegrować z bramką **AIS dom**.
-Taka integracja umożliwia wykorzystanie pełnych możliwości urządzenia. Po dodaniu do bramki urządzenia, można:
+Taka integracja umożliwia wykorzystanie pełnych możliwości urządzenia. Po dodaniu do bramki można:
 
 - sterować urządzeniem głosowo:
 wystarczy nazwać urządzenie np. "światło w sypialni" lub "podlewanie trawnika" a następnie powiedzieć "włącz światło w sypialni" lub "włącz podlewanie trawnika".
