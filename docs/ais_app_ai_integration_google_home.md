@@ -1,9 +1,9 @@
 ---
-title: "Integracja Asystentka Jolka"
-sidebar_label: Asystentka Jolka
+title: "Integracja Google Home"
+sidebar_label: Google Home
 ---
 
-## Integracja Asystent
+## Integracja Google Home
 
 <img src="/AIS-docs/img/en/frontend/ais_integration_ai.png" width="360" align="right"> </img>
 

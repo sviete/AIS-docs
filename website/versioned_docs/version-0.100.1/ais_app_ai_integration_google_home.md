@@ -1,9 +1,11 @@
 ---
-title: "Integracja Asystentka Jolka"
-sidebar_label: Asystentka Jolka
+title: Integracja Google Home
+sidebar_label: Google Home
+id: version-0.100.1-ais_app_ai_integration_google_home
+original_id: ais_app_ai_integration_google_home
 ---
 
-## Integracja Asystent
+## Integracja Google Home
 
 <img src="/AIS-docs/img/en/frontend/ais_integration_ai.png" width="360" align="right"> </img>
 

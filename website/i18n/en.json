@@ -5,9 +5,13 @@
     "previous": "Previous",
     "tagline": "Wszystko co potrzebujesz aby korzystać z Asystenta domowego",
     "docs": {
+      "ais_app_ai_integration_google_home": {
+        "title": "Integracja Google Home",
+        "sidebar_label": "Google Home"
+      },
       "ais_app_ai_integration": {
-        "title": "Integracja Asystent",
-        "sidebar_label": "Asystent"
+        "title": "Integracja Asystentka Jolka",
+        "sidebar_label": "Asystentka Jolka"
       },
       "ais_app_android_index": {
         "title": "Aplikacje Android",
@@ -33,6 +37,10 @@
         "title": "Karty",
         "sidebar_label": "Karty"
       },
+      "ais_app_dialogflow": {
+        "title": "Dialogflow",
+        "sidebar_label": "Dialogflow"
+      },
       "ais_app_drives": {
         "title": "Dyski",
         "sidebar_label": "Dyski"
@@ -41,6 +49,10 @@
         "title": "Grupy",
         "sidebar_label": "Grupy"
       },
+      "ais_app_ifttt": {
+        "title": "IFTTT",
+        "sidebar_label": "IFTTT"
+      },
       "ais_app_index": {
         "title": "Aplikacja internetowa",
         "sidebar_label": "Wprowadzenie"
@@ -48,6 +60,10 @@
       "ais_app_news": {
         "title": "Wiadomości",
         "sidebar_label": "Wiadomości"
+      },
+      "ais_app_owntracks": {
+        "title": "OwnTracks",
+        "sidebar_label": "OwnTracks"
       },
       "ais_app_podcast": {
         "title": "Podkasty",
@@ -334,8 +350,8 @@
         "sidebar_label": "Aktualizacja oprogramowania"
       },
       "ais_iot_gate": {
-        "title": "Obsługa urządznia z bramki AIS dom",
-        "sidebar_label": "Obsługa urządznia z bramki AIS dom"
+        "title": "Obsługa urządzenia z bramki AIS dom",
+        "sidebar_label": "Obsługa urządzenia z bramki AIS dom"
       },
       "ais_iot_index": {
         "title": "Integracje",
@@ -388,6 +404,26 @@
       "ais_remote_modes": {
         "title": "Tryby działania",
         "sidebar_label": "Tryby działania"
+      },
+      "version-0.100.1/version-0.100.1-ais_app_ai_integration_google_home": {
+        "title": "Integracja Google Home",
+        "sidebar_label": "Google Home"
+      },
+      "version-0.100.1/version-0.100.1-ais_app_dialogflow": {
+        "title": "Dialogflow",
+        "sidebar_label": "Dialogflow"
+      },
+      "version-0.100.1/version-0.100.1-ais_app_ifttt": {
+        "title": "IFTTT",
+        "sidebar_label": "IFTTT"
+      },
+      "version-0.100.1/version-0.100.1-ais_app_owntracks": {
+        "title": "OwnTracks",
+        "sidebar_label": "OwnTracks"
+      },
+      "version-0.100.1/version-0.100.1-ais_iot_gate": {
+        "title": "Obsługa urządzenia z bramki AIS dom",
+        "sidebar_label": "Obsługa urządzenia z bramki AIS dom"
       },
       "version-0.77.0/version-0.77.0-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
