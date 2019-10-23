@@ -1,6 +1,8 @@
 ---
-title: "Konfigurowanie wykrywania obecności"
+title: Konfigurowanie wykrywania obecności
 sidebar_label: Wykrywanie obecności
+id: version-0.100.3b0-ais_bramka_presence_detection
+original_id: ais_bramka_presence_detection
 ---
 
 ## Wprowadzenie

@@ -1,6 +1,8 @@
 ---
-title: "AIS Google Home"
+title: AIS Google Home
 sidebar_label: Google Home
+id: version-0.100.3b0-ais_app_ai_integration_google_home
+original_id: ais_app_ai_integration_google_home
 ---
 
 ## Wprowadzenie

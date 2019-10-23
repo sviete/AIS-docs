@@ -6,7 +6,7 @@
     "tagline": "Wszystko co potrzebujesz aby korzystać z Asystenta domowego",
     "docs": {
       "ais_app_ai_integration_google_home": {
-        "title": "Integracja Google Home",
+        "title": "AIS Google Home",
         "sidebar_label": "Google Home"
       },
       "ais_app_ai_integration": {
@@ -405,23 +405,27 @@
         "title": "Tryby działania",
         "sidebar_label": "Tryby działania"
       },
-      "version-0.100.1/version-0.100.1-ais_app_ai_integration_google_home": {
-        "title": "Integracja Google Home",
+      "version-0.100.3b0/version-0.100.3b0-ais_app_ai_integration_google_home": {
+        "title": "AIS Google Home",
         "sidebar_label": "Google Home"
       },
-      "version-0.100.1/version-0.100.1-ais_app_dialogflow": {
+      "version-0.100.3b0/version-0.100.3b0-ais_app_dialogflow": {
         "title": "Dialogflow",
         "sidebar_label": "Dialogflow"
       },
-      "version-0.100.1/version-0.100.1-ais_app_ifttt": {
+      "version-0.100.3b0/version-0.100.3b0-ais_app_ifttt": {
         "title": "IFTTT",
         "sidebar_label": "IFTTT"
       },
-      "version-0.100.1/version-0.100.1-ais_app_owntracks": {
+      "version-0.100.3b0/version-0.100.3b0-ais_app_owntracks": {
         "title": "OwnTracks",
         "sidebar_label": "OwnTracks"
       },
-      "version-0.100.1/version-0.100.1-ais_iot_gate": {
+      "version-0.100.3b0/version-0.100.3b0-ais_bramka_presence_detection": {
+        "title": "Konfigurowanie wykrywania obecności",
+        "sidebar_label": "Wykrywanie obecności"
+      },
+      "version-0.100.3b0/version-0.100.3b0-ais_iot_gate": {
         "title": "Obsługa urządzenia z bramki AIS dom",
         "sidebar_label": "Obsługa urządzenia z bramki AIS dom"
       },
