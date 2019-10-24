@@ -33,3 +33,52 @@ Wersję tekstową możesz zapisać do pliku jako kopię zapasową, następnie mo
 
 Moźesz też pobrać naszą domyślną konfigurację.
 Aktualna domyślna konfiguracja dostępna jest tu [Domyślna konfiguracja interfejsu użytkownika](https://raw.githubusercontent.com/sviete/AIS-utils/master/patches/scripts/lovelace) 
+
+## Własny interfejs użytkownika
+
+Gdy mamy potrzebę zmiany całego interfejsu użytkownika włącznie z trzema pierwszymi kartami - domyślnie zablokowanymi (nadpisywanymi przy uruchamianiu), możemy to zrobić dodając do pliku konfiguracyjnego configuration.yaml wpis:   
+
+lovelace: 
+  mode: yaml
+oraz utworzyć plik ul-lovelace.yaml w folderze AIS z wyglądem naszego interfejsu. Od tego momentu nie mamy już możliwości korzystania z wbudowanego edytora konfiguracji ale za to możemy modyfikować wszystkie zakładki interfejsu użytkownika.
+Warto przed włączeniem tej opcji skopiować aktualny wygląd interfejstu posługując się powyższą instrukcją [Konfiguracja interfejsu użytkownika kopia] i wkleić zawartość do pliku ui-lovelace.yaml. Od teraz możemy już zmieniać wszystkie zakładki wedle własnych upodobań.
+
+W trybie ręcznej konfiguracji interfejsu możemy np. zintegrować swoje kalendarze w Google i wyświetlać je w interfejsie Asystenta. Ciekawym rozwiązaniem jest powiązanie kalendarza google z aplikacją w telefonie z Androidem i wyświetlanie wpisów w Asystencie Domowym.
+
+Aby uruchomić integrację z kalendarzem google należy wygenrować klucz api w aplikacji Google.
+[Integracja z Asystentem Domowym - generowanie klucza API](https://www.home-assistant.io/integrations/calendar.google/)
+
+Wymagana konfiguracja to dodanie wpisu do pliku configuration.yaml zgodnie z powyższą instrukcją:
+
+google:
+  client_id: YOUR_CLIENT_ID
+  client_secret: YOUR_CLIENT_SECRET
+  
+oraz dodanie wpisu do ui-lovelace.yaml i skopiowanie z [repozytorium https://github.com/ljmerza/calendar-card](https://github.com/ljmerza/calendar-card) zawartości calendar-card lub zainstalowanie pluginu calendar-card poprzez [HACS](https://github.com/custom-components/hacs).
+
+resources:
+  - url: /community_plugin/calendar-card/calendar-card.js
+    type: js
+
+Wstawienie własnego kalendarza do karty interfejsu użytkownika:
+
+- type: "custom:calendar-card"
+  title: Kalendarz
+  progressBar: true
+  numberOfDays: 14
+  entities:
+    - calendar.nazwa_kalendarza
+
+Edycja pliku google_calendars.yaml
+
+- cal_id: nazwa_kalendarza
+  entities:
+  - device_id: moj_kalendarz
+    ignore_availability: true
+    name: nazwa_kalendarza
+    track: true
+
+Po uruchomieniu integracji z google plik google_calendars.yaml zostanie wypełniony danymi wszystkich naszych kalendarzy które możemy wykorzystać w Asystencie Domowym.
+
+Kalendarz google ze świętami w Polsce możemy np. wykorzystać w automatyzacjach które mają zadziałać tylko w święta lub w przypadku ustawienia "pobudki" nie uruchamiać zdarzenia w Święta :-)
+
