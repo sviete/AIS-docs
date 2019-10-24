@@ -5,7 +5,7 @@ sidebar_label: Google Home
 
 ## Wprowadzenie
 
-AIS Google Home jest to emulacja urządzenia Google Home na bazie oficjalnego [Google Assistant SDK](https://developers.google.com/assistant). 
+AIS Google Home jest to integracja Asystenta domowego z platformą programistyczną dla Asystenta Google poprzez oficjalne [Google Assistant SDK](https://developers.google.com/assistant). 
 Integracja pozwala na konwersację z Asystentem Google z poziomu Asystenta domowego. 
 
 
@@ -20,12 +20,11 @@ Aby skonfigurować AIS Google Home, przejdź do konfiguracji a następnie do pan
 ![Konfiguracja Google Home](/AIS-docs/img/en/bramka/ais_google_home_0.png)
 
 
-### JSON OAuth2 z Google
+### JSON OAuth2 z GoogleIntegrate with the Google Assistant
 
-Integracja AIS Google Home wymaga konfiguracji projektu w Google, rejestracji naszego urządzenia.
-Aby to zrobić, będziemy postępować zgodnie z [przewodnikiem Goole](https://developers.google.com/assistant/sdk/guides/service/python/embed/config-dev-project-and-account). 
 
-Pokażemy to też krok po kroku poniżej:
+Integracja AIS Google Home wymaga konfiguracji projektu w Google oraz rejestracji naszego urządzenia - aby Asystent Google reagował na polecenia odpowiednie dla naszego urządzenia.
+Aby to zrobić, będziemy postępować zgodnie z poniższym przewodnikiem, który przeprowadzi nas przez ten proces krok po kroku:
 
 
 1. Zaloguj się do platformy umożliwiającej rozszerzenie funkcjonalności Asystenta Google https://console.actions.google.com/
@@ -33,6 +32,11 @@ Pokażemy to też krok po kroku poniżej:
 2. Utwórz nowy projekt 
 
 ![Konfiguracja Google Home](/AIS-docs/img/en/bramka/ais_google_home_3.png)
+
+aby kontynuować należy zatwierdzić warunki serwisu
+
+![Konfiguracja Google Home](/AIS-docs/img/en/bramka/ais_google_home_3_1.png)
+
 
 3. Podaj nazwę, zmień jezyk projektu na Polski oraz lokalizację na Polska. Następnie naciśnij **Create project**
 
@@ -65,7 +69,17 @@ Kolejny krokiem który należy zrobić po stronie Google jest włączenia API d
 
 1. Przejść w nowej karcie przeglądarki do [Google API](https://console.developers.google.com/apis/api/embeddedassistant.googleapis.com/overview)
 
-2. Włączyć **Google Assistant API**
+aby kontynuować należy zatwierdzić warunki serwisu
+
+![Konfiguracja Google Home](/AIS-docs/img/en/bramka/ais_google_home_9_1.png)
+
+2. Włączyć **Google Assistant API** dla naszego projektu
+
+Wybierzmy (upewnijmy się, że mamy wybrany) nasz projekt **AI-Speaker**
+
+![Konfiguracja Google Home](/AIS-docs/img/en/bramka/ais_google_home_9_2.png)
+
+włączmy **Google Assistant API**  dla projektu
 
 ![Konfiguracja Google Home](/AIS-docs/img/en/bramka/ais_google_home_10.png)
 
@@ -112,14 +126,32 @@ Wracamy do aplikacji Asystent domowy i wklejamy go w pole **Kod**
 
 
 
-## Język w Google Home
+### Rozwiązywanie Problemów
 
-> API do tworzenia urządzeń z Asystentem Google jest ciągle rozwijane. Programiści, którzy tworzą integrację z Google Home wiedzą, że nie wszytko jeszcze działa tak jak powinno. Jednym z częstych problemów jest język, w jakim Google Asystent komunikuje się z nami. Żeby był to język polski, to trzeba jeszcze w aplikacji mobilnej Google Home ustawić dwa języki polski i angielski - tak jak to pokazano poniżej:
+> API do tworzenia urządzeń z Asystentem Google jest ciągle rozwijane. Programiści, którzy tworzą integrację z Google Home wiedzą, że nie wszytko jeszcze działa tak jak powinno. **Sprawdź poniższe dodatkowe kroki, jeżeli coś nie działa.**
+
+
+#### Język w Google Home
+
+ Jednym z częstych problemów jest język, w jakim Google Asystent komunikuje się z nami. Żeby był to język polski, to w tej chwili trzeba jeszcze w aplikacji mobilnej Google Home ustawić dwa języki polski i angielski - tak jak to pokazano poniżej:
 
 ![Konfiguracja Google Home](/AIS-docs/img/en/bramka/ais_google_home_20.png)
 ![Konfiguracja Google Home](/AIS-docs/img/en/bramka/ais_google_home_21.png)
 
-![Konfiguracja Google Home](/AIS-docs/img/en/bramka/ais_google_home_22.png)
+
+#### Informacja typu "Zaloguj się"
+
+Jeżeli otrzymujesz informację typu "Zaloguj się na swoje konto", to upewnij się, że na koncie, które dodałeś do integracji z Google Assistant masz możliwość korzystania z Asystenta Google. W tym celu uruchom Google Assistant na tablecie lub telefonie wybierz konto, które autoryzowałeś w integracji na bramce z Asystentem domowym i upewnij się, że działa z telefonu.
+
+Dzieje się tak dlatego, że na niektórych kontach (np. firmowych lub dla edukacji) dodanych w Google administrator kont może decydować o włączeniu dostępu do Asystenta Google.
+
+![Konfiguracja Google Home](/AIS-docs/img/en/bramka/ais_google_home_24.png)
+
+Jeżeli Asystent Google działa z innych urządzeń (na koncie, które podaliśmy przy integracji z Asystentem domowym), tak jak pokazano na rysunku poniżej:
+
+![Konfiguracja Google Home](/AIS-docs/img/en/bramka/ais_google_home_25.png)
+
+to można przejść do wywoływania Asystenta Google z Asystenta domowego.
 
 
 ## Wywołanie Asystenta Google z Asystenta domowego

@@ -421,6 +421,10 @@
         "title": "OwnTracks",
         "sidebar_label": "OwnTracks"
       },
+      "version-0.100.3b0/version-0.100.3b0-ais_app_ui_config": {
+        "title": "Konfiguracja interfejsu użytkownika",
+        "sidebar_label": "Konfiguracja"
+      },
       "version-0.100.3b0/version-0.100.3b0-ais_bramka_presence_detection": {
         "title": "Konfigurowanie wykrywania obecności",
         "sidebar_label": "Wykrywanie obecności"
