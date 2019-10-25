@@ -1,6 +1,8 @@
 ---
-title: "Integracja Asystentka Jolka"
+title: Integracja Asystentka Jolka
 sidebar_label: Asystentka Jolka
+id: version-0.100.3b2-ais_app_ai_integration
+original_id: ais_app_ai_integration
 ---
 
 ## Integracja Asystent

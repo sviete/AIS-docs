@@ -5,8 +5,8 @@ sidebar_label: Google Home
 
 ## Wprowadzenie
 
-AIS Google Home jest to integracja Asystenta domowego z platformą programistyczną dla Asystenta Google poprzez oficjalne [Google Assistant SDK](https://developers.google.com/assistant). 
-Integracja pozwala na konwersację z Asystentem Google z poziomu Asystenta domowego. 
+AIS Google Home jest to integracja Asystenta domowego z platformą programistyczną dla Asystenta Google.
+Integracja działa poprzez oficjalne [Google Assistant SDK](https://developers.google.com/assistant) i pozwala na konwersację z Asystentem Google z poziomu Asystenta domowego. 
 
 
 ![Konfiguracja AIS Google Home](/AIS-docs/img/en/bramka/ais_google_home_1.png)

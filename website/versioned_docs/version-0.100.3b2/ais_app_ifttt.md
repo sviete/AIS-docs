@@ -1,7 +1,7 @@
 ---
 title: IFTTT
 sidebar_label: IFTTT
-id: version-0.100.3b0-ais_app_ifttt
+id: version-0.100.3b2-ais_app_ifttt
 original_id: ais_app_ifttt
 ---
 

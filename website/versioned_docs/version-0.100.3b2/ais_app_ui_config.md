@@ -1,7 +1,7 @@
 ---
 title: Konfiguracja interfejsu użytkownika
 sidebar_label: Konfiguracja
-id: version-0.100.3b0-ais_app_ui_config
+id: version-0.100.3b2-ais_app_ui_config
 original_id: ais_app_ui_config
 ---
 

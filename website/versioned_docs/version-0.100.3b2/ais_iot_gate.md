@@ -1,7 +1,7 @@
 ---
 title: Obsługa urządzenia z bramki AIS dom
 sidebar_label: Obsługa urządzenia z bramki AIS dom
-id: version-0.100.3b0-ais_iot_gate
+id: version-0.100.3b2-ais_iot_gate
 original_id: ais_iot_gate
 ---
 
