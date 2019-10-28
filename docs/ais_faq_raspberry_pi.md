@@ -22,10 +22,12 @@ To, co nas przekonało do wybrania innej płyty niż Raspberry Pi do naszych cel
 
 ### Pamięć stała (wbudowany dysk)
 
-Bramka AI-Speaker ma **wbudowaną pamięć** (+ dodatkowo slot na kartę SD/MMC i 4 USB).
-Wbudowana pamięć podzielona jest na kilka partycji, jest to rozwiązanie znane z systemów typu UNIX i zastosowane w systemie Android (a co za tym idzie stosowane też na bramce AIS dom). Celem rozwiązania z kilkoma partycjami jest zapewnienie niezawodności działania urządzenia. Niektóre komponenty systemu i sam program ładujący (bootloader) mają własne partycje, montowane dla bezpieczeństwa w trybie tylko odczytu, dzięki czemu nie nie można ich "łatwo uszkodzić". Dodatkowo bramka musi być zawsze naprawialna dlatego posiada tryb odzyskiwania (recovery mode) umożliwiający zamontowanie partycji pozwalającej na [odzyskanie systemu Asystent domowy do wersji fabrycznej](/AIS-docs/docs/en/ais_bramka_reset_step_by_step.html).
+Bramka AI-Speaker ma **wbudowaną pamięć**, dysk 8G pamięci NAND Flash eMMC 5.0 (półprzewodnikowe urządzenie pamięci masowej na magistrali MMC) wbudowany w płytę (chip na płytce drukowanej) przez producenta  (płyta na urządzeniu to rozwiązanie firmy Amlogic). 
+Wybraliśmy to rozwiązanie bo wg naszych testów czas dostępu do pamięci eMMC jest szybszy niż w przypadku karty SD, dodatkową motywacją było pozbycie się problemów występujących na RPi.
 
-RPi ma slot na kartę SD. 
+Wbudowana pamięć podzielona jest na kilka partycji, jest to rozwiązanie znane z systemów typu UNIX i zastosowane w systemie Android (a co za tym idzie stosowane też na bramce AIS dom). Celem rozwiązania z kilkoma partycjami jest zapewnienie niezawodności działania urządzenia. Niektóre komponenty systemu i sam program ładujący (bootloader) mają własne partycje, montowane dla bezpieczeństwa w trybie tylko odczytu, dzięki czemu nie nie można ich "łatwo uszkodzić". Dodatkowo bramka musi być zawsze naprawialna dlatego posiada tryb odzyskiwania (recovery mode) umożliwiający zamontowanie partycji pozwalającej na [odzyskanie systemu Asystent domowy do wersji fabrycznej](/AIS-docs/docs/en/ais_bramka_reset_step_by_step.html). Na urządzeniu jest slot na kartę SD/MMC i 4 USB.
+
+RPi nie ma wbudowanej pamięci tylko slot na kartę SD. 
 System automatyki domowej działający na karcie SD nie nadaje się do automatyki domowej, chodzi o to, że ilość zapisów (logów zdarzeń) jest taka duża, że karty SD tego nie wytrzymują oraz o to, że taka karta może wymagać naprawy w przypadku gdy system nie został poprawnie zamknięty (odłączenie z prądu). Ten problem jest powszechnie znany w społeczności Home Assistant.
 
 

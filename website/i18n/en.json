@@ -413,6 +413,10 @@
         "title": "Integracja Asystentka Jolka",
         "sidebar_label": "Asystentka Jolka"
       },
+      "version-0.100.3b2/version-0.100.3b2-ais_app_assistent_commands": {
+        "title": "Wbudowane komendy",
+        "sidebar_label": "Wbudowane komendy"
+      },
       "version-0.100.3b2/version-0.100.3b2-ais_app_dialogflow": {
         "title": "Dialogflow",
         "sidebar_label": "Dialogflow"

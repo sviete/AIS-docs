@@ -5,11 +5,14 @@ id: version-0.100.3b2-ais_app_ai_integration
 original_id: ais_app_ai_integration
 ---
 
-## Integracja Asystent
+## Wbudowany Asystent
 
-<img src="/AIS-docs/img/en/frontend/ais_integration_ai.png" width="360" align="right"> </img>
+System posiada komponent umożliwiający wydawanie komend i przesyłanie zapytań do wbudowanego programu, który zamienia polecenie na intencję, a następnie wykonuje akcję powiązaną z intencją. Program ten nazywamy wbudowanym asystentem.
 
-System posiada komponent umożliwiający wydawanie komend i przesyłanie zapytań do wbudowanego programu, który zamienia polecenie na intencję, a następnie wykonuje akcję powiązaną z intencją. Program ten nazywamy asystentem. Z asystentem możesz rozmawiać:
+<img src="/AIS-docs/img/en/frontend/ais_integration_ai_1.png" width="860" align="right"> </img>
+
+
+ Z asystentem możesz rozmawiać:
 - przez naciśnięcie mikrofonu w aplikacji webowej (w przeglądarkach obsługujących wprowadzanie głosowe)
 - przez mikrofon w telefonie z systemem Android i z zainstalowaną naszą darmową aplikacją dostępną w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)
 - <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -23,13 +26,19 @@ System posiada komponent umożliwiający wydawanie komend i przesyłanie zapyta�
 
 ## Dostępne komendy
 
-[Lista wbudowanych poleceń](/AIS-docs/docs/en/ais_app_assistent_commands.html), które rozumie asystent.
+Tu jest [lista poleceń](/AIS-docs/docs/en/ais_app_assistent_commands.html), które asystent rozumie loklanie (bez potrzeby łączenia się z żadnym serwisem zewnętrznym).
+Np. gdy pytasz "Jaka jest temperatura w kuchni" asystent "rozumie", że intencją jest sprawdzenie statusu czujnika o nazwie "Temperatura w kuchni". 
 
 Gdy asystent nie jest w stanie zrozumieć komendy lokalnie, to stara się uzyskać informację w zewnętrznych serwisach lub wyszukać ją w Internecie.
-
-Np. gdy pytasz "Jaka jest temperatura w kuchni" asystent "rozumie", że intencją jest sprawdzenie statusu czujnika o nazwie "Temperatura w kuchni". Udzielając odpowiedzi na pytania typu "kto to jest... ", "kim jest... ", "znajdź informację o..." asystent korzysta z zasobów bazy wiedzy "Google Knowledge Graph". Korzystanie z tego typu bazy wiedzy ma na celu selekcję możliwie najistotniejszych treści i udzielenia krótkiej odpowiedzi na pytanie.
+Udzielając odpowiedzi na pytania typu "kto to jest... ", "kim jest... ", "znajdź informację o..." asystent korzysta z zasobów bazy wiedzy "Google Knowledge Graph". Korzystanie z tego typu bazy wiedzy ma na celu selekcję możliwie najistotniejszych treści i udzielenia krótkiej odpowiedzi na pytanie.
 Źródłem informacji do Google Knowledge Graph jest głównie Wikipedia.
 Sięgamy też po informacje bezpośrednio z Wikipedii oraz z usług internetowych, w tym serwisów Google.
+
+
+<img src="/AIS-docs/img/en/frontend/ais_integration_ai_2.png" width="860" align="right"> </img>
+
+Jeśli dodasz integrację [Google Home](/AIS-docs/docs/en/ais_app_ai_integration_google_home.html), to możesz bezpośrednio wysyłać komendy do Asystenta Google, wystarczy, że poprzedzisz komendę słowem "Google", np. "Google, jaka jest pogoda" lub "Google opowiedz jakiś dowcip" itd..
+
 
 
 ## Automatyzacje uruchamiane komendą
