@@ -1,7 +1,7 @@
 ---
 title: Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)?
 sidebar_label: Czy płyta to Raspberry Pi?
-id: version-0.100.3b2-ais_faq_raspberry_pi
+id: version-0.100.4-ais_faq_raspberry_pi
 original_id: ais_faq_raspberry_pi
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Wbudowane komendy
 sidebar_label: Wbudowane komendy
-id: version-0.100.3b2-ais_app_assistent_commands
+id: version-0.100.4-ais_app_assistent_commands
 original_id: ais_app_assistent_commands
 ---
 

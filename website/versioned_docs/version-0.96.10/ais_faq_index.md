@@ -43,7 +43,7 @@ Na tej stronie znajdują się odpowiedzi na najczęściej zadawane nam pytania. 
 </ul>
 <h2>Aplikacja i Urządzenia AIS dom</h2>
 <ul style="flex:1">
-  <li><a href="/AIS-docs/docs/en/ais_faq_iot_ap_mode.html">Jak działa tryb parowania urządzeń</a></li>
+  <li><a href="/AIS-docs/docs/en/ais_faq_iot_ap_mode.html">Kompatybilność z Tasmota</a></li>
   <li><a href="/AIS-docs/docs/en/ais_faq_app_lovelace_merge.html">Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację</a></li>
 </ul>
 </div>

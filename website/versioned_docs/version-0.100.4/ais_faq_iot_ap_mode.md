@@ -1,6 +1,8 @@
 ---
-title: "Kompatybilność z Tasmota"
+title: Kompatybilność z Tasmota
 sidebar_label: Kompatybilność z Tasmota
+id: version-0.100.4-ais_faq_iot_ap_mode
+original_id: ais_faq_iot_ap_mode
 ---
 
 **Tasmota++**

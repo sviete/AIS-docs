@@ -1,6 +1,8 @@
 ---
 title: AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu
 sidebar_label: Rekomendowane do zastosowania w Twoim domu
+id: version-0.77.0-ais_iot_works_with
+original_id: ais_iot_works_with
 ---
 
 ### Sprzedaż urządzeń

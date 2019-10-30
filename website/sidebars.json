@@ -92,7 +92,9 @@
       "ais_iot_index",
       "ais_iot_add_to_gate",
       "ais_iot_remote"
-    ],
+    ]
+  },
+  "Urządznia": {
     "Urządzenia AIS dom": [
       "ais_iot_works_with",
       "ais_iot_powers",

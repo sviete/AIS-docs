@@ -274,8 +274,8 @@
         "sidebar_label": "Informacja"
       },
       "ais_faq_iot_ap_mode": {
-        "title": "Jak działa tryb parowania urządzeń.",
-        "sidebar_label": "Jak działa tryb parowania urządzeń"
+        "title": "Kompatybilność z Tasmota",
+        "sidebar_label": "Kompatybilność z Tasmota"
       },
       "ais_faq_logs": {
         "title": "Logi dostępne na bramce",
@@ -405,49 +405,65 @@
         "title": "Tryby działania",
         "sidebar_label": "Tryby działania"
       },
-      "version-0.100.3b2/version-0.100.3b2-ais_app_ai_integration_google_home": {
+      "version-0.100.4/version-0.100.4-ais_app_ai_integration_google_home": {
         "title": "AIS Google Home",
         "sidebar_label": "Google Home"
       },
-      "version-0.100.3b2/version-0.100.3b2-ais_app_ai_integration": {
+      "version-0.100.4/version-0.100.4-ais_app_ai_integration": {
         "title": "Integracja Asystentka Jolka",
         "sidebar_label": "Asystentka Jolka"
       },
-      "version-0.100.3b2/version-0.100.3b2-ais_app_assistent_commands": {
+      "version-0.100.4/version-0.100.4-ais_app_assistent_commands": {
         "title": "Wbudowane komendy",
         "sidebar_label": "Wbudowane komendy"
       },
-      "version-0.100.3b2/version-0.100.3b2-ais_app_dialogflow": {
+      "version-0.100.4/version-0.100.4-ais_app_dialogflow": {
         "title": "Dialogflow",
         "sidebar_label": "Dialogflow"
       },
-      "version-0.100.3b2/version-0.100.3b2-ais_app_ifttt": {
+      "version-0.100.4/version-0.100.4-ais_app_ifttt": {
         "title": "IFTTT",
         "sidebar_label": "IFTTT"
       },
-      "version-0.100.3b2/version-0.100.3b2-ais_app_owntracks": {
+      "version-0.100.4/version-0.100.4-ais_app_owntracks": {
         "title": "OwnTracks",
         "sidebar_label": "OwnTracks"
       },
-      "version-0.100.3b2/version-0.100.3b2-ais_app_ui_config": {
+      "version-0.100.4/version-0.100.4-ais_app_ui_config": {
         "title": "Konfiguracja interfejsu użytkownika",
         "sidebar_label": "Konfiguracja"
       },
-      "version-0.100.3b2/version-0.100.3b2-ais_bramka_mqtt": {
+      "version-0.100.4/version-0.100.4-ais_bramka_mqtt": {
         "title": "Broker MQTT działający na bramce",
         "sidebar_label": "MQTT"
       },
-      "version-0.100.3b2/version-0.100.3b2-ais_bramka_presence_detection": {
+      "version-0.100.4/version-0.100.4-ais_bramka_presence_detection": {
         "title": "Konfigurowanie wykrywania obecności",
         "sidebar_label": "Wykrywanie obecności"
       },
-      "version-0.100.3b2/version-0.100.3b2-ais_faq_raspberry_pi": {
+      "version-0.100.4/version-0.100.4-ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
+      },
+      "version-0.100.4/version-0.100.4-ais_faq_iot_ap_mode": {
+        "title": "Kompatybilność z Tasmota",
+        "sidebar_label": "Kompatybilność z Tasmota"
+      },
+      "version-0.100.4/version-0.100.4-ais_faq_raspberry_pi": {
         "title": "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)?",
         "sidebar_label": "Czy płyta to Raspberry Pi?"
       },
-      "version-0.100.3b2/version-0.100.3b2-ais_iot_gate": {
+      "version-0.100.4/version-0.100.4-ais_iot_firmware_index": {
+        "title": "Oprogramowanie dla urządzeń automatyki domowej",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.100.4/version-0.100.4-ais_iot_gate": {
         "title": "Obsługa urządzenia z bramki AIS dom",
         "sidebar_label": "Obsługa urządzenia z bramki AIS dom"
+      },
+      "version-0.100.4/version-0.100.4-ais_iot_works_with": {
+        "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
+        "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },
       "version-0.77.0/version-0.77.0-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
@@ -500,6 +516,10 @@
       "version-0.77.0/version-0.77.0-ais_iot_index": {
         "title": "Urządzenia",
         "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.77.0/version-0.77.0-ais_iot_works_with": {
+        "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
+        "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },
       "version-0.77.0/version-0.77.0-ais_remote_index": {
         "title": "Pilot radiowy",
@@ -1583,6 +1603,7 @@
       "Aplikacja": "Aplikacja",
       "Pilot": "Pilot",
       "Integracje": "Integracje",
+      "Urządzenia": "Urządzenia",
       "FAQ": "FAQ",
       "Aktualności": "Aktualności"
     },

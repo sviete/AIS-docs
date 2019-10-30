@@ -1,0 +1,148 @@
+{
+  "version-0.100.4-System": {
+    "Bramka IoT": [
+      "version-0.100.4-ais_bramka_index",
+      "version-0.100.4-ais_bramka_connect",
+      "version-0.100.4-ais_bramka_first_run",
+      "version-0.100.4-ais_bramka_configuration",
+      "version-0.100.4-ais_bramka_automation",
+      "version-0.100.4-ais_bramka_presence_detection"
+    ],
+    "Dostęp w sieci lokalnej": [
+      "version-0.100.4-ais_bramka_remote_index",
+      "version-0.100.4-ais_bramka_remote_http",
+      "version-0.100.4-ais_bramka_remote_ftp",
+      "version-0.100.4-ais_bramka_remote_ssh",
+      "version-0.100.4-ais_bramka_remote_adb",
+      "version-0.100.4-ais_bramka_mqtt"
+    ],
+    "Dostęp z Internetu": [
+      "version-0.100.4-ais_bramka_remote_www_index",
+      "version-0.100.4-ais_bramka_remote_dom_others"
+    ],
+    "Portal Integratora": [
+      "version-0.100.4-ais_dom_cloud_index",
+      "version-0.100.4-ais_dom_cloud_login",
+      "version-0.100.4-ais_dom_cloud_gates",
+      "version-0.100.4-ais_dom_cloud_content",
+      "version-0.100.4-ais_dom_cloud_services"
+    ],
+    "Ustawienia zaawansowane": [
+      "version-0.100.4-ais_bramka_services",
+      "version-0.100.4-ais_bramka_settings",
+      "version-0.100.4-ais_bramka_api_index",
+      "version-0.100.4-ais_bramka_api_command",
+      "version-0.100.4-ais_bramka_api_led"
+    ],
+    "Reset urządzenia do ustawień fabrycznych": [
+      "version-0.100.4-ais_bramka_reset_index",
+      "version-0.100.4-ais_bramka_reset_step_by_step"
+    ]
+  },
+  "version-0.100.4-Aplikacja": {
+    "Aplikacja internetowa": [
+      "version-0.100.4-ais_app_index",
+      "version-0.100.4-ais_app_views",
+      "version-0.100.4-ais_app_cards",
+      "version-0.100.4-ais_app_ui_config"
+    ],
+    "Aplikacje Android": [
+      "version-0.100.4-ais_app_android_index"
+    ],
+    "Aktualizacja": [
+      "version-0.100.4-ais_bramka_update_index",
+      "version-0.100.4-ais_bramka_update_auto",
+      "version-0.100.4-ais_bramka_update_logs",
+      "version-0.100.4-ais_bramka_update_manual",
+      "version-0.100.4-ais_bramka_update_force"
+    ],
+    "Pełny reset aplikacji": [
+      "version-0.100.4-ais_bramka_reset_ais_step_by_step"
+    ]
+  },
+  "version-0.100.4-Pilot radiowy": {
+    "Pilot radiowy": [
+      "version-0.100.4-ais_remote_index",
+      "version-0.100.4-ais_remote_modes",
+      "version-0.100.4-ais_remote_mode_on_tv",
+      "version-0.100.4-ais_remote_mode_off_tv",
+      "version-0.100.4-ais_remote_mode_gesture"
+    ]
+  },
+  "version-0.100.4-Integracje": {
+    "Wbudowane integracje audio": [
+      "version-0.100.4-ais_app_radio",
+      "version-0.100.4-ais_app_podcast",
+      "version-0.100.4-ais_app_news",
+      "version-0.100.4-ais_app_youtube_dl",
+      "version-0.100.4-ais_app_spotify",
+      "version-0.100.4-ais_app_drives",
+      "version-0.100.4-ais_app_books"
+    ],
+    "Wbudowane inne integracje": [
+      "version-0.100.4-ais_app_ai_integration",
+      "version-0.100.4-ais_app_ai_integration_google_home",
+      "version-0.100.4-ais_app_supla",
+      "version-0.100.4-ais_app_tauron",
+      "version-0.100.4-ais_app_owntracks",
+      "version-0.100.4-ais_app_ifttt",
+      "version-0.100.4-ais_app_dialogflow"
+    ],
+    "Integracje dodatkowe": [
+      "version-0.100.4-ais_iot_index",
+      "version-0.100.4-ais_iot_add_to_gate",
+      "version-0.100.4-ais_iot_remote"
+    ]
+  },
+  "version-0.100.4-Urządznia": {
+    "Urządzenia AIS dom": [
+      "version-0.100.4-ais_iot_works_with",
+      "version-0.100.4-ais_iot_powers",
+      "version-0.100.4-ais_iot_browser",
+      "version-0.100.4-ais_iot_mqtt",
+      "version-0.100.4-ais_iot_gate",
+      "version-0.100.4-ais_iot_s26"
+    ],
+    "Oprogramowanie dla urządzeń AIS dom": [
+      "version-0.100.4-ais_iot_firmware_index",
+      "version-0.100.4-ais_iot_firmware_upgrade"
+    ]
+  },
+  "version-0.100.4-FAQ": {
+    "Odpowiedzi na pytania": [
+      "version-0.100.4-ais_faq_index"
+    ],
+    "Ogólne": [
+      "version-0.100.4-ais_faq_when_speaker",
+      "version-0.100.4-ais_faq_where_is_the_code",
+      "version-0.100.4-ais_faq_mic_not_on",
+      "version-0.100.4-ais_faq_raspberry_pi",
+      "version-0.100.4-ais_gate_faq_hass_compatibility"
+    ],
+    "Bramka": [
+      "version-0.100.4-ais_faq_logs",
+      "version-0.100.4-ais_gate_faq_https",
+      "version-0.100.4-ais_faq_audio_cards",
+      "version-0.100.4-ais_faq_wifi",
+      "version-0.100.4-ais_gate_faq_config_yaml",
+      "version-0.100.4-ais_gate_faq_custom_component",
+      "version-0.100.4-ais_gate_faq_package_compile",
+      "version-0.100.4-ais_bramka_remote_other_programs",
+      "version-0.100.4-ais_bramka_faq_usb_dongle"
+    ],
+    "Aplikacja i Urządzenia AIS dom": [
+      "version-0.100.4-ais_faq_iot_ap_mode",
+      "version-0.100.4-ais_faq_app_lovelace_merge",
+      "version-0.100.4-ais_faq_authentication",
+      "version-0.100.4-ais_faq_node_red",
+      "version-0.100.4-ais_faq_automation_tts",
+      "version-0.100.4-ais_faq_automation_tips_and_tricks",
+      "version-0.100.4-ais_faq_components_weather"
+    ],
+    "Pilot radiowy": [
+      "version-0.100.4-ais_remote_faq_index",
+      "version-0.100.4-ais_app_assistent_commands",
+      "version-0.100.4-ais_remote_faq_index"
+    ]
+  }
+}
