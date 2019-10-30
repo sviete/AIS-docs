@@ -433,9 +433,17 @@
         "title": "Konfiguracja interfejsu użytkownika",
         "sidebar_label": "Konfiguracja"
       },
+      "version-0.100.3b2/version-0.100.3b2-ais_bramka_mqtt": {
+        "title": "Broker MQTT działający na bramce",
+        "sidebar_label": "MQTT"
+      },
       "version-0.100.3b2/version-0.100.3b2-ais_bramka_presence_detection": {
         "title": "Konfigurowanie wykrywania obecności",
         "sidebar_label": "Wykrywanie obecności"
+      },
+      "version-0.100.3b2/version-0.100.3b2-ais_faq_raspberry_pi": {
+        "title": "Czy płyta to Raspberry Pi (Orange Pi, Nano Pi, itp.)?",
+        "sidebar_label": "Czy płyta to Raspberry Pi?"
       },
       "version-0.100.3b2/version-0.100.3b2-ais_iot_gate": {
         "title": "Obsługa urządzenia z bramki AIS dom",

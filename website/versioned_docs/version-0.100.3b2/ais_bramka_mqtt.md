@@ -1,6 +1,8 @@
 ---
-title: "Broker MQTT działający na bramce"
+title: Broker MQTT działający na bramce
 sidebar_label: MQTT
+id: version-0.100.3b2-ais_bramka_mqtt
+original_id: ais_bramka_mqtt
 ---
 
 Asystent domowy ma wbudowany broker MQTT.
