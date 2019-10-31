@@ -4,7 +4,7 @@ sidebar_label: Aplikacje Android
 ---
 
 Na bramce dostarczamy kilka aplikacji Android.
-Aplikacje te rozwijamy głównie w celu zwiększenie funkcjonalności bramki, ale mogą też być za darmo pobierane z Google Play i używane na telefonie czy tablecie.
+Aplikacje te rozwijamy głównie w celu zwiększenia funkcjonalności bramki, ale mogą też być za darmo pobierane z Google Play i używane na telefonie czy tablecie.
 
 
 ## AIS Launcher
@@ -13,7 +13,7 @@ Podobnie jak inni producenci, na urządzeniu dostarczamy swój własny launcher 
 
 ![AIS Launcher](/AIS-docs/img/en/frontend/ais_launcher_apk_screen.png)
 
-Staraliśmy się żeby nasze rozwiązanie było najprostrze z dostępnych na rynku i chyba nam się udało ;) cała implementacja to około 600 [linijek kodu w Javie](https://github.com/sviete/AIS-launcher).
+Staraliśmy się, żeby nasze rozwiązanie było najprostsze z dostępnych na rynku i chyba nam się udało ;) cała implementacja to około 600 [linijek kodu w Javie](https://github.com/sviete/AIS-launcher).
 Wszystko, co potrafi nasz launcher to uruchamianie 5 aktywności oraz aktualizowanie innych aplikacji. Aplikacja dostępna jest w Google Play, ale z powodu dość specyficznej funkcjonalności nie polecamy jej instalować na innych urządzeniach niż nasza bramka IoT.
 
 ## AIS Explorer
@@ -28,11 +28,11 @@ Menedżer plików jest przeznaczony dla wszystkich urządzeń z Androidem, w tym
 
 ## AIS dom
 
-To nasza główna aplikacja która działa zarówno na bramce jak i na innych urządzeniach w tym: tablety, telefony, Android TV oraz Wear OS.
+To nasza główna aplikacja, która działa zarówno na bramce jak i na innych urządzeniach, w tym: tablety, telefony, Android TV oraz Wear OS.
 
 ![AIS Dom](/AIS-docs/img/en/frontend/ais_dom_apk_screen_mob.png)
 
-Aplikacja jest czymś w rodzaju ramki/przeglądarkę do [aplikacji internetowej](/AIS-docs/docs/en/next/ais_app_index.html) działającej na bramce. Dostarcza też nam interfejs do API systemu Android oraz konsolę środowiska Linux (zawierającego minimalny system podstawowy wraz z interpreterem języka Python, Node.js oraz Clang).
+Aplikacja jest czymś w rodzaju ramki/przeglądarki do [aplikacji internetowej](/AIS-docs/docs/en/next/ais_app_index.html) działającej na bramce. Dostarcza też nam interfejs do API systemu Android oraz konsolę środowiska Linux (zawierającego minimalny system podstawowy wraz z interpreterem języka Python, Node.js oraz Clang).
 
 ## AIS Synchro
 
