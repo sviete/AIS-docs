@@ -14,7 +14,7 @@ Jak powstaje nasze oprogramowanie do urządzeń domowych:
 - udostępniamy nasze kody oraz skompilowaną wersję do pobrania,
 - instalujemy na naszych urządzeniach, które sprzedajemy.
 
-Wszystkie nasze poprawki udostępniamy też społeczności Tasmota, dodatkowo rozwijamy aplikację na system Android, którą zaoferowaliśmy jako oficjalną aplikację ułatwiającą Konfiguracje początkową dla urządzeń z oprogramowaniem Tasmota.
+Wszystkie nasze poprawki udostępniamy też społeczności Tasmota, dodatkowo rozwijamy aplikację na system Android, którą zaoferowaliśmy jako oficjalną aplikację ułatwiającą Konfigurację początkową dla urządzeń z oprogramowaniem Tasmota.
 
 
 ## Jakie ułatwienia dostarczamy
@@ -50,7 +50,7 @@ Może to jednak nie być tak proste, jak w przypadku naszych urządzeń, poniewa
 
 Są dwa wyjścia, żeby działało:
 
-1. Zrozumieć jak działa MQTT i komunikacja z bramką - co [dokładnie opisujemy](/AIS-docs/docs/en/ais_bramka_mqtt.html)i do czego zachęcamy.
+1. Zrozumieć jak działa MQTT i komunikacja z bramką - co [dokładnie opisujemy](/AIS-docs/docs/en/ais_bramka_mqtt.html) i do czego zachęcamy.
 2. Kupić nasze urządzenie i cieszyć się z tego, że wsparło się nasz projekt i wszystko magicznie i fajnie działa - do czego też bardzo zachęcamy :)
 
 
