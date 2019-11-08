@@ -12,15 +12,15 @@ sidebar_label: Aktualizacja oprogramowania
 ### Pobranie plików
 
 Pliki ze skompilowaną nową wersją oprogramowania dla urządzeń dostępne są w naszym serwisie pod adresem [OTA](https://ai-speaker.com/ota/)
-Pobierz najnowsze wersje 2 plkiów:
+Pobierz najnowsze wersje 2 plików:
 
-- [Minimal](https://powiedz.co/ota/dom/s26_minimal_v6.5.2.bin)
-- [Gniazdo](https://powiedz.co/ota/dom/s26_firmware_v6.5.2.bin)
+- [Minimal](https://powiedz.co/ota/dom/s26_minimal_v6.7.1.bin)
+- [Gniazdo](https://powiedz.co/ota/dom/s26_firmware_v6.7.1.bin)
 
 ![OTA AIS dom](/AIS-docs/img/en/iot/iot_device_download.png)
 
 
-### Ustalnie adresu IP urządzenia
+### Ustalenie adresu IP urządzenia
 
 W systemie Asystent domowy przejdź do grupy "Menu" -> "Ustawienia" -> "Integracje", domyślny adres:
 
@@ -35,7 +35,7 @@ a następnie przejdź do konfiguracji urządzeń "MQTT" by sprawdzić status urz
 
 ### Menu urządzenia
 
-Znając IP urządzenia, wpisz go w przeglądarce internetowej by przejść do strony urządzenia. W głównym menu urządzenia wybierz opcję "Aktualizacja oprogramowania"
+Znając IP urządzenia, wpisz go w przeglądarce internetowej, by przejść do strony urządzenia. W głównym menu urządzenia wybierz opcję "Aktualizacja oprogramowania"
 
 ![Główne menu urządzenia](/AIS-docs/img/en/iot/iot_device_menu.png)
 
@@ -48,7 +48,7 @@ Wybierz plik **s26_minimal_v6.5.2.bin** i naciśnij "Start aktualizacji"
 ![Pierwszy plik](/AIS-docs/img/en/iot/iot_device_menu_upgrade_1.png)
 
 
-Odczekaj aż pojawi się informacja o powodzeniu aktualizacji
+Odczekaj, aż pojawi się informacja o powodzeniu aktualizacji
 
 ![Pierwszy plik](/AIS-docs/img/en/iot/iot_device_menu_upgrade_2.png)
 
@@ -62,7 +62,7 @@ Wybierz plik **s26_firmware_v6.5.2.bin** i naciśnij "Start upgrade"
 ![Drugi plik](/AIS-docs/img/en/iot/iot_device_menu_upgrade_3.png)
 
 
-Odczekaj aż pojawi się informacja o powodzeniu aktualizacji.
+Odczekaj, aż pojawi się informacja o powodzeniu aktualizacji.
 Następnie urządzenie się zrestartuje i powróci do głównego menu, z głównego menu przejdź do konsoli urządzenia
 
 
@@ -73,6 +73,6 @@ Następnie urządzenie się zrestartuje i powróci do głównego menu, z główn
 ### Konsola
 
 Żeby zacząć pracę z całkowicie nowymi ustawieniami w konsoli urządzenia, wykonaj polecenie **Reset 5** dzięki temu będziemy mieli pewność, że urządzenie będzie korzystało tylko z nowych ustawień.
-> Uwaga to polecenie wykasuje wszystkie poprzednie ustawienia (poza konfiguracją WiFi) jeśli urządznie komunikowało się z systemem automatyki domowej to może być konieczne nowe parowanie/konfiguracja.
+> Uwaga to polecenie wykasuje wszystkie poprzednie ustawienia (poza konfiguracją WiFi), jeśli urządzenie komunikowało się z systemem automatyki domowej, to może być konieczne nowe parowanie/konfiguracja.
 
 ![Reset 5](/AIS-docs/img/en/iot/iot_device_menu_upgrade_6.png)
