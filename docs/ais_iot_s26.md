@@ -5,7 +5,7 @@ sidebar_label: Inteligentne gniazdo WiFi
 
 ## Opis
 
-S26 to inteligentne gniazdo WiFi pozwalające na sterowanie zasilaniem dowolengo urządzenia o mocy do 2200W pracującego w standarowej sieci 230V.
+S26 to inteligentne gniazdo WiFi pozwalające na sterowanie zasilaniem dowolnego urządzenia o mocy do 2200W pracującego w standardowej sieci 230V.
 
 ## Dostępne Funkcje
 
