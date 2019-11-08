@@ -12,7 +12,7 @@ sidebar_label: Możliwości urządzeń AIS dom
   </div>
   <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
     <div class="blockImage"><img src="/AIS-docs/img/en/icons/stopwatch.svg"></img></div>
-    <div class="blockContent"><div><span><p>Możliwość definiowania harmonogramów i reguł działania bezpośredno na urządzeniu.</p></span></div></div>
+    <div class="blockContent"><div><span><p>Możliwość definiowania harmonogramów i reguł działania bezpośrednio na urządzeniu.</p></span></div></div>
   </div>
   <div class="blockElement alignCenter imageAlignTop threeByGridBlock">
     <div class="blockImage"><img src="/AIS-docs/img/en/icons/browser_conf.svg"></img></div>
