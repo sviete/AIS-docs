@@ -1,6 +1,6 @@
 ---
-title: Obsługa urządznia z przeglądarki
-sidebar_label: Obsługa urządznia z przeglądarki
+title: Obsługa urządzenia z przeglądarki
+sidebar_label: Obsługa urządzenia z przeglądarki
 ---
 
 ## Wprowadzenie
