@@ -10,19 +10,19 @@ sidebar_label: Obsługa urządzenia z przeglądarki
 </svg> Jeśli jesteś posiadaczem bramki IoT AIS dom i chcesz podłączyć do niej urządzenie AIS dom, to możesz pominąć ten opis i przejść do **[Obsługa urządzenia z bramki AIS dom](/AIS-docs/docs/en/next/ais_iot_gate.html) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.** 
 
 
-Urządzenie z oprogramowaniem **AIS dom** jest autonomiczne i do podstawowych funkcjonalności nie potrzebuje żadnego dodatkowego komponentu, takiego jak lokalna bramka czy zdalny serwer (chmura). Poniżej przedstawiamy w jaki sposób urządzenie może być sterowane za pomocą dowolnej przeglądarki internetowej.
+Urządzenie z oprogramowaniem **AIS dom** jest autonomiczne i do podstawowych funkcjonalności nie potrzebuje żadnego dodatkowego komponentu, takiego jak lokalna bramka czy zdalny serwer (chmura). Poniżej przedstawiamy, w jaki sposób urządzenie może być sterowane za pomocą dowolnej przeglądarki internetowej.
 
 ## Konfiguracja Wi-Fi
 Urządzenia AIS dom zapewniają bezprzewodowy punkt dostępu do łatwej konfiguracji Wi-Fi.
 
-Podłącz urządzenie do źródła zasilania, następnie wprowadź je w tryb konfiguracj (bezprzewodowego punktu dostępu) wciskając szybko 4 razy przycisk na urządzeniu, tak jak to pokazano na animacji poniżej
+Podłącz urządzenie do źródła zasilania, następnie wprowadź je w tryb konfiguracji (bezprzewodowego punktu dostępu) wciskając szybko 4 razy przycisk na urządzeniu, tak jak to pokazano na animacji poniżej
 <img src="/AIS-docs/img/en/iot/ais_s20_2.gif" align="center"> </img>
 
 
 <img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step1.png" width="300px" align="left" style="margin:20px;"> </img>
  Teraz na smartfonie (komputerze, tablecie, laptopie albo innym urządzeniu obsługującym sieć i Wi-Fi) wyszukaj punkt dostępu Wi-Fi o nazwie **dom_xxx_yyyyyy_zzzz** (gdzie xxx_yyyyyy_zzzz jest nazwą modelu i unikalnym identyfikatorem urządzenia) i połącz się z nim. W tym przykładzie punkt dostępu Wi-Fi ma nazwę dom_s20_3EB39C_5020.
 
->Bezprzewodowy punkt dostepu na urządzeniu jest **aktywny tylko przez 3 minuty**. Jeśli przegapisz to okno czasowe, może być konieczne ponowne wprowadzenie go w tryb parowania.
+>Bezprzewodowy punkt dostępu na urządzeniu jest **aktywny tylko przez 3 minuty**. Jeśli przegapisz to okno czasowe, może być konieczne ponowne wprowadzenie go w tryb parowania.
 
 <img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step2.png" width="300px" align="right" style="margin:20px;"> </img>
 Po połączeniu się z Wi-Fi na urządzeniu otwórz http://192.168.4.1 w przeglądarce internetowej. Niektóre urządzenia mogą wyświetlić powiadomienie o potrzebie zalogowania się do sieci Wi-Fi, wybranie tej opcji powinno otworzyć powyższy adres automatycznie.
@@ -53,6 +53,6 @@ Jeśli nie masz dostępu do routera, możesz znaleźć swoje nowe urządzenie za
 * [Angry IP Scanner](https://angryip.org/) - open source dla systemów Linux, Windows i Mac (wymagana Java)
 * [Super Scan](https://sectools.org/tool/superscan/) - darmowe narzędzie dostępne tylko w systemie Windows
 
-Gdy ustalisz jaki adres IP ma urządzenie to otwórz ten adres IP za pomocą przeglądarki internetowej i **masz pełny dostęp do urządzenia w swojej lokalnej sieci**.
+Gdy ustalisz jaki adres IP ma urządzenie, to otwórz ten adres IP za pomocą przeglądarki internetowej i **masz pełny dostęp do urządzenia w swojej lokalnej sieci**.
 
 ![MQTT aktywacja](/AIS-docs/img/en/iot/iot_web_app.png)
