@@ -122,7 +122,7 @@
         "sidebar_label": "Podłączenie"
       },
       "ais_bramka_faq_usb_dongle": {
-        "title": "Czy można dołączyć adaptery USB (RF, Zigbee, Z-Wave, Thread, BLE 5.0 itd.)?",
+        "title": "Czy można dołączyć adaptery USB (Zigbee, Z-Wave, Thread, BLE 5.0 itd.)?",
         "sidebar_label": "Czy można dołączyć adaptery USB?"
       },
       "ais_bramka_first_run": {
@@ -334,8 +334,8 @@
         "sidebar_label": "Obsługa urządznia z aplikacji Android"
       },
       "ais_iot_browser": {
-        "title": "Obsługa urządznia z przeglądarki",
-        "sidebar_label": "Obsługa urządznia z przeglądarki"
+        "title": "Obsługa urządzenia z przeglądarki",
+        "sidebar_label": "Obsługa urządzenia z przeglądarki"
       },
       "ais_iot_commands": {
         "title": "S26, inteligentne gniazdo WiFi",
@@ -349,9 +349,17 @@
         "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
         "sidebar_label": "Aktualizacja oprogramowania"
       },
+      "ais_iot_gate_add_device": {
+        "title": "Dodanie urządzenia do bramki",
+        "sidebar_label": "Dodanie urządzenia do bramki"
+      },
+      "ais_iot_gate_device_rf433": {
+        "title": "Bramka RF 433",
+        "sidebar_label": "Bramka RF 433"
+      },
       "ais_iot_gate": {
-        "title": "Obsługa urządzenia z bramki AIS dom",
-        "sidebar_label": "Obsługa urządzenia z bramki AIS dom"
+        "title": "Wprowadzenie",
+        "sidebar_label": "Wprowadzenie"
       },
       "ais_iot_index": {
         "title": "Integracje",
@@ -462,6 +470,62 @@
         "sidebar_label": "Obsługa urządzenia z bramki AIS dom"
       },
       "version-0.100.4/version-0.100.4-ais_iot_works_with": {
+        "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
+        "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_app_android_index": {
+        "title": "Aplikacje Android",
+        "sidebar_label": "Aplikacje Android"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_bramka_faq_usb_dongle": {
+        "title": "Czy można dołączyć adaptery USB (Zigbee, Z-Wave, Thread, BLE 5.0 itd.)?",
+        "sidebar_label": "Czy można dołączyć adaptery USB?"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_faq_index": {
+        "title": "Odpowiedzi na najczęściej zadawane pytania",
+        "sidebar_label": "Informacja"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_faq_iot_ap_mode": {
+        "title": "Kompatybilność z Tasmota",
+        "sidebar_label": "Kompatybilność z Tasmota"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_iot_browser": {
+        "title": "Obsługa urządzenia z przeglądarki",
+        "sidebar_label": "Obsługa urządzenia z przeglądarki"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_iot_firmware_index": {
+        "title": "Oprogramowanie dla urządzeń automatyki domowej",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_iot_firmware_upgrade": {
+        "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
+        "sidebar_label": "Aktualizacja oprogramowania"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_iot_gate_add_device": {
+        "title": "Dodanie urządzenia do bramki",
+        "sidebar_label": "Dodanie urządzenia do bramki"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_iot_gate_device_rf433": {
+        "title": "Bramka RF 433",
+        "sidebar_label": "Bramka RF 433"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_iot_gate": {
+        "title": "Wprowadzenie",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_iot_mqtt": {
+        "title": "Komunikacja za pomocą protokołu MQTT",
+        "sidebar_label": "Komunikacja za pomocą protokołu MQTT"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_iot_powers": {
+        "title": "Możliwości urządzeń AIS dom",
+        "sidebar_label": "Możliwości urządzeń AIS dom"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_iot_s26": {
+        "title": "S26, inteligentne gniazdo WiFi",
+        "sidebar_label": "Inteligentne gniazdo WiFi"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_iot_works_with": {
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },
@@ -1623,12 +1687,13 @@
       "Wbudowane inne integracje": "Wbudowane inne integracje",
       "Integracje dodatkowe": "Integracje dodatkowe",
       "Urządzenia AIS dom": "Urządzenia AIS dom",
+      "Zarządzanie urządzeniami AIS dom z bramki": "Zarządzanie urządzeniami AIS dom z bramki",
       "Oprogramowanie dla urządzeń AIS dom": "Oprogramowanie dla urządzeń AIS dom",
       "Odpowiedzi na pytania": "Odpowiedzi na pytania",
       "Ogólne": "Ogólne",
       "Bramka": "Bramka",
-      "Aplikacja i Urządzenia AIS dom": "Aplikacja i Urządzenia AIS dom",
       "Aplikacja": "Aplikacja",
+      "Aplikacja i Urządzenia AIS dom": "Aplikacja i Urządzenia AIS dom",
       "Komponenty": "Komponenty",
       "Asystent": "Asystent",
       "Wprowadzenie": "Wprowadzenie",

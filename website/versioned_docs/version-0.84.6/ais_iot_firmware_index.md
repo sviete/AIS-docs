@@ -27,7 +27,7 @@ Decydując się na oprogramowanie do naszych urządzeń  opartych na ESP8266 wyb
 - obsługę harmonogramów i reguł na urządzeniu
 
 
-Oprogramowanie to rozwijane jest od kilku lat w ramach projektu [Sonoff-Tasmota](https://github.com/arendst/Sonoff-Tasmota) i jest alternatywnym oprogramowaniem dla 60 urządzeń różnych producentów oraz dla kilkudziesięciu czujników które można dodatkowo dołączyć do tych urządzeń.
+Oprogramowanie to rozwijane jest od kilku lat w ramach projektu [Tasmota](https://github.com/arendst/Tasmota) i jest alternatywnym oprogramowaniem dla 60 urządzeń różnych producentów oraz dla kilkudziesięciu czujników które można dodatkowo dołączyć do tych urządzeń.
 
 
 ## Źródła oprogramowania

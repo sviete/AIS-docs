@@ -1,6 +1,8 @@
 ---
-title: "Odpowiedzi na najczęściej zadawane pytania"
+title: Odpowiedzi na najczęściej zadawane pytania
 sidebar_label: Informacja
+id: version-0.101.3b2-ais_faq_index
+original_id: ais_faq_index
 ---
 
 ### Witamy na stronie FAQ.

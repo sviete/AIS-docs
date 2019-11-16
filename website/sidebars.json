@@ -66,7 +66,8 @@
       "ais_remote_modes",
       "ais_remote_mode_on_tv",
       "ais_remote_mode_off_tv",
-      "ais_remote_mode_gesture"
+      "ais_remote_mode_gesture",
+      "ais_app_assistent_commands"
     ]
   },
   "Integracje": {
@@ -100,9 +101,13 @@
       "ais_iot_powers",
       "ais_iot_browser",
       "ais_iot_mqtt",
-      "ais_iot_gate",
       "ais_iot_s26"
     ],
+  "Zarządzanie urządzeniami AIS dom z bramki": [
+    "ais_iot_gate",
+    "ais_iot_gate_add_device",
+    "ais_iot_gate_device_rf433"
+  ],
     "Oprogramowanie dla urządzeń AIS dom": [
       "ais_iot_firmware_index",
       "ais_iot_firmware_upgrade"
@@ -130,8 +135,7 @@
       "ais_bramka_remote_other_programs",
       "ais_bramka_faq_usb_dongle"
     ],
-    "Aplikacja i Urządzenia AIS dom": [
-        "ais_faq_iot_ap_mode",
+    "Aplikacja": [
         "ais_faq_app_lovelace_merge",
         "ais_faq_authentication",
         "ais_faq_node_red",
@@ -143,6 +147,9 @@
       "ais_remote_faq_index",
       "ais_app_assistent_commands",
       "ais_remote_faq_index"
+    ],
+    "Urządzenia AIS dom": [
+      "ais_faq_iot_ap_mode"
     ]
   }
 }

@@ -1,6 +1,8 @@
 ---
 title: Komunikacja za pomocą protokołu MQTT
 sidebar_label: Komunikacja za pomocą protokołu MQTT
+id: version-0.101.3b2-ais_iot_mqtt
+original_id: ais_iot_mqtt
 ---
 
 ## Wprowadzenie

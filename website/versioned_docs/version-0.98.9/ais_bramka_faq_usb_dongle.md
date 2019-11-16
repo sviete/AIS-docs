@@ -31,6 +31,6 @@ MQTT to nasz podstawowy sposób komunikacji pomiędzy Asystentem domowym a urzą
 
 Tu jest kilka linków do gotowych rozwiązań:
 
-https://github.com/arendst/Sonoff-Tasmota/wiki/Zigbee
+https://github.com/arendst/Tasmota/wiki/Zigbee
 
-https://github.com/arendst/Sonoff-Tasmota/wiki/Sonoff-RF-Bridge-433
+https://github.com/arendst/Tasmota/wiki/Sonoff-RF-Bridge-433

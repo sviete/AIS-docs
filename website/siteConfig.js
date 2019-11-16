@@ -12,8 +12,8 @@
 const users = [
   {
     caption: 'User1',
-    image: '/test-site/img/docusaurus.svg',
-    infoLink: 'https://www.facebook.com',
+    image: 'http://ai-speaker.com/images/logo_ais.png',
+    infoLink: 'https://www.ai-speaker.com',
     pinned: true,
   },
 ];
@@ -61,6 +61,15 @@ const siteConfig = {
     primaryColor: '#ff9900',
     secondaryColor: '#ffa800',
   },
+
+  // algolia: {
+  //   apiKey: 'my-api-key',
+  //   indexName: 'my-index-name',
+  //   algoliaOptions: {},
+  //   placeholder: 'Wyszukiwanie'
+    
+  // },
+  docsSideNavCollapsible: true,
 
   /* custom fonts for website */
   /*fonts: {
