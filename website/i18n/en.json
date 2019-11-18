@@ -49,6 +49,18 @@
         "title": "Grupy",
         "sidebar_label": "Grupy"
       },
+      "ais_app_ifttt_action": {
+        "title": "IFTTT dowolna akcja",
+        "sidebar_label": "IFTTT dowolna akcja"
+      },
+      "ais_app_ifttt_platform_account": {
+        "title": "IFTTT Konto",
+        "sidebar_label": "IFTTT Konto"
+      },
+      "ais_app_ifttt_time": {
+        "title": "IFTTT Godzina",
+        "sidebar_label": "IFTTT Godzina"
+      },
       "ais_app_ifttt": {
         "title": "IFTTT",
         "sidebar_label": "IFTTT"
@@ -477,67 +489,79 @@
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_app_android_index": {
+      "version-0.101.3b3/version-0.101.3b3-ais_app_android_index": {
         "title": "Aplikacje Android",
         "sidebar_label": "Aplikacje Android"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_bramka_faq_usb_dongle": {
+      "version-0.101.3b3/version-0.101.3b3-ais_app_ifttt_action": {
+        "title": "IFTTT dowolna akcja",
+        "sidebar_label": "IFTTT dowolna akcja"
+      },
+      "version-0.101.3b3/version-0.101.3b3-ais_app_ifttt_platform_account": {
+        "title": "IFTTT Konto",
+        "sidebar_label": "IFTTT Konto"
+      },
+      "version-0.101.3b3/version-0.101.3b3-ais_app_ifttt_time": {
+        "title": "IFTTT Godzina",
+        "sidebar_label": "IFTTT Godzina"
+      },
+      "version-0.101.3b3/version-0.101.3b3-ais_bramka_faq_usb_dongle": {
         "title": "Czy można dołączyć adaptery USB (Zigbee, Z-Wave, Thread, BLE 5.0 itd.)?",
         "sidebar_label": "Czy można dołączyć adaptery USB?"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_bramka_remote_ssh": {
+      "version-0.101.3b3/version-0.101.3b3-ais_bramka_remote_ssh": {
         "title": "Dostęp do konsoli bramki po SSH",
         "sidebar_label": "SSH"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_faq_cloud_vs_local": {
+      "version-0.101.3b3/version-0.101.3b3-ais_faq_cloud_vs_local": {
         "title": "Sterowanie lokalne czy sterowanie chmurą?",
         "sidebar_label": "Sterowanie lokalne czy sterowanie chmurą?"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_faq_index": {
+      "version-0.101.3b3/version-0.101.3b3-ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_faq_iot_ap_mode": {
+      "version-0.101.3b3/version-0.101.3b3-ais_faq_iot_ap_mode": {
         "title": "Kompatybilność z Tasmota",
         "sidebar_label": "Kompatybilność z Tasmota"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_iot_browser": {
+      "version-0.101.3b3/version-0.101.3b3-ais_iot_browser": {
         "title": "Obsługa urządzenia z przeglądarki",
         "sidebar_label": "Obsługa urządzenia z przeglądarki"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_iot_firmware_index": {
+      "version-0.101.3b3/version-0.101.3b3-ais_iot_firmware_index": {
         "title": "Oprogramowanie dla urządzeń automatyki domowej",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_iot_firmware_upgrade": {
+      "version-0.101.3b3/version-0.101.3b3-ais_iot_firmware_upgrade": {
         "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
         "sidebar_label": "Aktualizacja oprogramowania"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_iot_gate_add_device": {
+      "version-0.101.3b3/version-0.101.3b3-ais_iot_gate_add_device": {
         "title": "Dodanie urządzenia do bramki",
         "sidebar_label": "Dodanie urządzenia do bramki"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_iot_gate_device_rf433": {
+      "version-0.101.3b3/version-0.101.3b3-ais_iot_gate_device_rf433": {
         "title": "Bramka RF 433",
         "sidebar_label": "Bramka RF 433"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_iot_gate": {
+      "version-0.101.3b3/version-0.101.3b3-ais_iot_gate": {
         "title": "Wprowadzenie",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_iot_mqtt": {
+      "version-0.101.3b3/version-0.101.3b3-ais_iot_mqtt": {
         "title": "Komunikacja za pomocą protokołu MQTT",
         "sidebar_label": "Komunikacja za pomocą protokołu MQTT"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_iot_powers": {
+      "version-0.101.3b3/version-0.101.3b3-ais_iot_powers": {
         "title": "Możliwości urządzeń AIS dom",
         "sidebar_label": "Możliwości urządzeń AIS dom"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_iot_s26": {
+      "version-0.101.3b3/version-0.101.3b3-ais_iot_s26": {
         "title": "S26, inteligentne gniazdo WiFi",
         "sidebar_label": "Inteligentne gniazdo WiFi"
       },
-      "version-0.101.3b2/version-0.101.3b2-ais_iot_works_with": {
+      "version-0.101.3b3/version-0.101.3b3-ais_iot_works_with": {
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },

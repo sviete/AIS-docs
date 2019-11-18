@@ -1,8 +1,6 @@
 ---
-title: Sterowanie lokalne czy sterowanie chmurą?
+title: "Sterowanie lokalne czy sterowanie chmurą?"
 sidebar_label: Sterowanie lokalne czy sterowanie chmurą?
-id: version-0.101.3b2-ais_faq_cloud_vs_local
-original_id: ais_faq_cloud_vs_local
 ---
 
 

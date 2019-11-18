@@ -87,6 +87,15 @@
       "ais_app_tauron",
       "ais_app_owntracks",
       "ais_app_ifttt",
+      {
+        "type": "subcategory",
+        "label": "IFTTT przykłady",
+        "ids": [
+          "ais_app_ifttt_platform_account",
+          "ais_app_ifttt_time",
+          "ais_app_ifttt_action"
+        ]
+      },
       "ais_app_dialogflow"
     ],
     "Integracje dodatkowe": [

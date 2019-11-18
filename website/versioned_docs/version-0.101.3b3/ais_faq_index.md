@@ -1,7 +1,7 @@
 ---
 title: Odpowiedzi na najczęściej zadawane pytania
 sidebar_label: Informacja
-id: version-0.101.3b2-ais_faq_index
+id: version-0.101.3b3-ais_faq_index
 original_id: ais_faq_index
 ---
 
