@@ -7,6 +7,16 @@ Asystent domowy dostarcza połączenie SSH za pośrednictwem bardzo popularnego 
 
 Środowisko Linux dostępne na bramce jest systemem dla pojedynczego użytkownika, dlatego niezależnie od podanej nazwy użytkownika zalogujesz się jako jedyny dostępny użytkownik systemu Asystent domowy.
 
+## Dostęp do konsoli z klienta ssh
+
+W celu połączenia się przez SSH ze zdalnym serwerem SHH działającym na bramce, należy otworzyć konsolę (na swoim komputerze) i wpisać polecenie "ssh <adres_ip_bramki> -p 8022", gdzie adres_ip_bramki to adres IP naszej bramki (np. 192.168.1.5), a "-p 8022" to wskazanie portu na jakim działa serwer SSH na bramce.
+
+```bash
+$ ssh <IP-BRAMKI> -p 8022
+```
+
+ Po zatwierdzeniu powyższego polecenia klawiszem Enter, jeśli łączymy się z serwerm po raz pierwszy, to zostaniemy poproszeni o dodanie hosta do znanych hostów - należy wpisać "yes", nacisnąć Enter, a następnie wpisać hasło użytkownika. Domyślne hasło to **dom**, można je zmienić komendą passwd (tak jak we wszystkich systemach Linux).
+
 
 ## Dostęp do konsoli z aplikacji
 
@@ -26,7 +36,7 @@ Jeśli chcesz, możesz łączyć się za pomocą hasła, w tym celu należy ust
 
 ```bash
 $ passwd
-``` 
+```
 
 ![Pobranie klucza SSH](/AIS-docs/img/en/bramka/ssh_passwd.png)
 
