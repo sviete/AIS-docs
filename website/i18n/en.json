@@ -265,6 +265,10 @@
         "title": "Jak dodać Automatyzację z powiadomieniami głosowymi?",
         "sidebar_label": "Automatyzacja z powiadomieniami głosowymi"
       },
+      "ais_faq_cloud_vs_local": {
+        "title": "Sterowanie lokalne czy sterowanie chmurą?",
+        "sidebar_label": "Sterowanie lokalne czy sterowanie chmurą?"
+      },
       "ais_faq_components_weather": {
         "title": "Jak dodać własny serwis Pogodowy?",
         "sidebar_label": "Własny serwis Pogodowy"
@@ -480,6 +484,14 @@
       "version-0.101.3b2/version-0.101.3b2-ais_bramka_faq_usb_dongle": {
         "title": "Czy można dołączyć adaptery USB (Zigbee, Z-Wave, Thread, BLE 5.0 itd.)?",
         "sidebar_label": "Czy można dołączyć adaptery USB?"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_bramka_remote_ssh": {
+        "title": "Dostęp do konsoli bramki po SSH",
+        "sidebar_label": "SSH"
+      },
+      "version-0.101.3b2/version-0.101.3b2-ais_faq_cloud_vs_local": {
+        "title": "Sterowanie lokalne czy sterowanie chmurą?",
+        "sidebar_label": "Sterowanie lokalne czy sterowanie chmurą?"
       },
       "version-0.101.3b2/version-0.101.3b2-ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
