@@ -1,7 +1,7 @@
 ---
 title: Bramka RF 433
 sidebar_label: Bramka RF 433
-id: version-0.101.3b3-ais_iot_gate_device_rf433
+id: version-0.101.3b5-ais_iot_gate_device_rf433
 original_id: ais_iot_gate_device_rf433
 ---
 

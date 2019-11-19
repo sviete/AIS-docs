@@ -1,7 +1,7 @@
 ---
 title: Wprowadzenie
 sidebar_label: Wprowadzenie
-id: version-0.101.3b3-ais_iot_gate
+id: version-0.101.3b5-ais_iot_gate
 original_id: ais_iot_gate
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: S26, inteligentne gniazdo WiFi
 sidebar_label: Inteligentne gniazdo WiFi
-id: version-0.101.3b3-ais_iot_s26
+id: version-0.101.3b5-ais_iot_s26
 original_id: ais_iot_s26
 ---
 

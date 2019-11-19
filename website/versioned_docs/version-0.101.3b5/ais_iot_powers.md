@@ -1,7 +1,7 @@
 ---
 title: Możliwości urządzeń AIS dom
 sidebar_label: Możliwości urządzeń AIS dom
-id: version-0.101.3b3-ais_iot_powers
+id: version-0.101.3b5-ais_iot_powers
 original_id: ais_iot_powers
 ---
 

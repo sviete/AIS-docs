@@ -1,7 +1,7 @@
 ---
 title: IFTTT dowolna akcja
 sidebar_label: IFTTT dowolna akcja
-id: version-0.101.3b3-ais_app_ifttt_action
+id: version-0.101.3b5-ais_app_ifttt_action
 original_id: ais_app_ifttt_action
 ---
 

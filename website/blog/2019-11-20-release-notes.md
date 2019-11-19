@@ -19,18 +19,15 @@ Szczegóły w dokumentacji [Bramka RF 433](/AIS-docs/docs/en/ais_iot_gate_device
 ![RF 433](/AIS-docs/img/en/iot/iot_ais_dom_device_rf433_map.png)
 
 
-
 ## IKEA TRÅDFRI
 
-TODO
+Od wersji 0.101 dodaliśmy integrację z IKEA Trådfri jako domyślnie wbudowaną - nie trzeba już doinstalowywać żadnych pakietów.
+Szczegóły w dokumentacji [Integracja IKEA Trådfri ](AIS-docs/docs/en/ais_app_integration_ikea.html)
 
-## Sterowanie ogrzewaniem
-
-TODO
+![Konfiguracja IKEA](/AIS-docs/img/en/bramka/integration_ikea_0.jpg)
 
 
 ## Przykłady IFTTT
-
 
 W integracjach dodaliśmy podkategorię z przykładami. Na początek wyjaśniamy krok po kroku [jak założyć konto w serwisie IFTTT](/AIS-docs/docs/en/next/ais_app_ifttt_platform_account) i [zbudować nasz pierwszy Aplet](/AIS-docs/docs/en/next/ais_app_ifttt_time.html). Aplet to wg terminologii serwisu IFTTT coś, co łączy ze sobą dwie lub więcej aplikacji, lub urządzeń i umożliwia zrobienie czegoś, czego te aplikacje lub urządzenia nie mogłyby zrobić same.
 W kolejnym przykładzie wyjaśniamy [jak dodać Aplet uruchamiający dowolną akcję w Asystencie domowym z serwisu IFTTT](/AIS-docs/docs/en/ais_app_ifttt_action).
@@ -40,11 +37,47 @@ W kolejnym przykładzie wyjaśniamy [jak dodać Aplet uruchamiający dowolną ak
 
 ## TuneIn
 
-TODO
+Łączymy się z API TuneIn, w tej wersji dodaliśmy dwie nowe kategorie w naszych radiach **Popularne TuneIn** i **Trendy TuneIn** w kolejnych wersjach dodamy wyszukiwanie audio TuneIn i didawanie do ulubionych.
+
+![IFTTT](/AIS-docs/img/en/blog/tunein_start.png)
+
+## Wyszukiwanie w dokumentacji
+
+Sebastian znalazł fajny sposób na dodanie wyszukiwania do naszej dokumentacji.
+Zostaliśmy zweryfikowani przez www.algolia.com 👋
+
+![IFTTT](/AIS-docs/img/en/blog/algolia.png)
+
+ i mamy już możliwość wyszukiania na stronie z dokumentacją
+
+ ![IFTTT](/AIS-docs/img/en/blog/algolia2.png)
+
+## Dni pracujące
+
+Inspiracja do dodania do naszej domyślnej konfiguracji czujnika dnia pracującego/wolnego w Polsce pochodzi on naszego użytkownika Darka - dzięki :)
+Czujnik wskazuje, czy bieżący dzień jest dniem roboczym, czy nie z uwzględnieniem informacji o świętach państwowych.
+
+![Dni pracujące](/AIS-docs/img/en/blog/working_days.png)
+
+Celem jest ułatwienie dodawania automatyzacji z uwzględnieniem dni.
+
+![Dni pracujące](/AIS-docs/img/en/blog/working_days1.png)
+
 
 ## Home Assistant
 
-Najnowszy (stabilny) Home Assistant <a href="https://www.home-assistant.io/blog/2019/10/30/release-101/" target="_blank">0.100</a> Z integracją Airly https://airly.eu/pl/ autorstwa naszego rodaka [Maciej Bieniek](https://github.com/bieniu) gratulacje 👏 https://www.home-assistant.io/integrations/airly/ Oraz ogromna ilość poprawek i ulepszeń - do tej wersji ponad 300 programistów dostarczyło ponad tysiąc zmian. Imponujące 👌
+Najnowszy (stabilny) Home Assistant <a href="https://www.home-assistant.io/blog/2019/10/30/release-101/" target="_blank">0.101</a> Z integracją Airly https://airly.eu/pl/ autorstwa naszego rodaka [Maciej Bieniek](https://github.com/bieniu) gratulacje 👏 https://www.home-assistant.io/integrations/airly/ Oraz ogromna ilość poprawek i ulepszeń - do tej wersji ponad 300 programistów dostarczyło ponad tysiąc zmian. Imponujące 👌
+
+
+## TODO
+
+Obiecaliśmy opisać sterowanie ogrzewaniem, które zrobiliśmy w biurze, niestety bieżąca wersja się rozrosła i zabrakło nam czasu na porządny opis i schematy... **dostarczymy na dniach opis w dokumentacji**.
+
+Nasz użytkownik Piotr wysłał nam info jak skonfigurować Z-wave na bramce. Wielkie dzieki - lubimy takich pro 💪 userów. Dodajemy to też sobie do TODO i w kolejnych wersjach planujemy udostępnić tą funkcjonalność dla wszystkich zainteresowanych.
+
+Pracujemy nad integracją Zigbee i mamy pewne postępy :) chodzi o to, żeby sterować ściemnianymi żarówkami z IKEA po 30 zł bez bramki IKEA :). Mamy nadzieję zaprezentować gotowe rozwiązanie w kolejnych aktualizacjach. Tak to obecnie wygląda.
+
+![zigbee_dev](/AIS-docs/img/en/blog/zigbee_dev.png)
 
 
 ----

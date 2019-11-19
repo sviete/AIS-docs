@@ -1,7 +1,7 @@
 ---
 title: Dostęp do konsoli bramki po SSH
 sidebar_label: SSH
-id: version-0.101.3b3-ais_bramka_remote_ssh
+id: version-0.101.3b5-ais_bramka_remote_ssh
 original_id: ais_bramka_remote_ssh
 ---
 
