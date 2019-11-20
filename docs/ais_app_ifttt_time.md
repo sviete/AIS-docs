@@ -15,7 +15,7 @@ Oczywiście podaną funkcjonalność można osiągnąć też łatwo lokalnie 
 
 ## Dodanie apletu
 
-Jako trigger apletu wybieramy serwis **Date & Time** -> **Every houer at**
+Jako trigger apletu wybieramy serwis **Date & Time** -> **Every hour at**
 
 ![Konfiguracja IFTTT](/AIS-docs/img/en/frontend/example_ifttt_time_1.png)
 
