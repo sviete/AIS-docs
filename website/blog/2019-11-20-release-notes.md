@@ -12,7 +12,7 @@ title: Wersja systemu 0.101.4 RF 433 i IKEA TRÅDFRI
 
 ![RF 433](/AIS-docs/img/en/iot/iot_ais_dom_device_rf433_learn_step_7.png)
 
-Żeby umożliwić połączenie pilotów (do bram, rolet), przełączników, czujników i itp. urządzeń komunikujących się za pomocą transmisji radiowej 433 MHz z bramką AIS dom potrzebujemy dodatkowe urządzenie umożliwiające wysyłanie i odbieranie kodów RF 433. Polecamy do tego celu urządzenie Sonoff RF Bridge 433 z alternatywnym oprogramowaniem umożliwiającym łatwą integrację z bramką AIS dom (MQTT) oraz obsługa większej ilości protokołów (oryginalny Sonoff obsługuje tylko jeden protokołu z 24 bitami).
+Żeby umożliwić połączenie pilotów (do bram, rolet), przełączników, czujników i itp. urządzeń komunikujących się za pomocą transmisji radiowej 433 MHz z bramką AIS dom, potrzebujemy dodatkowego urządzenia umożliwiającego wysyłanie i odbieranie kodów RF 433. Polecamy do tego celu urządzenie Sonoff RF Bridge 433 z alternatywnym oprogramowaniem umożliwiającym łatwą integrację z bramką AIS dom (MQTT) oraz obsługującym większą ilość protokołów (oryginalny Sonoff obsługuje tylko jeden protokół z 24 bitami).
 Szczegóły w dokumentacji [Bramka RF 433](/AIS-docs/docs/en/ais_iot_gate_device_rf433)
 
 ![RF 433](/AIS-docs/img/en/iot/iot_ais_dom_device_rf433_map.png)
@@ -38,7 +38,7 @@ A tak to może wyglądać w aplikacji Asystent domowy:
 
 ## Przykłady IFTTT
 
-W integracjach dodaliśmy podkategorię z przykładami. Na początek wyjaśniamy krok po kroku [jak założyć konto w serwisie IFTTT](/AIS-docs/docs/en/next/ais_app_ifttt_platform_account) i [zbudować nasz pierwszy Aplet](/AIS-docs/docs/en/next/ais_app_ifttt_time.html). Aplet to wg terminologii serwisu IFTTT coś, co łączy ze sobą dwie lub więcej aplikacji, lub urządzeń i umożliwia zrobienie czegoś, czego te aplikacje lub urządzenia nie mogłyby zrobić same.
+W integracjach dodaliśmy podkategorię z przykładami. Na początek wyjaśniamy krok po kroku [jak założyć konto w serwisie IFTTT](/AIS-docs/docs/en/next/ais_app_ifttt_platform_account) i [zbudować nasz pierwszy Aplet](/AIS-docs/docs/en/next/ais_app_ifttt_time.html). Aplet to wg terminologii serwisu IFTTT coś, co łączy ze sobą dwie lub więcej aplikacji lub urządzeń i umożliwia zrobienie czegoś, czego te aplikacje lub urządzenia nie mogłyby zrobić same.
 W kolejnym przykładzie wyjaśniamy [jak dodać Aplet uruchamiający dowolną akcję w Asystencie domowym z serwisu IFTTT](/AIS-docs/docs/en/ais_app_ifttt_action).
 
 ![IFTTT](/AIS-docs/img/en/blog/examples_ifttt.png)
@@ -46,7 +46,7 @@ W kolejnym przykładzie wyjaśniamy [jak dodać Aplet uruchamiający dowolną ak
 
 ## TuneIn
 
-Łączymy się z API TuneIn, w tej wersji dodaliśmy dwie nowe kategorie w naszych radiach **Popularne TuneIn** i **Trendy TuneIn** w kolejnych wersjach dodamy wyszukiwanie audio TuneIn i didawanie do ulubionych.
+Łączymy się z API TuneIn, w tej wersji dodaliśmy dwie nowe kategorie w naszych radiach **Popularne TuneIn** i **Trendy TuneIn**. W kolejnych wersjach dodamy wyszukiwanie audio TuneIn i dodawanie do ulubionych.
 
 ![IFTTT](/AIS-docs/img/en/blog/tunein_start.png)
 
@@ -82,7 +82,7 @@ Najnowszy (stabilny) Home Assistant <a href="https://www.home-assistant.io/blog/
 
 Obiecaliśmy opisać sterowanie ogrzewaniem, które zrobiliśmy w biurze, niestety bieżąca wersja się rozrosła i zabrakło nam czasu na porządny opis i schematy... **dostarczymy na dniach opis w dokumentacji**.
 
-Nasz użytkownik Piotr wysłał nam info jak skonfigurować Z-wave na bramce. Wielkie dzieki - lubimy takich pro 💪 userów. Dodajemy to też sobie do TODO i w kolejnych wersjach planujemy udostępnić tą funkcjonalność dla wszystkich zainteresowanych.
+Nasz użytkownik Piotr wysłał nam info jak skonfigurować Z-wave na bramce. Wielkie dzięki - lubimy takich pro 💪 userów. Dodajemy to też sobie do TODO i w kolejnych wersjach planujemy udostępnić tą funkcjonalność dla wszystkich zainteresowanych.
 
 Pracujemy nad integracją Zigbee i mamy pewne postępy :) chodzi o to, żeby sterować ściemnianymi żarówkami z IKEA po 30 zł bez bramki IKEA :). Mamy nadzieję zaprezentować gotowe rozwiązanie w kolejnych aktualizacjach. Tak to obecnie wygląda.
 
