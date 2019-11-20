@@ -1,7 +1,7 @@
 ---
 title: Czy można dołączyć adaptery USB (Zigbee, Z-Wave, Thread, BLE 5.0 itd.)?
 sidebar_label: Czy można dołączyć adaptery USB?
-id: version-0.101.3b5-ais_bramka_faq_usb_dongle
+id: version-0.101.4-ais_bramka_faq_usb_dongle
 original_id: ais_bramka_faq_usb_dongle
 ---
 

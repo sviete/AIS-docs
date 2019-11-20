@@ -1,7 +1,7 @@
 ---
 title: Dodanie urządzenia do bramki
 sidebar_label: Dodanie urządzenia do bramki
-id: version-0.101.3b5-ais_iot_gate_add_device
+id: version-0.101.4-ais_iot_gate_add_device
 original_id: ais_iot_gate_add_device
 ---
 

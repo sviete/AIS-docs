@@ -1,7 +1,7 @@
 ---
 title: Oprogramowanie dla urządzeń automatyki domowej
 sidebar_label: Wprowadzenie
-id: version-0.101.3b5-ais_iot_firmware_index
+id: version-0.101.4-ais_iot_firmware_index
 original_id: ais_iot_firmware_index
 ---
 

@@ -33,14 +33,16 @@ W następnym kroku dodajemy urządzenia do pomieszczeń i na tym kończymy konfi
 
 Po dodaniu integracji można sterować głosowo urządzeniami IKEA, sterować nimi z aplikacji oraz używać ich w automatyzacjach tak samo, jak wszystkie inne urządzenia.
 
-![IKEA in APP](/AIS-docs/img/en/bramka/integration_ikea_4.png)
+<video width="100%" height="100%" playsinline autoplay muted loop>
+  <source src="/AIS-docs/video/ikea.webm" type="video/webm">
+</video>
 
 
 ## Sterowanie z API Asystenta domowego
 
 W systemie Asystent domowy, wszystkie typy urządzeń (żarówka, przełącznik, czujnik) mają to samo API niezależnie od producenta danego urządzenia.
 
-![IKEA API](/AIS-docs/img/en/bramka/integration_ikea_5.png)
+![IKEA in APP](/AIS-docs/img/en/bramka/integration_ikea_4.png)
 
 
 ## Pakiety - uwaga

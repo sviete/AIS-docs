@@ -7,7 +7,6 @@ title: Wersja systemu 0.101.4 RF 433 i IKEA TRÅDFRI
 
 ## Wersja systemu 0.101.4 z dnia 20 listopada 2019 roku,
 
-> Pracujemy nad nową kolejną wersja Asystanta domowego 0.101.4, która **ukaże się 20 listopada** 🥳
 
 ## RF 433 i urządzenia AIS dom
 
@@ -18,6 +17,11 @@ Szczegóły w dokumentacji [Bramka RF 433](/AIS-docs/docs/en/ais_iot_gate_device
 
 ![RF 433](/AIS-docs/img/en/iot/iot_ais_dom_device_rf433_map.png)
 
+Pokazujemy też jak to działa na video:
+
+<div style="max-width:600px;margin:auto">
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/NEFd_T3gqNU" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## IKEA TRÅDFRI
 
@@ -26,6 +30,11 @@ Szczegóły w dokumentacji [Integracja IKEA Trådfri ](AIS-docs/docs/en/ais_app_
 
 ![Konfiguracja IKEA](/AIS-docs/img/en/bramka/integration_ikea_0.jpg)
 
+A tak to może wyglądać w aplikacji Asystent domowy:
+
+<video width="100%" height="100%" playsinline="" autoplay="" muted="" loop="">
+  <source src="/AIS-docs/video/ikea.webm" type="video/webm">
+</video>
 
 ## Przykłady IFTTT
 

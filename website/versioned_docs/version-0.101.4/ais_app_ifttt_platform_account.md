@@ -1,7 +1,7 @@
 ---
 title: IFTTT Konto
 sidebar_label: IFTTT Konto
-id: version-0.101.3b5-ais_app_ifttt_platform_account
+id: version-0.101.4-ais_app_ifttt_platform_account
 original_id: ais_app_ifttt_platform_account
 ---
 

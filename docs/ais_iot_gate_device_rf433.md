@@ -11,7 +11,7 @@ sidebar_label: Bramka RF 433
 
 Po dodaniu do Asystenta domowego urządzenia RF 433 można nauczyć asystenta kodów z pilotów RF 433, a następnie wysyłać je z aplikacji lub za pomocą komendy głosowej.
 Można też wykonać automatyzację typu otwarcie bramy i włączenie światła po odebraniu sygnału z czujki ruchu itp.
- 
+
 ![RF 433](/AIS-docs/img/en/iot/iot_ais_dom_device_rf433_map.png)
 
 
@@ -32,7 +32,7 @@ Dodanie bramki RF przebiega w taki sam sposób jak dodanie każdego urządzenia 
 ## Uczenie bramki kodów RF
 
 ### Konfiguracja Bramki RF 433
- 
+
 W menu aplikacji **Asystent domowy** przechodzimy do **Konfiguracja** -> **Konfiguracja urządzeń AIS dom** i wybieramy **bramkę RF**, którą użyjemy do wysyłania kodów RF:
 
 ![RF 433](/AIS-docs/img/en/iot/iot_ais_dom_device_rf433_select_device.png)
@@ -53,7 +53,7 @@ Teraz wyślij kilka kodów (np. naciśnij kilka razy przyciski na pilocie). Rozp
 
 ### Testowanie i dodawanie przycisków
 
-Przetestuj odebrane kody, ten, który działa najlepiej, nazwij i dodaj jako przycisk do systemu. 
+Przetestuj odebrane kody, ten, który działa najlepiej, nazwij i dodaj jako przycisk do systemu.
 
 
 ![RF 433](/AIS-docs/img/en/iot/iot_ais_dom_device_rf433_learn_step_3.png)
@@ -72,3 +72,8 @@ oraz w grupie wszystkie przełączniki:
 Po dodaniu przycisku możemy go umieścić na karcie i uruchamiać wysyłanie kodu RF (zapisanego pod przyciskiem) przez naciśnięcie przycisku w aplikacji lub komendą głosową.
 
 ![RF 433](/AIS-docs/img/en/iot/iot_ais_dom_device_rf433_learn_step_7.png)
+
+
+## Prezentacja wideo
+
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/NEFd_T3gqNU" frameborder="0" allowfullscreen></iframe>
