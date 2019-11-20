@@ -26,7 +26,7 @@ Pokazujemy też jak to działa na video:
 ## IKEA TRÅDFRI
 
 Od wersji 0.101 dodaliśmy integrację z IKEA Trådfri jako domyślnie wbudowaną - nie trzeba już doinstalowywać żadnych pakietów.
-Szczegóły w dokumentacji [Integracja IKEA Trådfri ](AIS-docs/docs/en/ais_app_integration_ikea.html)
+Szczegóły w dokumentacji [Integracja IKEA Trådfri ](/AIS-docs/docs/en/ais_app_integration_ikea.html)
 
 ![Konfiguracja IKEA](/AIS-docs/img/en/bramka/integration_ikea_0.jpg)
 

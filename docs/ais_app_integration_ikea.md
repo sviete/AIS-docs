@@ -42,7 +42,7 @@ Po dodaniu integracji można sterować głosowo urządzeniami IKEA, sterować ni
 
 W systemie Asystent domowy, wszystkie typy urządzeń (żarówka, przełącznik, czujnik) mają to samo API niezależnie od producenta danego urządzenia.
 
-![IKEA in APP](/AIS-docs/img/en/bramka/integration_ikea_4.png)
+![IKEA in APP](/AIS-docs/img/en/bramka/integration_ikea_5.png)
 
 
 ## Pakiety - uwaga
