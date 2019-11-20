@@ -72,6 +72,72 @@ Celem jest ułatwienie dodawania automatyzacji z uwzględnieniem dni.
 
 ![Dni pracujące](/AIS-docs/img/en/blog/working_days1.png)
 
+## Pozostałe istotne zmiany
+
+> Informujemy głosowo o instalowaniu zależności i wyłączamy domyślnie zapis historii.
+
+Poniżej wyjaśniamy, dlaczego zdecydowaliśmy się tak zrobić.
+
+Najczęstszym problemem zgłaszanym do serwisu jest długie uruchamianie po aktualizacji. Część użytkowników nie sprawdza logów i jeżeli urządzenie nie uruchamia się szybko po aktualizacji, resetuje je, wyłączając z prądu. Dostaliśmy też zwrot jednego urządzenia do serwisu, które zostało przełączone na kanał beta, uruchamiało się długo... i podejrzewamy, że zostało w ten sposób popsute (lub było wadliwe od początku). Nie jest to duża procentowa skala jednak bardzo nas to zmartwiło :( .
+
+Dokładamy wszelkich starań, żeby wszystkie urządzenia działały dobrze (każde testujemy po programowaniu), **dlatego potraktowaliśmy tę pierwszą reklamację bardzo serio i postanowiliśmy się temu problemowi przyjrzeć**.
+
+
+Zbadaliśmy, co jest przyczyną problemu z długim uruchamianiem po aktualizacji i okazało się, że są to 2 rzeczy:
+
+1. **Instalacja zależności**, która następuje przy pierwszym uruchomieniu po aktualizacji, może trwać kilkanaście minut (w zależności od ilości integracji, które się ma dodane).
+
+2. **Migracja bazy danych**, która następuje przy pierwszym uruchomieniu, może trwać kolejne naście minut (w zależności od tego, jaka zmiana była w modelu danych, jakie ma się ustawienia logowania danych i ile posiada się encji w systemie).
+
+
+Są to problemy trudne do wyeliminowania i wyjaśnienia dla użytkownika, ponieważ nie wiemy jak dużo integracji ma użytkownik i urządzeń, nie wiemy, jaki szybkie jest łącze internetowe, więc nie jesteśmy w stanie określić, jak długo potrwa aktualizacja.
+
+Informacja o statusie aktualizacji w aplikacji oraz sprawdzanie logów z postępu aktualizacji, okazało się niewystarczające (szczególnie gdy użytkownik ma problem ze wzrokiem i/lub używa urządzenia jako głośnika).
+
+Podjęliśmy jednak pewne kroki, żeby zniwelować te problemy:
+
+### Instalacja zależności
+
+Żeby zniwelować pierwszy problem, dodaliśmy komunikaty głosowe podczas instalowania dodatkowych pakietów przez Asystenta domowego przy pierwszym uruchomieniu.
+Czyli od tej wersji podczas aktualizacji usłyszysz standardowe komunikaty:
+- Aktualizacja. Pobieram...
+- Aktualizacja. Instaluje...
+- Aktualizacja. Restartuje...
+
+a następnie (przy pierwszym uruchomieniu po aktualizacji):
+
+- Instaluje zależności pakietu: ... ; poczekaj.
+- Instaluje zależności pakietu: ... ; poczekaj.
+- Instaluje zależności pakietu: ... ; poczekaj.
+... itd. w zależności ile masz dodanych integracji, do których jest aktualizacja pakietów. Żebyś wiedział, że coś się dzieje i nie ma potrzeby wyłączać urządzenia.
+
+
+### Migracja bazy danych
+
+Z bazą danych sytuacja jest jeszcze bardziej skomplikowana. Największy nasz klient produkuje urządzenie dla osób niewidomych i niedowidzących, użytkownicy ci korzystają głównie z audio i komend głosowych. Nigdy nie interesowała ich historia logowana przez rekorder i nie są w stanie sami go konfigurować / wyłączyć.
+
+Część zaawansowanych użytkowników bardzo ceni sobie logowanie danych i oferowany przez nas domyślne ustawienia logowania oraz miejsce na urządzeniu nie są dla nich wystarczające. Zaawansowani użytkownicy i tak sami ustawiają sobie preferencje logowania mp na osobnym urządzeniu NAS w dowolnej relacyjnej bazie danych, którą preferują (MySQL, MariaDB, PostgreSQL, czy MS SQL Server) gdzie mają możliwość logowania i analizowania terabajtów danych. Użytkownicy Ci wiedzą, że takiej bazie trzeba zapewnić miejsce a migracja takich volumenów po aktualizacji może zająć kilka godzin lub dni (autentyczne przypadki z forum Home Assistant).
+
+Biorąc pod uwagę powyższe oraz to, że bez rekordera urządzenie działa i aktualizuje się szybciej oraz po aktualizacji uruchamia w bardziej przewidywalnym czasie **postanowiliśmy wyłączyć domyślne zapisywanie historii do bazy danych**.
+
+Nie jest to idealne rozwiązanie, bo część użytkowników chcących mieć podstawowe dane historyczne będzie zmuszona je włączyć samemu w konfiguracji zgodnie z opisem w dokumentacji:  [Recorder](https://www.home-assistant.io/integrations/recorder/).
+
+Takie rozwiązanie jest jednak kompromisem pomiędzy użytkownikami, którzy nie potrzebują logowania i nie potrafią je wyłączyć (a zależy im na tym, żeby urządzenie się szybko aktualizowało i uruchamiało po aktualizacji) a tymi użytkownikami, którzy potrzebują, potrafią włączyć oraz zadbać o to, żeby baza nie zajęła całego miejsca na urządzeniu.
+
+> Jeżeli po aktualizacji brakuje Ci zakładki Historia, to możesz ją dodać łatwo w swojej konfiguracji.
+Oczywiście pamiętaj, że jeżeli masz dziesiątki urządzeń, które generują tysiące zdarzeń to kilka wolnych GB które mamy na urządzeniu może szybko się skończyć. Dlatego najpierw zalecamy zapoznać się z ustawieniami komponentu **[Recorder](https://www.home-assistant.io/integrations/recorder/).**
+
+![Historia](/AIS-docs/img/en/blog/history.png)
+
+Wystarczy dodać 2 linie do pliku z [konfiguracją](/AIS-docs/docs/en/ais_gate_faq_config_yaml.html):
+
+```yaml
+recorder:
+history:
+```
+
+
+
 
 ## Home Assistant
 

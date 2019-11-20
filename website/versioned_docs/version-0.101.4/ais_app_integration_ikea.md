@@ -22,7 +22,7 @@ Aby skonfigurować Trådfri, przejdź do konfiguracji a następnie do panelu int
 
 ### Konfiguracja
 
-Dodając integrację z bramką IKEA Trådfri należy podać adres IP bramki w sieci oraz kod bezpieczeństwa który znajduje się na dole bramki.
+Dodając integrację z bramką IKEA Trådfri należy podać adres IP bramki w sieci oraz kod bezpieczeństwa, który znajduje się na dole bramki.
 
 ![Konfiguracja IKEA](/AIS-docs/img/en/bramka/integration_ikea_2.png)
 
@@ -33,7 +33,7 @@ W następnym kroku dodajemy urządzenia do pomieszczeń i na tym kończymy konfi
 
 ## Sterowanie z aplikacji
 
-Po dodaniu integracji można sterować głosowo urządzeniami IKEA, sterować nimi z aplikacji oraz używać ich w automatyzacjach tak samo, jak wszystkie inne urządzenia.
+Po dodaniu integracji można sterować głosowo urządzeniami IKEA, sterować nimi z aplikacji oraz używać ich w automatyzacjach tak samo, jak wszystkich innych urządzeń.
 
 <video width="100%" height="100%" playsinline autoplay muted loop>
   <source src="/AIS-docs/video/ikea.webm" type="video/webm">

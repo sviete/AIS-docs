@@ -533,6 +533,10 @@
         "title": "Kompatybilność z Tasmota",
         "sidebar_label": "Kompatybilność z Tasmota"
       },
+      "version-0.101.4/version-0.101.4-ais_gate_faq_config_yaml": {
+        "title": "Zaawansowana konfiguracja Asystenta domowego",
+        "sidebar_label": "configuration.yaml"
+      },
       "version-0.101.4/version-0.101.4-ais_iot_browser": {
         "title": "Obsługa urządzenia z przeglądarki",
         "sidebar_label": "Obsługa urządzenia z przeglądarki"

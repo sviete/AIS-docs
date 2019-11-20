@@ -8,7 +8,7 @@ original_id: ais_app_ifttt_platform_account
 
 ## Wprowadzenie
 
-Pokażemy krok po kroku jak założyć konto w serwisie IFTTT i przejść do budowy pierwszego Apletu. Aplet to wg terminologii serwisu IFTTT coś, co łączy ze sobą dwie lub więcej aplikacji, lub urządzeń i umożliwia zrobienie czegoś, czego te aplikacje lub urządzenia nie mogłyby zrobić same.
+Pokażemy krok po kroku jak założyć konto w serwisie IFTTT i przejść do budowy pierwszego Apletu. Aplet to wg terminologii serwisu IFTTT coś, co łączy ze sobą dwie lub więcej aplikacji lub urządzeń i umożliwia zrobienie czegoś, czego te aplikacje lub urządzenia nie mogłyby zrobić same.
 
 Na kolejnej stronie pokażemy jak dodać przykładowy aplet, który będzie wysyłał do Asystenta domowego informacje o godzinie (konkretnie o pełnych godzinach), a Asystent domowy będzie tę godzinę czytał.
 
