@@ -32,6 +32,12 @@ Ponieważ można komendy mówić lub wpisywać zmieniliśmy ikonkę z mikrofonu 
 
 ![Asystent](/AIS-docs/img/en/blog/scene_editor.png)
 
+
+## Odblokowujemy pierszą stronę (default_view) do edycji
+
+
+
+
 ## Home Assistant
 
 Najnowszy (stabilny) Home Assistant <a href="https://www.home-assistant.io/blog/2019/11/20/release-102/" target="_blank">0.102.x</a>

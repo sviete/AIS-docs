@@ -25,7 +25,7 @@ System posiada komponent umożliwiający wydawanie komend i przesyłanie zapyta�
 ## Dostępne komendy
 
 Tu jest [lista poleceń](/AIS-docs/docs/en/ais_app_assistent_commands.html), które asystent rozumie loklanie (bez potrzeby łączenia się z żadnym serwisem zewnętrznym).
-Np. gdy pytasz "Jaka jest temperatura w kuchni" asystent "rozumie", że intencją jest sprawdzenie statusu czujnika o nazwie "Temperatura w kuchni". 
+Np. gdy pytasz "Jaka jest temperatura w kuchni" asystent "rozumie", że intencją jest sprawdzenie statusu czujnika o nazwie "Temperatura w kuchni".
 
 Gdy asystent nie jest w stanie zrozumieć komendy lokalnie, to stara się uzyskać informację w zewnętrznych serwisach lub wyszukać ją w Internecie.
 Udzielając odpowiedzi na pytania typu "kto to jest... ", "kim jest... ", "znajdź informację o..." asystent korzysta z zasobów bazy wiedzy "Google Knowledge Graph". Korzystanie z tego typu bazy wiedzy ma na celu selekcję możliwie najistotniejszych treści i udzielenia krótkiej odpowiedzi na pytanie.
@@ -46,12 +46,12 @@ Każdą zdefiniowaną w systemie automatyzację możemy uruchomić komendą gło
 
 ```text
 'Uruchom {nazwa automatyzacji}'
-``` 
+```
 lub
 
 ```text
 'Automatyzacja {nazwa automatyzacji}'
-``` 
+```
 
 w ten sposób można łatwo dodawać głosowe sterowanie praktycznie dowolnym urządzeniem które mamy zintegrowane w systemie. Przykładowo, gdy chcemy dodać uruchomienie odkurzania głosowo, to wystarczy, że dodamy automatyzację o nazwie np. **Odkurzanie** (lub Start odkurzania) która będzie wywoływała akcję **vacuum.start**. Po zdefiniowanie takiej akcji wystarczy powiedzieć **"Uruchom odkurzanie"** by głosowo uruchomić odkurzanie 💪.
 
@@ -112,11 +112,14 @@ w pliku intents.yaml dodaj intencje oraz akcje, które mają zostać wywołane p
 
 ```yaml
 WhenEOD:
+  speech:
+      text: Nie wiem, zapytaj szefa :)
   action:
     service: ais_ai_service.say_it
     data_template:
-      text: "Nie wiem, zapytaj szefa :)."
+      text: "Jest {{ states.sensor.time.state }}. Nie wiem, zapytaj szefa :)"
 ```
+
 ![Definiowanie intencji](/AIS-docs/img/en/frontend/frontend-assistant-config-2.png)
 
 
