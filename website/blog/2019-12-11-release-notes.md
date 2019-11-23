@@ -25,17 +25,22 @@ Ponieważ można komendy mówić lub wpisywać zmieniliśmy ikonkę z mikrofonu 
     <path fill="#FF9800" d="M15,4V11H5.17L4,12.17V4H15M16,2H3A1,1 0 0,0 2,3V17L6,13H16A1,1 0 0,0 17,12V3A1,1 0 0,0 16,2M21,6H19V15H6V17A1,1 0 0,0 7,18H18L22,22V7A1,1 0 0,0 21,6Z" />
 </svg>
 
-![Asystent](/AIS-docs/img/en/blog/new_conversation.png)
+![Asystent](/AIS-docs/img/en/blog/201912/new_conversation.png)
 
+
+
+## Dostosuj swój interfejs!
+
+Odblokowujemy pierszą stronę (default_view) do edycji bo przecież każdy dom jest unikalny :)
+Od wersji 0.102 dostarczamy i aktualizujemy dwa widoki **Audio** i **Jednostki**
+
+W instrukcji wyjaśniamy [jak włączyć tryb konfiguracji](https://sviete.github.io/AIS-docs/docs/en/ais_app_ui_config.html).
+
+![Asystent](/AIS-docs/img/en/blog/201912/lovelace_custom.png)
 
 ## Edytor scen
 
-![Asystent](/AIS-docs/img/en/blog/scene_editor.png)
-
-
-## Odblokowujemy pierszą stronę (default_view) do edycji
-
-
+![Asystent](/AIS-docs/img/en/blog/201912/scene_editor.png)
 
 
 ## Home Assistant
