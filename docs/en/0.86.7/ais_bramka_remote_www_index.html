@@ -80,15 +80,15 @@
 </ul>
 <p>Nasza oryginalna konfiguracja autentykacji wygląda tak:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-attr">homeassistant:</span>
-<span class="hljs-attr">  auth_providers:</span>
-<span class="hljs-attr">    - type:</span> <span class="hljs-string">homeassistant</span>
-<span class="hljs-attr">    - type:</span> <span class="hljs-string">trusted_networks</span>
-<span class="hljs-attr">    - type:</span> <span class="hljs-string">legacy_api_password</span>
+  <span class="hljs-attr">auth_providers:</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">type:</span> <span class="hljs-string">homeassistant</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">type:</span> <span class="hljs-string">trusted_networks</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">type:</span> <span class="hljs-string">legacy_api_password</span>
 </code></pre>
 <p>Tak łatwe metody autentykacji nie są odpowiednie w przypadku dostępu z Internetu, dlatego należy je wyłączyć. W tym celu wystarczy nadpisać domyślną konfigurację Asystenta dostępną na bramce w lokalizacji <strong>/data/data/pl.sviete.dom/files/home/AIS/configuration.yaml</strong> podając tylko jeden typ autentykacji <strong>homeassistant</strong> w auth_providers:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-attr">homeassistant:</span>
-<span class="hljs-attr">  auth_providers:</span>
-<span class="hljs-attr">    - type:</span> <span class="hljs-string">homeassistant</span>
+  <span class="hljs-attr">auth_providers:</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">type:</span> <span class="hljs-string">homeassistant</span>
 </code></pre>
 <ol start="2">
 <li>Zalecamy włączenie modułu uwierzytelniania wieloskładnikowego</li>
