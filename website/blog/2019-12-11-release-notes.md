@@ -12,7 +12,16 @@ title: Wersja systemu 0.102 QR kody
 
 ## Skanowanie identyfikatora bramki
 
-![Asystent](/AIS-docs/img/en/blog/qr_code_web_0.png)
+W najnowsze wersji naszej aplikacji mobilnej dodaliśmy konfigurację ustawień za pomocą kreatora oraz skanowanie identyfikatora bramki.
+
+![Asystent](/AIS-docs/img/en/frontend/ais_dom_wizard_2_mob_apk.webp)
+
+Dzięki zeskanowaniu identyfikatora aplikacja sama będzie w stanie sama ustalić możliwe połączenie z bramką (lokalne lub przez tunel), wyjaśniamy jak to działa w [dokumentacji aplikacji AIS dom](/AIS-docs/docs/en/ais_app_android_dom.html).
+
+![Asystent](/AIS-docs/img/en/frontend/apk_connection_diagram.png)
+
+
+Skanowanie identyfikatora bramki dodaliśmy też do naszego panelu integratora https://powiedz.co/ords/f?p=DOM1 co powinno ułatwić dodawanie konta
 
 ![Asystent](/AIS-docs/img/en/blog/qr_code_web.png)
 

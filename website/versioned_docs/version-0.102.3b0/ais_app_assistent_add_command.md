@@ -1,7 +1,7 @@
 ---
 title: Dodawanie komendy
 sidebar_label: Dodawanie komendy
-id: version-0.102.1b1-ais_app_assistent_add_command
+id: version-0.102.3b0-ais_app_assistent_add_command
 original_id: ais_app_assistent_add_command
 ---
 

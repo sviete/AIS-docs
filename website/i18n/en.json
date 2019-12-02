@@ -13,9 +13,21 @@
         "title": "Integracja Asystentka Jolka",
         "sidebar_label": "Asystentka Jolka"
       },
-      "ais_app_android_index": {
-        "title": "Aplikacje Android",
-        "sidebar_label": "Aplikacje Android"
+      "ais_app_android_dom": {
+        "title": "AIS dom",
+        "sidebar_label": "AIS dom"
+      },
+      "ais_app_android_explorer": {
+        "title": "AIS explorer",
+        "sidebar_label": "AIS explorer"
+      },
+      "ais_app_android_launcher": {
+        "title": "AIS launcher",
+        "sidebar_label": "AIS launcher"
+      },
+      "ais_app_android_synchro": {
+        "title": "AIS synchro",
+        "sidebar_label": "AIS synchro"
       },
       "ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
@@ -577,15 +589,31 @@
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },
-      "version-0.102.1b1/version-0.102.1b1-ais_app_ai_integration": {
+      "version-0.102.3b0/version-0.102.3b0-ais_app_ai_integration": {
         "title": "Integracja Asystentka Jolka",
         "sidebar_label": "Asystentka Jolka"
       },
-      "version-0.102.1b1/version-0.102.1b1-ais_app_assistent_add_command": {
+      "version-0.102.3b0/version-0.102.3b0-ais_app_android_dom": {
+        "title": "AIS dom",
+        "sidebar_label": "AIS dom"
+      },
+      "version-0.102.3b0/version-0.102.3b0-ais_app_android_explorer": {
+        "title": "AIS explorer",
+        "sidebar_label": "AIS explorer"
+      },
+      "version-0.102.3b0/version-0.102.3b0-ais_app_android_launcher": {
+        "title": "AIS launcher",
+        "sidebar_label": "AIS launcher"
+      },
+      "version-0.102.3b0/version-0.102.3b0-ais_app_android_synchro": {
+        "title": "AIS synchro",
+        "sidebar_label": "AIS synchro"
+      },
+      "version-0.102.3b0/version-0.102.3b0-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
         "sidebar_label": "Dodawanie komendy"
       },
-      "version-0.102.1b1/version-0.102.1b1-ais_faq_index": {
+      "version-0.102.3b0/version-0.102.3b0-ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
       },
