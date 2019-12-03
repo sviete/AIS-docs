@@ -389,6 +389,10 @@
         "title": "Bramka RF 433",
         "sidebar_label": "Bramka RF 433"
       },
+      "ais_iot_gate_remove_device": {
+        "title": "Usunięcie urządzenia z bramki",
+        "sidebar_label": "Usunięcie urządzenia z bramki"
+      },
       "ais_iot_gate": {
         "title": "Wprowadzenie",
         "sidebar_label": "Wprowadzenie"
@@ -613,9 +617,21 @@
         "title": "Dodawanie komendy",
         "sidebar_label": "Dodawanie komendy"
       },
+      "version-0.102.3b0/version-0.102.3b0-ais_app_ifttt_time": {
+        "title": "IFTTT Godzina",
+        "sidebar_label": "IFTTT Godzina"
+      },
       "version-0.102.3b0/version-0.102.3b0-ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
+      },
+      "version-0.102.3b0/version-0.102.3b0-ais_iot_firmware_upgrade": {
+        "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
+        "sidebar_label": "Aktualizacja oprogramowania"
+      },
+      "version-0.102.3b0/version-0.102.3b0-ais_iot_gate_remove_device": {
+        "title": "Usunięcie urządzenia z bramki",
+        "sidebar_label": "Usunięcie urządzenia z bramki"
       },
       "version-0.77.0/version-0.77.0-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",

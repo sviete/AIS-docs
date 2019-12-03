@@ -52,8 +52,12 @@ const PopularTopicsSection = ({ language }) => (
             {' '}Opis możliwości i wyjaśnienie trybów działania dedykowanego pilota radiowego do systemu Asystent domowy.
           </p>
           <p>
-            <b><a href={docUrl('ais_iot_index', language)}>Urządzenia</a>.</b>
-            {' '}Opis jak podłączyć i używać dodatkowe komponenty systemu (czujniki, przełączniki, odtwarzacze, kamery i inne).
+            <b><a href={docUrl('ais_app_radio', language)}>Integracje</a>.</b>
+            {' '}Opis jakie serwisy dostarczamy skonfigurowane na urządzeniu oraz jak dodać integracje dodatkowe.
+          </p>
+          <p>
+            <b><a href={docUrl('ais_iot_works_with', language)}>Urządzenia</a>.</b>
+            {' '}Opis jak podłączyć dodatkowe urządzenia do systemu (czujniki, przełączniki, odtwarzacze, kamery i inne).
           </p>
         </div>
 
@@ -66,20 +70,32 @@ const PopularTopicsSection = ({ language }) => (
             <li><a href={docUrl("ais_app_assistent_commands", language)}>
                 Komendy, które rozumie Asystent
               </a></li>
-              <li><a href={docUrl("ais_bramka_remote_www_index", language)}>
+            <li><a href={docUrl("ais_bramka_remote_www_index", language)}>
                 Dostęp do bramki z Internetu
                 </a></li>
+            <li><a href={docUrl("ais_app_android_dom", language)}>
+                Aplikacja mobilna
+            </a></li>
+            <li><a href={docUrl("ais_iot_firmware_index", language)}>
+              Oprogramowanie dla urządzeń automatyki domowej
+            </a></li>
+            <li><a href={docUrl("ais_iot_gate_add_device", language)}>
+              Dodanie urządzenia do bramki
+            </a></li>
           </ul>
           <h2>Przydatne linki</h2>
           <ul>
-          <li><a href="https://ais-dom.pl">
+          <li><a href="https://www.ais-dom.pl">
               Oficjalny sklep projektu
             </a></li>
-            <li><a href="https://ai-speaker.com/dom">
+            <li><a href="https://www.ai-speaker.com/dom">
               Prezentacja systemu
             </a></li>
             <li><a href="https://github.com/sviete">
               Kody źródłowe składowych systemu
+            </a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=pl.sviete.dom">
+              Aplikacja mobilna w Google Play
             </a></li>
           </ul>
 

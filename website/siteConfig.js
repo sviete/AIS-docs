@@ -12,14 +12,14 @@
 const users = [
   {
     caption: 'User1',
-    image: 'http://ai-speaker.com/images/logo_ais.png',
+    image: 'http://www.ai-speaker.com/images/logo_ais.png',
     infoLink: 'https://www.ai-speaker.com',
     pinned: true,
   },
 ];
 
 const siteConfig = {
-  title: 'Asystent domowy, dokumentacja' /* title for your website */,
+  title: 'Asystent domowy' /* title for your website */,
   tagline: 'Wszystko co potrzebujesz aby korzystać z Asystenta domowego',
   editUrl: 'https://github.com/sviete/AIS-docs/edit/master/docs/',
   url: 'https://sviete.github.io' /* your website url */,

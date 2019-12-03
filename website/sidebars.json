@@ -119,6 +119,7 @@
   "Zarządzanie urządzeniami AIS dom z bramki": [
     "ais_iot_gate",
     "ais_iot_gate_add_device",
+    "ais_iot_gate_remove_device",
     "ais_iot_gate_device_rf433"
   ],
     "Oprogramowanie dla urządzeń AIS dom": [

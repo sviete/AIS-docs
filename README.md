@@ -2,7 +2,7 @@
 
 # AIS dom Documentation
 
-This is the source for the [AIS dom documentation](https://ai-speaker.com/docs).
+This is the source for the [AIS dom documentation](https://www.ai-speaker.com/docs).
 
 ## Updating the docs
 
