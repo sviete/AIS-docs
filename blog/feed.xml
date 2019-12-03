@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Asystent domowy, dokumentacja Blog</title>
+        <title>Asystent domowy Blog</title>
         <link>https://sviete.github.io/AIS-docs/blog</link>
-        <description>The best place to stay up-to-date with the latest Asystent domowy, dokumentacja news and events.</description>
+        <description>The best place to stay up-to-date with the latest Asystent domowy news and events.</description>
         <lastBuildDate>Wed, 11 Dec 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
-            <title>Asystent domowy, dokumentacja Blog</title>
+            <title>Asystent domowy Blog</title>
             <url>https://sviete.github.io/AIS-docs/img/logo-white.svg</url>
             <link>https://sviete.github.io/AIS-docs/blog</link>
         </image>

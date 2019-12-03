@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sviete.github.io/AIS-docs/blog</id>
-    <title>Asystent domowy, dokumentacja Blog</title>
+    <title>Asystent domowy Blog</title>
     <updated>2019-12-11T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://sviete.github.io/AIS-docs/blog"/>
-    <subtitle>The best place to stay up-to-date with the latest Asystent domowy, dokumentacja news and events.</subtitle>
+    <subtitle>The best place to stay up-to-date with the latest Asystent domowy news and events.</subtitle>
     <logo>https://sviete.github.io/AIS-docs/img/logo-white.svg</logo>
     <rights>Copyright © 2019 AI-Speaker</rights>
     <entry>
