@@ -30,9 +30,14 @@ Motywacją do tej zmiany było umożliwienie łatwego dodawania urządzeń do na
 
 Urządzenia do sterowania nie potrzebują Internetu (serwisu w chmurze producenta). To bardzo ułatwia dostępność i przyśpiesza działanie sterowania, ale niesie ze sobą też kilka wyzwań technologicznych.
 
-Główny problem to jak znaleźć bramkę w lokalnej sieci. Dla osób zaznajomionych z technologią ustawienie stałego IP dla bramki nie jest problemem, ale są też osoby, które nie wiedzą (i nie chcą wiedzieć) co to jest IP. 
+Główny problem to jak znaleźć bramkę w lokalnej sieci. Dla osób zaznajomionych z technologią ustawienie stałego IP dla bramki nie jest problemem, ale są też osoby, które nie wiedzą (i nie chcą wiedzieć) co to jest IP.
 
 My ten problem rozwiązujemy i umożliwiamy urządzeniu wyszukanie bramki, czyli mając nasze oprogramowanie i bramkę możesz ją przełączać z Ethernet na WiFi, zmieniać jej adres IP a urządzenia i tak ją znajdą i się z nią połączą.
+
+Tu ważne jest, żeby nazwa unikalnego klienta MQTT (którą ma każde urządzenie) zaczynała się od identyfikatora bramki. Przy takiej konfiguracji urządzenie samo będzie "szukało bramki" w sieci lokalnej. To oczywiście wysyłamy z bramki do urządzenia podczas "parowania urządzenia z bramką".
+
+![MQTT klient](/AIS-docs/img/en/faq/mqtt_client_dom.png)
+
 
 ### Współpraca z Asystentem domowym
 
@@ -41,6 +46,15 @@ W naszej kompilacji oprogramowania Tasmota automatycznie ustawiamy na urządzeni
 Udostępniamy też filmy wideo, na których pokazujemy "krok po kroku" jak dodać nowe gniazdo WiFi do bramki AIS dom korzystając z kreatora w aplikacji:
 [Dodanie urządzenia do bramki za pomocą kreatora w aplikacji](/AIS-docs/docs/en/ais_iot_gate.html)
 
+### Ustawienia lokalne
+
+W naszej kompilacji oprogramowania Tasmota ma lokalne polskie ustawienia:
+- polskie menu,
+- regionalne serwery czasu NTP (pl.pool.ntp.org, 0.pl.pool.ntp.org),
+- strefę czasową dla Polski,
+- lokalizacja to środek polski (52.069528, 19.480300) do wykorzystania podczas ustawiania charmonogramu opartego na wschodzie i zachodzie słońca.
+
+
 
 ## Czy urządzenia z inną kompilacją Tasmota działają z bramką?
 
@@ -48,10 +62,11 @@ Udostępniamy też filmy wideo, na których pokazujemy "krok po kroku" jak doda�
 
 Może to jednak nie być tak proste, jak w przypadku naszych urządzeń, ponieważ nie wiemy, czy kompilacja, (którą masz wgraną na urządzeniu) ma włączoną współpracę z Asystentem domowym, mDNS i czy... została prawidłowo przygotowana i wgrana.
 
-Są dwa wyjścia, żeby działało:
+Są trzy wyjścia, żeby działało:
 
 1. Zrozumieć jak działa MQTT i komunikacja z bramką - co [dokładnie opisujemy](/AIS-docs/docs/en/ais_bramka_mqtt.html) i do czego zachęcamy.
-2. Kupić nasze urządzenie i cieszyć się z tego, że wsparło się nasz projekt i wszystko magicznie i fajnie działa - do czego też bardzo zachęcamy :)
+2. Wgrać nasze darmowe oprogramowanie do urządzenia.
+3. Kupić nasze gotowe urządzenie i cieszyć się z tego, że wsparło się nasz projekt i wszystko magicznie i fajnie działa - do czego też bardzo zachęcamy :)
 
 
 ## Co wysyłamy do urządzenia podczas parowania z bramką?
