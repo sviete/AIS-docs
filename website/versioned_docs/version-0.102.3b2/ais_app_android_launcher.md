@@ -1,7 +1,7 @@
 ---
 title: AIS launcher
 sidebar_label: AIS launcher
-id: version-0.102.3b0-ais_app_android_launcher
+id: version-0.102.3b2-ais_app_android_launcher
 original_id: ais_app_android_launcher
 ---
 

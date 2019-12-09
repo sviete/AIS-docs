@@ -593,43 +593,51 @@
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },
-      "version-0.102.3b0/version-0.102.3b0-ais_app_ai_integration": {
+      "version-0.102.3b2/version-0.102.3b2-ais_app_ai_integration": {
         "title": "Integracja Asystentka Jolka",
         "sidebar_label": "Asystentka Jolka"
       },
-      "version-0.102.3b0/version-0.102.3b0-ais_app_android_dom": {
+      "version-0.102.3b2/version-0.102.3b2-ais_app_android_dom": {
         "title": "AIS dom",
         "sidebar_label": "AIS dom"
       },
-      "version-0.102.3b0/version-0.102.3b0-ais_app_android_explorer": {
+      "version-0.102.3b2/version-0.102.3b2-ais_app_android_explorer": {
         "title": "AIS explorer",
         "sidebar_label": "AIS explorer"
       },
-      "version-0.102.3b0/version-0.102.3b0-ais_app_android_launcher": {
+      "version-0.102.3b2/version-0.102.3b2-ais_app_android_launcher": {
         "title": "AIS launcher",
         "sidebar_label": "AIS launcher"
       },
-      "version-0.102.3b0/version-0.102.3b0-ais_app_android_synchro": {
+      "version-0.102.3b2/version-0.102.3b2-ais_app_android_synchro": {
         "title": "AIS synchro",
         "sidebar_label": "AIS synchro"
       },
-      "version-0.102.3b0/version-0.102.3b0-ais_app_assistent_add_command": {
+      "version-0.102.3b2/version-0.102.3b2-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
         "sidebar_label": "Dodawanie komendy"
       },
-      "version-0.102.3b0/version-0.102.3b0-ais_app_ifttt_time": {
+      "version-0.102.3b2/version-0.102.3b2-ais_app_ifttt_time": {
         "title": "IFTTT Godzina",
         "sidebar_label": "IFTTT Godzina"
       },
-      "version-0.102.3b0/version-0.102.3b0-ais_faq_index": {
+      "version-0.102.3b2/version-0.102.3b2-ais_bramka_remote_adb": {
+        "title": "Dostęp do konsoli bramki po ADB",
+        "sidebar_label": "ADB"
+      },
+      "version-0.102.3b2/version-0.102.3b2-ais_faq_index": {
         "title": "Odpowiedzi na najczęściej zadawane pytania",
         "sidebar_label": "Informacja"
       },
-      "version-0.102.3b0/version-0.102.3b0-ais_iot_firmware_upgrade": {
+      "version-0.102.3b2/version-0.102.3b2-ais_faq_iot_ap_mode": {
+        "title": "Kompatybilność z Tasmota",
+        "sidebar_label": "Kompatybilność z Tasmota"
+      },
+      "version-0.102.3b2/version-0.102.3b2-ais_iot_firmware_upgrade": {
         "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
         "sidebar_label": "Aktualizacja oprogramowania"
       },
-      "version-0.102.3b0/version-0.102.3b0-ais_iot_gate_remove_device": {
+      "version-0.102.3b2/version-0.102.3b2-ais_iot_gate_remove_device": {
         "title": "Usunięcie urządzenia z bramki",
         "sidebar_label": "Usunięcie urządzenia z bramki"
       },
