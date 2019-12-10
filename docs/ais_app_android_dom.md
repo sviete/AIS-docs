@@ -10,7 +10,7 @@ To nasza główna aplikacja, która działa zarówno na bramce jak i na innych u
 
 ![AIS Dom](/AIS-docs/img/en/frontend/ais_dom_tablet_apk.webp)
 
-Aplikacja jest czymś w rodzaju ramki/przeglądarki do [aplikacji internetowej](/AIS-docs/docs/en/next/ais_app_index.html) działającej na bramce. Dostarcza też nam interfejs do API systemu Android oraz konsolę środowiska Linux (zawierającego minimalny system podstawowy wraz z interpreterem języka Python, Node.js oraz Clang).
+Aplikacja jest czymś w rodzaju ramki/przeglądarki do [aplikacji internetowej](/AIS-docs/docs/en/ais_app_index.html) działającej na bramce. Dostarcza też nam interfejs do API systemu Android oraz konsolę środowiska Linux (zawierającego minimalny system podstawowy wraz z interpreterem języka Python, Node.js oraz Clang).
 
 ![AIS Dom](/AIS-docs/img/en/frontend/ais_dom_apk_screen_mob.png)
 
@@ -18,41 +18,54 @@ Aplikacja jest czymś w rodzaju ramki/przeglądarki do [aplikacji internetowej](
 
 ## Instalacja
 
-Aplikacja dostępna jest za darmo w sklepie [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)
+Aplikacja dostępna jest za darmo (bez reklam, mikropłatności itp) w sklepie [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom) pod nazwą AIS dom. Możesz zeskanować telefonem poniższy kod, by przejść do instalacji aplikacji w Google Play:
 
-Kod źródłowy dostępny jest w naszym [publicznie dostępnym repozytorium](https://github.com/sviete/AIS-dom)
+![Google Play](/AIS-docs/img/en/frontend/barcode_go_to_apk_in_google_play.png)
 
-Podpisane wersje beta publikujemy na naszym [serwisie ze składowymi systemu](https://powiedz.co/ota/)
+
+Kod źródłowy aplikacji dostępny jest w naszym [publicznie dostępnym repozytorium](https://github.com/sviete/AIS-dom)
+Podpisane wersje publikujemy też na naszym [serwisie ze składowymi systemu](https://powiedz.co/ota/)
 
 
 
 ## Konfiguracja za pomocą kreatora
 
-Po pierwszym uruchomieniu aplikacji pojawi się kreator który przeprowadzi nas przez prosty proces konfiguracji
+Po pierwszym uruchomieniu aplikacji pojawi się kreator, który przeprowadzi nas krok po kroku przez prosty proces konfiguracji
 
 
-<img src="/AIS-docs/img/en/frontend/ais_dom_wizard_0_mob_apk.webp" alt="AIS Dom" width="50%"/>
+<img src="/AIS-docs/img/en/frontend/ais_dom_wizard_0_mob_apk.png" alt="AIS Dom" width="50%"/>
 
 
 ### Dostęp do mikrofonu
 
-W pierwszym kroku kratora możemy włączyć dostęp do mikrofonu 
+W pierwszym kroku kreatora możemy włączyć dostęp do mikrofonu.
 
-<img src="/AIS-docs/img/en/frontend/ais_dom_wizard_mob_apk.webp" alt="AIS Dom" width="50%"/>
+<img src="/AIS-docs/img/en/frontend/ais_dom_wizard_mob_apk.png" alt="AIS Dom" width="50%"/>
+
+### Dostęp do dysku
+
+W kolejnym kroku kreatora możemy włączyć dostęp do plików na urządzeniu mobilnym.
+
+<img src="/AIS-docs/img/en/frontend/ais_dom_wizard_1_mob_apk.png" alt="AIS Dom" width="50%"/>
 
 
 ### Dostęp do kamery
 
-W drugim kroku kratora możemy włączyć dostęp do kamery 
+W kolejnym kroku kreatora możemy włączyć dostęp do kamery.
 
-<img src="/AIS-docs/img/en/frontend/ais_dom_wizard_2_mob_apk.webp" alt="AIS Dom" width="50%"/>
+<img src="/AIS-docs/img/en/frontend/ais_dom_wizard_2_mob_apk.png" alt="AIS Dom" width="50%"/>
 
 
 ### Skanowanie identyfikatora bramki
 
-W trzecim kroku kratora możemy zeskanować identyfikator naszej bramki
+Na koniec możemy zeskanować identyfikator naszej bramki
 
-<img src="/AIS-docs/img/en/frontend/ais_dom_wizard_3_mob_apk.webp" alt="AIS Dom" width="50%"/>
+<img src="/AIS-docs/img/en/frontend/ais_dom_wizard_3_mob_apk.png" alt="AIS Dom" width="50%"/>
+
+Każda bramka posiada swój unikalny identyfikator, jest on losowo wygenerowany przy pierwszym uruchomieniu i pozostanie stały przez cały okres użytkowania urządzenia. 
+Identyfikator bramki znajdziemy klikając w pozycję "Przydatne linki", w menu po lewej stronie w aplikacji webowej Asystent domowy:
+
+![Gate ID](/AIS-docs/img/en/frontend/gate_id_in_web_app.png)
 
 
 ## Konfiguracja ustawień apliacji
@@ -60,6 +73,9 @@ W trzecim kroku kratora możemy zeskanować identyfikator naszej bramki
 W każdej chwili możemy przejść do ustawień aplikacji nasiskając przycisk z trzema kropkami po lewej stronie na dolnej belce w aplikacji <svg style="width:24px;height:24px" viewBox="0 0 24 24">
     <path fill="#000000" d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
 </svg> 
+<img src="/AIS-docs/img/en/frontend/apk_go_to_settings.png" alt="AIS Dom" width="50%"/>
+
+
 W ustawieniach możemy ręcznie wybrać parametry aplikacji lub uruchomić ponownie kreator ustawień
 <img src="/AIS-docs/img/en/frontend/apk_settings.png" alt="AIS Dom" width="50%"/>
 
@@ -102,22 +118,20 @@ Możesz ręcznie wpisać adres URL do aplikacji webowej działającej na bramce,
 * http://192.168.1.2:8123
 * https://dom-12312312313321321.paczka.pro
 
-w takim przypadku aplikacja AIS dom będzię łączyła się z podanym przez Ciebie adresem URL 
+w takim przypadku aplikacja AIS dom będzię łączyła się tylko z podanym przez Ciebie adresem URL.
 
 
 
-Możesz zeskanować QR kod z unikalnym identyfikatorem swojej bramki (funkcjonalność dostępna od wersji aplikacji AIS dom **1.0.0 wizard**). 
+Możesz zeskanować QR kod z unikalnym identyfikatorem swojej bramki, kod ten dostepny jest w aplikacji webowej Asystent domowy w jako pierwsza pozycja w menu "Przydatne linki":
 
-QR kod dostepny jest w aplikacji Asystent domowy w **Ustawienia** -> **Konfiguracja bramki AIS dom** -> **Zdalny dostęp**
-
-![AIS Dom](/AIS-docs/img/en/frontend/gate_id.png)
+![Gate ID](/AIS-docs/img/en/frontend/gate_id_in_web_app.png)
 
 
 ### Diagram połączenia
 
-Jeśli podasz identyfikator, to aplikacja sama będzie próbowała ustalić, czy połączenie z bramką ma być lokalne, czy przez tunel. 
+Jeśli podasz identyfikator, to aplikacja sama będzie próbowała ustalić, czy połączenie z bramką ma być lokalne, czy przez szyfrowany tunel. 
 Ustalenie połaczenia z bramką działa wg następującego schematu:
 
 ![AIS Dom](/AIS-docs/img/en/frontend/apk_connection_diagram.png)
 
-Naturalnie priorytet ma połączenie lokalne.
+Priorytet ma połączenie lokalne jesli jest dostępne.

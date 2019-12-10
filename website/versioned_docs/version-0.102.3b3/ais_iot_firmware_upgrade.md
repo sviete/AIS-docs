@@ -1,7 +1,7 @@
 ---
 title: Aktualizacja oprogramowania urządzeń automatyki domowej
 sidebar_label: Aktualizacja oprogramowania
-id: version-0.102.3b2-ais_iot_firmware_upgrade
+id: version-0.102.3b3-ais_iot_firmware_upgrade
 original_id: ais_iot_firmware_upgrade
 ---
 

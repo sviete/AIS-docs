@@ -1,6 +1,8 @@
 ---
-title: "Pierwsze uruchomienie"
+title: Pierwsze uruchomienie
 sidebar_label: Pierwsze uruchomienie
+id: version-0.102.3b3-ais_bramka_first_run
+original_id: ais_bramka_first_run
 ---
 
 ## Wprowadzenie
