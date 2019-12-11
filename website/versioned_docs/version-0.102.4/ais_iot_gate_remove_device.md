@@ -1,7 +1,7 @@
 ---
 title: Usunięcie urządzenia z bramki
 sidebar_label: Usunięcie urządzenia z bramki
-id: version-0.102.3b3-ais_iot_gate_remove_device
+id: version-0.102.4-ais_iot_gate_remove_device
 original_id: ais_iot_gate_remove_device
 ---
 

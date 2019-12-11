@@ -1,7 +1,7 @@
 ---
 title: IFTTT Godzina
 sidebar_label: IFTTT Godzina
-id: version-0.102.3b3-ais_app_ifttt_time
+id: version-0.102.4-ais_app_ifttt_time
 original_id: ais_app_ifttt_time
 ---
 

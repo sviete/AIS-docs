@@ -1,7 +1,7 @@
 ---
 title: Dostęp do konsoli bramki po ADB
 sidebar_label: ADB
-id: version-0.102.3b3-ais_bramka_remote_adb
+id: version-0.102.4-ais_bramka_remote_adb
 original_id: ais_bramka_remote_adb
 ---
 
