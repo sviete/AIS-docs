@@ -4,7 +4,7 @@
         <title>Asystent domowy Blog</title>
         <link>https://sviete.github.io/AIS-docs/blog</link>
         <description>The best place to stay up-to-date with the latest Asystent domowy news and events.</description>
-        <lastBuildDate>Wed, 11 Dec 2019 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Jan 2020 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,6 +13,13 @@
             <link>https://sviete.github.io/AIS-docs/blog</link>
         </image>
         <copyright>Copyright © 2019 AI-Speaker</copyright>
+        <item>
+            <title><![CDATA[Wersja systemu 0.103 Audio]]></title>
+            <link>https://sviete.github.io/AIS-docs/blog/2020/01/15/release-notes.html</link>
+            <guid>https://sviete.github.io/AIS-docs/blog/2020/01/15/release-notes.html</guid>
+            <pubDate>Wed, 15 Jan 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0103x-z-dnia-15-stycznia-2020-do-potwierdzenia"></a><a href="#wersja-systemu-0103x-z-dnia-15-stycznia-2020-do-potwierdzenia" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.103.x z dnia 15 stycznia 2020 (do potwierdzenia),</h2> <blockquote> <p>Na kanale beta <strong>prowadzimy pracę nad wersją 0.103</strong>. 🧰 🧩 Wersja ta ukaże się na kanale stabilnym prawdopodobnie dnia 15 stycznia 2020 roku 🧨🧨🧨 🥳.</p> </blockquote> <h2><a class="anchor" aria-hidden="true" id="społecznościowe-forum-ai-speaker"></a><a href="#społecznościowe-forum-ai-speaker" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Społecznościowe forum AI-Speaker!</h2> <p>Na p...</p>]]></description>
+        </item>
         <item>
             <title><![CDATA[Wersja systemu 0.102 Galeria i QR kody]]></title>
             <link>https://sviete.github.io/AIS-docs/blog/2019/12/11/release-notes.html</link>
