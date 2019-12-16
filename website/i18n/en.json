@@ -657,6 +657,10 @@
         "title": "Usunięcie urządzenia z bramki",
         "sidebar_label": "Usunięcie urządzenia z bramki"
       },
+      "version-0.103.0b1/version-0.103.0b1-ais_app_ui_config": {
+        "title": "Konfiguracja interfejsu użytkownika",
+        "sidebar_label": "Konfiguracja"
+      },
       "version-0.77.0/version-0.77.0-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
         "sidebar_label": "Dodawanie komendy"

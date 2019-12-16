@@ -106,5 +106,18 @@ Na prośbę użytkowników dodamy możliwość komentarzy pod postami i być mo�
 
 
 ----
-Zapraszamy do aktualizacji!
+Zapraszamy do aktualizacji! I
 AI-Speaker 12/2019
+
+
+<div id='discourse-comments'></div>
+
+<script markdown="0">
+  DiscourseEmbed = { discourseUrl: 'https://ai-speaker.discourse.group/',
+                     discourseEmbedUrl: 'https://sviete.github.io/AIS-docs/blog/2019/12/11/release-notes.html' };
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
