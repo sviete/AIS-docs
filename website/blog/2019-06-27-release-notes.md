@@ -16,6 +16,8 @@ Cała kolekcja audiobooków <a href="https://wolnelektury.pl/" target="_blank">W
 ![Książki](/AIS-docs/img/en/frontend/ais_books_player.png)
 
 
+<!--truncate-->
+
 ### Możliwość wybrania strefy czasowej i zaznaczenia lokalizacji na mapie w aplikacji
 
 Podczas pierwszego uruchomienia Asystent domowy zapyta Cię gdzie mieszkasz. Pomoże to w wyświetlaniu informacji i konfigurowaniu automatyki opartej na położeniu słońca. **Dane te nigdy nie będą udostępniane poza Twoją sieć lokalną.**

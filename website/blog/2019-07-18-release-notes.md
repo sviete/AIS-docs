@@ -20,6 +20,8 @@ Więcej w dokumentacji [Wykrywanie obecności](/AIS-docs/docs/en/ais_bramka_pres
 ![Wykrywanie obecności](/AIS-docs/img/en/bramka/presence_detection_14.png)
 
 
+<!--truncate-->
+
 ### Przewodnik podstaw automatyzacji
 
 Asystent domowy oferuje szeroki zakres konfiguracji automatyzacji.

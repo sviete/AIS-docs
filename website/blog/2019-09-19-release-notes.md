@@ -21,6 +21,8 @@ Gdy "uruchamianie trybu nocnego jest włączone" to o wybranej godzinie startu t
 Oczywiście o wybranej godzinie zakończenia trybu nocnego głośność i wygląd zostaną automatycznie przywrócone do wartości przed ciszą nocną.
 
 
+<!--truncate-->
+
 ## Nie nadpisujemy widoków i kart użytkownika
 
 Przez kilka miesięcy intensywnie rozwijaliśmy interfejs w aplikacji i niektóre aktualizacje nadpisywały ustawienia wyglądu zdefiniowane przez użytkownika. 

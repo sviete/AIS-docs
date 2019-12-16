@@ -23,6 +23,7 @@ W ustawieniach bramki dodaliśmy możliwość włączenia automatycznych aktuali
 Oczywiście, jeśli wolisz sam decydować, kiedy aktualizować system, to nie włączaj auto aktualizacji i tak jak dotychczas uruchamiaj aktualizację Asystenta domowego samodzielnie w dogodnym dla Ciebie czasie.
 Aktualizacje dostarczają najnowsze funkcjonalności oraz poprawki zapewniające bezpieczeństwo i stabilność działania systemu dlatego zachęcamy do ich wykonywania.
 
+<!--truncate-->
 
 
 ## Integracja z SUPLA

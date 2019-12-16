@@ -15,6 +15,8 @@ Dzięki temu możliwe jest włączanie muzyki i sterowanie urządzeniami domowym
 
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/_PY8FsPDQzA" frameborder="0" allowfullscreen></iframe>
 
+<!--truncate-->
+
 ### Tryb zaawansowany w aplikacji webowej
 
 W ramach prac nad wersją 1.0 upraszczamy domyślny interfejs użytkownika aplikacji Asystent domowy. Od wersji 0.96 ukrywamy zaawansowane opcje konfiguracji oraz konsolę dla końcowych użytkowników, tryb zaawansowany oraz konsola dostępne są tylko dla administratorów.

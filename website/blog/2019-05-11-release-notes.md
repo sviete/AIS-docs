@@ -13,6 +13,7 @@ title: Wersja systemu 0.92.6  Listy w aplikacji
 
 ![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/audio_lists.png)
 
+<!--truncate-->
 
 ### Ulubione i zakładki
 

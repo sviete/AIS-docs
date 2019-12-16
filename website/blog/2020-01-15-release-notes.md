@@ -25,6 +25,8 @@ Wszystkich którzy mają ochotę opublikować swój projekt zapraszamy do sekcji
 ![Discourse](/AIS-docs/img/en/blog/202001/discourse_manifest.png)
 
 
+<!--truncate-->
+
 ## Audio w osobnym panelu
 
 Przenosimy widok audio do osobnego panelu w aplikacji... 

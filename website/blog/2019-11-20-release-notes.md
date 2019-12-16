@@ -15,6 +15,8 @@ title: Wersja systemu 0.101.4 RF 433 i IKEA TRÅDFRI
 Żeby umożliwić połączenie pilotów (do bram, rolet), przełączników, czujników i itp. urządzeń komunikujących się za pomocą transmisji radiowej 433 MHz z bramką AIS dom, potrzebujemy dodatkowego urządzenia umożliwiającego wysyłanie i odbieranie kodów RF 433. Polecamy do tego celu urządzenie Sonoff RF Bridge 433 z alternatywnym oprogramowaniem umożliwiającym łatwą integrację z bramką AIS dom (MQTT) oraz obsługującym większą ilość protokołów (oryginalny Sonoff obsługuje tylko jeden protokół z 24 bitami).
 Szczegóły w dokumentacji [Bramka RF 433](/AIS-docs/docs/en/ais_iot_gate_device_rf433)
 
+<!--truncate-->
+
 ![RF 433](/AIS-docs/img/en/iot/iot_ais_dom_device_rf433_map.png)
 
 Pokazujemy też jak to działa na video:

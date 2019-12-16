@@ -14,6 +14,7 @@ Na dotykowych ekranach dodano możliwość nawigacji pomiędzy kartami w aplikac
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/KfmvwHS6Noo" frameborder="0" allowfullscreen></iframe>
 
 
+<!--truncate-->
 
 ### Prosta konfiguracja - start!
 

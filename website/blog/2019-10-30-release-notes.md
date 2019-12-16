@@ -29,6 +29,8 @@ Przy okazji odświeżyliśmy wygląd w kilku miejscach w aplikacjach a w dokumen
 ![AIS dom APK](/AIS-docs/img/en/frontend/ais_launcher_apk_screen.png)
 
 
+<!--truncate-->
+
 ## Wygląd aplikacji
 
 ### Poprawiony tryb nocny 

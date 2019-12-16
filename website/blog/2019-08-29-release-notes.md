@@ -25,6 +25,8 @@ Konfiguracja bramki ma 4 sekcje, są one opisane na nowej stronie dokumentacji [
 ![AIS dom ustawienia bramki](/AIS-docs/img/en/frontend/ais_dom_gate_settings_voice.png)
 
 
+<!--truncate-->
+
 #### Przydatne linki 
 
 Linki do serwisów działających na bramce umieściliśmy jako nową opcję w menu w aplikacji [Przydatne linki](/AIS-docs/docs/en/ais_bramka_services)

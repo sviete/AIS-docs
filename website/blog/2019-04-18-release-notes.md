@@ -17,6 +17,7 @@ Na początek obsługujemy jedną komendę głosową: "Wikipedia + {szukana fraza
 
 ![Konfiguracja interfejsu użytkownika](/AIS-docs/img/en/frontend/wikipedia_1.png)
 
+<!--truncate-->
 
 ### Obraz wideo z kamer
 

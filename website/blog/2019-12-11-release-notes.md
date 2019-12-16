@@ -24,6 +24,7 @@ Jak to działa opisaliśmy w [Konfiguracja interfejsu użytkownika](/AIS-docs/do
 <img src="/AIS-docs/img/en/blog/201912/galeria2.png" alt="AIS Dom"/>
 </div>
 
+<!--truncate-->
 
 ## Kreator i skanowanie identyfikatora bramki
 
