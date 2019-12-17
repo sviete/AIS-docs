@@ -17,7 +17,7 @@ Niebawem zaprosimy wszystkich do dodawania konta i zachęcimy do brania udziału
 
 Chcemy pomóc zbudować to miejsce i oddać je społeczności - użytkownicy, którzy zaangażują się i będą publikować, zostaną automatycznie promowani na moderatorów / administratorów.
 
-Jeśli masz projekt związany z Asystentem domowym, który wykonałeś i masz ochotę go opisać dla innych to będziemy bardzo wdzięczni 🥰 
+Jeśli masz projekt związany z Asystentem domowym, który wykonałeś i masz ochotę go opisać dla innych to będziemy bardzo wdzięczni 🥰
 Wszystkich którzy mają ochotę opublikować swój projekt zapraszamy do sekcji **Projekty** https://ai-speaker.discourse.group/c/projekty im więcej ciekawych rzeczy opublikujemy tym większa szansa, że to miejsce będzie żyło i się rozwijało.
 
 
@@ -29,7 +29,7 @@ Wszystkich którzy mają ochotę opublikować swój projekt zapraszamy do sekcji
 
 ## Audio w osobnym panelu
 
-Przenosimy widok audio do osobnego panelu w aplikacji... 
+Przenosimy widok audio do osobnego panelu w aplikacji...
 > TODO - opis do uzupełniania
 
 
@@ -49,7 +49,13 @@ AI-Speaker 01/2020
 ----
 
 
-<div id='discourse-comments'></div>
+<div id='discourse-comments' style='height: 580px; overflow-y: scroll;'>
+<style>
+iframe#discourse-embed-frame {
+    height: 600px;
+}
+</style>
+</div>
 
 <script markdown="0">
   DiscourseEmbed = { discourseUrl: 'https://ai-speaker.discourse.group/',
@@ -60,5 +66,3 @@ AI-Speaker 01/2020
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
   })();
 </script>
-
-

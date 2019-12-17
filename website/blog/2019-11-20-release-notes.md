@@ -160,3 +160,23 @@ Pracujemy nad integracją Zigbee i mamy pewne postępy :) chodzi o to, żeby ste
 ----
 Zapraszamy do aktualizacji!
 AI-Speaker 11/2019
+
+
+
+<div id='discourse-comments' style='height: 580px; overflow-y: scroll;'>
+<style>
+iframe#discourse-embed-frame {
+    height: 600px;
+}
+</style>
+</div>
+
+<script markdown="0">
+  DiscourseEmbed = { discourseUrl: 'https://ai-speaker.discourse.group/',
+                     discourseEmbedUrl: 'https://sviete.github.io/AIS-docs/blog/2019/11/20/release-notes.html' };
+  (function() {
+    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
+    d.src = DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
+  })();
+</script>
