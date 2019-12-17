@@ -111,14 +111,13 @@ Zapraszamy do aktualizacji! I
 AI-Speaker 12/2019
 
 
-<div id='discourse-comments' style='height: 580px; overflow-y: scroll;'>
+<div id='discourse-comments' style='height: 600px; overflow-y: scroll;'>
 <style>
 iframe#discourse-embed-frame {
-    height: 600px;
+    height: 700px !important;
 }
 </style>
 </div>
-
 
 <script markdown="0">
   DiscourseEmbed = { discourseUrl: 'https://ai-speaker.discourse.group/',

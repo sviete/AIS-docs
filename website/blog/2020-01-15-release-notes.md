@@ -49,10 +49,10 @@ AI-Speaker 01/2020
 ----
 
 
-<div id='discourse-comments' style='height: 580px; overflow-y: scroll;'>
+<div id='discourse-comments' style='height: 600px; overflow-y: scroll;'>
 <style>
 iframe#discourse-embed-frame {
-    height: 600px;
+    height: 700px !important;
 }
 </style>
 </div>
