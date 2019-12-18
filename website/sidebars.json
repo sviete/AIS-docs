@@ -71,6 +71,12 @@
       "ais_remote_mode_off_tv",
       "ais_remote_mode_gesture",
       "ais_app_assistent_commands"
+    ],
+    "Pilot radiowy, pomoc": [
+      "ais_remote_faq_index",
+      "ais_app_assistent_commands",
+      "ais_app_assistent_add_command",
+      "ais_remote_faq_index"
     ]
   },
   "Integracje": {
@@ -157,12 +163,7 @@
         "ais_faq_automation_tips_and_tricks",
         "ais_faq_components_weather"
     ],
-    "Pilot radiowy": [
-      "ais_remote_faq_index",
-      "ais_app_assistent_commands",
-      "ais_app_assistent_add_command",
-      "ais_remote_faq_index"
-    ],
+
     "Urządzenia AIS dom": [
       "ais_faq_iot_ap_mode"
     ]
