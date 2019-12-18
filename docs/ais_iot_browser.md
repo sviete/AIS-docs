@@ -7,7 +7,7 @@ sidebar_label: Obsługa urządzenia z przeglądarki
 
 > <svg style="width:24px;height:24px" viewBox="0 0 24 24">
     <path fill="#000000" d="M13,9H11V7H13M13,17H11V11H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
-</svg> Jeśli jesteś posiadaczem **bramki IoT AIS dom** i chcesz podłączyć do niej **urządzenie AIS dom**, to możesz pominąć ten opis i przejść do **[Obsługa urządzenia z bramki AIS dom](/AIS-docs/docs/en/next/ais_iot_gate.html) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.** 
+</svg> Jeśli jesteś posiadaczem **bramki IoT AIS dom** i chcesz podłączyć do niej **urządzenie AIS dom**, to możesz pominąć ten opis i przejść do **[Obsługa urządzenia z bramki AIS dom](/AIS-docs/docs/en/next/ais_iot_gate.html) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.**
 
 
 Urządzenie z oprogramowaniem **AIS dom** jest autonomiczne i do podstawowych funkcjonalności nie potrzebuje żadnego dodatkowego komponentu, takiego jak lokalna bramka czy zdalny serwer (chmura). Poniżej przedstawiamy, w jaki sposób urządzenie może być sterowane za pomocą dowolnej przeglądarki internetowej.
@@ -40,6 +40,15 @@ Podaj następujące informacje:
 Sprawdź, czy podałeś poprawne dane do sieci i kliknij **Zapisz**, aby zastosować ustawienia. Urządzenie uruchomi się ponownie i połączy się z siecią domową.
 <img src="/AIS-docs/img/en/iot/iot_ais_dom_wifi_step4.png" width="300px" align="center" style="margin:20px;"> </img>
 
+> <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="#db4437" d="M21.54 10.8L13.24 2.5A1.63 1.63 0 0 0 10.84 2.5L2.54 10.8A1.63 1.63 0 0 0 2.54 13.2L10.84 21.5A1.63 1.63 0 0 0 13.24 21.5L21.54 13.2A1.83 1.83 0 0 0 21.54 10.8M13 17H11V15H13M13 13H11V7H13Z" />
+</svg> **UWAGA to jeszcze nie koniec!**
+> -----
+> Wysłaliśmy do urządzenia parametry, z jaką siecią WiFi ma się łączyć (skonfigurowaliśmy je do działania w naszej sieci WiFi). **Teraz należy ustalić jaki adres IP ma urządzenie w naszej sieci** - ten adres nadaje router i nie wiemy, jaki on jest.
+>
+> Żeby ustalić, jaki adres IP ma urządzenie w naszej sieci, należy przejść do kolejnego punktu tej instrukcji [Adres IP urządzenia](/AIS-docs/docs/en//ais_iot_browser.html#adres-ip-urządzenia).
+>
+> Po ustaleniu adresu IP będziemy mogli otworzyć ten adres IP za pomocą przeglądarki internetowej z dowolnego urządzenia (komputera, telefonu, tabletu itd.) podłączonego do tej samej sieci i będziemy mieli pełny dostęp do urządzenia w swojej lokalnej sieci.
 
 ## Adres IP urządzenia
 
