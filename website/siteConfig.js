@@ -45,7 +45,7 @@ const siteConfig = {
     {doc: 'ais_app_radio', label: 'Integracje'},
     {doc: 'ais_iot_works_with', label: 'Urządzenia'},
     { search: true },
-    {href: 'https://ai-speaker.discourse.group/c/faq', label: 'FAQ'},
+    {href: 'https://ai-speaker.discourse.group', label: 'Forum'},
     { blog: true, label: 'Aktualności'},
   ],
 

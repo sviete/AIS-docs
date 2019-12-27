@@ -32,6 +32,31 @@ Wszystkich którzy mają ochotę opublikować swój projekt zapraszamy do sekcji
 Przenosimy widok audio do osobnego panelu w aplikacji...
 > TODO - opis do uzupełniania
 
+## Rozpoznwanie urządzeń USB
+
+> TODO - opis do uzupełniania
+
+
+## Dodawanie zdalnych dysków FTP
+
+> TODO - opis do uzupełniania
+
+
+## Rozbudowa nawigacji pilotem
+
+Do pozycji menu **Dom** dodaliśmy grupę **Sceny**, w której znajdują się wszystkie zdefiniowane sceny w systemie i można je uruchamiać pilotem.
+
+Oraz grupę **Urządzenia**, w tej grupie mamy teraz następujące pozycje:
+- Przełączniki
+- Światła
+- Czujniki
+- Termostaty
+- Zasłony
+- Odkurzacze
+- Zamki
+- Kamery
+- Wntylatory
+
 
 ## Home Assistant
 

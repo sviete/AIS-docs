@@ -657,11 +657,11 @@
         "title": "Usunięcie urządzenia z bramki",
         "sidebar_label": "Usunięcie urządzenia z bramki"
       },
-      "version-0.103.0b1/version-0.103.0b1-ais_app_ui_config": {
+      "version-0.103.4b2/version-0.103.4b2-ais_app_ui_config": {
         "title": "Konfiguracja interfejsu użytkownika",
         "sidebar_label": "Konfiguracja"
       },
-      "version-0.103.0b1/version-0.103.0b1-ais_iot_browser": {
+      "version-0.103.4b2/version-0.103.4b2-ais_iot_browser": {
         "title": "Obsługa urządzenia z przeglądarki",
         "sidebar_label": "Obsługa urządzenia z przeglądarki"
       },
@@ -1804,7 +1804,7 @@
       "Pilot": "Pilot",
       "Integracje": "Integracje",
       "Urządzenia": "Urządzenia",
-      "FAQ": "FAQ",
+      "Forum": "Forum",
       "Aktualności": "Aktualności"
     },
     "categories": {
