@@ -62,7 +62,7 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_app_components_weather.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Pogoda</h1></header><article><div><span><p>Obecnie w systemie Asystent domowy w podstawowej konfiguracji (z pudełka) dostarczamy dane pogodowe z dwóch źródeł:</p>
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_app_components_weather.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Pogoda</h1></header><article><div><span><p>Obecnie w systemie Asystent domowy w podstawowej konfiguracji (z pudełka) dostarczamy dane pogodowe z dwóch źródeł:</p>
 <ul>
 <li><a href="https://darksky.net/dev">Serwisu pogodowego Dark Sky</a> - ten serwis jest źródłem opisowej prognozy pogody dla Twojej lokalizacji, gdy pytamy o pogodę przez asystenta to zwracana opisowa informacja pogodowa pochodzi z tego serwisu</li>
 <li><a href="https://openweathermap.org/">Serwisu pogodowego Open Weather Map</a> - ten serwis jest źródłem aktualnych danych meteorologicznych dla Twojej lokalizacji wyświetlanych w aplikacji w widoku pogoda</li>
@@ -75,67 +75,67 @@ Folder z konfiguracją dostępny jest po ssh lub ftp, szczegółowy opis zdalneg
 <p><code>configuration.yaml</code>:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-comment"># predefiniowana lokalizacja w configuration.yaml</span>
 <span class="hljs-attr">homeassistant:</span>
-<span class="hljs-attr">  name:</span> <span class="hljs-string">Asystent</span> <span class="hljs-string">domowy</span>
+  <span class="hljs-attr">name:</span> <span class="hljs-string">Asystent</span> <span class="hljs-string">domowy</span>
   <span class="hljs-comment"># Lokalizacja</span>
-<span class="hljs-attr">  latitude:</span> <span class="hljs-number">52.298519</span>
-<span class="hljs-attr">  longitude:</span> <span class="hljs-number">20.838871</span>
-<span class="hljs-attr">  elevation:</span> <span class="hljs-number">134</span>
+  <span class="hljs-attr">latitude:</span> <span class="hljs-number">52.298519</span>
+  <span class="hljs-attr">longitude:</span> <span class="hljs-number">20.838871</span>
+  <span class="hljs-attr">elevation:</span> <span class="hljs-number">134</span>
   <span class="hljs-comment"># metric for Metric, imperial for Imperial</span>
-<span class="hljs-attr">  unit_system:</span> <span class="hljs-string">metric</span>
+  <span class="hljs-attr">unit_system:</span> <span class="hljs-string">metric</span>
   <span class="hljs-comment"># http://en.wikipedia.org/wiki/List_of_tz_database_time_zones</span>
-<span class="hljs-attr">  time_zone:</span> <span class="hljs-string">Europe/Warsaw</span>
+  <span class="hljs-attr">time_zone:</span> <span class="hljs-string">Europe/Warsaw</span>
 </code></pre>
 <p>Po zmianie lokalizacji wystarczy zrestartować bramkę żeby zadziałały nowe ustawienia.</p>
 <h2><a class="anchor" aria-hidden="true" id="definicja-innego-serwisu-do-danych-pogodowych"></a><a href="#definicja-innego-serwisu-do-danych-pogodowych" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Definicja innego serwisu do danych pogodowych</h2>
 <p>Istnieje możliwość w łatwy sposób zmiany serwisu dostarczającego dane pogodowe, w tym celu wystarczy wybrać i skonfigurować jeden z kilkudziesięciu gotowych komponentów pogodowych dostarczanych przez <a href="https://www.home-assistant.io/components/#weather">Home Assistant Weather</a>.
 (oczywiście można też zaimplementować własny komponent do danych pogodowych ale jest to opcja bardziej zaawansowana wymagająca znajomości języka programowania Python)</p>
 <p>Poniżej pokażemy przykład krok po kroku, jak dodać dene pogodowe z serwisu pogodowego Dark Sky, w analogiczny sposób można dodawać dane z innych serwisów.</p>
-<h3><a class="anchor" aria-hidden="true" id="dark-sky-klucz-api"></a><a href="#dark-sky-klucz-api" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dark Sky - Klucz API</h3>
+<h3><a class="anchor" aria-hidden="true" id="dark-sky---klucz-api"></a><a href="#dark-sky---klucz-api" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dark Sky - Klucz API</h3>
 <p>Będzie potrzebny klucz API, który jest bezpłatny, ale wymaga rejestracji. Bezpłatnie można robić maksymalnie 1000 zapytań dziennie.</p>
 <blockquote>
 <p><strong>UWAGA</strong> Dark Sky obciąży Cię 0,0001 USD za każde połączenie z interfejsem API, jeśli podasz dane swojej karty kredytowej i utworzysz ponad 1000 zapytań dziennie.</p>
 </blockquote>
 <p>Rejestracja dostępna jest tu: <a href="https://darksky.net/dev">Dark Sky API</a></p>
-<h3><a class="anchor" aria-hidden="true" id="dark-sky-konfiguracja"></a><a href="#dark-sky-konfiguracja" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dark Sky - Konfiguracja</h3>
+<h3><a class="anchor" aria-hidden="true" id="dark-sky---konfiguracja"></a><a href="#dark-sky---konfiguracja" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dark Sky - Konfiguracja</h3>
 <p>Aby dodać Dark Sky do swojej instalacji, dodaj następujące elementy do pliku configuration.yaml:</p>
 <p><code>configuration.yaml</code>:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-comment"># Przykład z configuration.yaml</span>
 <span class="hljs-attr">weather:</span>
-<span class="hljs-attr">  - platform:</span> <span class="hljs-string">darksky</span>
-<span class="hljs-attr">    api_key:</span> <span class="hljs-string">TWOJ_KLUCZ_API</span>
+  <span class="hljs-bullet">-</span> <span class="hljs-attr">platform:</span> <span class="hljs-string">darksky</span>
+    <span class="hljs-attr">api_key:</span> <span class="hljs-string">TWOJ_KLUCZ_API</span>
 </code></pre>
 <p>Szczegółowa konfiguracja dostępna jest tutaj: <a href="https://www.home-assistant.io/components/weather.darksky/">Home Assistant, Dark Sky</a></p>
-<h3><a class="anchor" aria-hidden="true" id="dark-sky-dodanie-do-widoku"></a><a href="#dark-sky-dodanie-do-widoku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dark Sky - dodanie do widoku</h3>
+<h3><a class="anchor" aria-hidden="true" id="dark-sky---dodanie-do-widoku"></a><a href="#dark-sky---dodanie-do-widoku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dark Sky - dodanie do widoku</h3>
 <p>Aby dane o pogodzie z naszego nowo dodanego serwisu wyświetlały się w widoku pogody a aplikacji należy nadpisać domyślną definicję grupy pogody.</p>
 <p>Nadpisywanie group/widoków możliwe jest w pliku groups.yaml znajdującego się na bramce, w tym samym folderze z konfiguracją co główny plik konfiguracyjny configuration.yaml.</p>
 <p>Domyślna definicja widoku pogody którą dostarczamy w podstawowej konfiguracji systemu wygląda tak:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-comment"># Domyślna definicja widoku pogody w aplikacji</span>
 <span class="hljs-attr">pogoda:</span>
-<span class="hljs-attr">  name:</span> <span class="hljs-string">Pogoda</span>
-<span class="hljs-attr">  view:</span> <span class="hljs-literal">yes</span>
-<span class="hljs-attr">  icon:</span> <span class="hljs-attr">mdi:weather-partlycloudy</span>
-<span class="hljs-attr">  entities:</span>
-<span class="hljs-bullet">    -</span> <span class="hljs-string">weather.openweathermap</span>
-<span class="hljs-bullet">    -</span> <span class="hljs-string">sensor.dark_sky_hourly_summary</span>
-<span class="hljs-bullet">    -</span> <span class="hljs-string">sensor.dark_sky_daily_summary</span>
+  <span class="hljs-attr">name:</span> <span class="hljs-string">Pogoda</span>
+  <span class="hljs-attr">view:</span> <span class="hljs-literal">yes</span>
+  <span class="hljs-attr">icon:</span> <span class="hljs-string">mdi:weather-partlycloudy</span>
+  <span class="hljs-attr">entities:</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-string">weather.openweathermap</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-string">sensor.dark_sky_hourly_summary</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-string">sensor.dark_sky_daily_summary</span>
 </code></pre>
 <p>żeby nadpisać domyślą definicję własną konfiguracją, wystarczy dodać odpowiednie wpisy do pliku groups.yaml
 Poniżej przykład konfigurację zawierającą całą podstawową konfigurację oraz nasz noowo dodany komponent pogodowy Dark Sky (patrz ostatnia linijka):</p>
 <p><code>groups.yaml</code>:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-comment"># Zmodyfikowana definicja widoku pogoda w aplikacji</span>
 <span class="hljs-attr">pogoda:</span>
-<span class="hljs-attr">  name:</span> <span class="hljs-string">Pogoda</span>
-<span class="hljs-attr">  view:</span> <span class="hljs-literal">yes</span>
-<span class="hljs-attr">  icon:</span> <span class="hljs-attr">mdi:weather-partlycloudy</span>
-<span class="hljs-attr">  entities:</span>
-<span class="hljs-bullet">    -</span> <span class="hljs-string">weather.openweathermap</span>
-<span class="hljs-bullet">    -</span> <span class="hljs-string">sensor.dark_sky_hourly_summary</span>
-<span class="hljs-bullet">    -</span> <span class="hljs-string">sensor.dark_sky_daily_summary</span>
-<span class="hljs-bullet">    -</span> <span class="hljs-string">weather.dark_sky</span>
+  <span class="hljs-attr">name:</span> <span class="hljs-string">Pogoda</span>
+  <span class="hljs-attr">view:</span> <span class="hljs-literal">yes</span>
+  <span class="hljs-attr">icon:</span> <span class="hljs-string">mdi:weather-partlycloudy</span>
+  <span class="hljs-attr">entities:</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-string">weather.openweathermap</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-string">sensor.dark_sky_hourly_summary</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-string">sensor.dark_sky_daily_summary</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-string">weather.dark_sky</span>
 </code></pre>
 <p>w efekcie, po restarcie aplikacji, w widoku pogody będziemy mieli dane z dwuch serwisów pogodowych:</p>
 <p><img src="/AIS-docs/img/en/frontend/frontend-weather.png" alt="Aplikacja asystent domowy widok pogody"></p>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/AIS-docs/docs/en/0.86.4/ais_app_components_index.html"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/AIS-docs/docs/en/0.86.4/ais_app_assistent.html"><span>Wprowadzenie</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#lokalizacja">Lokalizacja</a></li><li><a href="#definicja-innego-serwisu-do-danych-pogodowych">Definicja innego serwisu do danych pogodowych</a><ul class="toc-headings"><li><a href="#dark-sky-klucz-api">Dark Sky - Klucz API</a></li><li><a href="#dark-sky-konfiguracja">Dark Sky - Konfiguracja</a></li><li><a href="#dark-sky-dodanie-do-widoku">Dark Sky - dodanie do widoku</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2019 AI-Speaker</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/AIS-docs/docs/en/0.86.4/ais_app_components_index.html"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/AIS-docs/docs/en/0.86.4/ais_app_assistent.html"><span>Wprowadzenie</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#lokalizacja">Lokalizacja</a></li><li><a href="#definicja-innego-serwisu-do-danych-pogodowych">Definicja innego serwisu do danych pogodowych</a><ul class="toc-headings"><li><a href="#dark-sky---klucz-api">Dark Sky - Klucz API</a></li><li><a href="#dark-sky---konfiguracja">Dark Sky - Konfiguracja</a></li><li><a href="#dark-sky---dodanie-do-widoku">Dark Sky - dodanie do widoku</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2020 AI-Speaker</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
                     return;

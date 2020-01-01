@@ -62,7 +62,7 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_bramka_remote_serveo.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Dostęp do bramki z Internetu</h1></header><article><div><span><p>Jeśli chcesz możesz skonfigurować dostęp do Twojej lokalnej bramki przez Internet. Dzięki temu będziesz mógł sterować automatyką w swoim domu (także głosowo) nie tylko w swojej lokalnej sieci ale też z dowolnego miejsca z dostępem do Internetu.</p>
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_bramka_remote_serveo.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Dostęp do bramki z Internetu</h1></header><article><div><span><p>Jeśli chcesz możesz skonfigurować dostęp do Twojej lokalnej bramki przez Internet. Dzięki temu będziesz mógł sterować automatyką w swoim domu (także głosowo) nie tylko w swojej lokalnej sieci ale też z dowolnego miejsca z dostępem do Internetu.</p>
 <p>Jedną z metod by to osiągnąć jest przekierowanie portów na routerze, w przypadku aplikacji sprowadza się do przekierowania portu 8123 z bramki na wolny port na routerze. Router jest dostępny z internetu więc wywołując jego adres na udostępnionym porcie można uzyskać dostęp do aplikacji Asystent domowy. To jak wykonać takie przekierowanie zależy do modelu routera, szczegółowy opis należy sprawdzić instrukcję routera.</p>
 <p>Inny sposób który nie wymaga konfiguracji routera oraz instalowania żadnych dodatkowych pakietów to wykorzystanie <strong>usługi zdalnego przekazywania portów SSH</strong>. Ta metoda zostanie dokładnie opisana poniżej wraz z przykładami.</p>
 <h2><a class="anchor" aria-hidden="true" id="dostęp-do-aplikacji-z-sieci-internet"></a><a href="#dostęp-do-aplikacji-z-sieci-internet" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dostęp do aplikacji z sieci Internet</h2>
@@ -110,15 +110,15 @@ Press g to start a GUI session and ctrl-c to quit.
 </ul>
 <p>Nasza orginalna konfiguracja autentykacji wygląda tak:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-attr">homeassistant:</span>
-<span class="hljs-attr">  auth_providers:</span>
-<span class="hljs-attr">    - type:</span> <span class="hljs-string">homeassistant</span>
-<span class="hljs-attr">    - type:</span> <span class="hljs-string">trusted_networks</span>
-<span class="hljs-attr">    - type:</span> <span class="hljs-string">legacy_api_password</span>
+  <span class="hljs-attr">auth_providers:</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">type:</span> <span class="hljs-string">homeassistant</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">type:</span> <span class="hljs-string">trusted_networks</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">type:</span> <span class="hljs-string">legacy_api_password</span>
 </code></pre>
 <p>Tak łatwe metody autentykacji nie są odpowiednie w przypadku dostępu z Internetu, dlatego należy je wyłączyć. W tym celu wystarczy nadpisać domyślną konfigurację Asystenta dostępną na bramce w lokalizacji <strong>/data/data/pl.sviete.dom/files/home/AIS/configuration.yaml</strong> podając tylko jeden typ autentykacji <strong>homeassistant</strong> w auth_providers:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-attr">homeassistant:</span>
-<span class="hljs-attr">  auth_providers:</span>
-<span class="hljs-attr">    - type:</span> <span class="hljs-string">homeassistant</span>
+  <span class="hljs-attr">auth_providers:</span>
+    <span class="hljs-bullet">-</span> <span class="hljs-attr">type:</span> <span class="hljs-string">homeassistant</span>
 </code></pre>
 <ol start="2">
 <li>Zalecamy włączenie modułu uwierzytelniania wieloskładnikowego</li>
@@ -156,7 +156,7 @@ W celu włączenia tego zabezpieczenia należy przejść do ustawienia użytkown
 </ul>
 <pre><code class="hljs css language-bash">$ pm2 save
 </code></pre>
-</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/AIS-docs/docs/en/0.86.4/ais_bramka_remote_tor.html"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/AIS-docs/docs/en/0.86.4/ais_bramka_api_index.html"><span>API systemu</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#dostęp-do-aplikacji-z-sieci-internet">Dostęp do aplikacji z sieci Internet</a></li><li><a href="#dostęp-do-konsoli-bramki-z-sieci-internet">Dostęp do konsoli bramki z sieci Internet</a></li><li><a href="#automatyczne-stałe-udostępnianie-bramki">Automatyczne stałe udostępnianie bramki</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2019 AI-Speaker</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/AIS-docs/docs/en/0.86.4/ais_bramka_remote_tor.html"><span class="arrow-prev">← </span><span>Previous</span></a><a class="docs-next button" href="/AIS-docs/docs/en/0.86.4/ais_bramka_api_index.html"><span>API systemu</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#dostęp-do-aplikacji-z-sieci-internet">Dostęp do aplikacji z sieci Internet</a></li><li><a href="#dostęp-do-konsoli-bramki-z-sieci-internet">Dostęp do konsoli bramki z sieci Internet</a></li><li><a href="#automatyczne-stałe-udostępnianie-bramki">Automatyczne stałe udostępnianie bramki</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2020 AI-Speaker</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
                 document.addEventListener('keyup', function(e) {
                   if (e.target !== document.body) {
                     return;
