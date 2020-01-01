@@ -1,6 +1,8 @@
 ---
-title: "Konfiguracja bramki"
+title: Konfiguracja bramki
 sidebar_label: Konfiguracja bramki
+id: version-0.103.5b2-ais_bramka_configuration
+original_id: ais_bramka_configuration
 ---
 
 Ustawienia Twojej bramki IoT i audio dostępne są po wybraniu z menu po lewej stronie opcji **Konfiguracja** a następnie pierwszej opcji na liście **Ustawienia bramki AIS dom**.

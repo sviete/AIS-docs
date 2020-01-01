@@ -1,6 +1,8 @@
 ---
-title: "Pełny reset aplikacji"
+title: Pełny reset aplikacji
 sidebar_label: Wykonanie pełnego resetu aplikacji
+id: version-0.103.5b2-ais_bramka_reset_ais_step_by_step
+original_id: ais_bramka_reset_ais_step_by_step
 ---
 
 ## Wykonanie pełnego resetu aplikacji

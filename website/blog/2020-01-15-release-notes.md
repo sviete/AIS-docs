@@ -27,6 +27,21 @@ Wszystkich którzy mają ochotę opublikować swój projekt zapraszamy do sekcji
 
 <!--truncate-->
 
+## Standaryzacja portów
+
+Usługi działające na bramce będą dostepne na tych samych portach co dotychczas a dodatkowo na standardowych (dobrze znanych) portach.
+Jak to dokładnie działa wyjaśniamy [na forum](https://ai-speaker.discourse.group/t/dlaczego-porty-uslug-dzialajacych-na-bramce-sa-niestandardowe/57)
+
+
+## Kopia zapasowa ustawień
+
+W konfiguracji oprogramowania bramki dodaliśmy opcję wykonywania i przywracania [kopii zapsowej konfiguracji bramki](/AIS-docs/docs/en/next/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji)
+
+W tym miejscu możesz, sprawdzić poprawność ustawień bramki, wykonać jej kopię i przesłać ją do portalu integratora. Ponieważ konfiguracja może zawierać hasła i tokeny dostępu do usług, zalecamy zaszyfrować ją hasłem. Gdy kopia jest zabezpieczona hasłem, to można ją otworzyć/przywrócić tylko po podaniu hasła.
+
+![Oprogramowanie bramki](/AIS-docs/img/en/bramka/config_ais_dom_section1_2.png)
+
+
 ## Audio w osobnym panelu
 
 Przenosimy widok audio do osobnego panelu w aplikacji...

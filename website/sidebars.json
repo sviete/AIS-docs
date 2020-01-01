@@ -4,7 +4,30 @@
       "ais_bramka_index",
       "ais_bramka_connect",
       "ais_bramka_first_run",
+      {
+        "type": "subcategory",
+        "label": "Kroki kreatora uruchomienia",
+        "ids": [
+          "ais_bramka_first_run_step_account",
+          "ais_bramka_first_run_step_location",
+          "ais_bramka_first_run_step_integration",
+          "ais_bramka_first_run_step_mobile"
+        ]
+      },
       "ais_bramka_configuration",
+      {
+        "type": "subcategory",
+        "label": "Opcje konfiguracji",
+        "ids": [
+          "ais_bramka_configuration_software",
+          "ais_bramka_configuration_wifi",
+          "ais_bramka_configuration_screen",
+          "ais_bramka_configuration_tts",
+          "ais_bramka_configuration_night_mode",
+          "ais_bramka_configuration_remote_access",
+          "ais_bramka_configuration_restart_stop"
+        ]
+      },
       "ais_bramka_automation",
       "ais_bramka_presence_detection"
     ],
@@ -91,6 +114,7 @@
     ],
     "Wbudowane inne integracje": [
       "ais_app_ai_integration",
+      "ais_app_integration_gallery",
       "ais_app_ai_integration_google_home",
       "ais_app_integration_ikea",
       "ais_app_supla",
