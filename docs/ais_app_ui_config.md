@@ -88,7 +88,7 @@ lovelace:
   mode: yaml
 ```
 
-oraz utworzyć plik **ul-lovelace.yaml** w folderze ~/AIS (na urządzeniu) z wyglądem naszego interfejsu. Od tego momentu nie mamy już możliwości korzystania z wbudowanego edytora konfiguracji ale za to możemy modyfikować wszystkie zakładki interfejsu użytkownika.
+oraz utworzyć plik **ui-lovelace.yaml** w folderze ~/AIS (na urządzeniu) z wyglądem naszego interfejsu. Od tego momentu nie mamy już możliwości korzystania z wbudowanego edytora konfiguracji ale za to możemy modyfikować wszystkie zakładki interfejsu użytkownika.
 Warto przed włączeniem tej opcji skopiować aktualny wygląd interfejstu posługując się powyższą instrukcją [Kopia konfiguracji](#kopia-konfiguracji) i wkleić zawartość do pliku **ui-lovelace.yaml**. Od teraz możemy już zmieniać wszystkie zakładki wedle własnych upodobań.
 
 
