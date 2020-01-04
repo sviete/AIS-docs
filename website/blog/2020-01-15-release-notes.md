@@ -57,6 +57,21 @@ Przenosimy widok audio do osobnego panelu w aplikacji...
 > TODO - opis do uzupełniania
 
 
+## Autentykacja PIN w aplikacji
+
+W przypadku systemu Wear OS najłatwiej wykonać konfigurację z bramką za pomocą jednorazowego kodu PIN.
+
+Proces jest bardzo prosty, wystarczy w sekcji **Szyfrowany tunel** wybrać opcję **GENERUJ KOD PIN**
+
+![Automatyzacje](/AIS-docs/img/en/frontend/ais_dom_wizard_4_wear_apk.png)
+
+następnie kod który się pojawi przepisać w aplikacji Wear (masz na to 2 minuty)
+
+![Automatyzacje](/AIS-docs/img/en/frontend/ais_dom_wizard_5_wear_apk.png)
+
+Całość opisana jest w [AIS dom Wear OS](/AIS-docs/docs/en/ais_app_android_dom_wear.html)
+
+
 ## Rozbudowa nawigacji pilotem
 
 Do pozycji menu **Dom** dodaliśmy grupę **Sceny**, w której znajdują się wszystkie zdefiniowane sceny w systemie i można je uruchamiać pilotem.

@@ -47,6 +47,7 @@
       "ais_dom_cloud_index",
       "ais_dom_cloud_login",
       "ais_dom_cloud_gates",
+      "ais_dom_cloud_gate_backup",
       "ais_dom_cloud_content",
       "ais_dom_cloud_services"
     ],
@@ -71,6 +72,7 @@
     ],
     "Aplikacje Android": [
       "ais_app_android_dom",
+      "ais_app_android_dom_wear",
       "ais_app_android_launcher",
       "ais_app_android_explorer",
       "ais_app_android_synchro"

@@ -1,6 +1,8 @@
 ---
-title: "Pierwsze uruchomienie - Aplikacja mobilna"
+title: Pierwsze uruchomienie - Aplikacja mobilna
 sidebar_label: Aplikacja mobilna
+id: version-0.103.5b3-ais_bramka_first_run_step_mobile
+original_id: ais_bramka_first_run_step_mobile
 ---
 
 > <svg style="width:24px;height:24px" viewBox="0 0 24 24">
