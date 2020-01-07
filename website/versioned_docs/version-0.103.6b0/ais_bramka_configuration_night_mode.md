@@ -1,7 +1,7 @@
 ---
 title: Konfiguracja bramki - Tryb nocny
 sidebar_label: Tryb nocny
-id: version-0.103.5b3-ais_bramka_configuration_night_mode
+id: version-0.103.6b0-ais_bramka_configuration_night_mode
 original_id: ais_bramka_configuration_night_mode
 ---
 

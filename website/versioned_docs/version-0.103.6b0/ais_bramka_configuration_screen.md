@@ -1,7 +1,7 @@
 ---
 title: Konfiguracja bramki - Ustawienia ekranu
 sidebar_label: Ustawienia ekranu
-id: version-0.103.5b3-ais_bramka_configuration_screen
+id: version-0.103.6b0-ais_bramka_configuration_screen
 original_id: ais_bramka_configuration_screen
 ---
 

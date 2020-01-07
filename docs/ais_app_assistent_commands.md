@@ -167,11 +167,18 @@ Powiedz "Ogrzewanie kuchnia 21 stopni[e]"
 
 * **Zmiana trybu ogrzewania**
 
-```text
-'Ogrzewanie tryb poza domem'
+Powiedz "Ogrzewanie tryb poza domem" lub Powiedz "Ogrzewanie tryb w domu"
 
-'Ogrzewanie tryb w domu'
+```text
+'Ogrzewanie tryb {nazwa trybu}'
 ```
+
+Inne możliwe tryby (pod warunkiem, że obsługuje je Twoja konfiguracja ogrzewania) to:
+- "eco" - eko, oszczędzanie, oszczędny
+- "boost" - podgrzanie, podgrzewanie
+- "comfort" - komfort, wygoda
+- "sleep" - spanie, noc
+- "activity" - aktywność, ruch
 
 * **Wyłączenie ogrzewania**
 

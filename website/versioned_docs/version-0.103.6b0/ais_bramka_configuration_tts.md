@@ -1,7 +1,7 @@
 ---
 title: Konfiguracja bramki - Głos asystenta
 sidebar_label: Głos asystenta
-id: version-0.103.5b3-ais_bramka_configuration_tts
+id: version-0.103.6b0-ais_bramka_configuration_tts
 original_id: ais_bramka_configuration_tts
 ---
 

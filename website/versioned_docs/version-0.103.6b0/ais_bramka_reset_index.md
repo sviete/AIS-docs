@@ -1,7 +1,7 @@
 ---
 title: Przywracanie ustawień fabrycznych urządzenia
 sidebar_label: Wprowadzenie
-id: version-0.103.5b3-ais_bramka_reset_index
+id: version-0.103.6b0-ais_bramka_reset_index
 original_id: ais_bramka_reset_index
 ---
 

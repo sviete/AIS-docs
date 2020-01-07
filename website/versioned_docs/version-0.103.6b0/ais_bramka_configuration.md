@@ -1,7 +1,7 @@
 ---
 title: Konfiguracja bramki
 sidebar_label: Konfiguracja bramki
-id: version-0.103.5b3-ais_bramka_configuration
+id: version-0.103.6b0-ais_bramka_configuration
 original_id: ais_bramka_configuration
 ---
 

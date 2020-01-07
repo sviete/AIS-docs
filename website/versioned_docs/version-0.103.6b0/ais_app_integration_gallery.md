@@ -1,7 +1,7 @@
 ---
 title: Galeria
 sidebar_label: Galeria
-id: version-0.103.5b3-ais_app_integration_gallery
+id: version-0.103.6b0-ais_app_integration_gallery
 original_id: ais_app_integration_gallery
 ---
 

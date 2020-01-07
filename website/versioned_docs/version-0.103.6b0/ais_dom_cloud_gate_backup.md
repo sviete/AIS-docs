@@ -1,7 +1,7 @@
 ---
 title: Kopia zapasowa w serwisie integratora
 sidebar_label: Kopia zapasowa
-id: version-0.103.5b3-ais_dom_cloud_gate_backup
+id: version-0.103.6b0-ais_dom_cloud_gate_backup
 original_id: ais_dom_cloud_gate_backup
 ---
 

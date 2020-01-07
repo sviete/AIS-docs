@@ -1,7 +1,7 @@
 ---
 title: Konfiguracja bramki - Zdalny dostęp
 sidebar_label: Zdalny dostęp
-id: version-0.103.5b3-ais_bramka_configuration_remote_access
+id: version-0.103.6b0-ais_bramka_configuration_remote_access
 original_id: ais_bramka_configuration_remote_access
 ---
 

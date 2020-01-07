@@ -1,7 +1,7 @@
 ---
 title: Konfiguracja bramki - Oprogramowanie
 sidebar_label: Oprogramowanie
-id: version-0.103.5b3-ais_bramka_configuration_software
+id: version-0.103.6b0-ais_bramka_configuration_software
 original_id: ais_bramka_configuration_software
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Pierwsze uruchomienie - Dodanie urządzeń i usług
 sidebar_label: Dodanie urządzeń i usług
-id: version-0.103.5b3-ais_bramka_first_run_step_integration
+id: version-0.103.6b0-ais_bramka_first_run_step_integration
 original_id: ais_bramka_first_run_step_integration
 ---
 

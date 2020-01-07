@@ -1,7 +1,7 @@
 ---
 title: Dostęp do bramki z Internetu
 sidebar_label: Wprowadzenie
-id: version-0.103.5b3-ais_bramka_remote_www_index
+id: version-0.103.6b0-ais_bramka_remote_www_index
 original_id: ais_bramka_remote_www_index
 ---
 

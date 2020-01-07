@@ -1,7 +1,7 @@
 ---
 title: Konfiguracja bramki - Zatrzymanie bramki
 sidebar_label: Zatrzymanie bramki
-id: version-0.103.5b3-ais_bramka_configuration_restart_stop
+id: version-0.103.6b0-ais_bramka_configuration_restart_stop
 original_id: ais_bramka_configuration_restart_stop
 ---
 

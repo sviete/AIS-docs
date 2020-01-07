@@ -1,7 +1,7 @@
 ---
 title: Pierwsze uruchomienie - Lokalizacja
 sidebar_label: Lokalizacja
-id: version-0.103.5b3-ais_bramka_first_run_step_location
+id: version-0.103.6b0-ais_bramka_first_run_step_location
 original_id: ais_bramka_first_run_step_location
 ---
 

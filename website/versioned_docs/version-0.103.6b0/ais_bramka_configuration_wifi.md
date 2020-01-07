@@ -1,7 +1,7 @@
 ---
 title: Konfiguracja bramki - WiFi
 sidebar_label: WiFi
-id: version-0.103.5b3-ais_bramka_configuration_wifi
+id: version-0.103.6b0-ais_bramka_configuration_wifi
 original_id: ais_bramka_configuration_wifi
 ---
 

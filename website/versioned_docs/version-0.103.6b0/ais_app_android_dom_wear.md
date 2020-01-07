@@ -1,7 +1,7 @@
 ---
 title: AIS dom Wear OS
 sidebar_label: AIS dom Wear
-id: version-0.103.5b3-ais_app_android_dom_wear
+id: version-0.103.6b0-ais_app_android_dom_wear
 original_id: ais_app_android_dom_wear
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Pierwsze uruchomienie - Konto właściciela
 sidebar_label: Konto właściciela
-id: version-0.103.5b3-ais_bramka_first_run_step_account
+id: version-0.103.6b0-ais_bramka_first_run_step_account
 original_id: ais_bramka_first_run_step_account
 ---
 
