@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sviete.github.io/AIS-docs/blog</id>
     <title>Asystent domowy Blog</title>
-    <updated>2020-01-15T06:00:00.000Z</updated>
-    <generator>https://github.com/jpmonette/feed</generator>
+    <updated>2020-01-15T06:00:00Z</updated>
+    <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://sviete.github.io/AIS-docs/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Asystent domowy news and events.</subtitle>
     <logo>https://sviete.github.io/AIS-docs/img/logo-white.svg</logo>
@@ -11,8 +11,9 @@
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.103 Audio]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2020/01/15/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2020/01/15/release-notes.html"/>
-        <updated>2020-01-15T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2020/01/15/release-notes.html">
+        </link>
+        <updated>2020-01-15T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0103x-z-dnia-15-stycznia-2020-do-potwierdzenia"></a><a href="#wersja-systemu-0103x-z-dnia-15-stycznia-2020-do-potwierdzenia" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.103.x z dnia 15 stycznia 2020 (do potwierdzenia),</h2>
 <blockquote>
 <p>Na kanale beta <strong>prowadzimy pracę nad wersją 0.103</strong>. 🧰 🧩 Wersja ta ukaże się na kanale stabilnym prawdopodobnie dnia 15 stycznia 2020 roku 🧨🧨🧨 🥳.</p>
@@ -27,15 +28,15 @@ Wszystkich którzy mają ochotę opublikować swój projekt zapraszamy do sekcji
 ]]></summary>
         <author>
             <name>Jola AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.102 Galeria i QR kody]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/12/11/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/12/11/release-notes.html"/>
-        <updated>2019-12-11T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/12/11/release-notes.html">
+        </link>
+        <updated>2019-12-11T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-01024-z-dnia-11-grudnia-2019-roku"></a><a href="#wersja-systemu-01024-z-dnia-11-grudnia-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.102.4 z dnia 11 grudnia 2019 roku,</h2>
 <h2><a class="anchor" aria-hidden="true" id="galeria"></a><a href="#galeria" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Galeria</h2>
 <p>Żeby ułatwić dodawanie zdjęć pomieszczeń, do aplikacji dodaliśmy nowy komponent galeria. Czyli wystarczy wysłać zejęcie do urządzenia a następnie umieścić je na karcie w aplikacji.
@@ -54,15 +55,15 @@ Jak to działa opisaliśmy w <a href="/AIS-docs/docs/en/ais_app_ui_config.html#d
 ]]></summary>
         <author>
             <name>Jola AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.101.4 RF 433 i IKEA TRÅDFRI]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/11/20/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/11/20/release-notes.html"/>
-        <updated>2019-11-20T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/11/20/release-notes.html">
+        </link>
+        <updated>2019-11-20T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-01014-z-dnia-20-listopada-2019-roku"></a><a href="#wersja-systemu-01014-z-dnia-20-listopada-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.101.4 z dnia 20 listopada 2019 roku,</h2>
 <h2><a class="anchor" aria-hidden="true" id="rf-433-i-urządzenia-ais-dom"></a><a href="#rf-433-i-urządzenia-ais-dom" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>RF 433 i urządzenia AIS dom</h2>
 <p><img src="/AIS-docs/img/en/iot/iot_ais_dom_device_rf433_learn_step_7.png" alt="RF 433"></p>
@@ -71,15 +72,15 @@ Szczegóły w dokumentacji <a href="/AIS-docs/docs/en/ais_iot_gate_device_rf433"
 ]]></summary>
         <author>
             <name>Jola AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.100.4 Google Home]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/10/30/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/10/30/release-notes.html"/>
-        <updated>2019-10-30T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/10/30/release-notes.html">
+        </link>
+        <updated>2019-10-30T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-01004-z-dnia-30-października-2019-roku"></a><a href="#wersja-systemu-01004-z-dnia-30-października-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.100.4 z dnia 30 października 2019 roku,</h2>
 <h2><a class="anchor" aria-hidden="true" id="google-home"></a><a href="#google-home" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Google Home</h2>
 <p>Integracja z <a href="/AIS-docs/docs/en/ais_app_ai_integration_google_home.html">Google Home</a></p>
@@ -95,15 +96,15 @@ Przy okazji odświeżyliśmy wygląd w kilku miejscach w aplikacjach a w dokumen
 ]]></summary>
         <author>
             <name>Jola AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.99 Automatyczne Aktualizacje, SUPLA, TAURON eLicznik]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/10/12/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/10/12/release-notes.html"/>
-        <updated>2019-10-12T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/10/12/release-notes.html">
+        </link>
+        <updated>2019-10-12T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-099-z-dnia-12-października-2019-roku"></a><a href="#wersja-systemu-099-z-dnia-12-października-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.99 z dnia 12 października 2019 roku,</h2>
 <h2><a class="anchor" aria-hidden="true" id="automatyczne-aktualizacje"></a><a href="#automatyczne-aktualizacje" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Automatyczne Aktualizacje</h2>
 <p>W ustawieniach bramki dodaliśmy możliwość włączenia automatycznych aktualizacji. Jeśli je włączysz, to codziennie sprawdzimy i automatycznie zainstalujemy dostępne aktualizacje składowych systemu Asystent domowy.</p>
@@ -120,15 +121,15 @@ Aktualizacje dostarczają najnowsze funkcjonalności oraz poprawki zapewniające
 ]]></summary>
         <author>
             <name>Jola AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.98.9 Tryb nocny, start autoaktualizacji]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/09/19/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/09/19/release-notes.html"/>
-        <updated>2019-09-19T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/09/19/release-notes.html">
+        </link>
+        <updated>2019-09-19T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0989-z-dnia-19-września-2019-roku"></a><a href="#wersja-systemu-0989-z-dnia-19-września-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.98.9 z dnia 19 września 2019 roku,</h2>
 <h2><a class="anchor" aria-hidden="true" id="tryb-nocny"></a><a href="#tryb-nocny" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Tryb nocny</h2>
 <p>W ustawieniach bramki dodaliśmy możliwość włączenia automatycznego uruchamiania trybu nocnego.</p>
@@ -143,17 +144,17 @@ Aktualizacje dostarczają najnowsze funkcjonalności oraz poprawki zapewniające
 ]]></summary>
         <author>
             <name>Jola AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.97.5 Obsługa wywołań zwrotnych HTTP, kolejne uproszczenia w aplikacji]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/08/29/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/08/29/release-notes.html"/>
-        <updated>2019-08-29T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/08/29/release-notes.html">
+        </link>
+        <updated>2019-08-29T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0975-z-dnia-29-sierpnia-2019-roku"></a><a href="#wersja-systemu-0975-z-dnia-29-sierpnia-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.97.5 z dnia 29 sierpnia 2019 roku,</h2>
-<h3><a class="anchor" aria-hidden="true" id="poprawa-dostępności-aplikacji-dla-użytkowników-niedowidzących"></a><a href="#poprawa-dostępności-aplikacji-dla-użytkowników-niedowidzących" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Poprawa dostępności aplikacji dla użytkowników niedowidzących</h3>
+<h3><a class="anchor" aria-hidden="true" id="poprawa-dostępności-aplikacji-dla-użytkownikow-niedowidzących"></a><a href="#poprawa-dostępności-aplikacji-dla-użytkownikow-niedowidzących" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Poprawa dostępności aplikacji dla użytkowników niedowidzących</h3>
 <p>W naszej aplikacji na system Android oznakowaliśmy przyciski etykietami w celu zapewnienia wsparcia dla mechanizmów typu TalkBack.
 Podobne wysiłki zostały poczynione w aplikacji webowej, celem tego procesu jest udostępnienie interfejsu użytkownika Asystenta domowego dla wszystkich.</p>
 <h3><a class="anchor" aria-hidden="true" id="uproszczenia-w-aplikacji"></a><a href="#uproszczenia-w-aplikacji" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Uproszczenia w aplikacji</h3>
@@ -166,15 +167,15 @@ Konfiguracja bramki ma 4 sekcje, są one opisane na nowej stronie dokumentacji <
 ]]></summary>
         <author>
             <name>Celina AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.96.10 System Wear OS, uproszczenia w aplikacji]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/08/08/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/08/08/release-notes.html"/>
-        <updated>2019-08-08T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/08/08/release-notes.html">
+        </link>
+        <updated>2019-08-08T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-09610-z-dnia-8-sierpnia-2019-roku"></a><a href="#wersja-systemu-09610-z-dnia-8-sierpnia-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.96.10 z dnia 8 sierpnia 2019 roku,</h2>
 <h3><a class="anchor" aria-hidden="true" id="wear-os"></a><a href="#wear-os" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wear OS</h3>
 <p>Nasza <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom" target="_blank">darmowa aplikacja klienta AIS dom</a> (aplikacja, która pozwala na zdalne sterowanie twoją bramką i wysyłanie komend głosowych) została dostosowana do działania na systemie Wear OS.</p>
@@ -183,15 +184,15 @@ Konfiguracja bramki ma 4 sekcje, są one opisane na nowej stronie dokumentacji <
 ]]></summary>
         <author>
             <name>Jola AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.95.7  Wykrywanie obecności, mapa, automatyzacje i optymalizacja]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/07/18/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/07/18/release-notes.html"/>
-        <updated>2019-07-18T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/07/18/release-notes.html">
+        </link>
+        <updated>2019-07-18T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0957-z-dnia-18-lipca-2019-roku"></a><a href="#wersja-systemu-0957-z-dnia-18-lipca-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.95.7 z dnia 18 lipca 2019 roku,</h2>
 <h3><a class="anchor" aria-hidden="true" id="wykrywanie-obecności"></a><a href="#wykrywanie-obecności" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wykrywanie obecności</h3>
 <p>Wykrywanie obecności ma na celu ustalenie, czy i kto jest w domu (lub innej zdefiniowanej strefie), co jest bardzo cennym źródłem automatyzacji. Wiedza o tym, kto jest w domu lub gdzie jest, pozwala nam na całą gamę opcji automatyzacji, przykładowe użycie:</p>
@@ -205,32 +206,32 @@ Konfiguracja bramki ma 4 sekcje, są one opisane na nowej stronie dokumentacji <
 ]]></summary>
         <author>
             <name>Celina AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.94.6  Dostęp do darmowej biblioteki audiobooków.]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/06/27/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/06/27/release-notes.html"/>
-        <updated>2019-06-27T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/06/27/release-notes.html">
+        </link>
+        <updated>2019-06-27T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0946-z-dnia-27-czerwca-2019-roku"></a><a href="#wersja-systemu-0946-z-dnia-27-czerwca-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.94.6 z dnia 27 czerwca 2019 roku,</h2>
-<h3><a class="anchor" aria-hidden="true" id="dostęp-do-darmowej-biblioteki-audiobooków"></a><a href="#dostęp-do-darmowej-biblioteki-audiobooków" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dostęp do darmowej biblioteki audiobooków.</h3>
+<h3><a class="anchor" aria-hidden="true" id="dostęp-do-darmowej-biblioteki-audiobookow"></a><a href="#dostęp-do-darmowej-biblioteki-audiobookow" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dostęp do darmowej biblioteki audiobooków.</h3>
 <p>Cała kolekcja audiobooków <a href="https://wolnelektury.pl/" target="_blank">WolneLektury.pl</a>,  do których masz dostęp za darmo!</p>
 <p><em>Utwory w bibliotece nie są objęte majątkowym prawem autorskim i znajdują się w domenie publicznej, co oznacza, że możesz je swobodnie słuchać, publikować i rozpowszechniać.</em></p>
 <p><img src="/AIS-docs/img/en/frontend/ais_books_player.png" alt="Książki"></p>
 ]]></summary>
         <author>
             <name>Jola AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.93.6  Łatwiejsza nawigacja i konfiguracja]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/06/04/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/06/04/release-notes.html"/>
-        <updated>2019-06-04T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/06/04/release-notes.html">
+        </link>
+        <updated>2019-06-04T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0936-z-dnia-04-czerwca-2019-roku"></a><a href="#wersja-systemu-0936-z-dnia-04-czerwca-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.93.6 z dnia 04 czerwca 2019 roku,</h2>
 <h3><a class="anchor" aria-hidden="true" id="ulepszona-nawigacja-na-dotykowych-ekranach"></a><a href="#ulepszona-nawigacja-na-dotykowych-ekranach" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Ulepszona nawigacja na dotykowych ekranach</h3>
 <p>Na dotykowych ekranach dodano możliwość nawigacji pomiędzy kartami w aplikacji za pomocą przeciągania (swipe).</p>
@@ -238,15 +239,15 @@ Konfiguracja bramki ma 4 sekcje, są one opisane na nowej stronie dokumentacji <
 ]]></summary>
         <author>
             <name>Celina AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.92.6  Listy w aplikacji]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/05/11/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/05/11/release-notes.html"/>
-        <updated>2019-05-11T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/05/11/release-notes.html">
+        </link>
+        <updated>2019-05-11T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0926-z-dnia-11-maja-2019-roku"></a><a href="#wersja-systemu-0926-z-dnia-11-maja-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.92.6 z dnia 11 maja 2019 roku,</h2>
 <h3><a class="anchor" aria-hidden="true" id="listy-w-aplikacji"></a><a href="#listy-w-aplikacji" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Listy w aplikacji</h3>
 <p>Ulubione, zakładki, artykuły, stacje radiowe, podcasty, wyszukane pozycje z YouTube i Spotify można teraz w prosty sposób wybierać, wystarczy kliknąć pozycję na liście.</p>
@@ -254,15 +255,15 @@ Konfiguracja bramki ma 4 sekcje, są one opisane na nowej stronie dokumentacji <
 ]]></summary>
         <author>
             <name>Jola AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.91.4  Wikipedia, kamery i łatwe dodawnie urządzeń]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/04/18/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/04/18/release-notes.html"/>
-        <updated>2019-04-18T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/04/18/release-notes.html">
+        </link>
+        <updated>2019-04-18T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0914-z-dnia-18-kwietnia-2019-roku"></a><a href="#wersja-systemu-0914-z-dnia-18-kwietnia-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wersja systemu 0.91.4 z dnia 18 kwietnia 2019 roku,</h2>
 <h3><a class="anchor" aria-hidden="true" id="informacje-z-wikipedii"></a><a href="#informacje-z-wikipedii" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Informacje z Wikipedii</h3>
 <p><strong>Asystent domowy</strong> udzielając odpowiedzi na pytania typu &quot;kto to jest... &quot;, &quot;kim jest... &quot;, &quot;znajdź informację o...&quot; korzysta z zasobów bazy wiedzy &quot;Google Knowledge Graph&quot;. Korzystanie z tego typu bazy wiedzy ma na celu selekcję możliwie najistotniejszych treści i udzielenia krótkiej odpowiedzi na pytanie.
@@ -273,175 +274,174 @@ Na początek obsługujemy jedną komendę głosową: &quot;Wikipedia + {szukana 
 ]]></summary>
         <author>
             <name>Celina AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.90.5 Dyski]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/03/29/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/03/29/release-notes.html"/>
-        <updated>2019-03-29T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0905-z-dnia-29-marca-2019-roku"></a><a href="#wersja-systemu-0905-z-dnia-29-marca-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.90.5 z dnia 29 marca 2019 roku,</h2> <h3><a class="anchor" aria-hidden="true" id="w-tej-wersji-dodaliśmy-integrację-z-usługami-mega-i-google-drive-nową-kartę-odtwarzacza-audio-oraz-kolejkę-utworów-ze-spotify"></a><a href="#w-tej-wersji-dodaliśmy-integrację-z-usługami-mega-i-google-drive-nową-kartę-odtwarzacza-audio-oraz-kolejkę-utworów-ze-spotify" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>W tej wersji dodaliśmy integrację z usługami Mega i Google Drive, nową kartę odtwarzacza audio oraz kolejkę utworów ze Spotify</h3> <h4><a class="anchor" aria-hidden="true" id="dyski-zdalne"></a><a href="#dyski-zdalne" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Dyski zdalne</h4> <p>Połączenie z dyskami zdalnymi definiowane jest za pomocą krea...</p>]]></summary>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/03/29/release-notes.html">
+        </link>
+        <updated>2019-03-29T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0905-z-dnia-29-marca-2019-roku"></a><a href="#wersja-systemu-0905-z-dnia-29-marca-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.90.5 z dnia 29 marca 2019 roku,</h2> <h3><a class="anchor" aria-hidden="true" id="w-tej-wersji-dodaliśmy-integrację-z-usługami-mega-i-google-drive-nową-kartę-odtwarzacza-audio-oraz-kolejkę-utworow-ze-spotify"></a><a href="#w-tej-wersji-dodaliśmy-integrację-z-usługami-mega-i-google-drive-nową-kartę-odtwarzacza-audio-oraz-kolejkę-utworow-ze-spotify" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>W tej wersji dodaliśmy integrację z usługami Mega i Google Drive, nową kartę odtwarzacza audio oraz kolejkę utworów ze Spotify</h3> <h4><a class="anchor" aria-hidden="true" id="dyski-zdalne"></a><a href="#dyski-zdalne" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Dyski zdalne</h4> <p>Połączenie z dyskami zdalnymi definiowane jest za pomocą krea...</p>]]></summary>
         <author>
             <name>Jola AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.89.4  Spotify]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/03/12/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/03/12/release-notes.html"/>
-        <updated>2019-03-12T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/03/12/release-notes.html">
+        </link>
+        <updated>2019-03-12T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0894-z-dnia-12-marca-2019-roku"></a><a href="#wersja-systemu-0894-z-dnia-12-marca-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.89.4 z dnia 12 marca 2019 roku,</h2> <h3><a class="anchor" aria-hidden="true" id="w-tej-wersji-dodaliśmy-spotify-ェ"></a><a href="#w-tej-wersji-dodaliśmy-spotify-ェ" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>W tej wersji dodaliśmy Spotify (=^ェ^=)</h3> <p>Spotify to kolejny (po YouTube) serwis muzyczny na AI-Speaker, oferujący dostęp do OGROMNEJ ilości utworów. Pozwala to użytkownikom urządzeń z systemem &quot;Aysy...</p>]]></summary>
         <author>
             <name>Celina AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.87.3  Konsola]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/02/22/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/02/22/release-notes.html"/>
-        <updated>2019-02-22T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/02/22/release-notes.html">
+        </link>
+        <updated>2019-02-22T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0873-z-dnia-22-lutego-2019-roku"></a><a href="#wersja-systemu-0873-z-dnia-22-lutego-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.87.3 z dnia 22 lutego 2019 roku,</h2> <h3><a class="anchor" aria-hidden="true" id="w-tej-wersji-skupiliśmy-się-na-poprawie-dostępności"></a><a href="#w-tej-wersji-skupiliśmy-się-na-poprawie-dostępności" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>W tej wersji skupiliśmy się na poprawie dostępności.</h3> <p>Podczas dostępu z Internetu dodaliśmy szyfrowanie komunikacji - HTTPS. Gdy dostęp z Internetu jest aktywny to dla zwiększenia bezpieczeństwa automa...</p>]]></summary>
         <author>
             <name>Jola AI-Speaker</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.86.7 Portal integratora]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/02/05/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/02/05/release-notes.html"/>
-        <updated>2019-02-05T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/02/05/release-notes.html">
+        </link>
+        <updated>2019-02-05T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0867-z-dnia-05-lutego-2019-roku"></a><a href="#wersja-systemu-0867-z-dnia-05-lutego-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.86.7 z dnia 05 lutego 2019 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>nowy interfejs użytkownika umożliwiający łatwą konfigurację aplikacji z przeglądarki <a href="/AIS-docs/docs/en/ais_app_cards.html">Karty</a></li> <li>konfiguracja treści i usług <a href="/AIS-docs/docs/en/ais_dom_cloud_index.html">Portal integratora</a></li> <li>możliwość włączenia dostępu do bramki z ...</li></ul>]]></summary>
         <author>
             <name>Andrzej Raczkowski</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Monitorowanie instalacji fotowoltaicznej - Znaj swoją moc!]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/01/23/sensors-pv.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/01/23/sensors-pv.html"/>
-        <updated>2019-01-23T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/01/23/sensors-pv.html">
+        </link>
+        <updated>2019-01-23T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="instalacja-fotowoltaiczna-z-optymalizatorami"></a><a href="#instalacja-fotowoltaiczna-z-optymalizatorami" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Instalacja fotowoltaiczna z optymalizatorami</h2> <p>Przeszło 2 lata temu, pod koniec roku 2016 zdecydowaliśmy się na montaż instalacji fotowoltaicznej. Wcześniej czytałem o tym jak działa instalacja PV i dowiedziałem się, że w klasycznym rozwiązaniu moduły ...</p>]]></summary>
         <author>
             <name>Andrzej Raczkowski</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.85.1]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2019/01/21/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2019/01/21/release-notes.html"/>
-        <updated>2019-01-21T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2019/01/21/release-notes.html">
+        </link>
+        <updated>2019-01-21T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0851-z-dnia-21-stycznia-2019-roku"></a><a href="#wersja-systemu-0851-z-dnia-21-stycznia-2019-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.85.1 z dnia 21 stycznia 2019 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>sterowanie ogrzewaniem <a href="/AIS-docs/docs/en/ais_app_assistent_commands.html#sterowanie-ogrzewaniem">Komendy - sterowanie ogrzewaniem</a></li> <li>rozgłaszanie tekstu na głośniki <a href="/AIS-docs/docs/en/ais_app_assistent_commands.html#rozgłaszanie-tekstu">Komendy - rozgłaszanie tekstu</a></li> <li>wirtualna klawiatura umożliwiająca wprowadzanie tekstu pil...</li></ul>]]></summary>
         <author>
             <name>Andrzej Raczkowski</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.84.6]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2018/12/31/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2018/12/31/release-notes.html"/>
-        <updated>2018-12-31T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2018/12/31/release-notes.html">
+        </link>
+        <updated>2018-12-31T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0846-z-dnia-31-grudnia-2018-roku"></a><a href="#wersja-systemu-0846-z-dnia-31-grudnia-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.84.6 z dnia 31 grudnia 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>zmiany w komponencie pogoda <a href="/AIS-docs/docs/en/ais_app_components_weather.html">Pogoda</a></li> <li>najnowszy Home Assistant <a href="https://www.home-assistant.io/blog/2018/12/12/release-84/" target="_blank">0.84</a></li> <li>nowa wersja oprogramowania dla urządzeń automatyki domowej opartych na układzie ESP8266 <a href="/AIS-docs/docs/en/ais_iot_firmware_index.html">Oprogramowanie urządzeń ...</a></li></ul>]]></summary>
         <author>
             <name>Andrzej Raczkowski</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.83.7]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2018/12/10/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2018/12/10/release-notes.html"/>
-        <updated>2018-12-10T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0837--z-dnia-10-grudnia-2018-roku"></a><a href="#wersja-systemu-0837--z-dnia-10-grudnia-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.83.7 z dnia 10 grudnia 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>komenda graj/odtwarzaj <a href="/AIS-docs/docs/en/ais_app_assistent_commands.html">Komendy</a></li> <li>najnowszy Home Assistant <a href="https://www.home-assistant.io/blog/2018/11/29/release-83/" target="_blank">0.83</a> w którym dodano między innymi integrację z centralką Fibaro <a href="https://www.home-assistant.io/components/fibaro/" target="_blank">Fibaro hub</a>, komponenty: <ul> <li>Fibaro Binary Sensor <a href="https://www.home-assistant.io/components/binary_sensor.fibaro/">https://ww...</a></li></ul></li></ul>]]></summary>
+        <link href="https://sviete.github.io/AIS-docs/blog/2018/12/10/release-notes.html">
+        </link>
+        <updated>2018-12-10T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0837-z-dnia-10-grudnia-2018-roku"></a><a href="#wersja-systemu-0837-z-dnia-10-grudnia-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.83.7 z dnia 10 grudnia 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>komenda graj/odtwarzaj <a href="/AIS-docs/docs/en/ais_app_assistent_commands.html">Komendy</a></li> <li>najnowszy Home Assistant <a href="https://www.home-assistant.io/blog/2018/11/29/release-83/" target="_blank">0.83</a> w którym dodano między innymi integrację z centralką Fibaro <a href="https://www.home-assistant.io/components/fibaro/" target="_blank">Fibaro hub</a>, komponenty: <ul> <li>Fibaro Binary Sensor <a href="https://www.home-assistant.io/components/binary_sensor.fibaro/">https://ww...</a></li></ul></li></ul>]]></summary>
         <author>
             <name>Andrzej Raczkowski</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.82.3]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2018/11/29/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2018/11/29/release-notes.html"/>
-        <updated>2018-11-29T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0823--z-dnia-29-listopada-2018-roku"></a><a href="#wersja-systemu-0823--z-dnia-29-listopada-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.82.3 z dnia 29 listopada 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>możliwość (włączenia) dostępu do bramki z Internetu <a href="/AIS-docs/docs/en/ais_bramka_remote_serveo">Dostęp do bramki z Internetu</a></li> <li>uproszczone sterowanie pilotem</li> <li>restart i wyłączenie bramki dostępne z aplikacji</li> <li>sortowanie czu...</li></ul>]]></summary>
+        <link href="https://sviete.github.io/AIS-docs/blog/2018/11/29/release-notes.html">
+        </link>
+        <updated>2018-11-29T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0823-z-dnia-29-listopada-2018-roku"></a><a href="#wersja-systemu-0823-z-dnia-29-listopada-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.82.3 z dnia 29 listopada 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>możliwość (włączenia) dostępu do bramki z Internetu <a href="/AIS-docs/docs/en/ais_bramka_remote_serveo">Dostęp do bramki z Internetu</a></li> <li>uproszczone sterowanie pilotem</li> <li>restart i wyłączenie bramki dostępne z aplikacji</li> <li>sortowanie czu...</li></ul>]]></summary>
         <author>
             <name>Andrzej Raczkowski</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.81.12]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2018/11/08/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2018/11/08/release-notes.html"/>
-        <updated>2018-11-08T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-08112--z-dnia-8-listopada-2018-roku"></a><a href="#wersja-systemu-08112--z-dnia-8-listopada-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.81.12 z dnia 8 listopada 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>Zeroconf/Avahi/Bonjour - rozgłaszanie usług bramki (HTTP, FTP, MQTT) w lokalnej seici</li> <li>sterowanie gestami <a href="/AIS-docs/docs/en/ais_remote_mode_gesture.html">Gesty</a></li> <li>wprowadzenie do usług bramki / start opisu API bramki <a href="/AIS-docs/docs/en/ais_bramka_api_index.html">API</a></li> <li>najono...</li></ul>]]></summary>
+        <link href="https://sviete.github.io/AIS-docs/blog/2018/11/08/release-notes.html">
+        </link>
+        <updated>2018-11-08T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-08112-z-dnia-8-listopada-2018-roku"></a><a href="#wersja-systemu-08112-z-dnia-8-listopada-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.81.12 z dnia 8 listopada 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>Zeroconf/Avahi/Bonjour - rozgłaszanie usług bramki (HTTP, FTP, MQTT) w lokalnej seici</li> <li>sterowanie gestami <a href="/AIS-docs/docs/en/ais_remote_mode_gesture.html">Gesty</a></li> <li>wprowadzenie do usług bramki / start opisu API bramki <a href="/AIS-docs/docs/en/ais_bramka_api_index.html">API</a></li> <li>najono...</li></ul>]]></summary>
         <author>
             <name>Andrzej Raczkowski</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.80.4]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2018/10/24/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2018/10/24/release-notes.html"/>
-        <updated>2018-10-24T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0804--z-dnia-24-października-2018-roku"></a><a href="#wersja-systemu-0804--z-dnia-24-października-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.80.4 z dnia 24 października 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>dostęp do pozycji udostępnionych w Google Drive, nowy folder &quot;Udostepnione dla mnie&quot;</li> <li>udostępnienie aplikacji po HTTP na porcie <strong>8180</strong> (rozwiązanie problemów z certy...</li></ul>]]></summary>
+        <link href="https://sviete.github.io/AIS-docs/blog/2018/10/24/release-notes.html">
+        </link>
+        <updated>2018-10-24T06:00:00Z</updated>
+        <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0804-z-dnia-24-października-2018-roku"></a><a href="#wersja-systemu-0804-z-dnia-24-października-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.80.4 z dnia 24 października 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>dostęp do pozycji udostępnionych w Google Drive, nowy folder &quot;Udostepnione dla mnie&quot;</li> <li>udostępnienie aplikacji po HTTP na porcie <strong>8180</strong> (rozwiązanie problemów z certy...</li></ul>]]></summary>
         <author>
             <name>Andrzej Raczkowski</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.79.5]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2018/10/08/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2018/10/08/release-notes.html"/>
-        <updated>2018-10-08T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2018/10/08/release-notes.html">
+        </link>
+        <updated>2018-10-08T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0795-z-dnia-10-października-2018-roku"></a><a href="#wersja-systemu-0795-z-dnia-10-października-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.79.5 z dnia 10 października 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>sterowanie oświetleniem z pilota radiowego</li> <li>poprawiono zakładki do audio na dyskach</li> <li>dodano automatyczne przechodzenie do sterowania odtwarzaczem przy uruchomieniu audio w tr...</li></ul>]]></summary>
         <author>
             <name>Andrzej Raczkowski</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.78.8]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2018/09/29/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2018/09/29/release-notes.html"/>
-        <updated>2018-09-29T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2018/09/29/release-notes.html">
+        </link>
+        <updated>2018-09-29T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0788-z-dnia-29-września-2018-roku"></a><a href="#wersja-systemu-0788-z-dnia-29-września-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.78.8 z dnia 29 września 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>automatyczne czyszczenie logów systemu</li> </ul> <h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0786-z-dnia-25-września-2018-roku"></a><a href="#wersja-systemu-0786-z-dnia-25-września-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.78.6 z dnia 25 września 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>pełne wsparcie (wykrywanie i automatyczne dodawanie do systemu...</li></ul>]]></summary>
         <author>
             <name>Andrzej Raczkowski</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Wersja systemu 0.77.8]]></title>
         <id>https://sviete.github.io/AIS-docs/blog/2018/09/18/release-notes.html</id>
-        <link href="https://sviete.github.io/AIS-docs/blog/2018/09/18/release-notes.html"/>
-        <updated>2018-09-18T06:00:00.000Z</updated>
+        <link href="https://sviete.github.io/AIS-docs/blog/2018/09/18/release-notes.html">
+        </link>
+        <updated>2018-09-18T06:00:00Z</updated>
         <summary type="html"><![CDATA[<h2><a class="anchor" aria-hidden="true" id="wersja-systemu-0778-z-dnia-18-września-2018-roku"></a><a href="#wersja-systemu-0778-z-dnia-18-września-2018-roku" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewbox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"/></svg></a>Wersja systemu 0.77.8 z dnia 18 września 2018 roku,</h2> <p>w tej wersji dodano:</p> <ul> <li>dokładniejsza informacja o pogodzie (dane z serwisu Yahoo!)</li> <li>informacja o aktualnej pozycji odtwarzanego audio w aplikacji</li> <li>zakładki i ulubione (funkcjonalność w wersji rozwojowe...</li></ul>]]></summary>
         <author>
             <name>Andrzej Raczkowski</name>
-            <email/>
             <uri>https://github.com/sviete</uri>
         </author>
     </entry>

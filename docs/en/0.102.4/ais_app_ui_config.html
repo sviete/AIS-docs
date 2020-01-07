@@ -62,7 +62,7 @@
                 };
               }
             });
-        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_app_ui_config.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">Konfiguracja interfejsu użytkownika</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="włączenie-trybu-konfiguracji"></a><a href="#włączenie-trybu-konfiguracji" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Włączenie trybu konfiguracji</h2>
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_app_ui_config.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Konfiguracja interfejsu użytkownika</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="włączenie-trybu-konfiguracji"></a><a href="#włączenie-trybu-konfiguracji" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Włączenie trybu konfiguracji</h2>
 <p>Włączenie konfiguracji interfejsu użytkownika następuje poprzez wybranie w aplikacji opcji <strong>&quot;Konfiguracja interfejsu użytkownika&quot;</strong> dostępnej w prawym górnym rogu każdej strony w aplikacji.</p>
 <p><img src="/AIS-docs/img/en/frontend/lovelace-ui-conf1.png" alt="Konfiguracja interfejsu użytkownika"></p>
 <p><img src="/AIS-docs/img/en/frontend/frontend-card-edit-1.png" alt="Konfiguracja interfejsu użytkownika opcja"></p>
@@ -106,7 +106,7 @@ Aktualna domyślna konfiguracja dostępna jest tu <a href="https://raw.githubuse
 <h3><a class="anchor" aria-hidden="true" id="własny-interfejs-użytkownika"></a><a href="#własny-interfejs-użytkownika" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Własny interfejs użytkownika</h3>
 <p>Gdy mamy potrzebę zmiany całego interfejsu użytkownika włącznie z trzema pierwszymi kartami - domyślnie zablokowanymi (nadpisywanymi przy uruchamianiu), możemy to zrobić dodając do pliku konfiguracyjnego configuration.yaml wpis:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-attr">lovelace:</span> 
-  <span class="hljs-attr">mode:</span> <span class="hljs-string">yaml</span>
+<span class="hljs-attr">  mode:</span> <span class="hljs-string">yaml</span>
 </code></pre>
 <p>oraz utworzyć plik <strong>ul-lovelace.yaml</strong> w folderze ~/AIS (na urządzeniu) z wyglądem naszego interfejsu. Od tego momentu nie mamy już możliwości korzystania z wbudowanego edytora konfiguracji ale za to możemy modyfikować wszystkie zakładki interfejsu użytkownika.
 Warto przed włączeniem tej opcji skopiować aktualny wygląd interfejstu posługując się powyższą instrukcją <a href="#kopia-konfiguracji">Kopia konfiguracji</a> i wkleić zawartość do pliku <strong>ui-lovelace.yaml</strong>. Od teraz możemy już zmieniać wszystkie zakładki wedle własnych upodobań.</p>
@@ -117,29 +117,29 @@ Warto przed włączeniem tej opcji skopiować aktualny wygląd interfejstu posł
 <a href="https://www.home-assistant.io/integrations/calendar.google/">Integracja z Asystentem Domowym - generowanie klucza API</a></p>
 <p>Wymagana konfiguracja to dodanie wpisu do pliku configuration.yaml zgodnie z powyższą instrukcją:</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-attr">google:</span>
-  <span class="hljs-attr">client_id:</span> <span class="hljs-string">YOUR_CLIENT_ID</span>
-  <span class="hljs-attr">client_secret:</span> <span class="hljs-string">YOUR_CLIENT_SECRET</span>
+<span class="hljs-attr">  client_id:</span> <span class="hljs-string">YOUR_CLIENT_ID</span>
+<span class="hljs-attr">  client_secret:</span> <span class="hljs-string">YOUR_CLIENT_SECRET</span>
 </code></pre>
 <p>oraz dodanie wpisu do <strong>ui-lovelace.yaml</strong> i skopiowanie z <a href="https://github.com/ljmerza/calendar-card">repozytorium https://github.com/ljmerza/calendar-card</a> zawartości calendar-card lub zainstalowanie pluginu calendar-card poprzez <a href="https://github.com/custom-components/hacs">HACS</a>.</p>
 <pre><code class="hljs css language-yaml"><span class="hljs-attr">resources:</span>
-  <span class="hljs-bullet">-</span> <span class="hljs-attr">url:</span> <span class="hljs-string">/community_plugin/calendar-card/calendar-card.js</span>
-    <span class="hljs-attr">type:</span> <span class="hljs-string">js</span>
+<span class="hljs-attr">  - url:</span> <span class="hljs-string">/community_plugin/calendar-card/calendar-card.js</span>
+<span class="hljs-attr">    type:</span> <span class="hljs-string">js</span>
 </code></pre>
 <h4><a class="anchor" aria-hidden="true" id="wstawienie-własnego-kalendarza-do-karty-interfejsu-użytkownika"></a><a href="#wstawienie-własnego-kalendarza-do-karty-interfejsu-użytkownika" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wstawienie własnego kalendarza do karty interfejsu użytkownika:</h4>
-<pre><code class="hljs css language-yaml"><span class="hljs-bullet">-</span> <span class="hljs-attr">type:</span> <span class="hljs-string">"custom:calendar-card"</span>
-  <span class="hljs-attr">title:</span> <span class="hljs-string">Kalendarz</span>
-  <span class="hljs-attr">progressBar:</span> <span class="hljs-literal">true</span>
-  <span class="hljs-attr">numberOfDays:</span> <span class="hljs-number">14</span>
-  <span class="hljs-attr">entities:</span>
-    <span class="hljs-bullet">-</span> <span class="hljs-string">calendar.nazwa_kalendarza</span>
+<pre><code class="hljs css language-yaml"><span class="hljs-attr">- type:</span> <span class="hljs-string">"custom:calendar-card"</span>
+<span class="hljs-attr">  title:</span> <span class="hljs-string">Kalendarz</span>
+<span class="hljs-attr">  progressBar:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">  numberOfDays:</span> <span class="hljs-number">14</span>
+<span class="hljs-attr">  entities:</span>
+<span class="hljs-bullet">    -</span> <span class="hljs-string">calendar.nazwa_kalendarza</span>
 </code></pre>
 <p>Edycja pliku google_calendars.yaml</p>
-<pre><code class="hljs css language-yaml"><span class="hljs-bullet">-</span> <span class="hljs-attr">cal_id:</span> <span class="hljs-string">nazwa_kalendarza</span>
-  <span class="hljs-attr">entities:</span>
-  <span class="hljs-bullet">-</span> <span class="hljs-attr">device_id:</span> <span class="hljs-string">moj_kalendarz</span>
-    <span class="hljs-attr">ignore_availability:</span> <span class="hljs-literal">true</span>
-    <span class="hljs-attr">name:</span> <span class="hljs-string">nazwa_kalendarza</span>
-    <span class="hljs-attr">track:</span> <span class="hljs-literal">true</span>
+<pre><code class="hljs css language-yaml"><span class="hljs-attr">- cal_id:</span> <span class="hljs-string">nazwa_kalendarza</span>
+<span class="hljs-attr">  entities:</span>
+<span class="hljs-attr">  - device_id:</span> <span class="hljs-string">moj_kalendarz</span>
+<span class="hljs-attr">    ignore_availability:</span> <span class="hljs-literal">true</span>
+<span class="hljs-attr">    name:</span> <span class="hljs-string">nazwa_kalendarza</span>
+<span class="hljs-attr">    track:</span> <span class="hljs-literal">true</span>
 </code></pre>
 <p>Po uruchomieniu integracji z google plik google_calendars.yaml zostanie wypełniony danymi wszystkich naszych kalendarzy które możemy wykorzystać w Asystencie Domowym.</p>
 <p>Kalendarz google ze świętami w Polsce możemy np. wykorzystać w automatyzacjach które mają zadziałać tylko w święta lub w przypadku ustawienia &quot;pobudki&quot; nie uruchamiać zdarzenia w Święta 🥳</p>
