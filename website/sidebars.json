@@ -132,7 +132,8 @@
           "ais_app_ifttt_action"
         ]
       },
-      "ais_app_dialogflow"
+      "ais_app_dialogflow",
+      "ais_app_integration_usb"
     ],
     "Integracje dodatkowe": [
       "ais_iot_index",
@@ -179,7 +180,8 @@
       "ais_gate_faq_custom_component",
       "ais_gate_faq_package_compile",
       "ais_bramka_remote_other_programs",
-      "ais_bramka_faq_usb_dongle"
+      "ais_bramka_faq_usb_dongle",
+      "ais_app_integration_zigbee"
     ],
     "Aplikacja": [
         "ais_faq_app_lovelace_merge",

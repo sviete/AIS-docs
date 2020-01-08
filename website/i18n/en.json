@@ -93,6 +93,14 @@
         "title": "IKEA Trådfri",
         "sidebar_label": "IKEA Trådfri"
       },
+      "ais_app_integration_usb": {
+        "title": "USB rozpoznawanie urządzeń",
+        "sidebar_label": "USB"
+      },
+      "ais_app_integration_zigbee": {
+        "title": "Zigbee2MQTT",
+        "sidebar_label": "Zigbee"
+      },
       "ais_app_news": {
         "title": "Wiadomości",
         "sidebar_label": "Wiadomości"
@@ -729,6 +737,14 @@
         "title": "Galeria",
         "sidebar_label": "Galeria"
       },
+      "version-0.103.6b0/version-0.103.6b0-ais_app_integration_usb": {
+        "title": "USB rozpoznawanie urządzeń",
+        "sidebar_label": "USB"
+      },
+      "version-0.103.6b0/version-0.103.6b0-ais_app_integration_zigbee": {
+        "title": "Zigbee2MQTT",
+        "sidebar_label": "Zigbee"
+      },
       "version-0.103.6b0/version-0.103.6b0-ais_app_ui_config": {
         "title": "Konfiguracja interfejsu użytkownika",
         "sidebar_label": "Konfiguracja"
@@ -785,6 +801,18 @@
         "title": "Pierwsze uruchomienie",
         "sidebar_label": "Pierwsze uruchomienie"
       },
+      "version-0.103.6b0/version-0.103.6b0-ais_bramka_remote_ftp": {
+        "title": "Dostęp do bramki po FTP",
+        "sidebar_label": "FTP"
+      },
+      "version-0.103.6b0/version-0.103.6b0-ais_bramka_remote_http": {
+        "title": "Dostęp do bramki po HTTP",
+        "sidebar_label": "HTTP"
+      },
+      "version-0.103.6b0/version-0.103.6b0-ais_bramka_remote_ssh": {
+        "title": "Dostęp do konsoli bramki po SSH",
+        "sidebar_label": "SSH"
+      },
       "version-0.103.6b0/version-0.103.6b0-ais_bramka_remote_www_index": {
         "title": "Dostęp do bramki z Internetu",
         "sidebar_label": "Wprowadzenie"
@@ -800,6 +828,10 @@
       "version-0.103.6b0/version-0.103.6b0-ais_bramka_reset_step_by_step": {
         "title": "Przywracanie ustawień fabrycznych urządzenia",
         "sidebar_label": "Procedura"
+      },
+      "version-0.103.6b0/version-0.103.6b0-ais_bramka_services": {
+        "title": "Usługi działające na bramce",
+        "sidebar_label": "Usługi bramki"
       },
       "version-0.103.6b0/version-0.103.6b0-ais_dom_cloud_gate_backup": {
         "title": "Kopia zapasowa w serwisie integratora",

@@ -2,12 +2,21 @@
 author: Jola AI-Speaker
 authorURL: https://github.com/sviete
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
-title: Wersja systemu 0.103 Audio
+title: Wersja systemu 0.103 Zigbee
 ---
 
 ## Wersja systemu 0.103.x z dnia 15 stycznia 2020 (do potwierdzenia),
 
 > Na kanale beta **prowadzimy pracę nad wersją 0.103**. 🧰 🧩 Wersja ta ukaże się na kanale stabilnym prawdopodobnie dnia 15 stycznia 2020 roku 🧨🧨🧨 🥳.
+
+
+## Zigbee
+
+> Opis w przygotowaniu
+
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+    <path fill="#000000" d="M4.06,6.15C3.97,6.17 3.88,6.22 3.8,6.28C2.66,7.9 2,9.87 2,12A10,10 0 0,0 12,22C15,22 17.68,20.68 19.5,18.6L17,18.85C14.25,19.15 11.45,19.19 8.66,18.96C7.95,18.94 7.24,18.76 6.59,18.45C5.73,18.06 5.15,17.23 5.07,16.29C5.06,16.13 5.12,16 5.23,15.87L7.42,13.6L15.03,5.7V5.6H10.84C8.57,5.64 6.31,5.82 4.06,6.15M20.17,17.5C20.26,17.47 20.35,17.44 20.43,17.39C21.42,15.83 22,14 22,12A10,10 0 0,0 12,2C9.22,2 6.7,3.13 4.89,4.97H5.17C8.28,4.57 11.43,4.47 14.56,4.65C15.5,4.64 16.45,4.82 17.33,5.17C18.25,5.53 18.89,6.38 19,7.37C19,7.53 18.93,7.7 18.82,7.82L9.71,17.19L9,17.95V18.06H13.14C15.5,18 17.84,17.81 20.17,17.5Z" />
+</svg>
 
 
 ## Społecznościowe forum AI-Speaker!
@@ -32,6 +41,12 @@ Wszystkich którzy mają ochotę opublikować swój projekt zapraszamy do sekcji
 Usługi działające na bramce będą dostepne na tych samych portach co dotychczas a dodatkowo na standardowych (dobrze znanych) portach.
 Jak to dokładnie działa wyjaśniamy [na forum](https://ai-speaker.discourse.group/t/dlaczego-porty-uslug-dzialajacych-na-bramce-sa-niestandardowe/57)
 
+Nazwa      | Protokół | Porty | Komenda/URL                                               | Opis
+----       | ----     | ------- | -------                                                | -----------
+ Aplikacja | http     | **80** / `8180`  | [http://ais-dom.local](http://ais-dom.local) | serwer http
+ FTP       | ftp      | **21** / `1024`  | [ftp://ais-dom.local](ftp://ais-dom.local)   | serwer ftp
+ SSH       | ssh      | **22** / `8022`  | ```ssh ais-dom```         | serwer ssh
+ MQTT      | mqtt     | **1883**  | ```mosquitto_sub -h ais-dom.local -t '#'```     | serwer mqtt
 
 ## Kopia zapasowa ustawień
 
@@ -44,18 +59,33 @@ W tym miejscu możesz, sprawdzić poprawność ustawień bramki, wykonać jej ko
 
 ## Audio w osobnym panelu
 
-Przenosimy widok audio do osobnego panelu w aplikacji...
-> TODO - opis do uzupełniania
+Widok audio przenieśliśmy do osobnego panelu w aplikacji.
+
+![Audio panel](/AIS-docs/img/en/blog/202001/audio_new_tab.png)
+
+Od tej wersji będziemy dostarczali/blokowali tylko jeden widok na którym prezentujemy przykładowe karty.
+
+![Audio panel](/AIS-docs/img/en/blog/202001/default_view.png)
+
 
 ## Rozpoznwanie urządzeń USB
 
-> TODO - opis do uzupełniania
+Na bramce dostarczamy działającą w tle usługę USB, której celem jest wykrywanie zmian stanu urządzeń USB (połączenie i rozłączanie). Usługa monitoruje zdarzenia za pomocą mechanizmu inotify dostępnego w systemie Linux, następnie zmienia je w format zrozumiały dla Asystenta domowego. Dzięki temu Asystent domowy powiadamia komunikatem głosowym o tym, jakie urządzenie zostało dodane i jeżeli obsługa danego urządzenia jest wspierana, to Asystent wykona dalsze akcje związane z obsługą danego urządzenia, takie jak:
+- dodanie dysków
+- uruchomienie karty audio
+- uruchmienie serwsisu do obsługi Zigbee
+
+Więcej w dokumentacji [USB rozpoznawanie urządzeń](/AIS-docs/docs/en/ais_app_integration_usb.html)
+
+![HID USB](/AIS-docs/img/en/bramka/usb_integration_zigbee.png)
 
 
 ## Dodawanie zdalnych dysków FTP
 
-> TODO - opis do uzupełniania
+W odpowiedzi na pomysł obsługi dysków sieciowych zgłoszony na forum [Integracja z dyskiem sieciowym w sieci lokalnej](https://ai-speaker.discourse.group/t/integracja-z-dyskiem-sieciowym-w-sieci-lokalnej/94) dodaliśmy obsługę FTP i opisaliśmy technicznie jak działa Rclone które dostarczamy na bramce do obsługi dysków zdalnych [Dyski sieciowe - Rclone](https://ai-speaker.discourse.group/t/dyski-sieciowe-rclone/97)
 
+![FTP1](/AIS-docs/img/en/blog/202001/rclone_ftp.png)
+![FTP2](/AIS-docs/img/en/blog/202001/rclone_ftp2.png)
 
 ## Autentykacja PIN w aplikacji
 

@@ -132,7 +132,8 @@
           "version-0.103.6b0-ais_app_ifttt_action"
         ]
       },
-      "version-0.103.6b0-ais_app_dialogflow"
+      "version-0.103.6b0-ais_app_dialogflow",
+      "version-0.103.6b0-ais_app_integration_usb"
     ],
     "Integracje dodatkowe": [
       "version-0.103.6b0-ais_iot_index",
@@ -179,7 +180,8 @@
       "version-0.103.6b0-ais_gate_faq_custom_component",
       "version-0.103.6b0-ais_gate_faq_package_compile",
       "version-0.103.6b0-ais_bramka_remote_other_programs",
-      "version-0.103.6b0-ais_bramka_faq_usb_dongle"
+      "version-0.103.6b0-ais_bramka_faq_usb_dongle",
+      "version-0.103.6b0-ais_app_integration_zigbee"
     ],
     "Aplikacja": [
       "version-0.103.6b0-ais_faq_app_lovelace_merge",
