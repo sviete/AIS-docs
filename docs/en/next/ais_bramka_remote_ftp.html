@@ -63,8 +63,8 @@
               }
             });
         </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_bramka_remote_ftp.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Dostęp do bramki po FTP</h1></header><article><div><span><p>Asystent domowy ma domyślnie uruchomiony serwer FTP, dzięki czemu możesz zdalnie zarządzać plikami na bramce.</p>
-<p>Usługa FTP działa na porcie <strong>1024</strong></p>
-<p><a href="ftp://ais-dom.local:1024">ftp://ais-dom.local:1024</a></p>
+<p>Usługa FTP działa na standardowym porcie <strong>21</strong> i na porcie <strong>1024</strong></p>
+<p><a href="ftp://ais-dom.local">ftp://ais-dom.local</a></p>
 <h2><a class="anchor" aria-hidden="true" id="logowanie-z-systemu-windows"></a><a href="#logowanie-z-systemu-windows" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>logowanie z systemu Windows</h2>
 <p>System Windows &quot;fabrycznie&quot; nie wspiera mDNS, więc żeby połaczyć się z bramką będziemy musieli znać jej adres IP <a href="ais_bramka_remote_index#sprawdzenie-adresu-ip-w-aplikacji">sprawdź adres IP bramki</a></p>
 <p>Zalecamy użycie pełnowartościowego klienta FTP, ponieważ klient FTP wbudowany w menedżer plików Windowsa ma ograniczone możliwości.
@@ -73,7 +73,7 @@ Przetestowany przez nas darmowy klient, którego możemy polecić to <a href="ht
 <ul>
 <li>Protokół pliku: FTP</li>
 <li>Nazwa hosta: IP bramki</li>
-<li>Numer portu: 1024</li>
+<li>Numer portu: 21 lub 1024</li>
 <li>Logowanie anonimowe: zaznaczone</li>
 </ul>
 <p>Ustawienia można zapisać lub od razu połączyć się przyciskiem Logowanie:</p>
