@@ -781,6 +781,10 @@
         "title": "Konfiguracja bramki",
         "sidebar_label": "Konfiguracja bramki"
       },
+      "version-0.103.6b1/version-0.103.6b1-ais_bramka_connect": {
+        "title": "Podłączenie bramki",
+        "sidebar_label": "Podłączenie"
+      },
       "version-0.103.6b1/version-0.103.6b1-ais_bramka_first_run_step_account": {
         "title": "Pierwsze uruchomienie - Konto właściciela",
         "sidebar_label": "Konto właściciela"

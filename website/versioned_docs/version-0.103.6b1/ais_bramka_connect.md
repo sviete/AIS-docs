@@ -1,6 +1,8 @@
 ---
-title: "Podłączenie bramki"
+title: Podłączenie bramki
 sidebar_label: Podłączenie
+id: version-0.103.6b1-ais_bramka_connect
+original_id: ais_bramka_connect
 ---
 
 ## Zawartość opakowania
