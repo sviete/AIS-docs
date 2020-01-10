@@ -6,7 +6,7 @@ sidebar_label: Zigbee
 ## Wprowadzenie
 
 
-Integracja Zigbee w Asystencie domowym, daje możliwość łatwego korzystanie z urządzeń Zigbee bez potrzeby stosowania bramek producentów. Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/). I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.
+Integracja Zigbee w Asystencie domowym daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów. Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/). I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.
 
 
 > <svg style="width:24px;height:24px" viewBox="0 0 24 24">
@@ -19,7 +19,7 @@ Integracja sprowadza się do włożenia do portu USB  [odpowiednio zaprogramowan
 
 ## Obsługiwane urządzenia
 
-Obsługujemy to co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie obsługiwanych jest 496 urządzeń od 99 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Jest to stan na dzień 10 stycznia 2020, projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
+Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie obsługiwanych jest 496 urządzeń od 99 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Jest to stan na dzień 10 stycznia 2020, projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
 
 ## Dodanie nowego urządzenia Zigbee
 
@@ -27,41 +27,41 @@ Obsługujemy to co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zig
 
 Aby zapewnić bezpieczeństwo sieci Zigbee i uniknąć przypadkowego dołączenia innych urządzeń Zigbee, domyślnie w konfiugracji mamy ustawiony parametr **enable_join: false**.
 
-Przed rozpoczęciem parowania nowego urządzenie należy włączyć w aplikacji możliwość czasowego parowania z bramką. W przeciwnym razie nowe urządzenia nie będą mogły dołączyć do sieci!
-Możliwość czasowego parowania z bramką włączamy w aplikacji w menu **Zigbee** -> **Zigbee Tryb Parowania** lub pilotem radiowym przechodząc w menu do **Mój dom** -> **Automatyzacje** -> **Zigbee tryb parowania**
+Przed rozpoczęciem parowania nowego urządzenia należy włączyć w aplikacji możliwość czasowego parowania z bramką. W przeciwnym razie nowe urządzenia nie będą mogły dołączyć do sieci!
+Możliwość czasowego parowania z bramką włączamy w aplikacji w menu **Zigbee** -> **Zigbee Tryb Parowania** lub pilotem radiowym przechodząc w menu do **Mój dom** -> **Automatyzacje** -> **Zigbee tryb parowania**.
 Po włączeniu trybu parowania mamy 2 minuty na dodanie nowego urządzenia.
 
 ![Zigbee integracja](/AIS-docs/img/en/bramka/zigbee_integration_enable_join.png)
 
 ### Parowanie
 
-Najpierw sprawdź, na stronie Zigbee2MQTT w obsługiwanych urządzeniach [instrukcje dotyczącą parowania urządzenia](https://www.zigbee2mqtt.io/information/supported_devices.html) po wybraniu modelu urządzenia.
+Najpierw sprawdź na stronie Zigbee2MQTT w obsługiwanych urządzeniach [instrukcję dotyczącą parowania urządzenia](https://www.zigbee2mqtt.io/information/supported_devices.html) po wybraniu modelu urządzenia.
 
 ![Zigbee integracja](/AIS-docs/img/en/bramka/zigbee_integration_pair.png)
 
 ![Zigbee integracja](/AIS-docs/img/en/bramka/zigbee_integration_pair2.png)
 
-Jeśli nie są dostępne żadne instrukcje, urządzenie można prawdopodobnie sparować, przywracając ustawienia fabryczne
+Jeśli nie są dostępne żadne instrukcje, urządzenie można prawdopodobnie sparować przywracając ustawienia fabryczne
 
 ### Mapa siseci
 
-Po sparowaniu urządzenia możemy odświerzyć kartę z mapą sieci Zigbee by zobaczyć nasze nowe urządzenie połączone do bramki
+Po sparowaniu urządzenia możemy odświeżyć kartę z mapą sieci Zigbee, by zobaczyć nasze nowe urządzenie podłączone do bramki
 
 ![Zigbee integracja](/AIS-docs/img/en/bramka/zigbee_integration_pair_device_map.png)
 
 
-### Zmiana nazwy urządznia na mapie
+### Zmiana nazwy urządzenia na mapie
 
 ![Zigbee integracja](/AIS-docs/img/en/bramka/zigbee_integration_change_name.png)
 
 
 ### Urządzenia
 
-Nasze nowe urządznie autmatycznie dostępne jest w urządzeniach
+Nasze nowe urządzenie autmatycznie dostępne jest w urządzeniach
 
 ![Zigbee integracja](/AIS-docs/img/en/bramka/zigbee_integration_new_device.png)
 
-Po wybraniu urządznia możemy zobaczyć jego szczegóły i przejść do dowania automatyzacji
+Po wybraniu urządzenia możemy zobaczyć jego szczegóły i przejść do dodania automatyzacji
 
 ![Zigbee integracja](/AIS-docs/img/en/bramka/zigbee_integration_new_device_info.png)
 
@@ -77,13 +77,15 @@ Oczywiście nowe encje możemy umieszczać na karcie i wykorzystywać w automaty
 > **Ten opis dotyczy tylko bramek zakupionych z wersją systemu < 0.103.**
 > Od wersji 0.103. Zigbee2MQTT jest zainstalowane "fabrycznie" na bramkach i nie trzeba nic doinstalowywać.
 
-Są dwie opcje żeby sammu dodać Zigbee2MQTT do bramki:
+Są dwie opcje, żeby samemu dodać Zigbee2MQTT do bramki:
 
-### Instalacja przez wykonanie pełenego resetu aplikacji
+### Instalacja przez wykonanie pełnego resetu aplikacji
 
-Przed wykonaniem pełnego resetu, jeżeli zależy nam na naszych wcześniejszych ustawieniach to można wykonać [Kopie zapasową konfiguracji](/AIS-docs/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji)
-Opis procedury [Pełny reset aplikacji](/AIS-docs/docs/en/ais_bramka_reset_ais_step_by_step.html)
-Po wykonaniu pełnego resetu można [przywrócić ustawiania](/AIS-docs/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji).
+Przed wykonaniem pełnego resetu, jeżeli zależy nam na naszych wcześniejszych ustawieniach, można wykonać [Kopię zapasową konfiguracji](/AIS-docs/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji).
+
+Opis procedury [Pełny reset aplikacji](/AIS-docs/docs/en/ais_bramka_reset_ais_step_by_step.html).
+
+Po wykonaniu pełnego resetu można [przywrócić ustawienia](/AIS-docs/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji).
 
 ### Instalacja skryptem
 
@@ -93,7 +95,7 @@ Po wykonaniu pełnego resetu można [przywrócić ustawiania](/AIS-docs/docs/en/
 ssh <ip_bramki_w_sieci_lokalnej>
 ```
 
-2. wkonaj następującą komendę
+2. wykonaj następującą komendę
 
 ```bash
 curl https://raw.githubusercontent.com/sviete/AIS-utils/master/patches/add_zigbee.sh | bash
