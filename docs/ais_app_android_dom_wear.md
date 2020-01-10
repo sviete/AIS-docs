@@ -43,7 +43,7 @@ w sekcji **Szyfrowany tunel** wybierz **GENERUJ KOD PIN**
 
 ![Automatyzacje](/AIS-docs/img/en/frontend/ais_dom_wizard_4_wear_apk.png)
 
-kod, który się pojawi prepisz w aplikacji Wear (masz na to 2 minuty)
+kod, który się pojawi przepisz w aplikacji Wear (masz na to 2 minuty)
 
 ![Automatyzacje](/AIS-docs/img/en/frontend/ais_dom_wizard_5_wear_apk.png)
 
