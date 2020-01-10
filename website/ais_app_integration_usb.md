@@ -1,8 +1,6 @@
 ---
-title: USB rozpoznawanie urządzeń
+title: "USB rozpoznawanie urządzeń"
 sidebar_label: USB
-id: version-0.103.6b0-ais_app_integration_usb
-original_id: ais_app_integration_usb
 ---
 
 ## Wprowadzenie
