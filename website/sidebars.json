@@ -59,8 +59,7 @@
       "ais_bramka_api_led"
     ],
     "Reset urządzenia do ustawień fabrycznych": [
-      "ais_bramka_reset_index",
-      "ais_bramka_reset_step_by_step"
+      "ais_bramka_reset_index"
     ]
   },
   "Aplikacja": {

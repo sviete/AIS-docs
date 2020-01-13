@@ -35,8 +35,7 @@
       "version-0.100.4-ais_bramka_api_led"
     ],
     "Reset urządzenia do ustawień fabrycznych": [
-      "version-0.100.4-ais_bramka_reset_index",
-      "version-0.100.4-ais_bramka_reset_step_by_step"
+      "version-0.100.4-ais_bramka_reset_index"
     ]
   },
   "version-0.100.4-Aplikacja": {

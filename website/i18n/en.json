@@ -273,10 +273,6 @@
         "title": "Przywracanie ustawień fabrycznych urządzenia",
         "sidebar_label": "Wprowadzenie"
       },
-      "ais_bramka_reset_step_by_step": {
-        "title": "Przywracanie ustawień fabrycznych urządzenia",
-        "sidebar_label": "Procedura"
-      },
       "ais_bramka_role": {
         "title": "Rola bramki",
         "sidebar_label": "Rola bramki"
@@ -833,10 +829,6 @@
         "title": "Przywracanie ustawień fabrycznych urządzenia",
         "sidebar_label": "Wprowadzenie"
       },
-      "version-0.103.6b2/version-0.103.6b2-ais_bramka_reset_step_by_step": {
-        "title": "Przywracanie ustawień fabrycznych urządzenia",
-        "sidebar_label": "Procedura"
-      },
       "version-0.103.6b2/version-0.103.6b2-ais_bramka_services": {
         "title": "Usługi działające na bramce",
         "sidebar_label": "Usługi bramki"
@@ -1192,10 +1184,6 @@
       "version-0.86.7/version-0.86.7-ais_bramka_reset_index": {
         "title": "Przywracanie ustawień fabrycznych urządzenia",
         "sidebar_label": "Wprowadzenie"
-      },
-      "version-0.86.7/version-0.86.7-ais_bramka_reset_step_by_step": {
-        "title": "Przywracanie ustawień fabrycznych urządzenia",
-        "sidebar_label": "Procedura"
       },
       "version-0.86.7/version-0.86.7-ais_bramka_update_auto": {
         "title": "Aktualizacja automatyczna",
@@ -1592,10 +1580,6 @@
       "version-0.96.10/version-0.96.10-ais_bramka_reset_ais_step_by_step": {
         "title": "Pełny reset aplikacji",
         "sidebar_label": "Wykoanie pełnego resetu aplikacji"
-      },
-      "version-0.96.10/version-0.96.10-ais_bramka_reset_step_by_step": {
-        "title": "Przywracanie ustawień fabrycznych urządzenia",
-        "sidebar_label": "Procedura"
       },
       "version-0.96.10/version-0.96.10-ais_faq_app_lovelace_merge": {
         "title": "Dlaczego po aktualizacji interfejs aplikacji ma domyślną konfigurację",
