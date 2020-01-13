@@ -1,6 +1,8 @@
 ---
-title: "TAURON eLicznik"
+title: TAURON eLicznik
 sidebar_label: TAURON eLicznik
+id: version-0.103.6b2-ais_app_tauron
+original_id: ais_app_tauron
 ---
 
 ## Wprowadzenie

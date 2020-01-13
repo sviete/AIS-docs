@@ -130,6 +130,22 @@ Oraz grupę **Urządzenia**, w tej grupie mamy teraz następujące pozycje:
 - Wentylatory
 
 
+## TAURON - pobieranie informacji o energii oddanej do sieci
+
+Zaktualizowaliśmy integrację TAURON autorstwa [Piotra Machowskiego](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Tauron-AMIplus) o pobieranie danych o energii oddanej do sieci.
+
+Dane pobierane są do 6 sensorów:
+- Roczne zużycie energii
+- Miesięczne zużycie energii
+- Dzienne zużycie energii
+- Energia oddana do sieci w ciągu roku
+- Energia oddana do sieci w ciągu miesiąca
+- Energia oddana do sieci w ciągu dnia
+
+Takie dane zestawione z danymi o produkcji prądu ułatwiają nam zorientowanie się, czy mamy nadwyżkę prądu oddaną do sieci - przydatne, gdy mamy nadprodukcje i możliwość jej zużycia, przez np. dogrzanie się prądem w zimie i zaoszczędzenie na gazie.
+
+![Integracja TAURON](/AIS-docs/img/en/frontend/integration_tauron_4.1.png)
+
 ## Home Assistant
 
 Najnowszy (stabilny) Home Assistant <a href="https://www.home-assistant.io/blog/2019/12/11/release-103/" target="_blank">0.103.0</a>
