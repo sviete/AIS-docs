@@ -86,7 +86,17 @@ Przed wykonaniem pełnego resetu, jeżeli zależy nam na naszych wcześniejszych
 
 Opis procedury [Pełny reset aplikacji](/AIS-docs/docs/en/ais_bramka_reset_ais_step_by_step.html).
 
-Po wykonaniu pełnego resetu można [przywrócić ustawienia](/AIS-docs/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji).
+Po wykonaniu pełnego resetu gdy asystent się uruchomi i nas powita, to można [przywrócić ustawienia](/AIS-docs/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji).
+
+Zanim zacznie działać rozpoznawanie urządzeń USB należy jeszcze zrestartować urządzenie. Można to zrobić komendą w konsoli:
+
+```bash
+su -c "reboot now"
+```
+
+lub z menu aplikacji: **Konfiguracja** -> **Konfiguracja bramki AIS dom** -> **Zatrzymanie bramki** -> **URUCHOM PONOWNIE**
+
+lub za pomocą pilota: **Pomoc** -> **System** -> **Restart bramki**
 
 Teraz wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi się nowe menu w aplikacji, a Asystent domowy poinformuje głosowo, że uruchomił usługę Zigbee.
 
@@ -189,7 +199,7 @@ su -c "reboot now"
 
 lub z menu aplikacji: **Konfiguracja** -> **Konfiguracja bramki AIS dom** -> **Zatrzymanie bramki** -> **URUCHOM PONOWNIE**
 
-lub za pomocą pilota: **System** -> **Restart bramki**
+lub za pomocą pilota: **Pomoc** -> **System** -> **Restart bramki**
 
 
 Po ponownym uruchomieniu, wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi się nowe menu w aplikacji, a Asystent domowy poinformuje głosowo, że uruchomił usługę Zigbee.
