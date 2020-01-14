@@ -6,12 +6,13 @@ sidebar_label: Zigbee
 ## Wprowadzenie
 
 
-Integracja Zigbee w Asystencie domowym daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów. Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/). I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.
+<svg style="width:48px;height:48px" viewBox="0 0 24 24">
+<path fill="#000000" d="M4.06,6.15C3.97,6.17 3.88,6.22 3.8,6.28C2.66,7.9 2,9.87 2,12A10,10 0 0,0 12,22C15,22 17.68,20.68 19.5,18.6L17,18.85C14.25,19.15 11.45,19.19 8.66,18.96C7.95,18.94 7.24,18.76 6.59,18.45C5.73,18.06 5.15,17.23 5.07,16.29C5.06,16.13 5.12,16 5.23,15.87L7.42,13.6L15.03,5.7V5.6H10.84C8.57,5.64 6.31,5.82 4.06,6.15M20.17,17.5C20.26,17.47 20.35,17.44 20.43,17.39C21.42,15.83 22,14 22,12A10,10 0 0,0 12,2C9.22,2 6.7,3.13 4.89,4.97H5.17C8.28,4.57 11.43,4.47 14.56,4.65C15.5,4.64 16.45,4.82 17.33,5.17C18.25,5.53 18.89,6.38 19,7.37C19,7.53 18.93,7.7 18.82,7.82L9.71,17.19L9,17.95V18.06H13.14C15.5,18 17.84,17.81 20.17,17.5Z" />
+</svg> Integracja Zigbee w Asystencie domowym daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów. Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/). I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.
 
 
 > <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-    <path fill="#000000" d="M11,15H13V17H11V15M11,7H13V13H11V7M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20Z" />
-</svg> Zigbee2MQTT jest zainstalowane "fabrycznie" na bramkach sprzedawanych z systemem od wersji 0.103. W tych bramkach wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi się nowe menu w aplikacji. Jeżeli kupiłeś bramkę z wcześniejszą wersją systemu i chcesz używać Zigbee na bramce to wystarczy, że doinstalujesz tę funkcjonalność wg [opisu poniżej](/AIS-docs/docs/en/next/ais_app_integration_zigbee.html#instalacja-zigbee2mqtt).
+    <path fill="#000000" d="M11,15H13V17H11V15M11,7H13V13H11V7M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20Z" /> </svg> Zigbee2MQTT jest zainstalowane "fabrycznie" na bramkach sprzedawanych z systemem od wersji 0.103.8 W tych bramkach wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi się nowe menu w aplikacji. Jeżeli kupiłeś bramkę z wcześniejszą wersją systemu i chcesz używać Zigbee na bramce to wystarczy, że doinstalujesz tę funkcjonalność wg [opisu poniżej](/AIS-docs/docs/en/next/ais_app_integration_zigbee.html#instalacja-zigbee2mqtt).
 
 ## Integracja
 
@@ -74,8 +75,8 @@ Oczywiście nowe encje możemy umieszczać na karcie i wykorzystywać w automaty
 > <svg style="width:24px;height:24px" viewBox="0 0 24 24">
     <path fill="#000000" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
 </svg>
-> **Ten opis dotyczy tylko bramek zakupionych z wersją systemu < 0.103.**
-> Od wersji 0.103. Zigbee2MQTT jest zainstalowane "fabrycznie" na bramkach i nie trzeba nic doinstalowywać.
+> **Ten opis dotyczy tylko bramek zakupionych z wersją systemu < 0.103.8**
+> Od wersji 0.103.8 Zigbee2MQTT jest zainstalowane "fabrycznie" na bramkach i nie trzeba nic doinstalowywać.
 
 Są dwie opcje, żeby samemu dodać Zigbee2MQTT do bramki:
 
@@ -86,6 +87,9 @@ Przed wykonaniem pełnego resetu, jeżeli zależy nam na naszych wcześniejszych
 Opis procedury [Pełny reset aplikacji](/AIS-docs/docs/en/ais_bramka_reset_ais_step_by_step.html).
 
 Po wykonaniu pełnego resetu można [przywrócić ustawienia](/AIS-docs/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji).
+
+Teraz wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi się nowe menu w aplikacji, a Asystent domowy poinformuje głosowo, że uruchomił usługę Zigbee.
+
 
 ### Instalacja skryptem
 
@@ -174,3 +178,18 @@ Compressed: 51456623
 ----ALL OK END----
 -----------------------------
 ```
+
+Teraz wystarczy zrestartować urządzenie.
+
+Można to zrobić komendą w konsoli:
+
+```bash
+su -c "reboot now"
+```
+
+lub z menu aplikacji: **Konfiguracja** -> **Konfiguracja bramki AIS dom** -> **Zatrzymanie bramki** -> **URUCHOM PONOWNIE**
+
+lub za pomocą pilota: **System** -> **Restart bramki**
+
+
+Po ponownym uruchomieniu, wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi się nowe menu w aplikacji, a Asystent domowy poinformuje głosowo, że uruchomił usługę Zigbee.
