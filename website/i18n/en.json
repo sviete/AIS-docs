@@ -873,6 +873,10 @@
         "title": "Aplikacja",
         "sidebar_label": "Wprowadzenie"
       },
+      "version-0.77.0/version-0.77.0-ais_app_player": {
+        "title": "Odtwarzacz",
+        "sidebar_label": "Odtwarzacz"
+      },
       "version-0.77.0/version-0.77.0-ais_app_radio": {
         "title": "Radia Internetowe",
         "sidebar_label": "Radia Internetowe"
