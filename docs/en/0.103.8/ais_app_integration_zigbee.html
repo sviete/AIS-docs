@@ -1,0 +1,227 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Zigbee2MQTT · Asystent domowy</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Wprowadzenie"/><meta name="docsearch:version" content="0.103.8"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Zigbee2MQTT · Asystent domowy"/><meta property="og:type" content="website"/><meta property="og:url" content="https://sviete.github.io/AIS-docs/index.html"/><meta property="og:description" content="## Wprowadzenie"/><meta property="og:image" content="https://sviete.github.io/AIS-docs/img/default-social.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://sviete.github.io/AIS-docs/img/default-social.png"/><link rel="shortcut icon" href="/AIS-docs/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://sviete.github.io/AIS-docs/blog/atom.xml" title="Asystent domowy Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://sviete.github.io/AIS-docs/blog/feed.xml" title="Asystent domowy Blog RSS Feed"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-126115790-1', 'auto');
+              ga('send', 'pageview');
+            </script><script src="/AIS-docs/js/scrollSpy.js"></script><link rel="stylesheet" href="/AIS-docs/css/main.css"/><script src="/AIS-docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/AIS-docs/en"><img class="logo" src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy"/><h2 class="headerTitleWithLogo">Asystent domowy</h2></a><a href="/AIS-docs/en/versions.html"><h3>0.103.8</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class=""><a href="/AIS-docs/docs/en/0.103.8/ais_bramka_index.html" target="_self">Bramka IoT</a></li><li class=""><a href="/AIS-docs/docs/en/0.103.8/ais_app_index.html" target="_self">Aplikacja</a></li><li class=""><a href="/AIS-docs/docs/en/0.103.8/ais_remote_index.html" target="_self">Pilot</a></li><li class="siteNavGroupActive"><a href="/AIS-docs/docs/en/0.103.8/ais_app_radio.html" target="_self">Integracje</a></li><li class=""><a href="/AIS-docs/docs/en/0.103.8/ais_iot_works_with.html" target="_self">Urządzenia</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Wyszukiwanie" title="Wyszukiwanie"/></li><li class=""><a href="https://ai-speaker.discourse.group" target="_self">Forum</a></li><li class=""><a href="/AIS-docs/blog/" target="_self">Aktualności</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Wbudowane inne integracje</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Wbudowane integracje audio<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_radio.html">Radia Internetowe</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_podcast.html">Podkasty</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_news.html">Wiadomości</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_youtube_dl.html">Muzyka z YouTube</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_spotify.html">Spotify</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_drives.html">Dyski</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_books.html">Audio książki</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Wbudowane inne integracje<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_ai_integration.html">Asystentka Jolka</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_integration_gallery.html">Galeria</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_ai_integration_google_home.html">Google Home</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_integration_ikea.html">IKEA Trådfri</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_supla.html">SUPLA</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_tauron.html">TAURON eLicznik</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_owntracks.html">OwnTracks</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_ifttt.html">IFTTT</a></li><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">IFTTT przykłady</h4><ul><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_ifttt_platform_account.html">IFTTT Konto</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_ifttt_time.html">IFTTT Godzina</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_ifttt_action.html">IFTTT dowolna akcja</a></li></ul></div><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_dialogflow.html">Dialogflow</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_integration_usb.html">USB</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_app_integration_zigbee.html">Zigbee</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Integracje dodatkowe<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_iot_index.html">Integracje dodatkowe</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_iot_add_to_gate.html">Obsługa urządzeń w systemie Asystent domowy</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.103.8/ais_iot_remote.html">Sterowanie komendami i pilotem</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_app_integration_zigbee.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 class="postHeaderTitle">Zigbee2MQTT</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="wprowadzenie"></a><a href="#wprowadzenie" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wprowadzenie</h2>
+<p><svg style="width:48px;height:48px" viewBox="0 0 24 24">
+<path fill="#000000" d="M4.06,6.15C3.97,6.17 3.88,6.22 3.8,6.28C2.66,7.9 2,9.87 2,12A10,10 0 0,0 12,22C15,22 17.68,20.68 19.5,18.6L17,18.85C14.25,19.15 11.45,19.19 8.66,18.96C7.95,18.94 7.24,18.76 6.59,18.45C5.73,18.06 5.15,17.23 5.07,16.29C5.06,16.13 5.12,16 5.23,15.87L7.42,13.6L15.03,5.7V5.6H10.84C8.57,5.64 6.31,5.82 4.06,6.15M20.17,17.5C20.26,17.47 20.35,17.44 20.43,17.39C21.42,15.83 22,14 22,12A10,10 0 0,0 12,2C9.22,2 6.7,3.13 4.89,4.97H5.17C8.28,4.57 11.43,4.47 14.56,4.65C15.5,4.64 16.45,4.82 17.33,5.17C18.25,5.53 18.89,6.38 19,7.37C19,7.53 18.93,7.7 18.82,7.82L9.71,17.19L9,17.95V18.06H13.14C15.5,18 17.84,17.81 20.17,17.5Z" />
+</svg> Integracja Zigbee w Asystencie domowym daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów. Rozwiązanie oparte jest na projekcie <a href="https://www.zigbee2mqtt.io/">Zigbee2MQTT</a>. I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.</p>
+<blockquote>
+<p><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+<path fill="#000000" d="M11,15H13V17H11V15M11,7H13V13H11V7M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20Z" /> </svg> Zigbee2MQTT jest zainstalowane &quot;fabrycznie&quot; na bramkach sprzedawanych z systemem od wersji 0.103.8 W tych bramkach wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi się nowe menu w aplikacji. Jeżeli kupiłeś bramkę z wcześniejszą wersją systemu i chcesz używać Zigbee na bramce to wystarczy, że doinstalujesz tę funkcjonalność wg <a href="/AIS-docs/docs/en/next/ais_app_integration_zigbee.html#instalacja-zigbee2mqtt">opisu poniżej</a>.</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="integracja"></a><a href="#integracja" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Integracja</h2>
+<p>Integracja sprowadza się do włożenia do portu USB  <a href="https://www.zigbee2mqtt.io/getting_started/flashing_the_cc2531.html">odpowiednio zaprogramowanego urządzenia CC2531</a>. Asystent domowy sam rozpozna to urządzenie USB, poinformuje głosowo, że uruchamia serwis Zigbee i automatycznie pojawi się nowa opcja w aplikacji.</p>
+<h2><a class="anchor" aria-hidden="true" id="obsługiwane-urządzenia"></a><a href="#obsługiwane-urządzenia" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Obsługiwane urządzenia</h2>
+<p>Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -&gt; <a href="https://www.zigbee2mqtt.io/information/supported_devices.html">obecnie obsługiwanych jest 496 urządzeń od 99 różnych dostawców</a>. Jest to stan na dzień 10 stycznia 2020, projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.</p>
+<h2><a class="anchor" aria-hidden="true" id="dodanie-nowego-urządzenia-zigbee"></a><a href="#dodanie-nowego-urządzenia-zigbee" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Dodanie nowego urządzenia Zigbee</h2>
+<h3><a class="anchor" aria-hidden="true" id="zezwalanie-urządzeniom-na-dołączenie"></a><a href="#zezwalanie-urządzeniom-na-dołączenie" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Zezwalanie urządzeniom na dołączenie</h3>
+<p>Aby zapewnić bezpieczeństwo sieci Zigbee i uniknąć przypadkowego dołączenia innych urządzeń Zigbee, domyślnie w konfiugracji mamy ustawiony parametr <strong>enable_join: false</strong>.</p>
+<p>Przed rozpoczęciem parowania nowego urządzenia należy włączyć w aplikacji możliwość czasowego parowania z bramką. W przeciwnym razie nowe urządzenia nie będą mogły dołączyć do sieci!
+Możliwość czasowego parowania z bramką włączamy w aplikacji w menu <strong>Zigbee</strong> -&gt; <strong>Zigbee Tryb Parowania</strong> lub pilotem radiowym przechodząc w menu do <strong>Mój dom</strong> -&gt; <strong>Automatyzacje</strong> -&gt; <strong>Zigbee tryb parowania</strong>.
+Po włączeniu trybu parowania mamy 2 minuty na dodanie nowego urządzenia.</p>
+<p><img src="/AIS-docs/img/en/bramka/zigbee_integration_enable_join.png" alt="Zigbee integracja"></p>
+<h3><a class="anchor" aria-hidden="true" id="parowanie"></a><a href="#parowanie" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Parowanie</h3>
+<p>Najpierw sprawdź na stronie Zigbee2MQTT w obsługiwanych urządzeniach <a href="https://www.zigbee2mqtt.io/information/supported_devices.html">instrukcję dotyczącą parowania urządzenia</a> po wybraniu modelu urządzenia.</p>
+<p><img src="/AIS-docs/img/en/bramka/zigbee_integration_pair.png" alt="Zigbee integracja"></p>
+<p><img src="/AIS-docs/img/en/bramka/zigbee_integration_pair2.png" alt="Zigbee integracja"></p>
+<p>Jeśli nie są dostępne żadne instrukcje, urządzenie można prawdopodobnie sparować przywracając ustawienia fabryczne</p>
+<h3><a class="anchor" aria-hidden="true" id="mapa-siseci"></a><a href="#mapa-siseci" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Mapa siseci</h3>
+<p>Po sparowaniu urządzenia możemy odświeżyć kartę z mapą sieci Zigbee, by zobaczyć nasze nowe urządzenie podłączone do bramki</p>
+<p><img src="/AIS-docs/img/en/bramka/zigbee_integration_pair_device_map.png" alt="Zigbee integracja"></p>
+<h3><a class="anchor" aria-hidden="true" id="zmiana-nazwy-urządzenia-na-mapie"></a><a href="#zmiana-nazwy-urządzenia-na-mapie" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Zmiana nazwy urządzenia na mapie</h3>
+<p><img src="/AIS-docs/img/en/bramka/zigbee_integration_change_name.png" alt="Zigbee integracja"></p>
+<h3><a class="anchor" aria-hidden="true" id="urządzenia"></a><a href="#urządzenia" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Urządzenia</h3>
+<p>Nasze nowe urządzenie autmatycznie dostępne jest w urządzeniach</p>
+<p><img src="/AIS-docs/img/en/bramka/zigbee_integration_new_device.png" alt="Zigbee integracja"></p>
+<p>Po wybraniu urządzenia możemy zobaczyć jego szczegóły i przejść do dodania automatyzacji</p>
+<p><img src="/AIS-docs/img/en/bramka/zigbee_integration_new_device_info.png" alt="Zigbee integracja"></p>
+<p>Oczywiście nowe encje możemy umieszczać na karcie i wykorzystywać w automatyzacjach, przykłady gotowych rozwiązań zostaną dodane <a href="https://ai-speaker.discourse.group/">na forum</a>.</p>
+<h2><a class="anchor" aria-hidden="true" id="instalacja-zigbee2mqtt"></a><a href="#instalacja-zigbee2mqtt" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalacja Zigbee2MQTT</h2>
+<blockquote>
+<p><svg style="width:24px;height:24px" viewBox="0 0 24 24">
+<path fill="#000000" d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M11,17H13V11H11V17Z" />
+</svg>
+<strong>Ten opis dotyczy tylko bramek zakupionych z wersją systemu &lt; 0.103.8</strong>
+Od wersji 0.103.8 Zigbee2MQTT jest zainstalowane &quot;fabrycznie&quot; na bramkach i nie trzeba nic doinstalowywać.</p>
+</blockquote>
+<p>Są dwie opcje, żeby samemu dodać Zigbee2MQTT do bramki:</p>
+<h3><a class="anchor" aria-hidden="true" id="instalacja-przez-wykonanie-pełnego-resetu-aplikacji"></a><a href="#instalacja-przez-wykonanie-pełnego-resetu-aplikacji" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalacja przez wykonanie pełnego resetu aplikacji</h3>
+<p>Przed wykonaniem pełnego resetu, jeżeli zależy nam na naszych wcześniejszych ustawieniach, można wykonać <a href="/AIS-docs/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji">Kopię zapasową konfiguracji</a>.</p>
+<p>Opis procedury <a href="/AIS-docs/docs/en/ais_bramka_reset_ais_step_by_step.html">Pełny reset aplikacji</a>.</p>
+<p>Po wykonaniu pełnego resetu gdy asystent się uruchomi i nas powita, to można <a href="/AIS-docs/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji">przywrócić ustawienia</a>.</p>
+<p>Zanim zacznie działać rozpoznawanie urządzeń USB należy jeszcze zrestartować urządzenie. Można to zrobić komendą w konsoli:</p>
+<pre><code class="hljs css language-bash">su -c <span class="hljs-string">"reboot now"</span>
+</code></pre>
+<p>lub z menu aplikacji: <strong>Konfiguracja</strong> -&gt; <strong>Konfiguracja bramki AIS dom</strong> -&gt; <strong>Zatrzymanie bramki</strong> -&gt; <strong>URUCHOM PONOWNIE</strong></p>
+<p>lub za pomocą pilota: <strong>Pomoc</strong> -&gt; <strong>System</strong> -&gt; <strong>Restart bramki</strong></p>
+<p>Teraz wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi się nowe menu w aplikacji, a Asystent domowy poinformuje głosowo, że uruchomił usługę Zigbee.</p>
+<h3><a class="anchor" aria-hidden="true" id="instalacja-skryptem"></a><a href="#instalacja-skryptem" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Instalacja skryptem</h3>
+<ol>
+<li>zaloguj się do konsoli bramki <a href="/AIS-docs/docs/en/next/ais_bramka_remote_ssh.html#dostęp-do-konsoli-z-klienta-ssh">SSH</a></li>
+</ol>
+<pre><code class="hljs css language-bash">ssh &lt;ip_bramki_w_sieci_lokalnej&gt;
+</code></pre>
+<ol start="2">
+<li>wykonaj następującą komendę</li>
+</ol>
+<pre><code class="hljs css language-bash">curl https://raw.githubusercontent.com/sviete/AIS-utils/master/patches/add_zigbee.sh | bash
+</code></pre>
+<p>w wyniku otrzymamy tego typu log:</p>
+<pre><code class="hljs css language-bash">Welcome to AI-Speaker!
+
+WWW:            https://ai-speaker.com
+Support:        info@sviete.pl
+Source:         https://github.com/sviete
+[Połaczenie SSH]
+$ curl https://raw.githubusercontent.com/sviete/AIS-utils/master/patches/add_zigbee.sh | bash
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1351  100  1351    0     0   2408      0 --:--:-- --:--:-- --:--:--  2412
+-----------------------------
+2020 Jan 10 11:00
+----ADD ZIGBEE START ----
+-----------------------------
+1. replace bash profile
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1645  100  1645    0     0   2921      0 --:--:-- --:--:-- --:--:--  2916
+2. install python2
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following NEW packages will be installed:
+  python2
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 4774 kB of archives.
+After this operation, 17.7 MB of additional disk space will be used.
+Get:1 https://powiedz.co/apt dom/stable arm python2 arm 2.7.16-4 [4774 kB]
+Fetched 4774 kB <span class="hljs-keyword">in</span> 2s (2387 kB/s)  
+Selecting previously unselected package python2.
+(Reading database ... 20653 files and directories currently installed.)
+Preparing to unpack .../python2_2.7.16-4_arm.deb ...
+Unpacking python2 (2.7.16-4) ...
+Setting up python2 (2.7.16-4) ...
+Setting up pip2...
+Looking <span class="hljs-keyword">in</span> links: /data/data/pl.sviete.dom/files/usr/tmp/tmpy72GDx
+Collecting setuptools
+Collecting pip
+Installing collected packages: setuptools, pip
+Successfully installed pip-18.1 setuptools-40.6.2
+3. download zigbee.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 49.0M  100 49.0M    0     0   236k      0  0:03:32  0:03:32 --:--:--  236k
+4. unzip zigbee2mqtt
+
+7-Zip [32] 16.02 : Copyright (c) 1999-2016 Igor Pavlov : 2016-05-21
+p7zip Version 16.02 (locale=utf8,Utf16=on,HugeFiles=off,32 bits,4 CPUs LE)
+
+Scanning the drive <span class="hljs-keyword">for</span> archives:
+1 file, 51456623 bytes (50 MiB)               
+
+Extracting archive: /data/data/pl.sviete.dom/files/home/zigbee.zip
+--             
+Path = /data/data/pl.sviete.dom/files/home/zigbee.zip
+Type = zip
+Physical Size = 51456623
+
+Everything is Ok                                                               
+
+Folders: 3904
+Files: 30125
+Size:       178163369
+Compressed: 51456623
+5. remove zigbee.zip
+-----------------------------
+2020 Jan 10 11:04
+----ALL OK END----
+-----------------------------
+</code></pre>
+<p>Teraz wystarczy zrestartować urządzenie.</p>
+<p>Można to zrobić komendą w konsoli:</p>
+<pre><code class="hljs css language-bash">su -c <span class="hljs-string">"reboot now"</span>
+</code></pre>
+<p>lub z menu aplikacji: <strong>Konfiguracja</strong> -&gt; <strong>Konfiguracja bramki AIS dom</strong> -&gt; <strong>Zatrzymanie bramki</strong> -&gt; <strong>URUCHOM PONOWNIE</strong></p>
+<p>lub za pomocą pilota: <strong>Pomoc</strong> -&gt; <strong>System</strong> -&gt; <strong>Restart bramki</strong></p>
+<p>Po ponownym uruchomieniu, wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi się nowe menu w aplikacji, a Asystent domowy poinformuje głosowo, że uruchomił usługę Zigbee.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/AIS-docs/docs/en/0.103.8/ais_app_integration_usb.html"><span class="arrow-prev">← </span><span>USB</span></a><a class="docs-next button" href="/AIS-docs/docs/en/0.103.8/ais_iot_index.html"><span>Integracje dodatkowe</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#wprowadzenie">Wprowadzenie</a></li><li><a href="#integracja">Integracja</a></li><li><a href="#obsługiwane-urządzenia">Obsługiwane urządzenia</a></li><li><a href="#dodanie-nowego-urządzenia-zigbee">Dodanie nowego urządzenia Zigbee</a><ul class="toc-headings"><li><a href="#zezwalanie-urządzeniom-na-dołączenie">Zezwalanie urządzeniom na dołączenie</a></li><li><a href="#parowanie">Parowanie</a></li><li><a href="#mapa-siseci">Mapa siseci</a></li><li><a href="#zmiana-nazwy-urządzenia-na-mapie">Zmiana nazwy urządzenia na mapie</a></li><li><a href="#urządzenia">Urządzenia</a></li></ul></li><li><a href="#instalacja-zigbee2mqtt">Instalacja Zigbee2MQTT</a><ul class="toc-headings"><li><a href="#instalacja-przez-wykonanie-pełnego-resetu-aplikacji">Instalacja przez wykonanie pełnego resetu aplikacji</a></li><li><a href="#instalacja-skryptem">Instalacja skryptem</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2020 AI-Speaker</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '147dbf3542b38e29ef7abb54fbc19372',
+                indexName: 'sviete_ais',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
