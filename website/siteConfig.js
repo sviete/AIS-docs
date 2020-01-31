@@ -42,7 +42,7 @@ const siteConfig = {
     {doc: 'ais_bramka_index', label: 'Bramka IoT'},
     {doc: 'ais_app_index', label: 'Aplikacja'},
     {doc: 'ais_remote_index', label: 'Pilot'},
-    {doc: 'ais_app_radio', label: 'Integracje'},
+    {doc: 'ais_app_player', label: 'Integracje'},
     {doc: 'ais_iot_works_with', label: 'Urządzenia'},
     { search: true },
     {href: 'https://ai-speaker.discourse.group', label: 'Forum'},

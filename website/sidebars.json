@@ -105,6 +105,7 @@
   },
   "Integracje": {
     "Wbudowane integracje audio": [
+      "ais_app_player",
       "ais_app_radio",
       "ais_app_podcast",
       "ais_app_news",

@@ -109,6 +109,10 @@
         "title": "OwnTracks",
         "sidebar_label": "OwnTracks"
       },
+      "ais_app_player": {
+        "title": "Odtwarzacz",
+        "sidebar_label": "Odtwarzacz"
+      },
       "ais_app_podcast": {
         "title": "Podkasty",
         "sidebar_label": "Podkasty"
@@ -844,6 +848,14 @@
       "version-0.103.8/version-0.103.8-ais_iot_browser": {
         "title": "Obsługa urządzenia z przeglądarki",
         "sidebar_label": "Obsługa urządzenia z przeglądarki"
+      },
+      "version-0.104.3b3/version-0.104.3b3-ais_app_player": {
+        "title": "Odtwarzacz",
+        "sidebar_label": "Odtwarzacz"
+      },
+      "version-0.104.3b3/version-0.104.3b3-ais_app_radio": {
+        "title": "Radia Internetowe",
+        "sidebar_label": "Radia Internetowe"
       },
       "version-0.77.0/version-0.77.0-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
