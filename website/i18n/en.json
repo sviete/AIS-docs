@@ -13,6 +13,10 @@
         "title": "Integracja Asystentka Jolka",
         "sidebar_label": "Asystentka Jolka"
       },
+      "ais_app_android_dom_tablet": {
+        "title": "Dotykowy panel sterowania",
+        "sidebar_label": "Panel sterowania"
+      },
       "ais_app_android_dom_wear": {
         "title": "AIS dom Wear OS",
         "sidebar_label": "AIS dom Wear"
@@ -110,8 +114,8 @@
         "sidebar_label": "OwnTracks"
       },
       "ais_app_player": {
-        "title": "Odtwarzacz",
-        "sidebar_label": "Odtwarzacz"
+        "title": "Odtwarzacze",
+        "sidebar_label": "Odtwarzacze"
       },
       "ais_app_podcast": {
         "title": "Podkasty",
@@ -849,11 +853,19 @@
         "title": "Obsługa urządzenia z przeglądarki",
         "sidebar_label": "Obsługa urządzenia z przeglądarki"
       },
-      "version-0.104.3b3/version-0.104.3b3-ais_app_player": {
-        "title": "Odtwarzacz",
-        "sidebar_label": "Odtwarzacz"
+      "version-0.104.4/version-0.104.4-ais_app_android_dom_tablet": {
+        "title": "Dotykowy panel sterowania",
+        "sidebar_label": "Panel sterowania"
       },
-      "version-0.104.3b3/version-0.104.3b3-ais_app_radio": {
+      "version-0.104.4/version-0.104.4-ais_app_android_dom": {
+        "title": "AIS dom",
+        "sidebar_label": "AIS dom"
+      },
+      "version-0.104.4/version-0.104.4-ais_app_player": {
+        "title": "Odtwarzacze",
+        "sidebar_label": "Odtwarzacze"
+      },
+      "version-0.104.4/version-0.104.4-ais_app_radio": {
         "title": "Radia Internetowe",
         "sidebar_label": "Radia Internetowe"
       },
@@ -874,8 +886,8 @@
         "sidebar_label": "Wprowadzenie"
       },
       "version-0.77.0/version-0.77.0-ais_app_player": {
-        "title": "Odtwarzacz",
-        "sidebar_label": "Odtwarzacz"
+        "title": "Odtwarzacze",
+        "sidebar_label": "Odtwarzacze"
       },
       "version-0.77.0/version-0.77.0-ais_app_radio": {
         "title": "Radia Internetowe",

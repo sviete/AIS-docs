@@ -1,6 +1,6 @@
 ---
-title: "Odtwarzacz"
-sidebar_label: Odtwarzacz
+title: "Odtwarzacze"
+sidebar_label: Odtwarzacze
 ---
 
 ## Wbudowany Odtwarzacz Mediów

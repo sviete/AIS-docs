@@ -2,14 +2,8 @@
 author: Jola AI-Speaker
 authorURL: https://github.com/sviete
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
-title: Wersja systemu 0.104 Słucham Cię
+title: Wersja systemu 0.104.4 Słucham Cię
 ---
-
-## Wersja systemu 0.104.x z dnia 5 lutego 2020 (do potwierdzenia)
-
-> Na kanale beta prowadzimy prace nad nową wersję Asystenta domowego, oznaczoną numerem 0.104.x. Wersja ta na kanale stabilnym pojawi się prawdopodobnie 5 lutego 2020 (data do potwierdzenia).
-> Jeśli chcesz szybciej uzyskać dostęp do nowych funkcji, **ale nie przejmujesz się ryzykiem wystąpienia okazjonalnego błędu**, możesz w każdej chwili przełączyć się na kanał beta - opcja dostępna jest w [portalu integratora](/AIS-docs/docs/en/ais_dom_cloud_gates.html)
-
 
 
 # Słucham Cię :)
@@ -45,7 +39,7 @@ https://github.com/sviete/AIS-hotword
 <img src="/AIS-docs/img/en/blog/202002/ais_hot_word.png" style="max-width:80%;"/>
 
 
-> Rozwiązanie to na początku będzie wbudowane w naszą aplikację dostępną w Google Play.
+> Rozwiązanie to na początku jest wbudowane w naszą aplikację dostępną w Google Play.
 > Aktywacja mikrofonu będzie wymagała świadomego włączenia przez użytkownika. O tym, że mikrofon jest włączony, informujemy stosownym powiadomieniem. **Rozwiązanie jest 100% offline - działa bez połączenia z Internetem - słuchamy Cię, ale nie podsłuchujemy!**
 
 
@@ -65,24 +59,68 @@ Ta funkcjonalność w połączeniu z odtwarzaczem i planem podłogi pozwoli na �
 
 Docelowo mamy ambicję, by zastosować własne słowo aktywujące, które będzie kojarzone z naszą marką. Z tego, co się orientujemy, będzie to pierwszy tego typu projekt w Polsce, który zajmie trochę czasu i zasobów. Na tą chwilę nie podajemy terminów.
 
+
+Więcej szczegółów jak to działa w dokumentacji [Dotykowy panel sterowania](/AIS-docs/docs/en/ais_app_android_dom_tablet)
+
+
+![Przekierowanie mediów](/AIS-docs/img/en/frontend/apk_hot_word_options.png)
+
+
 <br><br><br>
 
 ## Odtwarzacze
 
-> TODO
+Dodaliśmy możliwość bardziej zaawansowanej obsługi odtwarzaczy. Poza wbudowanym odtwarzaczem mediów, który dostarczamy na urządzeniu (wraz ze skonfigurowanymi serwisami dostarczającymi media do odtwarzania) mamy teraz możliwość:
+
+- przekierowania mediów na inne odtwarzacze:
+
+![Przekierowanie mediów](/AIS-docs/img/en/frontend/player_redirect.png)
 
 
-## Generowanie styli dla kart (floor plan)
+- grupowanie odtwarzaczy:
 
-> TODO
+![Grupowanie odtwarzaczy](/AIS-docs/img/en/frontend/player_grup.png)
+
+
+- wysyłanie tekstu do przeczytania na grupę głośników (tylko jeżli głośnik posiada mechanizm TTS)
+
+![Wysyłanie tekstu na grupę głośników](/AIS-docs/img/en/frontend/player_tts.png)
+
+
+
+Więcej szczegółów jak to działa w dokumentacji [Odtwarzacze](/AIS-docs/docs/en/ais_app_player.html)
+
+
+Dodatkowo telefon/tablet/TvBox z systemem Android może być teraz też odtwarzaczem, możesz też wysyłać do niego powiadomienia głosowe. Wystarczy zainstalować naszą darmową aplikację. Z aplikacji możesz też teraz łatwo sterować mediami na bramce z innego urządzenia (telefonu).
+
+
+[<svg style="width:48px;height:48px" viewBox="0 0 24 24">
+    <path fill="#ff9900" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
+</svg>](https://play.google.com/store/apps/details?id=pl.sviete.dom&hl=en)
+
+
+![Sterowanie mediami na bramce z telefonu](/AIS-docs/img/en/frontend/mob_notification_media.png)
+
+Więcej szczegółów jak to działa w dokumentacji [Sterowanie mediami na bramce z telefonu](/AIS-docs/docs/en/ais_app_android_dom.html#sterowanie-odtwarzaczem-na-bramce)
+
 
 <!--truncate-->
 
 ## Zigbee2MQTT
 
-Łatwiejsza zmiana nazwy urządzenia, wystarczy kliknąć węzeł urządzenia na mapie, aktualna nazwa zostanie automatycznie wpisana do formularza zmiany nazwy.
+Łatwiejsza zmiana nazwy urządzenia wystarczy kliknąć węzeł urządzenia na mapie, aktualna nazwa zostanie automatycznie wpisana do formularza zmiany nazwy.
 
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/jYW2V8zgcDI" frameborder="0" allowfullscreen></iframe>
+
+
+## Generowanie stylów CSS dla kart (floor plan)
+
+Do integracji [Galeria](/AIS-docs/docs/en/next/ais_app_integration_gallery.html) dodaliśmy pierwszą wersję narzędzia ułatwiającego generowanie stylów CSS dla kart (w celu ich rozmieszczenia na rzucie podłogi. Celem jest stworzenie narzędzia ułatwiającego tworzenie interaktywnego rzutu pomieszczenia na bazie zdjęcia projektu.
+
+Docelowo planujemy zrobić to bardziej na zasadzie "drag & drop", tak żeby każdy mógł rozmieścić swoje urządzenia na planie i nimi sterować.
+Można zapoznać się ze zarysem funkcjonalności zaprezentowanej na forum: https://ai-speaker.discourse.group/t/rzut-podlogi-floor-plan/155
+
+![Floor plan](/AIS-docs/img/en/blog/202002/floor_plan.png)
 
 
 ## Home Assistant

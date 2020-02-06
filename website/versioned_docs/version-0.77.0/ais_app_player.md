@@ -1,6 +1,6 @@
 ---
-title: "Odtwarzacz"
-sidebar_label: Odtwarzacz
+title: Odtwarzacze
+sidebar_label: Odtwarzacze
 id: version-0.77.0-ais_app_player
 original_id: ais_app_player
 ---
