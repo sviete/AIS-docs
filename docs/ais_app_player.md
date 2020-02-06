@@ -33,7 +33,7 @@ Jeśli posidamy link URL do np. radia internetowego czy innej treści do odtwarz
 
 ## Wysyłanie tekstu do Odtwarzaczy
 
-Możemy przesłać tekst do przeczytania na odtwarzaczu, jest to tak zwana usługa "broadcast". Na tą chwilę działa to tylko z naszym odtwarzaczem audio - więcej info w [Panel sterowania](AIS-docs/docs/en/ais_app_android_dom_tablet.html#instalacja)
+Możemy przesłać tekst do przeczytania na odtwarzaczu, jest to tak zwana usługa "broadcast". Na tą chwilę działa to tylko z naszym odtwarzaczem audio - więcej info w [Panel sterowania](https://sviete.github.io/AIS-docs/docs/en/ais_app_android_dom_tablet.html#instalacja)
 
 ![AIS Audio](/AIS-docs/img/en/frontend/app_audio_player_2.png)
 
