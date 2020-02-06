@@ -13,7 +13,7 @@ Na urządzeniu dostarczamy odtwarzacz wraz ze skonfigurowanymi serwisami dostarc
 
 ## Przekierowanie Mediów
 
-Przekierowanie mediów to jednorazowa akcja polegającan przesłaniu aktualinie odtwarzanych mediów na bramce do innego odtwarzacza. Przekazujemy adres URL do multimediów i jeżeli odtwarzacz jest w stanie odtwarzać wideo (telewizor, chromecast, tv box) to w ten sposób można przesyłać wideo z YT do odtwarzaczy.
+Przekierowanie mediów to jednorazowa akcja polegająca na przesłaniu aktualnie odtwarzanych mediów na bramce do innego odtwarzacza. Przekazujemy adres URL do multimediów i jeżeli odtwarzacz jest w stanie odtwarzać wideo (telewizor, chromecast, tv box), to w ten sposób można przesyłać wideo z YT do odtwarzaczy.
 
 ![AIS Audio](/AIS-docs/img/en/frontend/app_audio_player_1.png)
 
@@ -21,7 +21,7 @@ Przekierowanie mediów to jednorazowa akcja polegającan przesłaniu aktualinie 
 
 ## Grupowanie Odtwarzaczy
 
-Odtwarzacze zintegrowane z bramką można grupować. A następnie sterować nimi jak jednym. Odtwarzacze w grupie będą dostawały wszystkie utwory z aktualnej listy odtwarzania - ta opcja to coś więcej niż jednarazowe przekierownie mediów.
+Odtwarzacze zintegrowane z bramką można grupować a następnie sterować nimi jak jednym. Odtwarzacze w grupie będą dostawały wszystkie utwory z aktualnej listy odtwarzania - ta opcja to coś więcej niż jednarazowe przekierownie mediów.
 
 ![AIS Audio](/AIS-docs/img/en/frontend/app_audio_player_2.png)
 
@@ -35,7 +35,7 @@ Jeśli posidamy link URL do np. radia internetowego czy innej treści do odtwarz
 
 ## Wysyłanie tekstu do Odtwarzaczy
 
-Możemy przesłać tekst do przeczytania na odtwarzaczu, jest to takzwana usługa "brodcast". Na tą chwilę działa to tylko z naszym odtwarzaczem audio - więcej info w [Panel sterowania](AIS-docs/docs/en/ais_app_android_dom_tablet.html#instalacja)
+Możemy przesłać tekst do przeczytania na odtwarzaczu, jest to tak zwana usługa "broadcast". Na tą chwilę działa to tylko z naszym odtwarzaczem audio - więcej info w [Panel sterowania](https://sviete.github.io/AIS-docs/docs/en/ais_app_android_dom_tablet.html#instalacja)
 
 ![AIS Audio](/AIS-docs/img/en/frontend/app_audio_player_2.png)
 
