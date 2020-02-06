@@ -10,7 +10,7 @@ title: Wersja systemu 0.104.5 Słucham Cię
 
 <img src="/AIS-docs/img/en/blog/202002/ai-speaker.png" style="float: left; margin-right: 10px; max-width:50%;"/>
 
-"Słucham Cię" to motto naszego projektu. Staramy się, żeby był to nie tylko slogan, ponieważ staramy się słuchać potrzeb i opinii naszych Klientów.
+"Słucham Cię" to motto naszego projektu. Chcemy, żeby to nie był tylko slogan, ponieważ staramy się słuchać potrzeb i opinii naszych Klientów.
 
 W tej wersji rozpoczynamy obsługę "słowa klucza" (słowa aktywującego mikrofon) oraz wprowadzamy bardziej zaawansowaną obsługę odtwarzaczy dodanych do Asystenta domowego.
 
@@ -18,7 +18,7 @@ W tej wersji rozpoczynamy obsługę "słowa klucza" (słowa aktywującego mikrof
 
 ## Wykrywanie słowa kluczowego
 
-Wprowadzamy (na początek do naszej aplikacji na system Android a docelowo do wszystkich naszych aplikacji, **możliwość włączenia wykrywania słowa kluczowego** - mechanizm wyzwalający rejestrowanie polecenia głosowego.
+Wprowadzamy (na początek do naszej aplikacji na system Android a docelowo do wszystkich naszych aplikacji), **możliwość włączenia wykrywania słowa kluczowego** - mechanizm wyzwalający rejestrowanie polecenia głosowego.
 
 <img src="/AIS-docs/img/en/blog/202002/porcupine.png" style="float: left; margin-right: 10px; max-width:60%;"/>
 
@@ -51,7 +51,7 @@ Na początek dostarczymy kilka słów aktywujących do wyboru, są to wytrenowan
 
 Umożliwimy też dostosowanie czułości nasłuchiwania do własnych potrzeb.
 
-Ta funkcjonalność w połączeniu z odtwarzaczem i planem podłogi pozwoli na łatwe zbudowanie panelu do sterowania naszym domem - wystarczy na tablecie zainstalować naszą darmową aplikację :)
+Ta funkcjonalność w połączeniu z odtwarzaczem i rozkładem pomieszczeń (floor plan) pozwoli na łatwe zbudowanie panelu do sterowania naszym domem - wystarczy na tablecie zainstalować naszą darmową aplikację :)
 
 [<svg style="width:48px;height:48px" viewBox="0 0 24 24">
     <path fill="#ff9900" d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z" />
@@ -82,7 +82,7 @@ Dodaliśmy możliwość bardziej zaawansowanej obsługi odtwarzaczy. Poza wbudow
 ![Grupowanie odtwarzaczy](/AIS-docs/img/en/frontend/player_grup.png)
 
 
-- wysyłanie tekstu do przeczytania na grupę głośników (tylko jeżli głośnik posiada mechanizm TTS)
+- wysyłanie tekstu do przeczytania na grupę głośników (tylko jeżeli głośnik posiada mechanizm TTS)
 
 ![Wysyłanie tekstu na grupę głośników](/AIS-docs/img/en/frontend/player_tts.png)
 
@@ -104,7 +104,7 @@ Dodatkowo telefon/tablet/TvBox z systemem Android może być teraz też odtwarza
 Więcej szczegółów jak to działa w dokumentacji [Sterowanie mediami na bramce z telefonu](/AIS-docs/docs/en/ais_app_android_dom.html#sterowanie-odtwarzaczem-na-bramce)
 
 
-## Nowa wersja naszej aplikacji na zegarki z WareOS
+## Nowa wersja naszej aplikacji na zegarki z WearOS
 
 Zmieniliśmy sposób komunikacji z bramką, dzięki czemu otrzymujemy powiadomienia głosowe/tekstowe o wykonaniu akcji nie tylko na bramce, ale też na kliencie, który wysyła komendę.
 W skrócie wygląda to teraz tak:
@@ -120,14 +120,14 @@ W skrócie wygląda to teraz tak:
 
 ## Zigbee2MQTT
 
-Łatwiejsza zmiana nazwy urządzenia wystarczy kliknąć węzeł urządzenia na mapie, aktualna nazwa zostanie automatycznie wpisana do formularza zmiany nazwy.
+Łatwiejsza zmiana nazwy urządzenia- wystarczy kliknąć węzeł urządzenia na mapie, aktualna nazwa zostanie automatycznie wpisana do formularza zmiany nazwy.
 
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/jYW2V8zgcDI" frameborder="0" allowfullscreen></iframe>
 
 
 ## Generowanie stylów CSS dla kart (floor plan)
 
-Do integracji [Galeria](/AIS-docs/docs/en/next/ais_app_integration_gallery.html) dodaliśmy pierwszą wersję narzędzia ułatwiającego generowanie stylów CSS dla kart (w celu ich rozmieszczenia na rzucie podłogi. Celem jest stworzenie narzędzia ułatwiającego tworzenie interaktywnego rzutu pomieszczenia na bazie zdjęcia projektu.
+Do integracji [Galeria](/AIS-docs/docs/en/next/ais_app_integration_gallery.html) dodaliśmy pierwszą wersję narzędzia ułatwiającego generowanie stylów CSS dla kart (w celu ich rozmieszczenia w rozkładzie pomieszczeń). Celem jest stworzenie narzędzia ułatwiającego tworzenie interaktywnego rzutu pomieszczenia na bazie zdjęcia projektu.
 
 Docelowo planujemy zrobić to bardziej na zasadzie "drag & drop", tak żeby każdy mógł rozmieścić swoje urządzenia na planie i nimi sterować.
 Można zapoznać się ze zarysem funkcjonalności zaprezentowanej na forum: https://ai-speaker.discourse.group/t/rzut-podlogi-floor-plan/155
