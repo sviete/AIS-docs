@@ -1,6 +1,8 @@
 ---
-title: "Dotykowy panel sterowania"
+title: Dotykowy panel sterowania
 sidebar_label: Panel sterowania
+id: version-Zmieniliśmy-ais_app_android_dom_tablet
+original_id: ais_app_android_dom_tablet
 ---
 
 

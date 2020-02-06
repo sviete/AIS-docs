@@ -2,7 +2,7 @@
 author: Jola AI-Speaker
 authorURL: https://github.com/sviete
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
-title: Wersja systemu 0.104.4 Słucham Cię
+title: Wersja systemu 0.104.5 Słucham Cię
 ---
 
 
@@ -104,7 +104,19 @@ Dodatkowo telefon/tablet/TvBox z systemem Android może być teraz też odtwarza
 Więcej szczegółów jak to działa w dokumentacji [Sterowanie mediami na bramce z telefonu](/AIS-docs/docs/en/ais_app_android_dom.html#sterowanie-odtwarzaczem-na-bramce)
 
 
+## Nowa wersja naszej aplikacji na zegarki z WareOS
+
+Zmieniliśmy sposób komunikacji z bramką, dzięki czemu otrzymujemy powiadomienia głosowe/tekstowe o wykonaniu akcji nie tylko na bramce, ale też na kliencie, który wysyła komendę.
+W skrócie wygląda to teraz tak:
+
+
+<img src="/AIS-docs/img/en/blog/202002/watch_1.jpg" style="float: left; max-width:50%;"/>
+<img src="/AIS-docs/img/en/blog/202002/watch_2.jpg" style="float: right; max-width:50%;"/>
+
 <!--truncate-->
+
+
+----------------------------------------------
 
 ## Zigbee2MQTT
 

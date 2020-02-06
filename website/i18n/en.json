@@ -853,22 +853,6 @@
         "title": "Obsługa urządzenia z przeglądarki",
         "sidebar_label": "Obsługa urządzenia z przeglądarki"
       },
-      "version-0.104.4/version-0.104.4-ais_app_android_dom_tablet": {
-        "title": "Dotykowy panel sterowania",
-        "sidebar_label": "Panel sterowania"
-      },
-      "version-0.104.4/version-0.104.4-ais_app_android_dom": {
-        "title": "AIS dom",
-        "sidebar_label": "AIS dom"
-      },
-      "version-0.104.4/version-0.104.4-ais_app_player": {
-        "title": "Odtwarzacze",
-        "sidebar_label": "Odtwarzacze"
-      },
-      "version-0.104.4/version-0.104.4-ais_app_radio": {
-        "title": "Radia Internetowe",
-        "sidebar_label": "Radia Internetowe"
-      },
       "version-0.77.0/version-0.77.0-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",
         "sidebar_label": "Dodawanie komendy"
@@ -1996,6 +1980,22 @@
       "version-0.99.7/version-0.99.7-ais_iot_index": {
         "title": "Integracje",
         "sidebar_label": "Integracje dodatkowe"
+      },
+      "version-Zmieniliśmy/version-Zmieniliśmy-ais_app_android_dom_tablet": {
+        "title": "Dotykowy panel sterowania",
+        "sidebar_label": "Panel sterowania"
+      },
+      "version-Zmieniliśmy/version-Zmieniliśmy-ais_app_android_dom": {
+        "title": "AIS dom",
+        "sidebar_label": "AIS dom"
+      },
+      "version-Zmieniliśmy/version-Zmieniliśmy-ais_app_player": {
+        "title": "Odtwarzacze",
+        "sidebar_label": "Odtwarzacze"
+      },
+      "version-Zmieniliśmy/version-Zmieniliśmy-ais_app_radio": {
+        "title": "Radia Internetowe",
+        "sidebar_label": "Radia Internetowe"
       }
     },
     "links": {
