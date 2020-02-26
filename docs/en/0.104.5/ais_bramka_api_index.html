@@ -1,0 +1,138 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>API systemu · Asystent domowy</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## RESTful API"/><meta name="docsearch:version" content="0.104.5"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="API systemu · Asystent domowy"/><meta property="og:type" content="website"/><meta property="og:url" content="https://sviete.github.io/AIS-docs/index.html"/><meta property="og:description" content="## RESTful API"/><meta property="og:image" content="https://sviete.github.io/AIS-docs/img/default-social.png"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://sviete.github.io/AIS-docs/img/default-social.png"/><link rel="shortcut icon" href="/AIS-docs/img/favicon.png"/><link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.css"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://sviete.github.io/AIS-docs/blog/atom.xml" title="Asystent domowy Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://sviete.github.io/AIS-docs/blog/feed.xml" title="Asystent domowy Blog RSS Feed"/><script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+              ga('create', 'UA-126115790-1', 'auto');
+              ga('send', 'pageview');
+            </script><script src="/AIS-docs/js/scrollSpy.js"></script><link rel="stylesheet" href="/AIS-docs/css/main.css"/><script src="/AIS-docs/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/AIS-docs/en"><img class="logo" src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy"/><h2 class="headerTitleWithLogo">Asystent domowy</h2></a><a href="/AIS-docs/en/versions.html"><h3>0.104.5</h3></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/AIS-docs/docs/en/0.104.5/ais_bramka_index.html" target="_self">Bramka IoT</a></li><li class=""><a href="/AIS-docs/docs/en/0.104.5/ais_app_index.html" target="_self">Aplikacja</a></li><li class=""><a href="/AIS-docs/docs/en/0.104.5/ais_remote_index.html" target="_self">Pilot</a></li><li class=""><a href="/AIS-docs/docs/en/0.104.5/ais_app_player.html" target="_self">Integracje</a></li><li class=""><a href="/AIS-docs/docs/en/0.104.5/ais_iot_works_with.html" target="_self">Urządzenia</a></li><li class="navSearchWrapper reactNavSearchWrapper"><input type="text" id="search_input_react" placeholder="Wyszukiwanie" title="Wyszukiwanie"/></li><li class=""><a href="https://ai-speaker.discourse.group" target="_self">Forum</a></li><li class=""><a href="/AIS-docs/blog/" target="_self">Aktualności</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Ustawienia zaawansowane</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Bramka IoT<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_index.html">Karta produktu</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_connect.html">Podłączenie</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_first_run.html">Pierwsze uruchomienie</a></li><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Kroki kreatora uruchomienia</h4><ul><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_first_run_step_account.html">Konto właściciela</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_first_run_step_location.html">Lokalizacja</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_first_run_step_integration.html">Dodanie urządzeń i usług</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_first_run_step_mobile.html">Aplikacja mobilna</a></li></ul></div><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_configuration.html">Konfiguracja bramki</a></li><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">Opcje konfiguracji</h4><ul><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_configuration_software.html">Oprogramowanie</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_configuration_wifi.html">WiFi</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_configuration_screen.html">Ustawienia ekranu</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_configuration_tts.html">Głos asystenta</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_configuration_night_mode.html">Tryb nocny</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_configuration_remote_access.html">Zdalny dostęp</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_configuration_restart_stop.html">Zatrzymanie bramki</a></li></ul></div><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_automation.html">Automatyzacja</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_presence_detection.html">Wykrywanie obecności</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Dostęp w sieci lokalnej<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_remote_index.html">Wprowadzenie</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_remote_http.html">HTTP</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_remote_ftp.html">FTP</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_remote_ssh.html">SSH</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_remote_adb.html">ADB</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_mqtt.html">MQTT</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Dostęp z Internetu<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_remote_www_index.html">Wprowadzenie</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_remote_dom_others.html">Inne metody na dostęp zdalny</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Portal Integratora<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_dom_cloud_index.html">Wprowadzenie</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_dom_cloud_login.html">Logowanie do Portalu integratora</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_dom_cloud_gates.html">Moje bramki</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_dom_cloud_gate_backup.html">Kopia zapasowa</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_dom_cloud_content.html">Konfiguracja treści</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_dom_cloud_services.html">Usługi</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Ustawienia zaawansowane<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_services.html">Usługi bramki</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_settings.html">Ustawienia zaawansowane</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_api_index.html">API systemu</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_api_command.html">Wykonywanie komendy</a></li><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_api_led.html">Sterowanie diodą LED</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">Reset urządzenia do ustawień fabrycznych<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><li class="navListItem"><a class="navItem" href="/AIS-docs/docs/en/0.104.5/ais_bramka_reset_index.html">Wprowadzenie</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><a class="edit-page-link button" href="https://github.com/sviete/AIS-docs/edit/master/docs/ais_bramka_api_index.md" target="_blank" rel="noreferrer noopener">Edit</a><h1 id="__docusaurus" class="postHeaderTitle">API systemu</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="restful-api"></a><a href="#restful-api" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>RESTful API</h2>
+<p>RESTful API pozwala na interakcję z bramką z innych systemów lub aplikacji.</p>
+<p>Asystent Domowy udostępnia serwer WWW na porcie 8123 (https) oraz 8180 (http)</p>
+<ul>
+<li><a href="http://ais-dom.local:8180/">http://ais-dom.local:8180/</a> tu znajduje się aplikacja do kontrolowania systemu</li>
+<li><a href="http://ais-dom.local:8180/api/">http://ais-dom.local:8180/api/</a> tu znajduje się RESTful API</li>
+</ul>
+<blockquote>
+<p>Interfejs API akceptuje i zwraca tylko obiekty zakodowane w JSON.</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="wywoływanietestowanie-usług-w-apllikacji"></a><a href="#wywoływanietestowanie-usług-w-apllikacji" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wywoływanie/testowanie usług w apllikacji</h2>
+<blockquote>
+<p>Aby sprawdzić dostępne usługi w aplikacji, z głównego menu przejdź do &quot;Narzędzia deweloperskie&quot; -&gt;
+<svg style="width:24px;height:24px" viewBox="0 0 24 24">
+<path fill="#000000" d="M16,5L19,8L18.5,8.5C19.5,9.5 20,10 20.5,9.5L22,11C22,12 20.5,13.5 19.5,13.5L18,12C18.5,11.5 18,11 17,10L16,11L13,8C14.5,6 13,4 9,5C10,4 11,3 12,3C12.5,3 14,3 16,5M2,20L4,22L14,12L12,10L2,20Z" />
+</svg> z tego miejsca możesz wywoływać/testować dowolne usługi dostępne na bramce.</p>
+</blockquote>
+<p>W celu wywołania usługi:</p>
+<ol>
+<li>usługę do wywołania wybieramy z listy,</li>
+<li>podajemy parametry do przekazania w formacie JSON, np.
+przykładowy parametr w formacie JSON:</li>
+</ol>
+<pre><code class="hljs css language-JSON">{<span class="hljs-attr">"text"</span>: <span class="hljs-string">"Cześć, jak się masz?"</span>}
+</code></pre>
+<ol start="3">
+<li>naciskamy przycisk &quot;CALL SERVICE&quot;.</li>
+</ol>
+<p>Każda usługa ma:</p>
+<ul>
+<li>a) opis</li>
+<li>b) wylistowane parametry (parametr, opis i przykładowa wartość parametru)</li>
+</ul>
+<p><img src="/AIS-docs/img/en/frontend/services_1.png" alt="Ustawienia sieci"></p>
+<h2><a class="anchor" aria-hidden="true" id="wywoływanie-usług-z-curl"></a><a href="#wywoływanie-usług-z-curl" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Wywoływanie usług z curl</h2>
+<h3><a class="anchor" aria-hidden="true" id="get-api"></a><a href="#get-api" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GET /api/</h3>
+<p>Przykład komedny <code>curl</code>:</p>
+<pre><code class="hljs css language-bash">$ curl -X GET -H <span class="hljs-string">"Authorization: Bearer ABCDEFGH"</span> \
+       -H <span class="hljs-string">"Content-Type: application/json"</span> http://ais-dom.local:8180/api/
+</code></pre>
+<p>Zwraca następującą odpowiedź, jeżeli API działa:</p>
+<pre><code class="hljs css language-json">{
+  <span class="hljs-attr">"message"</span>: <span class="hljs-string">"API running."</span>
+}
+</code></pre>
+<h3><a class="anchor" aria-hidden="true" id="post-apiservicesltdomainltservice"></a><a href="#post-apiservicesltdomainltservice" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>POST /api/services/&lt;domain&gt;/&lt;service&gt;</h3>
+<p>Komponenty dostępne na bramce udostępniają swoje usługi. Najczęstszym przypadkiem wywołania usługi komponentu jest automatyczne wywołanie jej w systemie po wystąpieniu okreśonego zdarzenia.
+Dodatkowo usługę można również wywołać z zewnętrznego systemu za pomocą API.</p>
+<p>Przykład komedny <code>curl</code> wywołującej czytanie tekstu przez bramkę:</p>
+<pre><code class="hljs css language-bash">$ curl -X POST -H <span class="hljs-string">"Authorization: Bearer ABCDEFGH"</span> \
+       -H <span class="hljs-string">"Content-Type: application/json"</span> \
+       -d <span class="hljs-string">'{"text": "Cześć! Jak się masz?"}'</span> \
+       http://ais-dom.local:8180/api/services/ais_ai_service/say_it
+</code></pre>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/AIS-docs/docs/en/0.104.5/ais_bramka_settings.html"><span class="arrow-prev">← </span><span>Ustawienia zaawansowane</span></a><a class="docs-next button" href="/AIS-docs/docs/en/0.104.5/ais_bramka_api_command.html"><span>Wykonywanie komendy</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#restful-api">RESTful API</a></li><li><a href="#wywoływanietestowanie-usług-w-apllikacji">Wywoływanie/testowanie usług w apllikacji</a></li><li><a href="#wywoływanie-usług-z-curl">Wywoływanie usług z curl</a><ul class="toc-headings"><li><a href="#get-api">GET /api/</a></li><li><a href="#post-apiservicesltdomainltservice">POST /api/services/&lt;domain&gt;/&lt;service&gt;</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/AIS-docs/" class="nav-home"><img src="/AIS-docs/img/logo-white.svg" alt="Asystent domowy" width="66" height="58"/></a><div><a href="https://www.facebook.com/AISpeaker/">Obserwuj nasz profil na Facebooku</a></div></section><section class="copyright">Copyright © 2020 AI-Speaker</section></footer></div><script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/1/docsearch.min.js"></script><script>
+                document.addEventListener('keyup', function(e) {
+                  if (e.target !== document.body) {
+                    return;
+                  }
+                  // keyCode for '/' (slash)
+                  if (e.keyCode === 191) {
+                    const search = document.getElementById('search_input_react');
+                    search && search.focus();
+                  }
+                });
+              </script><script>
+              var search = docsearch({
+                
+                apiKey: '147dbf3542b38e29ef7abb54fbc19372',
+                indexName: 'sviete_ais',
+                inputSelector: '#search_input_react',
+                algoliaOptions: {}
+              });
+            </script></body></html>
