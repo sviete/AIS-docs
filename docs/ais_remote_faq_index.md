@@ -1,8 +1,7 @@
 ---
 title: Pilot FAQ
 sidebar_label: Pilot FAQ
-id: version-0.79.5-ais_remote_faq_index
-original_id: ais_remote_faq_index
+id: ais_remote_faq_index
 ---
 
 

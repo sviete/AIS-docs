@@ -12,9 +12,7 @@ Integracja pozwala dodawać zdjęcia do urządzenia oraz zarządzać nagraniami 
 
 ## Dodawanie zdjęć
 
-Zdjęcia można dodawać po wybraniu przycisku plus <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-    <path fill="#000000" d="M20 14H14V20H10V14H4V10H10V4H14V10H20V14Z" />
-</svg> na stronie z galerią. Zdjęcie można wybrać z dysku, przeciągnąć i upuścić lub dodać bezpośrednio z aparatu telefonu (w przypadku gdy używamy aplikacji z telefonu).
+Zdjęcia można dodawać po wybraniu przycisku plus na stronie z galerią. Zdjęcie można wybrać z dysku, przeciągnąć i upuścić lub dodać bezpośrednio z aparatu telefonu (w przypadku gdy używamy aplikacji z telefonu).
 
 ![Galeria](/AIS-docs/img/en/frontend/gallery_2.png)
 

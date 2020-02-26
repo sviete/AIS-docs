@@ -14,7 +14,7 @@ W przypadku systemów firmy Apple, mDNS jest wspierany “fabrycznie” przez us
 
 ## Sprawdzenie adresu IP w aplikacji
 
-W aplikacji "Asystent domowy" wybierz z menu pozycję **Konfiguracja**, nastepnie **Konfiguracja bramki AIS dom**. W sekcji **Parametry sieci** możesz zobaczyć swój lokalny adres IP.
+W aplikacji "Asystent domowy" wybierz z menu pozycję **Konfiguracja**, nastepnie **Konfiguracja bramki AIS dom**. W sekcji **Sieć WiFi** możesz zobaczyć swój lokalny adres IP.
 
 ![Ustawienia sieci](/AIS-docs/img/en/bramka/ais_bramka_ip_address.png)
 

@@ -489,7 +489,7 @@
         "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
         "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
       },
-      "version-0.79.5-ais_remote_faq_index": {
+      "ais_remote_faq_index": {
         "title": "Pilot FAQ",
         "sidebar_label": "Pilot FAQ"
       },
@@ -868,6 +868,166 @@
       "version-0.104.5/version-0.104.5-ais_app_radio": {
         "title": "Radia Internetowe",
         "sidebar_label": "Radia Internetowe"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_ai_integration": {
+        "title": "Integracja Asystentka Jolka",
+        "sidebar_label": "Asystentka Jolka"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_android_dom_tablet": {
+        "title": "Dotykowy panel sterowania",
+        "sidebar_label": "Panel sterowania"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_android_dom": {
+        "title": "AIS dom",
+        "sidebar_label": "AIS dom"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_android_synchro": {
+        "title": "AIS synchro",
+        "sidebar_label": "AIS synchro"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_books": {
+        "title": "Audio książki",
+        "sidebar_label": "Audio książki"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_drives": {
+        "title": "Dyski",
+        "sidebar_label": "Dyski"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_integration_gallery": {
+        "title": "Galeria",
+        "sidebar_label": "Galeria"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_integration_ikea": {
+        "title": "IKEA Trådfri",
+        "sidebar_label": "IKEA Trådfri"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_integration_usb": {
+        "title": "USB rozpoznawanie urządzeń",
+        "sidebar_label": "USB"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_integration_zigbee": {
+        "title": "Zigbee2MQTT",
+        "sidebar_label": "Zigbee"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_news": {
+        "title": "Wiadomości",
+        "sidebar_label": "Wiadomości"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_podcast": {
+        "title": "Podkasty",
+        "sidebar_label": "Podkasty"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_radio": {
+        "title": "Radia Internetowe",
+        "sidebar_label": "Radia Internetowe"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_spotify": {
+        "title": "Spotify",
+        "sidebar_label": "Spotify"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_supla": {
+        "title": "SUPLA",
+        "sidebar_label": "SUPLA"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_tauron": {
+        "title": "TAURON eLicznik",
+        "sidebar_label": "TAURON eLicznik"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_ui_config": {
+        "title": "Konfiguracja interfejsu użytkownika",
+        "sidebar_label": "Konfiguracja"
+      },
+      "version-0.105.7/version-0.105.7-ais_app_youtube_dl": {
+        "title": "YouTube",
+        "sidebar_label": "Muzyka z YouTube"
+      },
+      "version-0.105.7/version-0.105.7-ais_bramka_api_index": {
+        "title": "API systemu",
+        "sidebar_label": "API systemu"
+      },
+      "version-0.105.7/version-0.105.7-ais_bramka_connect": {
+        "title": "Podłączenie bramki",
+        "sidebar_label": "Podłączenie"
+      },
+      "version-0.105.7/version-0.105.7-ais_bramka_first_run_step_account": {
+        "title": "Pierwsze uruchomienie - Konto właściciela",
+        "sidebar_label": "Konto właściciela"
+      },
+      "version-0.105.7/version-0.105.7-ais_bramka_first_run_step_location": {
+        "title": "Pierwsze uruchomienie - Lokalizacja",
+        "sidebar_label": "Lokalizacja"
+      },
+      "version-0.105.7/version-0.105.7-ais_bramka_first_run_step_mobile": {
+        "title": "Pierwsze uruchomienie - Aplikacja mobilna",
+        "sidebar_label": "Aplikacja mobilna"
+      },
+      "version-0.105.7/version-0.105.7-ais_bramka_presence_detection": {
+        "title": "Konfigurowanie wykrywania obecności",
+        "sidebar_label": "Wykrywanie obecności"
+      },
+      "version-0.105.7/version-0.105.7-ais_bramka_remote_http": {
+        "title": "Dostęp do bramki po HTTP",
+        "sidebar_label": "HTTP"
+      },
+      "version-0.105.7/version-0.105.7-ais_bramka_remote_index": {
+        "title": "Dostęp do bramki w lokalnej sieci",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.105.7/version-0.105.7-ais_bramka_reset_ais_step_by_step": {
+        "title": "Pełny reset aplikacji",
+        "sidebar_label": "Wykonanie pełnego resetu aplikacji"
+      },
+      "version-0.105.7/version-0.105.7-ais_bramka_reset_index": {
+        "title": "Przywracanie ustawień fabrycznych urządzenia",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.105.7/version-0.105.7-ais_iot_add_to_gate": {
+        "title": "Obsługa urządzeń w systemie Asystent domowy",
+        "sidebar_label": "Obsługa urządzeń w systemie Asystent domowy"
+      },
+      "version-0.105.7/version-0.105.7-ais_iot_browser": {
+        "title": "Obsługa urządzenia z przeglądarki",
+        "sidebar_label": "Obsługa urządzenia z przeglądarki"
+      },
+      "version-0.105.7/version-0.105.7-ais_iot_firmware_index": {
+        "title": "Oprogramowanie dla urządzeń automatyki domowej",
+        "sidebar_label": "Wprowadzenie"
+      },
+      "version-0.105.7/version-0.105.7-ais_iot_firmware_upgrade": {
+        "title": "Aktualizacja oprogramowania urządzeń automatyki domowej",
+        "sidebar_label": "Aktualizacja oprogramowania"
+      },
+      "version-0.105.7/version-0.105.7-ais_iot_gate_remove_device": {
+        "title": "Usunięcie urządzenia z bramki",
+        "sidebar_label": "Usunięcie urządzenia z bramki"
+      },
+      "version-0.105.7/version-0.105.7-ais_iot_index": {
+        "title": "Integracje",
+        "sidebar_label": "Integracje dodatkowe"
+      },
+      "version-0.105.7/version-0.105.7-ais_iot_mqtt": {
+        "title": "Komunikacja za pomocą protokołu MQTT",
+        "sidebar_label": "Komunikacja za pomocą protokołu MQTT"
+      },
+      "version-0.105.7/version-0.105.7-ais_iot_powers": {
+        "title": "Możliwości urządzeń AIS dom",
+        "sidebar_label": "Możliwości urządzeń AIS dom"
+      },
+      "version-0.105.7/version-0.105.7-ais_iot_remote": {
+        "title": "Sterowanie komendami i pilotem",
+        "sidebar_label": "Sterowanie komendami i pilotem"
+      },
+      "version-0.105.7/version-0.105.7-ais_iot_s26": {
+        "title": "S26, inteligentne gniazdo WiFi",
+        "sidebar_label": "Inteligentne gniazdo WiFi"
+      },
+      "version-0.105.7/version-0.105.7-ais_iot_works_with": {
+        "title": "AIS dom - urządzenia rekomendowane do zastosowania w Twoim domu",
+        "sidebar_label": "Rekomendowane do zastosowania w Twoim domu"
+      },
+      "version-0.105.7/version-0.105.7-ais_remote_faq_index": {
+        "title": "Pilot FAQ",
+        "sidebar_label": "Pilot FAQ"
       },
       "version-0.77.0/version-0.77.0-ais_app_assistent_add_command": {
         "title": "Dodawanie komendy",

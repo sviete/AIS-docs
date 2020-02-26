@@ -29,9 +29,8 @@ Analogicznie jak w [Aplikacji na telefon](AIS-docs/docs/en/ais_app_android_dom.h
 
 ## Konfiguracja ustawień aplikacji związanych z panelem
 
-W każdej chwili możemy przejść do ustawień aplikacji nasiskając przycisk z trzema kropkami po lewej stronie na dolnej belce w aplikacji <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-    <path fill="#000000" d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
-</svg>
+W każdej chwili możemy przejść do ustawień aplikacji nasiskając przycisk z trzema kropkami po lewej stronie na dolnej belce w aplikacji
+
 
 
 ![Smart glass ustawienia](/AIS-docs/img/en/frontend/app_smart_glass_go_to_settings.png)
@@ -41,7 +40,7 @@ W każdej chwili możemy przejść do ustawień aplikacji nasiskając przycisk z
 
 W ustawieniach związanych z "Dotykowym panelem sterowania" mamy następujące opcje:
 
-### Odtwarzacz audio 
+### Odtwarzacz audio
 
 Ta ocpcja pozwala na uruchomienie na urządzeniu usługi odtwarzacza audio, dzięki czemu można przesyłać treści audio z bramki do "Panelu sterowania" oraz zdalnie sterować odtwarzaczem na bramce z poziomu ekranu powiadomień na "Panelu sterowania".
 Po włączeniu tej opcji na "Panelu sterowania" pojawi nam się powiadomienie o działającym serwisie:
@@ -67,7 +66,7 @@ Działa to analogicznie jak funkcjonalność powiększania stron w przeglądarce
 
 ![Smart glass ustawienia](/AIS-docs/img/en/frontend/app_smart_glass_go_to_settings_5.png)
 
-Jeśli włączysz tą opcję to uruchomisz w "Panelu sterowania" usługę mikrofonu nasłuchującego wybrane wyrażenie (domyślnie słowo Avokado). Jest to tak zwane wyrażenie aktywujące rejestrowanie i przetwarzanie komendy, zwane też "key word" lub "trigger word". Możesz też dostosować czułość nasłuchiwania wyrażenia aktywującego. Do wykrywania wyrażeń aktywujących używamy bardzo dokładnego i lekkiego silnika Porcupine. 
+Jeśli włączysz tą opcję to uruchomisz w "Panelu sterowania" usługę mikrofonu nasłuchującego wybrane wyrażenie (domyślnie słowo Avokado). Jest to tak zwane wyrażenie aktywujące rejestrowanie i przetwarzanie komendy, zwane też "key word" lub "trigger word". Możesz też dostosować czułość nasłuchiwania wyrażenia aktywującego. Do wykrywania wyrażeń aktywujących używamy bardzo dokładnego i lekkiego silnika Porcupine.
 
 >  **Uwaga:** Parametr czułości nasłuchiwania. Wyższa wartość czułości obniża wskaźnik pominięć **ale kosztem wzrostu częstości fałszywych alarmów**. Aby uzyskać więcej informacji dotyczących tego jak to działa warto odwiedzić stronę firmy, która dostarcza to rozwiązanie: https://picovoice.ai/
 

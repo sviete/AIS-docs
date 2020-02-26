@@ -16,8 +16,8 @@ Wykrywanie obecności ma na celu ustalenie, czy i kto jest w domu (lub innej zde
 
 Istnieją różne sposoby ustawiania wykrywania obecności w systemie Asystent domowy. Zazwyczaj najłatwiejszym sposobem jest sprawdzenie, które urządzenia (telefony) są podłączone do domowej sieci - w ten sposób możesz łatwo wykryć, kto jest w domu.
 
-Innym sposobem pozwalającm na dostarczenie szczegółowych informacje o lokalizacji jest uruchomienie aplikacji na telefonie. Dla Androida i iOS rekomendujemy aplikację OwnTracks. 
-OwnTracks to darmowa i otwarto źródłowa aplikacja dla systemu iOS i Android, która umożliwia śledzenie lokalizacji i wysyłanie jej bezpośrednio do systemu Asystent domowy. 
+Innym sposobem pozwalającm na dostarczenie szczegółowych informacje o lokalizacji jest uruchomienie aplikacji na telefonie. Dla Androida i iOS rekomendujemy aplikację OwnTracks.
+OwnTracks to darmowa i otwarto źródłowa aplikacja dla systemu iOS i Android, która umożliwia śledzenie lokalizacji i wysyłanie jej bezpośrednio do systemu Asystent domowy.
 Można ją skonfigurować za pomocą integracji dostępnej w konfiguracji systemu - w dokumentacji [integracji OwnTracks](/AIS-docs/docs/en/ais_app_owntracks.html) pokazujemy krok po kroku jak to zrobić.
 
 
@@ -57,15 +57,16 @@ Osoba na mapie i na kartach w aplikacji będzie teraz wyświetlana wraz ze zdję
 
 ## Strefy
 
-Strefy pozwalają nazywać obszary na mapie. Obszary te mogą być następnie użyte do nazwania aktualnej lokalizacji śledzonego użytkownika lub użycia wejścia / wyjścia ze strefy jako wyzwalacza lub warunku automatyzacji. Strefy można skonfigurować na stronie integracji na ekranie konfiguracji.
+Strefy pozwalają nazywać obszary na mapie. Obszary te mogą być następnie użyte do nazwania aktualnej lokalizacji śledzonego użytkownika lub użycia wejścia / wyjścia ze strefy jako wyzwalacza lub warunku automatyzacji. Strefy można skonfigurować w menu konfiguracji.
 
 ### Dodanie strefy
 
-Aby skonfigurować nową stefę, przejdź do konfiguracji a następnie do panelu integracji. Naciśnij pomarańczowy przycisk z ikonką "plus" w prawym dolnym rogu ekranu, żeby otworzyć listę dostępnych integracji. Wybierz z listy integrację **Strefy**
+Aby skonfigurować nową stefę, przejdź do konfiguracji a następnie do **Strefy**.
+
 
 ![Dodanie strefy](/AIS-docs/img/en/bramka/presence_detection_12.png)
 
-Wypełnij formularz strefy w podobny sposób jak przedstawiono na przykładzie poniżej.
+Strefe definijujemy podając jej nazwę i prametry w formularzu w sposób przedstawiony na przykładzie poniżej.
 
 ![Dodanie strefy](/AIS-docs/img/en/bramka/presence_detection_13.png)
 

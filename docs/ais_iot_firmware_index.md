@@ -5,7 +5,7 @@ sidebar_label: Wprowadzenie
 
 ## Oprogramowanie
 
-<img src="/AIS-docs/img/en/iot/iot_esp_8266-finger.jpg" width="400" align="left"> </img>
+<img src="/AIS-docs/img/en/iot/iot_esp_8266-finger.jpg" width="400" align="left"/>
 
 Decydując się na oprogramowanie do naszych urządzeń  opartych na ESP8266 wybraliśmy rozwiązanie umożliwiające:
 

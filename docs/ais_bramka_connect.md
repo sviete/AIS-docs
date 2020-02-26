@@ -28,11 +28,6 @@ Na tylnym panelu, licząc od lewej strony, znajdują się kolejno:
 * LAN
 * Zasilanie
 
-<img
-  src='/AIS-docs/img/en/bramka/first_run_2.png'
-  alt='Bramka AIS dom'
-/>
-
 
 ## Podłączenie
 
@@ -42,7 +37,7 @@ Bramkę podłącz do telewizora lub monitora za pomocą kabla HDMI, następnie p
 <img
   src='/AIS-docs/img/en/bramka/first_run_3.png'
   alt='Bramka AIS dom'
-  width="50%"
+  width="1000%"
 />
 
 Opcjonalnie możesz dołączyć pilot zdalnego sterowania z mikrofonem.
@@ -50,5 +45,5 @@ Opcjonalnie możesz dołączyć pilot zdalnego sterowania z mikrofonem.
 <img
   src='/AIS-docs/img/en/bramka/first_run_4.png'
   alt='Bramka AIS dom'
-  width="50%"
+  width="100%"
 />

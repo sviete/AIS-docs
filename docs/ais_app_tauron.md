@@ -64,6 +64,6 @@ W systemie Asystent domowy, wszystkie typy urządzeń (czujnik, przełącznik, o
 
 <div>
   <video width="100%" height="100%" playsinline autoplay muted loop>
-    <source src="/AIS-docs/video/tauron.webm" type="video/webm">
-  <video>
+    <source src="/AIS-docs/video/tauron.webm" type="video/webm"/>
+  </video>
 </div>

@@ -5,9 +5,7 @@ sidebar_label: Komunikacja za pomocą protokołu MQTT
 
 ## Wprowadzenie
 
-> <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-    <path fill="#000000" d="M13,9H11V7H13M13,17H11V11H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
-</svg> Jeśli jesteś posiadaczem **bramki IoT AIS dom** i chcesz podłączyć do niej **urządzenie AIS dom**, to możesz pominąć ten opis i przejść do **[Obsługa urządzenia z bramki AIS dom](/AIS-docs/docs/en/next/ais_iot_gate.html) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.** Na bramce IoT AIS dom dostępny jest działający i skonfigurowany broker MQTT, urządzenia AIS dom są automatycznie rozpoznawane przez bramkę AIS dom, dzięki czemu proces konfiguracji jest bardzo prosty i nie wymaga wpisywania żadnych parametrów.
+>  Jeśli jesteś posiadaczem **bramki IoT AIS dom** i chcesz podłączyć do niej **urządzenie AIS dom**, to możesz pominąć ten opis i przejść do **[Obsługa urządzenia z bramki AIS dom](/AIS-docs/docs/en/next/ais_iot_gate.html) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.** Na bramce IoT AIS dom dostępny jest działający i skonfigurowany broker MQTT, urządzenia AIS dom są automatycznie rozpoznawane przez bramkę AIS dom, dzięki czemu proces konfiguracji jest bardzo prosty i nie wymaga wpisywania żadnych parametrów.
 
 
 MQTT to zalecany protokół do sterowania urządzeniami AIS dom. Jeśli nie masz wiedzy na temat protokołu MQTT, możesz dowiedzieć się więcej z darmowego kursu i serii artykułów o [MQTT dla początkujących](https://www.hivemq.com/mqtt-essentials/). Gdy już masz podstawową wiedzę oraz posiadasz działający broker MQTT możesz przejść dalej i skonfigurować urządzenia do działania z Twoim brokerem.

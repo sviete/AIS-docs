@@ -10,8 +10,6 @@ S26 to inteligentne gniazdo WiFi pozwalające na sterowanie zasilaniem dowolnego
 ## Dostępne Funkcje
 
 
-<!-- <img src="/AIS-docs/img/en/iot/S26_01.jpg"></img> -->
-
 Dostępne Funkcje                                                           |   -     
 ---------------------------------------------------------------------------|--------   
 Zdalne włączanie / wyłączanie podłączonego urządzenia                      | **TAK**
@@ -28,12 +26,14 @@ Automatyczne wykrywania w systemie Asystent domowy                         | **T
     <thead>
         <tr>
             <th>Gniazdo S26</th>
-            <th colspan=2>Specyfikacja</th>
+            <th colspan="2">Specyfikacja</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan=13 style="vertical-align: middle;"><img src="/AIS-docs/img/en/iot/iot_s26.png" width="250" style="vertical-align: top;"> </img></td>
+            <td rowspan="13">
+                <img src="/AIS-docs/img/en/iot/iot_s26.png" width="250"/>
+            </td>
             <td>Standard gniazda</td>
             <td>EU (typ E)</td>
         </tr>

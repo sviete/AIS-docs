@@ -47,6 +47,6 @@ Po dodaniu integracji można sterować głosowo urządzeniami SUPLA oraz używa�
 W systemie Asystent domowy, wszystkie typy urządzeń (żarówka, przełącznik, odkurzacz) mają to samo API niezależnie od producenta danego urządzenia.
 <div>
   <video width="100%" height="100%" playsinline autoplay muted loop>
-    <source src="/AIS-docs/video/supla.webm" type="video/webm">
-  <video>
+    <source src="/AIS-docs/video/supla.webm" type="video/webm"/>
+  </video>
 </div>

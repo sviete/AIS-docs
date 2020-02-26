@@ -3,10 +3,10 @@ title: "Pierwsze uruchomienie - Lokalizacja"
 sidebar_label: Lokalizacja
 ---
 
-Asystent domowy chciałby wiedzieć gdzie mieszkasz. Pomoże to w wyświetlaniu informacji i konfigurowaniu automatyki opartej na położeniu słońca.
+Asystent domowy chciałby wiedzieć gdzie mieszkasz. Pomoże to w wyświetlaniu informacji i konfigurowaniu automatyki opartej na położeniu Słońca.
 Te dane nigdy nie będą udostępniane poza Twoją sieć lokalną.
 
-Możemy pomóc Ci wprowadzić informacje dotyczące Twojej lokalizacji, wysyłając jednorazowe zapytanie do usługi zewnętrznej. **Do tego jest potrzebne połączenie z Internetem**, więc jeśli jeszcze nie podłączyłeś bramki do Internetu po kablu Ethernet to możesz teraz skonfigurować połączenie WiFi.
+Możemy pomóc Ci wprowadzić informacje dotyczące Twojej lokalizacji, wysyłając jednorazowe zapytanie do usługi zewnętrznej. **Do tego potrzebne jest połączenie z Internetem**, więc jeśli jeszcze nie podłączyłeś bramki do Internetu po kablu Ethernet, to możesz teraz skonfigurować połączenie WiFi.
 
 ### Konfiguracja WiFi
 

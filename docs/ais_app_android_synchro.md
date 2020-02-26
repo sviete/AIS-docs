@@ -7,7 +7,7 @@ sidebar_label: AIS synchro
 
 AIS synchro to aplikacja do synchronizacji plików i katalogów pomiędzy dyskami lokalnymi i dyskami w chmurze.
 
-<img src="/AIS-docs/img/en/frontend/ais_synchro_apk_screen.png" width="360" align="right"> </img>
+<img src="/AIS-docs/img/en/frontend/ais_synchro_apk_screen.png" width="360" align="right" />
 
 
 Aplikacja dostarcza wbudowaną binarkę działającą z wiersza poleceń **Rclone**.

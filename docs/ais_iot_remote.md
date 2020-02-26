@@ -5,7 +5,7 @@ sidebar_label: Sterowanie komendami i pilotem
 
 ## Sterowanie urządzeniami za pomocą komend głosowych
 
-<img src="/AIS-docs/img/en/iot/iot_light_off.png" width="360" align="right"> </img>
+<img src="/AIS-docs/img/en/iot/iot_light_off.png" width="360" align="right"/>
 
 Asystent domowy obsługuje polecenia głosowe.
 
@@ -15,7 +15,7 @@ Czyli dla przykładu- jeżeli podłączymy do Asystenta domowego inteligentne gn
 
 
 Jeżeli urządzenie nazwiemy "Oświetlenie choinki zewnętrznej", "Lampy zewnętrzne", "Światło w pokoju Oli", "Podlewanie trawnika" czy "Oświetlenie akwarium" to oczywiście analogicznie, komenda głosowa, którą zrozumie asystent będzie np **Włącz podlewanie trawnika**.
-<img src="/AIS-docs/img/en/iot/iot_podlewanie_trawnika.png" width="360" align="center"> </img>
+<img src="/AIS-docs/img/en/iot/iot_podlewanie_trawnika.png" width="360" align="center"/>
 
 
 

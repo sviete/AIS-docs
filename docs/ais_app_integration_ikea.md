@@ -34,7 +34,7 @@ W następnym kroku dodajemy urządzenia do pomieszczeń i na tym kończymy konfi
 Po dodaniu integracji można sterować głosowo urządzeniami IKEA, sterować nimi z aplikacji oraz używać ich w automatyzacjach tak samo, jak wszystkich innych urządzeń.
 
 <video width="100%" height="100%" playsinline autoplay muted loop>
-  <source src="/AIS-docs/video/ikea.webm" type="video/webm">
+  <source src="/AIS-docs/video/ikea.webm" type="video/webm" />
 </video>
 
 

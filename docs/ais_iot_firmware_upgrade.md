@@ -14,8 +14,8 @@ sidebar_label: Aktualizacja oprogramowania
 Pliki ze skompilowaną nową wersją oprogramowania dla urządzeń dostępne są w naszym serwisie pod adresem [OTA](https://www.ai-speaker.com/ota/)
 Pobierz najnowsze wersje 2 plików:
 
-- [Minimal](https://powiedz.co/ota/dom/s26_minimal_v6.7.1.bin)
-- [Gniazdo](https://powiedz.co/ota/dom/s26_firmware_v6.7.1.bin)
+- Minimal
+- Gnizado (lub inny plik dedykowany dla Twojego urządzenia)
 
 ![OTA AIS dom](/AIS-docs/img/en/iot/iot_device_download.png)
 
