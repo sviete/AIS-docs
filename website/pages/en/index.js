@@ -138,12 +138,18 @@ const Logo = props => (
 
 const ProjectTitle = props => (
   <div>
+  <blockquote style={{backgroundColor: '#03f30a', color: '#000', border: '8px solid green'}}>
+      <h1><strong>!!! UWAGA NOWA DOKUMENTACJA !!!</strong> <br />
+      dostępna jest na naszej stronie <br />
+      pod adresem: <a style={{color: '#000', textDecoration: 'underline'}} href="http://www.ai-speaker.com"> WWW.AI-SPEAKER.COM</a>
+      </h1>
+  </blockquote>
     <h2 className="projectTitle">
       Asystent domowy
-      <small>Dokumentacja użytkownika systemu</small>
+      <small><a href="https://www.ai-speaker.com">Przejście do nowej dokuemntacji</a></small>
     </h2>
     <div>
-      <a href="https://www.ai-speaker.com">Przejście do strony projektu</a>
+
     </div>
   </div>
 );
