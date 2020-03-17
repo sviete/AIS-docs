@@ -63,13 +63,6 @@ const siteConfig = {
     secondaryColor: '#ffa800',
   },
 
-  algolia: {
-    apiKey: '147dbf3542b38e29ef7abb54fbc19372',
-    indexName: 'sviete_ais',
-    algoliaOptions: {},
-    placeholder: 'Wyszukiwanie'
-
-  },
   docsSideNavCollapsible: true,
 
   /* custom fonts for website */
